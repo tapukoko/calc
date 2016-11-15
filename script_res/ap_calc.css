@@ -14,9 +14,10 @@ legend {
 }
 th, td {
     padding: 0;
+    font-size: 0.8em;
 }
 th {
-    font-size: 0.8em;
+    font-size: 0.7em;
 }
 .title-text {
     font-weight: bold;
@@ -178,7 +179,7 @@ select.toxic-counter {
     font-size: 0.9em;
 }
 .move-selector {
-    width: 9.0em;
+    width: 8.0em;
 }
 .poke-info input.move-bp {
     width: 2em;
