@@ -1,22 +1,22 @@
-var SETDEX_CUSTOM = {};
-var showdownFormes = [["Kyurem-White", "Kyurem-W"],
-["Kyurem-Black", "Kyurem-B"],
-["Rotom-Wash", "Rotom-W"],
-["Rotom-Heat", "Rotom-H"],
-["Rotom-Frost", "Rotom-F"],
-["Rotom-Mow", "Rotom-C"],
-["Rotom-Fan", "Rotom-S"],
-["Giratina-Origin", "Giratina-O"],
-["Landorus-Therian", "Landorus-T"],
-["Thundurus-Therian", "Thundurus-T"],
-["Tornadus-Therian", "Tornadus-T"],
-["Floette-Eternal", "Floette-E"],
-["Pumpkaboo", "Pumpkaboo-Average"],
-["Gourgeist", "Gourgeist-Average"],
-["Wormadan-Sandy", "Wormadan-G"],
-["Wormadan-Trash", "Wormadan-S"],
-["Groudon-Primal", "Groudon"],
-["Kyogre-Primal", "Kyogre"]];
+﻿var SETDEX_CUSTOM = {};
+var showdownFormes = [["화이트큐레무", "화이트큐레무"],
+["블랙큐레무", "블랙큐레무"],
+["워시로토무", "워시로토무"],
+["히트로토무", "히트로토무"],
+["프로스트로토무", "프로스트로토무"],
+["커트로토무", "커트로토무"],
+["스핀로토무", "스핀로토무"],
+["기라티나-오리진", "기라티나-오리진"],
+["랜드로스-영물", "랜드로스-영물"],
+["볼트로스-영물", "볼트로스-영물"],
+["토네로스-영물", "토네로스-영물"],
+["플라엣테-영원", "플라엣테-영원"],
+["호바귀", "호바귀-중"],
+["펌킨인", "펌킨인-중"],
+["도롱마담-모래땅", "도롱마담-모래땅"],
+["도롱마담-슈레", "도롱마담-슈레"],
+["그란돈-원시", "그란돈"],
+["가이오가-원시", "가이오가"]];
 if(readCookie("custom") != null)
 	var SETDEX_CUSTOM = JSON.parse(readCookie("custom"))
 var deletecustom = function()
@@ -57,7 +57,7 @@ var savecustom = function()
 	var string = document.getElementById('customMon').value
 	var spreadName = document.getElementById('spreadName').value
 	if(spreadName == '')
-		spreadName = "My Custom Set";
+		spreadName = "내 커스텀 세트";
 	var lines = string.split('\n')
 	var species = "";
 	var item = "";
@@ -65,7 +65,7 @@ var savecustom = function()
 	var level = "50";
 	var EVs = [0,0,0,0,0,0];
 	var IVs = [31,31,31,31,31,31]
-	var nature = "Serious"
+	var nature = "성실"
 	var moves = []
 
 	/*	Pokemon Showdown Export Format
@@ -73,7 +73,7 @@ var savecustom = function()
 1	Ability: Name
 2	Level: #
 3	EVs: # Stat / # Stat / # Stat
-4	Serious Nature
+4	성실 성격
 5	IVs: # Stat
 6	- Move Name
 7	- Move Name
@@ -122,15 +122,15 @@ var savecustom = function()
 					evListElements = evList[j].split(' ');
 					if(evListElements[1] == "HP")
 						EVs[0] = parseInt(evListElements[0])
-					else if(evListElements[1] == "Atk")
+					else if(evListElements[1] == "공격")
 						EVs[1] = parseInt(evListElements[0])
-					else if(evListElements[1] == "Def")
+					else if(evListElements[1] == "방어")
 						EVs[2] = parseInt(evListElements[0])
-					else if(evListElements[1] == "SpA")
+					else if(evListElements[1] == "특공")
 						EVs[3] = parseInt(evListElements[0])
-					else if(evListElements[1] == "SpD")
+					else if(evListElements[1] == "특방")
 						EVs[4] = parseInt(evListElements[0])
-					else if(evListElements[1] == "Spe")
+					else if(evListElements[1] == "스핏")
 						EVs[5] = parseInt(evListElements[0])
 				}
 
@@ -143,20 +143,20 @@ var savecustom = function()
 					ivListElements = ivList[j].split(' ');
 					if(ivListElements[1] == "HP")
 						IVs[0] = parseInt(ivListElements[0])
-					else if(ivListElements[1] == "Atk")
+					else if(ivListElements[1] == "공격")
 						IVs[1] = parseInt(ivListElements[0])
-					else if(ivListElements[1] == "Def")
+					else if(ivListElements[1] == "방어")
 						IVs[2] = parseInt(ivListElements[0])
-					else if(ivListElements[1] == "SpA")
+					else if(ivListElements[1] == "특공")
 						IVs[3] = parseInt(ivListElements[0])
-					else if(ivListElements[1] == "SpD")
+					else if(ivListElements[1] == "특방")
 						IVs[4] = parseInt(ivListElements[0])
-					else if(ivListElements[1] == "Spe")
+					else if(ivListElements[1] == "스핏")
 						IVs[5] = parseInt(ivListElements[0])
 				}
 
 			}
-			if(lines[i].indexOf("Nature") != -1) //if nature is in this line
+			if(lines[i].indexOf("성격") != -1) //if nature is in this line
 			{
 				nature = lines[i].split(' ')[0].trim()
 			}
@@ -172,7 +172,7 @@ var savecustom = function()
 
 	//now, to save it
 	/* Sample Calculator Format:
-  "Yanmega": {
+  "메가자리": {
     "Common Showdown": {
       "level": 50,
       "evs": {
@@ -183,14 +183,14 @@ var savecustom = function()
         "sd": 4,
         "sp": 252
       },
-      "nature": "Modest",
+      "nature": "조심",
       "ability": "",
       "item": "",
       "moves": [
-        "Air Slash",
-        "Bug Buzz",
-        "Giga Drain",
-        "Hidden Power Ice"
+        "에어슬래시",
+        "벌레의야단법석",
+        "기가드레인",
+        "잠재파워-얼음"
       ]
     }
   }

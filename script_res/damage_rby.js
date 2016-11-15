@@ -1,4 +1,4 @@
-function CALCULATE_ALL_MOVES_RBY(p1, p2, field) {
+﻿function CALCULATE_ALL_MOVES_RBY(p1, p2, field) {
     p1.stats[AT] = Math.min(999, Math.max(1, getModifiedStat(p1.rawStats[AT], p1.boosts[AT])));
     p1.stats[DF] = Math.min(999, Math.max(1, getModifiedStat(p1.rawStats[DF], p1.boosts[DF])));
     p1.stats[SL] = Math.min(999, Math.max(1, getModifiedStat(p1.rawStats[SL], p1.boosts[SL])));
@@ -27,7 +27,7 @@ function CALCULATE_DAMAGE_RBY(attacker, defender, move, field) {
     }
     
     var lv = attacker.level;
-    if (move.name === "Seismic Toss" || move.name === "Night Shade") {
+    if (move.name === "지구던지기" || move.name === "나이트헤드") {
         return {"damage":[lv], "description":buildDescription(description)};
     }
 
@@ -43,7 +43,7 @@ function CALCULATE_DAMAGE_RBY(attacker, defender, move, field) {
         description.hits = move.hits;
     }
     
-    var isPhysical = typeChart[move.type].category === "Physical";
+    var isPhysical = typeChart[move.type].category === "물리";
     var attackStat = isPhysical ? AT : SL;
     var defenseStat = isPhysical ? DF : SL;
     var at = attacker.stats[attackStat];
@@ -61,13 +61,13 @@ function CALCULATE_DAMAGE_RBY(attacker, defender, move, field) {
         if (defender.boosts[defenseStat] !== 0) {
             description.defenseBoost = defender.boosts[defenseStat];
         }
-        if (isPhysical && attacker.status === "Burned") {
+        if (isPhysical && attacker.status === "화상") {
             at = Math.floor(at / 2);
             description.isBurned = true;
         }
     }
     
-    if (move.name === "Explosion" || move.name === "Selfdestruct") {
+    if (move.name === "대폭발" || move.name === "자폭") {
         df = Math.floor(df / 2);
     }
     

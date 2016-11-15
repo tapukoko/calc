@@ -1,6 +1,6 @@
-var SETDEX_SHOWDOWN={
-  "Swellow": {
-    "Common Showdown": {
+﻿var SETDEX_SHOWDOWN={
+  "스왈로": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -10,19 +10,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 252
       },
-      "nature": "Jolly",
-      "ability": "Guts",
-      "item": "Flame Orb",
+      "nature": "명랑",
+      "ability": "근성",
+      "item": "화염구슬",
       "moves": [
-        "Brave Bird",
-        "Facade",
-        "Quick Attack",
-        "U-turn"
+        "브레이브버드",
+        "객기",
+        "전광석화",
+        "유턴"
       ]
     }
   },
-  "Eevee": {
-    "Common Showdown": {
+  "이브이": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -32,19 +32,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 0
       },
-      "nature": "Brave",
-      "ability": "Adaptability",
-      "item": "Silk Scarf",
+      "nature": "용감",
+      "ability": "적응력",
+      "item": "실크스카프",
       "moves": [
-        "Quick Attack",
-        "Return",
-        "Facade",
-        "Frustration"
+        "전광석화",
+        "은혜갚기",
+        "객기",
+        "화풀이"
       ]
     }
   },
-  "Poliwrath": {
-    "Common Showdown": {
+  "강챙이": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -54,19 +54,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 4
       },
-      "nature": "Adamant",
-      "ability": "Swift Swim",
-      "item": "Sitrus Berry",
+      "nature": "고집",
+      "ability": "쓱쓱",
+      "item": "자뭉열매",
       "moves": [
-        "Waterfall",
-        "Ice Punch",
-        "Brick Break",
-        "Poison Jab"
+        "폭포오르기",
+        "냉동펀치",
+        "깨뜨리다",
+        "독찌르기"
       ]
     }
   },
-  "Emolga": {
-    "Common Showdown": {
+  "에몽가": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -76,19 +76,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Timid",
-      "ability": "Motor Drive",
-      "item": "Salac Berry",
+      "nature": "겁쟁이",
+      "ability": "전기엔진",
+      "item": "캄라열매",
       "moves": [
-        "Electro Ball",
-        "Air Slash",
-        "Thunderbolt",
-        "Discharge"
+        "일렉트릭볼",
+        "에어슬래시",
+        "10만볼트",
+        "방전"
       ]
     }
   },
-  "Butterfree": {
-    "Common Showdown": {
+  "버터플": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -98,19 +98,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 252
       },
-      "nature": "Timid",
+      "nature": "겁쟁이",
       "ability": "",
       "item": "",
       "moves": [
-        "Bug Buzz",
-        "Psychic",
-        "Giga Drain",
-        "Shadow Ball"
+        "벌레의야단법석",
+        "사이코키네시스",
+        "기가드레인",
+        "섀도볼"
       ]
     }
   },
-  "Tornadus": {
-    "Common Showdown": {
+  "토네로스": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -120,19 +120,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 252
       },
-      "nature": "Timid",
+      "nature": "겁쟁이",
       "ability": "",
-      "item": "Sitrus Berry",
+      "item": "자뭉열매",
       "moves": [
-        "Hurricane",
-        "Air Slash",
-        "Heat Wave",
-        "Icy Wind"
+        "폭풍",
+        "에어슬래시",
+        "열풍",
+        "얼다바람"
       ]
     }
   },
-  "Wobbuffet": {
-    "Common Showdown": {
+  "마자용": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -142,14 +142,14 @@ var SETDEX_SHOWDOWN={
         "sd": 252,
         "sp": 0
       },
-      "nature": "Calm",
+      "nature": "차분",
       "ability": "",
-      "item": "Leftovers",
+      "item": "먹다남은음식",
       "moves": []
     }
   },
-  "Cresselia": {
-    "Common Showdown": {
+  "크레세리아": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 220,
@@ -159,19 +159,19 @@ var SETDEX_SHOWDOWN={
         "sd": 92,
         "sp": 20
       },
-      "nature": "Calm",
-      "ability": "Levitate",
+      "nature": "차분",
+      "ability": "부유",
       "item": "",
       "moves": [
-        "Psychic",
-        "Ice Beam",
-        "Icy Wind",
-        "Psyshock"
+        "사이코키네시스",
+        "냉동빔",
+        "얼다바람",
+        "사이코쇼크"
       ]
     }
   },
-  "Tangela": {
-    "Common Showdown": {
+  "덩쿠리": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -181,19 +181,19 @@ var SETDEX_SHOWDOWN={
         "sd": 252,
         "sp": 0
       },
-      "nature": "Calm",
+      "nature": "차분",
       "ability": "",
-      "item": "Eviolite",
+      "item": "진화의휘석",
       "moves": [
-        "Giga Drain",
-        "Ancient Power",
-        "Leaf Storm",
-        "Hidden Power Ice"
+        "기가드레인",
+        "원시의힘",
+        "리프스톰",
+        "잠재파워-얼음"
       ]
     }
   },
-  "Absol": {
-    "Common Showdown": {
+  "앱솔": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -203,19 +203,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 252
       },
-      "nature": "Jolly",
+      "nature": "명랑",
       "ability": "",
-      "item": "Absolite",
+      "item": "앱솔나이트",
       "moves": [
-        "Sucker Punch",
-        "Play Rough",
-        "Knock Off",
-        "Psycho Cut"
+        "기습",
+        "치근거리기",
+        "탁쳐서떨구기",
+        "사이코커터"
       ]
     }
   },
-  "Sceptile": {
-    "Common Showdown": {
+  "나무킹": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -225,19 +225,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 252
       },
-      "nature": "Timid",
-      "ability": "Overgrow",
-      "item": "Sceptilite",
+      "nature": "겁쟁이",
+      "ability": "심록",
+      "item": "나무킹나이트",
       "moves": [
-        "Dragon Pulse",
-        "Leaf Storm",
-        "Focus Blast",
-        "Giga Drain"
+        "용의파동",
+        "리프스톰",
+        "기합구슬",
+        "기가드레인"
       ]
     }
   },
-  "Linoone": {
-    "Common Showdown": {
+  "직구리": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -247,19 +247,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Timid",
+      "nature": "겁쟁이",
       "ability": "",
       "item": "",
       "moves": [
-        "Extreme Speed",
-        "Shadow Claw",
-        "Facade",
-        "Play Rough"
+        "신속",
+        "섀도크루",
+        "객기",
+        "치근거리기"
       ]
     }
   },
-  "Landorus-T": {
-    "Common Showdown": {
+  "랜드로스-영물": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -269,19 +269,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Adamant",
-      "ability": "Intimidate",
-      "item": "Choice Scarf",
+      "nature": "고집",
+      "ability": "괴력집게",
+      "item": "구애스카프",
       "moves": [
-        "Earthquake",
-        "Rock Slide",
-        "Superpower",
-        "U-turn"
+        "지진",
+        "스톤샤워",
+        "엄청난힘",
+        "유턴"
       ]
     }
   },
-  "Lapras": {
-    "Common Showdown": {
+  "라프라스": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 228,
@@ -291,19 +291,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 0
       },
-      "nature": "Calm",
-      "ability": "Water Absorb",
+      "nature": "차분",
+      "ability": "축전",
       "item": "",
       "moves": [
-        "Freeze-Dry",
-        "Hydro Pump",
-        "Ice Shard",
-        "Sheer Cold"
+        "프리즈드라이",
+        "하이드로펌프",
+        "얼음뭉치",
+        "절대영도"
       ]
     }
   },
-  "Krookodile": {
-    "Common Showdown": {
+  "악비아르": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 28,
@@ -313,19 +313,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 228
       },
-      "nature": "Adamant",
-      "ability": "Intimidate",
-      "item": "Choice Scarf",
+      "nature": "고집",
+      "ability": "괴력집게",
+      "item": "구애스카프",
       "moves": [
-        "Earthquake",
-        "Rock Slide",
-        "Knock Off",
-        "Superpower"
+        "지진",
+        "스톤샤워",
+        "탁쳐서떨구기",
+        "엄청난힘"
       ]
     }
   },
-  "Mawile": {
-    "Common Showdown": {
+  "입치트": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -335,19 +335,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 0
       },
-      "nature": "Adamant",
-      "ability": "Intimidate",
-      "item": "Mawilite",
+      "nature": "고집",
+      "ability": "괴력집게",
+      "item": "입치트나이트",
       "moves": [
-        "Play Rough",
-        "Sucker Punch",
-        "Iron Head",
-        "Rock Slide"
+        "치근거리기",
+        "기습",
+        "아이언헤드",
+        "스톤샤워"
       ]
     }
   },
-  "Gothorita": {
-    "Common Showdown": {
+  "고디보미": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -357,19 +357,19 @@ var SETDEX_SHOWDOWN={
         "sd": 84,
         "sp": 0
       },
-      "nature": "Relaxed",
+      "nature": "무사태평",
       "ability": "",
-      "item": "Eviolite",
+      "item": "진화의휘석",
       "moves": [
-        "Psychic",
-        "Psyshock",
-        "Foul Play",
-        "Shadow Ball"
+        "사이코키네시스",
+        "사이코쇼크",
+        "속임수",
+        "섀도볼"
       ]
     }
   },
-  "Mantyke": {
-    "Common Showdown": {
+  "타만타": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -379,19 +379,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 0
       },
-      "nature": "Bold",
-      "ability": "Water Absorb",
-      "item": "Eviolite",
+      "nature": "대담",
+      "ability": "축전",
+      "item": "진화의휘석",
       "moves": [
-        "Scald",
-        "Icy Wind",
-        "Air Slash",
-        "Ice Beam"
+        "열탕",
+        "얼다바람",
+        "에어슬래시",
+        "냉동빔"
       ]
     }
   },
-  "Aggron": {
-    "Common Showdown": {
+  "보스로라": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 248,
@@ -401,19 +401,19 @@ var SETDEX_SHOWDOWN={
         "sd": 8,
         "sp": 0
       },
-      "nature": "Adamant",
+      "nature": "고집",
       "ability": "",
-      "item": "Aggronite",
+      "item": "보스로라나이트",
       "moves": [
-        "Iron Head",
-        "Earthquake",
-        "Rock Slide",
-        "Heavy Slam"
+        "아이언헤드",
+        "지진",
+        "스톤샤워",
+        "헤비봄버"
       ]
     }
   },
-  "Slowbro": {
-    "Common Showdown": {
+  "야도란": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 248,
@@ -423,19 +423,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 0
       },
-      "nature": "Bold",
+      "nature": "대담",
       "ability": "",
-      "item": "Slowbronite",
+      "item": "야도란나이트",
       "moves": [
-        "Scald",
-        "Ice Beam",
-        "Psychic",
-        "Psyshock"
+        "열탕",
+        "냉동빔",
+        "사이코키네시스",
+        "사이코쇼크"
       ]
     }
   },
-  "Ampharos": {
-    "Common Showdown": {
+  "전룡": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 248,
@@ -445,19 +445,19 @@ var SETDEX_SHOWDOWN={
         "sd": 8,
         "sp": 0
       },
-      "nature": "Modest",
+      "nature": "조심",
       "ability": "",
-      "item": "Ampharosite",
+      "item": "전룡나이트",
       "moves": [
-        "Dragon Pulse",
-        "Thunderbolt",
-        "Focus Blast",
-        "Discharge"
+        "용의파동",
+        "10만볼트",
+        "기합구슬",
+        "방전"
       ]
     }
   },
-  "Omastar": {
-    "Common Showdown": {
+  "암스타": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -467,19 +467,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Modest",
-      "ability": "Swift Swim",
-      "item": "Life Orb",
+      "nature": "조심",
+      "ability": "쓱쓱",
+      "item": "생명의구슬",
       "moves": [
-        "Ice Beam",
-        "Muddy Water",
-        "Ancient Power",
-        "Hydro Pump"
+        "냉동빔",
+        "탁류",
+        "원시의힘",
+        "하이드로펌프"
       ]
     }
   },
-  "Walrein": {
-    "Common Showdown": {
+  "씨카이저": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -489,19 +489,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 0
       },
-      "nature": "Bold",
-      "ability": "Thick Fat",
-      "item": "Leftovers",
+      "nature": "대담",
+      "ability": "두꺼운지방",
+      "item": "먹다남은음식",
       "moves": [
-        "Ice Beam",
-        "Blizzard",
-        "Icy Wind",
-        "Surf"
+        "냉동빔",
+        "눈보라",
+        "얼다바람",
+        "파도타기"
       ]
     }
   },
-  "Heliolisk": {
-    "Common Showdown": {
+  "일레도리자드": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -511,19 +511,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 252
       },
-      "nature": "Timid",
-      "ability": "Dry Skin",
-      "item": "Choice Scarf",
+      "nature": "겁쟁이",
+      "ability": "건조피부",
+      "item": "구애스카프",
       "moves": [
-        "Thunderbolt",
-        "Hyper Voice",
-        "Volt Switch",
-        "Hidden Power Ice"
+        "10만볼트",
+        "하이퍼보이스",
+        "볼트체인지",
+        "잠재파워-얼음"
       ]
     }
   },
-  "Durant": {
-    "Common Showdown": {
+  "아이앤트": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -533,19 +533,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Jolly",
-      "ability": "Hustle",
+      "nature": "명랑",
+      "ability": "의욕",
       "item": "",
       "moves": [
-        "Iron Head",
-        "X-Scissor",
-        "Superpower",
-        "Rock Slide"
+        "아이언헤드",
+        "시저크로스",
+        "엄청난힘",
+        "스톤샤워"
       ]
     }
   },
-  "Regirock": {
-    "Common Showdown": {
+  "레지락": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -555,19 +555,19 @@ var SETDEX_SHOWDOWN={
         "sd": 204,
         "sp": 0
       },
-      "nature": "Adamant",
-      "ability": "Clear Body",
-      "item": "Assault Vest",
+      "nature": "고집",
+      "ability": "클리어바디",
+      "item": "돌격조끼",
       "moves": [
-        "Rock Slide",
-        "Ice Punch",
-        "Drain Punch",
-        "Iron Head"
+        "스톤샤워",
+        "냉동펀치",
+        "드레인펀치",
+        "아이언헤드"
       ]
     }
   },
-  "Piloswine": {
-    "Common Showdown": {
+  "메꾸리": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 100,
@@ -577,19 +577,19 @@ var SETDEX_SHOWDOWN={
         "sd": 156,
         "sp": 0
       },
-      "nature": "Adamant",
-      "ability": "Thick Fat",
-      "item": "Eviolite",
+      "nature": "고집",
+      "ability": "두꺼운지방",
+      "item": "진화의휘석",
       "moves": [
-        "Earthquake",
-        "Ice Shard",
-        "Rock Slide",
-        "Avalanche"
+        "지진",
+        "얼음뭉치",
+        "스톤샤워",
+        "눈사태"
       ]
     }
   },
-  "Crawdaunt": {
-    "Common Showdown": {
+  "가재장군": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 248,
@@ -599,19 +599,19 @@ var SETDEX_SHOWDOWN={
         "sd": 8,
         "sp": 0
       },
-      "nature": "Adamant",
-      "ability": "Adaptability",
-      "item": "Life Orb",
+      "nature": "고집",
+      "ability": "적응력",
+      "item": "생명의구슬",
       "moves": [
-        "Knock Off",
-        "Aqua Jet",
-        "Crabhammer",
-        "Superpower"
+        "탁쳐서떨구기",
+        "아쿠아제트",
+        "찝게햄머",
+        "엄청난힘"
       ]
     }
   },
-  "Crobat": {
-    "Common Showdown": {
+  "크로뱃": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 248,
@@ -621,19 +621,19 @@ var SETDEX_SHOWDOWN={
         "sd": 36,
         "sp": 220
       },
-      "nature": "Jolly",
+      "nature": "명랑",
       "ability": "",
-      "item": "Black Sludge",
+      "item": "검은진흙",
       "moves": [
-        "Brave Bird",
-        "Cross Poison",
-        "U-turn",
-        "Acrobatics"
+        "브레이브버드",
+        "크로스포이즌",
+        "유턴",
+        "애크러뱃"
       ]
     }
   },
-  "Noivern": {
-    "Common Showdown": {
+  "음번": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -643,19 +643,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Timid",
+      "nature": "겁쟁이",
       "ability": "",
-      "item": "Choice Specs",
+      "item": "구애안경",
       "moves": [
-        "Draco Meteor",
-        "Hurricane",
-        "Air Slash",
-        "Flamethrower"
+        "용성군",
+        "폭풍",
+        "에어슬래시",
+        "화염방사"
       ]
     }
   },
-  "Bibarel": {
-    "Common Showdown": {
+  "비버통": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -665,19 +665,19 @@ var SETDEX_SHOWDOWN={
         "sd": 96,
         "sp": 0
       },
-      "nature": "Calm",
-      "ability": "Simple",
-      "item": "Leftovers",
+      "nature": "차분",
+      "ability": "단순",
+      "item": "먹다남은음식",
       "moves": [
-        "Waterfall",
-        "Return",
-        "Quick Attack",
-        "Scald"
+        "폭포오르기",
+        "은혜갚기",
+        "전광석화",
+        "열탕"
       ]
     }
   },
-  "Gothitelle": {
-    "Common Showdown": {
+  "고디모아젤": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -687,19 +687,19 @@ var SETDEX_SHOWDOWN={
         "sd": 244,
         "sp": 0
       },
-      "nature": "Sassy",
+      "nature": "건방",
       "ability": "",
-      "item": "Sitrus Berry",
+      "item": "자뭉열매",
       "moves": [
-        "Psyshock",
-        "Psychic",
-        "Shadow Ball",
-        "Energy Ball"
+        "사이코쇼크",
+        "사이코키네시스",
+        "섀도볼",
+        "에너지볼"
       ]
     }
   },
-  "Exploud": {
-    "Common Showdown": {
+  "폭음룡": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 248,
@@ -709,19 +709,19 @@ var SETDEX_SHOWDOWN={
         "sd": 8,
         "sp": 0
       },
-      "nature": "Modest",
-      "ability": "Scrappy",
-      "item": "Choice Specs",
+      "nature": "조심",
+      "ability": "배짱",
+      "item": "구애안경",
       "moves": [
-        "Boomburst",
-        "Focus Blast",
-        "Fire Blast",
-        "Ice Beam"
+        "폭음파",
+        "기합구슬",
+        "불대문자",
+        "냉동빔"
       ]
     }
   },
-  "Seismitoad": {
-    "Common Showdown": {
+  "두빅굴": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -731,19 +731,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 0
       },
-      "nature": "Hardy",
-      "ability": "Water Absorb",
-      "item": "Life Orb",
+      "nature": "노력",
+      "ability": "축전",
+      "item": "생명의구슬",
       "moves": [
-        "Earth Power",
-        "Earthquake",
-        "Drain Punch",
-        "Poison Jab"
+        "대지의힘",
+        "지진",
+        "드레인펀치",
+        "독찌르기"
       ]
     }
   },
-  "Gliscor": {
-    "Common Showdown": {
+  "글라이온": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 248,
@@ -753,19 +753,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 72
       },
-      "nature": "Impish",
-      "ability": "Poison Heal",
-      "item": "Toxic Orb",
+      "nature": "장난꾸러기",
+      "ability": "포이즌힐",
+      "item": "맹독구슬",
       "moves": [
-        "Earthquake",
-        "Knock Off",
-        "Acrobatics",
-        "Rock Slide"
+        "지진",
+        "탁쳐서떨구기",
+        "애크러뱃",
+        "스톤샤워"
       ]
     }
   },
-  "Lanturn": {
-    "Common Showdown": {
+  "랜턴": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -775,19 +775,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 0
       },
-      "nature": "Modest",
-      "ability": "Volt Absorb",
-      "item": "Leftovers",
+      "nature": "조심",
+      "ability": "축전",
+      "item": "먹다남은음식",
       "moves": [
-        "Ice Beam",
-        "Scald",
-        "Discharge",
-        "Thunderbolt"
+        "냉동빔",
+        "열탕",
+        "방전",
+        "10만볼트"
       ]
     }
   },
-  "Maractus": {
-    "Common Showdown": {
+  "마라카치": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -797,19 +797,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 0
       },
-      "nature": "Relaxed",
-      "ability": "Storm Drain",
-      "item": "Leftovers",
+      "nature": "무사태평",
+      "ability": "마중물",
+      "item": "먹다남은음식",
       "moves": [
-        "Giga Drain",
-        "Solar Beam",
-        "Hidden Power Ice",
-        "Sucker Punch"
+        "기가드레인",
+        "솔라빔",
+        "잠재파워-얼음",
+        "기습"
       ]
     }
   },
-  "Zebstrika": {
-    "Common Showdown": {
+  "제브라이카": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -819,19 +819,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Timid",
-      "ability": "Lightning Rod",
+      "nature": "겁쟁이",
+      "ability": "피뢰침",
       "item": "",
       "moves": [
-        "Overheat",
-        "Thunderbolt",
-        "Wild Charge",
-        "Hidden Power Ice"
+        "오버히트",
+        "10만볼트",
+        "와일드볼트",
+        "잠재파워-얼음"
       ]
     }
   },
-  "Empoleon": {
-    "Common Showdown": {
+  "엠페르트": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -841,19 +841,19 @@ var SETDEX_SHOWDOWN={
         "sd": 132,
         "sp": 0
       },
-      "nature": "Quiet",
-      "ability": "Torrent",
-      "item": "Assault Vest",
+      "nature": "냉정",
+      "ability": "급류",
+      "item": "돌격조끼",
       "moves": [
-        "Ice Beam",
-        "Flash Cannon",
-        "Scald",
-        "Aqua Jet"
+        "냉동빔",
+        "러스터캐논",
+        "열탕",
+        "아쿠아제트"
       ]
     }
   },
-  "Alakazam": {
-    "Common Showdown": {
+  "후딘": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -863,19 +863,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 252
       },
-      "nature": "Timid",
-      "ability": "Magic Guard",
-      "item": "Alakazite",
+      "nature": "겁쟁이",
+      "ability": "매직가드",
+      "item": "후디나이트",
       "moves": [
-        "Psychic",
-        "Dazzling Gleam",
-        "Shadow Ball",
-        "Energy Ball"
+        "사이코키네시스",
+        "매지컬샤인",
+        "섀도볼",
+        "에너지볼"
       ]
     }
   },
-  "Dragalge": {
-    "Common Showdown": {
+  "드래캄": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 248,
@@ -885,19 +885,19 @@ var SETDEX_SHOWDOWN={
         "sd": 8,
         "sp": 0
       },
-      "nature": "Modest",
-      "ability": "Adaptability",
-      "item": "Life Orb",
+      "nature": "조심",
+      "ability": "적응력",
+      "item": "생명의구슬",
       "moves": [
-        "Sludge Bomb",
-        "Draco Meteor",
-        "Scald",
-        "Dragon Pulse"
+        "오물폭탄",
+        "용성군",
+        "열탕",
+        "용의파동"
       ]
     }
   },
-  "Cherrim": {
-    "Common Showdown": {
+  "체리꼬": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -907,19 +907,19 @@ var SETDEX_SHOWDOWN={
         "sd": 108,
         "sp": 0
       },
-      "nature": "Bold",
-      "ability": "Flower Gift",
-      "item": "Sitrus Berry",
+      "nature": "대담",
+      "ability": "플라워기프트",
+      "item": "자뭉열매",
       "moves": [
-        "Giga Drain",
-        "Weather Ball",
-        "Seed Bomb",
-        "Solar Beam"
+        "기가드레인",
+        "웨더볼",
+        "씨폭탄",
+        "솔라빔"
       ]
     }
   },
-  "Carbink": {
-    "Common Showdown": {
+  "멜리시": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -929,19 +929,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 0
       },
-      "nature": "Relaxed",
+      "nature": "무사태평",
       "ability": "",
       "item": "",
       "moves": [
-        "Dazzling Gleam",
-        "Moonblast",
-        "Power Gem",
-        "Explosion"
+        "매지컬샤인",
+        "문포스",
+        "파워젬",
+        "대폭발"
       ]
     }
   },
-  "Darmanitan": {
-    "Common Showdown": {
+  "불비달마": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -951,19 +951,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 252
       },
-      "nature": "Jolly",
-      "ability": "Sheer Force",
-      "item": "Choice Scarf",
+      "nature": "명랑",
+      "ability": "우격다짐",
+      "item": "구애스카프",
       "moves": [
-        "Flare Blitz",
-        "Rock Slide",
-        "Superpower",
-        "U-turn"
+        "플레어드라이브",
+        "스톤샤워",
+        "엄청난힘",
+        "유턴"
       ]
     }
   },
-  "Reuniclus": {
-    "Common Showdown": {
+  "란쿨루스": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 248,
@@ -973,19 +973,19 @@ var SETDEX_SHOWDOWN={
         "sd": 8,
         "sp": 0
       },
-      "nature": "Quiet",
-      "ability": "Magic Guard",
-      "item": "Life Orb",
+      "nature": "냉정",
+      "ability": "매직가드",
+      "item": "생명의구슬",
       "moves": [
-        "Psychic",
-        "Psyshock",
-        "Focus Blast",
-        "Shadow Ball"
+        "사이코키네시스",
+        "사이코쇼크",
+        "기합구슬",
+        "섀도볼"
       ]
     }
   },
-  "Druddigon": {
-    "Common Showdown": {
+  "크리만": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -995,19 +995,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 0
       },
-      "nature": "Brave",
-      "ability": "Sheer Force",
-      "item": "Life Orb",
+      "nature": "용감",
+      "ability": "우격다짐",
+      "item": "생명의구슬",
       "moves": [
-        "Dragon Claw",
-        "Rock Slide",
-        "Gunk Shot",
-        "Iron Head"
+        "드래곤크루",
+        "스톤샤워",
+        "더스트슈트",
+        "아이언헤드"
       ]
     }
   },
-  "Breloom": {
-    "Common Showdown": {
+  "버섯모": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -1017,19 +1017,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 252
       },
-      "nature": "Jolly",
-      "ability": "Technician",
+      "nature": "명랑",
+      "ability": "테크니션",
       "item": "",
       "moves": [
-        "Bullet Seed",
-        "Mach Punch",
-        "Rock Tomb",
-        "Superpower"
+        "기관총",
+        "마하펀치",
+        "암석봉인",
+        "엄청난힘"
       ]
     }
   },
-  "Drifblim": {
-    "Common Showdown": {
+  "둥실라이드": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -1039,19 +1039,19 @@ var SETDEX_SHOWDOWN={
         "sd": 252,
         "sp": 60
       },
-      "nature": "Modest",
+      "nature": "조심",
       "ability": "",
-      "item": "Sitrus Berry",
+      "item": "자뭉열매",
       "moves": [
-        "Shadow Ball",
-        "Clear Smog",
-        "Acrobatics",
-        "Knock Off"
+        "섀도볼",
+        "클리어스모그",
+        "애크러뱃",
+        "탁쳐서떨구기"
       ]
     }
   },
-  "Alomomola": {
-    "Common Showdown": {
+  "맘복치": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -1061,19 +1061,19 @@ var SETDEX_SHOWDOWN={
         "sd": 252,
         "sp": 0
       },
-      "nature": "Calm",
+      "nature": "차분",
       "ability": "",
-      "item": "Sitrus Berry",
+      "item": "자뭉열매",
       "moves": [
-        "Scald",
-        "Knock Off",
-        "Icy Wind",
-        "Aqua Jet"
+        "열탕",
+        "탁쳐서떨구기",
+        "얼다바람",
+        "아쿠아제트"
       ]
     }
   },
-  "Rotom-C": {
-    "Common Showdown": {
+  "커트로토무": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -1083,19 +1083,19 @@ var SETDEX_SHOWDOWN={
         "sd": 92,
         "sp": 4
       },
-      "nature": "Bold",
-      "ability": "Levitate",
-      "item": "Sitrus Berry",
+      "nature": "대담",
+      "ability": "부유",
+      "item": "자뭉열매",
       "moves": [
-        "Leaf Storm",
-        "Thunderbolt",
-        "Volt Switch",
-        "Hidden Power Ice"
+        "리프스톰",
+        "10만볼트",
+        "볼트체인지",
+        "잠재파워-얼음"
       ]
     }
   },
-  "Torkoal": {
-    "Common Showdown": {
+  "코터스": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -1105,19 +1105,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 0
       },
-      "nature": "Quiet",
-      "ability": "White Smoke",
+      "nature": "냉정",
+      "ability": "하얀연기",
       "item": "",
       "moves": [
-        "Earth Power",
-        "Heat Wave",
-        "Clear Smog",
-        "Eruption"
+        "대지의힘",
+        "열풍",
+        "클리어스모그",
+        "분화"
       ]
     }
   },
-  "Victreebel": {
-    "Common Showdown": {
+  "우츠보트": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -1127,19 +1127,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Rash",
-      "ability": "Chlorophyll",
-      "item": "Life Orb",
+      "nature": "덜렁",
+      "ability": "엽록소",
+      "item": "생명의구슬",
       "moves": [
-        "Weather Ball",
-        "Sludge Bomb",
-        "Solar Beam",
-        "Giga Drain"
+        "웨더볼",
+        "오물폭탄",
+        "솔라빔",
+        "기가드레인"
       ]
     }
   },
-  "Regigigas": {
-    "Common Showdown": {
+  "레지기가스": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -1149,19 +1149,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 0
       },
-      "nature": "Bold",
-      "ability": "Slow Start",
-      "item": "Sitrus Berry",
+      "nature": "대담",
+      "ability": "슬로스타트",
+      "item": "자뭉열매",
       "moves": [
-        "Drain Punch",
-        "Return",
-        "Rock Slide",
-        "Icy Wind"
+        "드레인펀치",
+        "은혜갚기",
+        "스톤샤워",
+        "얼다바람"
       ]
     }
   },
-  "Tentacruel": {
-    "Common Showdown": {
+  "독파리": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -1171,19 +1171,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 0
       },
-      "nature": "Calm",
+      "nature": "차분",
       "ability": "",
-      "item": "Black Sludge",
+      "item": "검은진흙",
       "moves": [
-        "Sludge Bomb",
-        "Scald",
-        "Ice Beam",
-        "Giga Drain"
+        "오물폭탄",
+        "열탕",
+        "냉동빔",
+        "기가드레인"
       ]
     }
   },
-  "Lickilicky": {
-    "Common Showdown": {
+  "내룸벨트": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 248,
@@ -1193,19 +1193,19 @@ var SETDEX_SHOWDOWN={
         "sd": 8,
         "sp": 0
       },
-      "nature": "Adamant",
+      "nature": "고집",
       "ability": "",
-      "item": "Normal Gem",
+      "item": "노말젬",
       "moves": [
-        "Explosion",
-        "Knock Off",
-        "Hammer Arm",
-        "Power Whip"
+        "대폭발",
+        "탁쳐서떨구기",
+        "암해머",
+        "파워휩"
       ]
     }
   },
-  "Goodra": {
-    "Common Showdown": {
+  "미끄래곤": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -1215,19 +1215,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 0
       },
-      "nature": "Modest",
-      "ability": "Sap Sipper",
-      "item": "Assault Vest",
+      "nature": "조심",
+      "ability": "초식",
+      "item": "돌격조끼",
       "moves": [
-        "Ice Beam",
-        "Draco Meteor",
-        "Dragon Pulse",
-        "Fire Blast"
+        "냉동빔",
+        "용성군",
+        "용의파동",
+        "불대문자"
       ]
     }
   },
-  "Trapinch": {
-    "Common Showdown": {
+  "톱치": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -1237,19 +1237,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 0
       },
-      "nature": "Brave",
+      "nature": "용감",
       "ability": "",
       "item": "",
       "moves": [
-        "Rock Slide",
-        "Earthquake",
-        "Superpower",
-        "Crunch"
+        "스톤샤워",
+        "지진",
+        "엄청난힘",
+        "깨물어부수기"
       ]
     }
   },
-  "Aegislash": {
-    "Common Showdown": {
+  "킬가르도": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -1259,19 +1259,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 0
       },
-      "nature": "Quiet",
+      "nature": "냉정",
       "ability": "",
       "item": "",
       "moves": [
-        "Shadow Ball",
-        "Flash Cannon",
-        "Shadow Sneak",
-        "Sacred Sword"
+        "섀도볼",
+        "러스터캐논",
+        "야습",
+        "성스러운칼"
       ]
     }
   },
-  "Floatzel": {
-    "Common Showdown": {
+  "플로젤": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -1281,19 +1281,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 252
       },
-      "nature": "Modest",
-      "ability": "Swift Swim",
+      "nature": "조심",
+      "ability": "쓱쓱",
       "item": "",
       "moves": [
-        "Waterfall",
-        "Ice Beam",
-        "Aqua Jet",
-        "Hydro Pump"
+        "폭포오르기",
+        "냉동빔",
+        "아쿠아제트",
+        "하이드로펌프"
       ]
     }
   },
-  "Electrode": {
-    "Common Showdown": {
+  "붐볼": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -1303,19 +1303,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Timid",
-      "ability": "Soundproof",
-      "item": "Life Orb",
+      "nature": "겁쟁이",
+      "ability": "방음",
+      "item": "생명의구슬",
       "moves": [
-        "Thunderbolt",
-        "Hidden Power Ice",
-        "Signal Beam",
-        "Discharge"
+        "10만볼트",
+        "잠재파워-얼음",
+        "시그널빔",
+        "방전"
       ]
     }
   },
-  "Gourgeist": {
-    "Common Showdown": {
+  "펌킨인": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -1325,19 +1325,19 @@ var SETDEX_SHOWDOWN={
         "sd": 252,
         "sp": 0
       },
-      "nature": "Careful",
+      "nature": "신중",
       "ability": "",
-      "item": "Leftovers",
+      "item": "먹다남은음식",
       "moves": [
-        "Phantom Force",
-        "Seed Bomb",
-        "Shadow Sneak",
-        "Explosion"
+        "고스트다이브",
+        "씨폭탄",
+        "야습",
+        "대폭발"
       ]
     }
   },
-  "Solrock": {
-    "Common Showdown": {
+  "솔록": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -1347,19 +1347,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 0
       },
-      "nature": "Brave",
-      "ability": "Levitate",
+      "nature": "용감",
+      "ability": "부유",
       "item": "",
       "moves": [
-        "Rock Slide",
-        "Zen Headbutt",
-        "Earthquake",
-        "Rock Tomb"
+        "스톤샤워",
+        "사념의박치기",
+        "지진",
+        "암석봉인"
       ]
     }
   },
-  "Gourgeist-Small": {
-    "Common Showdown": {
+  "펌킨인-소": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -1369,19 +1369,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Timid",
+      "nature": "겁쟁이",
       "ability": "",
-      "item": "Choice Scarf",
+      "item": "구애스카프",
       "moves": [
-        "Phantom Force",
-        "Seed Bomb",
-        "Shadow Sneak",
-        "Rock Slide"
+        "고스트다이브",
+        "씨폭탄",
+        "야습",
+        "스톤샤워"
       ]
     }
   },
-  "Trevenant": {
-    "Common Showdown": {
+  "대로트": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 248,
@@ -1391,19 +1391,19 @@ var SETDEX_SHOWDOWN={
         "sd": 252,
         "sp": 0
       },
-      "nature": "Careful",
+      "nature": "신중",
       "ability": "",
-      "item": "Sitrus Berry",
+      "item": "자뭉열매",
       "moves": [
-        "Horn Leech",
-        "Shadow Claw",
-        "Phantom Force",
-        "Wood Hammer"
+        "우드호른",
+        "섀도크루",
+        "고스트다이브",
+        "우드해머"
       ]
     }
   },
-  "Octillery": {
-    "Common Showdown": {
+  "대포무노": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -1413,19 +1413,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 0
       },
-      "nature": "Quiet",
-      "ability": "Sniper",
-      "item": "Mystic Water",
+      "nature": "냉정",
+      "ability": "스나이퍼",
+      "item": "신비의물방울",
       "moves": [
-        "Water Spout",
-        "Energy Ball",
-        "Ice Beam",
-        "Scald"
+        "해수스파우팅",
+        "에너지볼",
+        "냉동빔",
+        "열탕"
       ]
     }
   },
-  "Electabuzz": {
-    "Common Showdown": {
+  "에레브": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -1435,19 +1435,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 0
       },
-      "nature": "Bold",
+      "nature": "대담",
       "ability": "",
-      "item": "Eviolite",
+      "item": "진화의휘석",
       "moves": [
-        "Feint",
-        "Thunderbolt",
-        "Hidden Power Ice",
-        "Volt Switch"
+        "페인트",
+        "10만볼트",
+        "잠재파워-얼음",
+        "볼트체인지"
       ]
     }
   },
-  "Pikachu": {
-    "Common Showdown": {
+  "피카츄": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -1457,19 +1457,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Jolly",
-      "ability": "Lightning Rod",
-      "item": "Light Ball",
+      "nature": "명랑",
+      "ability": "피뢰침",
+      "item": "전기구슬",
       "moves": [
-        "Fake Out",
-        "Volt Tackle",
-        "Thunderbolt",
-        "Knock Off"
+        "속이다",
+        "볼트태클",
+        "10만볼트",
+        "탁쳐서떨구기"
       ]
     }
   },
-  "Zoroark": {
-    "Common Showdown": {
+  "조로아크": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -1479,19 +1479,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 252
       },
-      "nature": "Timid",
+      "nature": "겁쟁이",
       "ability": "",
       "item": "",
       "moves": [
-        "Flamethrower",
-        "Night Daze",
-        "Dark Pulse",
-        "Knock Off"
+        "화염방사",
+        "나이트버스트",
+        "악의파동",
+        "탁쳐서떨구기"
       ]
     }
   },
-  "Jynx": {
-    "Common Showdown": {
+  "루주라": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -1501,19 +1501,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 0
       },
-      "nature": "Mild",
+      "nature": "의젓",
       "ability": "",
       "item": "",
       "moves": [
-        "Ice Beam",
-        "Fake Out",
-        "Psychic",
-        "Blizzard"
+        "냉동빔",
+        "속이다",
+        "사이코키네시스",
+        "눈보라"
       ]
     }
   },
-  "Galvantula": {
-    "Common Showdown": {
+  "전툴라": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -1523,19 +1523,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 252
       },
-      "nature": "Timid",
+      "nature": "겁쟁이",
       "ability": "",
       "item": "",
       "moves": [
-        "Thunder",
-        "Bug Buzz",
-        "Energy Ball",
-        "Volt Switch"
+        "번개",
+        "벌레의야단법석",
+        "에너지볼",
+        "볼트체인지"
       ]
     }
   },
-  "Hitmonchan": {
-    "Common Showdown": {
+  "홍수몬": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -1545,19 +1545,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 0
       },
-      "nature": "Adamant",
+      "nature": "고집",
       "ability": "",
-      "item": "Lum Berry",
+      "item": "리샘열매",
       "moves": [
-        "Fake Out",
-        "Close Combat",
-        "Rock Slide",
-        "Ice Punch"
+        "속이다",
+        "인파이트",
+        "스톤샤워",
+        "냉동펀치"
       ]
     }
   },
-  "Clefable": {
-    "Common Showdown": {
+  "픽시": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -1567,19 +1567,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 0
       },
-      "nature": "Bold",
-      "ability": "Magic Guard",
-      "item": "Leftovers",
+      "nature": "대담",
+      "ability": "매직가드",
+      "item": "먹다남은음식",
       "moves": [
-        "Moonblast",
-        "Ice Beam",
-        "Dazzling Gleam",
-        "Icy Wind"
+        "문포스",
+        "냉동빔",
+        "매지컬샤인",
+        "얼다바람"
       ]
     }
   },
-  "Sigilyph": {
-    "Common Showdown": {
+  "심보러": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 248,
@@ -1589,19 +1589,19 @@ var SETDEX_SHOWDOWN={
         "sd": 252,
         "sp": 0
       },
-      "nature": "Calm",
-      "ability": "Magic Guard",
-      "item": "Flame Orb",
+      "nature": "차분",
+      "ability": "매직가드",
+      "item": "화염구슬",
       "moves": [
-        "Stored Power",
-        "Air Slash",
-        "Psychic",
-        "Heat Wave"
+        "어시스트파워",
+        "에어슬래시",
+        "사이코키네시스",
+        "열풍"
       ]
     }
   },
-  "Qwilfish": {
-    "Common Showdown": {
+  "침바루": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -1611,19 +1611,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Adamant",
-      "ability": "Intimidate",
-      "item": "Life Orb",
+      "nature": "고집",
+      "ability": "괴력집게",
+      "item": "생명의구슬",
       "moves": [
-        "Poison Jab",
-        "Waterfall",
-        "Aqua Jet",
-        "Icy Wind"
+        "독찌르기",
+        "폭포오르기",
+        "아쿠아제트",
+        "얼다바람"
       ]
     }
   },
-  "Latios": {
-    "Common Showdown": {
+  "라티오스": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -1633,19 +1633,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 252
       },
-      "nature": "Timid",
-      "ability": "Levitate",
-      "item": "Life Orb",
+      "nature": "겁쟁이",
+      "ability": "부유",
+      "item": "생명의구슬",
       "moves": [
-        "Draco Meteor",
-        "Psychic",
-        "Psyshock",
-        "Ice Beam"
+        "용성군",
+        "사이코키네시스",
+        "사이코쇼크",
+        "냉동빔"
       ]
     }
   },
-  "Claydol": {
-    "Common Showdown": {
+  "점토도리": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -1655,19 +1655,19 @@ var SETDEX_SHOWDOWN={
         "sd": 252,
         "sp": 0
       },
-      "nature": "Sassy",
-      "ability": "Levitate",
-      "item": "Leftovers",
+      "nature": "건방",
+      "ability": "부유",
+      "item": "먹다남은음식",
       "moves": [
-        "Earth Power",
-        "Psychic",
-        "Ice Beam",
-        "Rapid Spin"
+        "대지의힘",
+        "사이코키네시스",
+        "냉동빔",
+        "고속스핀"
       ]
     }
   },
-  "Sudowoodo": {
-    "Common Showdown": {
+  "꼬지모": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 248,
@@ -1677,19 +1677,19 @@ var SETDEX_SHOWDOWN={
         "sd": 8,
         "sp": 0
       },
-      "nature": "Adamant",
+      "nature": "고집",
       "ability": "",
-      "item": "Assault Vest",
+      "item": "돌격조끼",
       "moves": [
-        "Wood Hammer",
-        "Rock Slide",
-        "Sucker Punch",
-        "Earthquake"
+        "우드해머",
+        "스톤샤워",
+        "기습",
+        "지진"
       ]
     }
   },
-  "Starmie": {
-    "Common Showdown": {
+  "아쿠스타": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -1699,19 +1699,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 252
       },
-      "nature": "Timid",
+      "nature": "겁쟁이",
       "ability": "",
-      "item": "Life Orb",
+      "item": "생명의구슬",
       "moves": [
-        "Ice Beam",
-        "Scald",
-        "Psychic",
-        "Hydro Pump"
+        "냉동빔",
+        "열탕",
+        "사이코키네시스",
+        "하이드로펌프"
       ]
     }
   },
-  "Tangrowth": {
-    "Common Showdown": {
+  "덩쿠림보": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -1721,19 +1721,19 @@ var SETDEX_SHOWDOWN={
         "sd": 252,
         "sp": 0
       },
-      "nature": "Calm",
+      "nature": "차분",
       "ability": "",
       "item": "",
       "moves": [
-        "Giga Drain",
-        "Leaf Storm",
-        "Knock Off",
-        "Sludge Bomb"
+        "기가드레인",
+        "리프스톰",
+        "탁쳐서떨구기",
+        "오물폭탄"
       ]
     }
   },
-  "Ninetales": {
-    "Common Showdown": {
+  "나인테일": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -1743,19 +1743,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Timid",
-      "ability": "Drought",
-      "item": "Choice Scarf",
+      "nature": "겁쟁이",
+      "ability": "가뭄",
+      "item": "구애스카프",
       "moves": [
-        "Solar Beam",
-        "Heat Wave",
-        "Overheat",
-        "Extrasensory"
+        "솔라빔",
+        "열풍",
+        "오버히트",
+        "신통력"
       ]
     }
   },
-  "Azumarill": {
-    "Common Showdown": {
+  "마릴리": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 196,
@@ -1765,19 +1765,19 @@ var SETDEX_SHOWDOWN={
         "sd": 12,
         "sp": 28
       },
-      "nature": "Adamant",
-      "ability": "Huge Power",
-      "item": "Sitrus Berry",
+      "nature": "고집",
+      "ability": "천하장사",
+      "item": "자뭉열매",
       "moves": [
-        "Aqua Jet",
-        "Play Rough",
-        "Waterfall",
-        "Superpower"
+        "아쿠아제트",
+        "치근거리기",
+        "폭포오르기",
+        "엄청난힘"
       ]
     }
   },
-  "Glalie": {
-    "Common Showdown": {
+  "얼음귀신": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -1787,19 +1787,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Jolly",
+      "nature": "명랑",
       "ability": "",
-      "item": "Glalitite",
+      "item": "얼음귀신나이트",
       "moves": [
-        "Explosion",
-        "Return",
-        "Ice Shard",
-        "Earthquake"
+        "대폭발",
+        "은혜갚기",
+        "얼음뭉치",
+        "지진"
       ]
     }
   },
-  "Camerupt": {
-    "Common Showdown": {
+  "폭타": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -1809,19 +1809,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 0
       },
-      "nature": "Quiet",
-      "ability": "Solid Rock",
-      "item": "Cameruptite",
+      "nature": "냉정",
+      "ability": "하드록",
+      "item": "폭타나이트",
       "moves": [
-        "Earth Power",
-        "Heat Wave",
-        "Ancient Power",
-        "Eruption"
+        "대지의힘",
+        "열풍",
+        "원시의힘",
+        "분화"
       ]
     }
   },
-  "Hydreigon": {
-    "Common Showdown": {
+  "삼삼드래": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -1831,19 +1831,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Modest",
-      "ability": "Levitate",
-      "item": "Choice Specs",
+      "nature": "조심",
+      "ability": "부유",
+      "item": "구애안경",
       "moves": [
-        "Dark Pulse",
-        "Draco Meteor",
-        "Earth Power",
-        "Flamethrower"
+        "악의파동",
+        "용성군",
+        "대지의힘",
+        "화염방사"
       ]
     }
   },
-  "Carracosta": {
-    "Common Showdown": {
+  "늑골라": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -1853,19 +1853,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 0
       },
-      "nature": "Brave",
+      "nature": "용감",
       "ability": "",
       "item": "",
       "moves": [
-        "Aqua Jet",
-        "Rock Slide",
-        "Stone Edge",
-        "Aqua Tail"
+        "아쿠아제트",
+        "스톤샤워",
+        "스톤에지",
+        "아쿠아테일"
       ]
     }
   },
-  "Eelektrik": {
-    "Common Showdown": {
+  "저리릴": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -1875,19 +1875,19 @@ var SETDEX_SHOWDOWN={
         "sd": 128,
         "sp": 0
       },
-      "nature": "Impish",
-      "ability": "Levitate",
-      "item": "Eviolite",
+      "nature": "장난꾸러기",
+      "ability": "부유",
+      "item": "진화의휘석",
       "moves": [
-        "Knock Off",
-        "Discharge",
-        "Giga Drain",
-        "Thunderbolt"
+        "탁쳐서떨구기",
+        "방전",
+        "기가드레인",
+        "10만볼트"
       ]
     }
   },
-  "Gallade": {
-    "Common Showdown": {
+  "엘레이드": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -1897,19 +1897,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Jolly",
+      "nature": "명랑",
       "ability": "",
-      "item": "Galladite",
+      "item": "엘레이드나이트",
       "moves": [
-        "Close Combat",
-        "Psycho Cut",
-        "Zen Headbutt",
-        "Ice Punch"
+        "인파이트",
+        "사이코커터",
+        "사념의박치기",
+        "냉동펀치"
       ]
     }
   },
-  "Weezing": {
-    "Common Showdown": {
+  "또도가스": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -1919,19 +1919,19 @@ var SETDEX_SHOWDOWN={
         "sd": 252,
         "sp": 0
       },
-      "nature": "Calm",
-      "ability": "Levitate",
-      "item": "Black Sludge",
+      "nature": "차분",
+      "ability": "부유",
+      "item": "검은진흙",
       "moves": [
-        "Sludge Bomb",
-        "Flamethrower",
-        "Thunderbolt",
-        "Fire Blast"
+        "오물폭탄",
+        "화염방사",
+        "10만볼트",
+        "불대문자"
       ]
     }
   },
-  "Swoobat": {
-    "Common Showdown": {
+  "맘박쥐": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -1941,19 +1941,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Timid",
-      "ability": "Simple",
+      "nature": "겁쟁이",
+      "ability": "단순",
       "item": "",
       "moves": [
-        "Stored Power",
-        "Air Slash",
-        "Psychic",
-        "Shadow Ball"
+        "어시스트파워",
+        "에어슬래시",
+        "사이코키네시스",
+        "섀도볼"
       ]
     }
   },
-  "Spiritomb": {
-    "Common Showdown": {
+  "화강돌": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -1963,19 +1963,19 @@ var SETDEX_SHOWDOWN={
         "sd": 252,
         "sp": 0
       },
-      "nature": "Quiet",
-      "ability": "Infiltrator",
-      "item": "Leftovers",
+      "nature": "냉정",
+      "ability": "틈새포착",
+      "item": "먹다남은음식",
       "moves": [
-        "Snarl",
-        "Foul Play",
-        "Icy Wind",
-        "Dark Pulse"
+        "바크아웃",
+        "속임수",
+        "얼다바람",
+        "악의파동"
       ]
     }
   },
-  "Liepard": {
-    "Common Showdown": {
+  "레파르다스": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -1985,19 +1985,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Jolly",
+      "nature": "명랑",
       "ability": "",
       "item": "",
       "moves": [
-        "Fake Out",
-        "Foul Play",
-        "Knock Off",
-        "Dark Pulse"
+        "속이다",
+        "속임수",
+        "탁쳐서떨구기",
+        "악의파동"
       ]
     }
   },
-  "Snorlax": {
-    "Common Showdown": {
+  "잠만보": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -2007,19 +2007,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 0
       },
-      "nature": "Brave",
-      "ability": "Thick Fat",
-      "item": "Chesto Berry",
+      "nature": "용감",
+      "ability": "두꺼운지방",
+      "item": "유루열매",
       "moves": [
-        "Self-Destruct",
-        "Crunch",
-        "Earthquake",
-        "Rock Slide"
+        "자폭",
+        "깨물어부수기",
+        "지진",
+        "스톤샤워"
       ]
     }
   },
-  "Kangaskhan": {
-    "Common Showdown": {
+  "캥카": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -2029,19 +2029,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Jolly",
-      "ability": "Scrappy",
-      "item": "Kangaskhanite",
+      "nature": "명랑",
+      "ability": "배짱",
+      "item": "캥카나이트",
       "moves": [
-        "Sucker Punch",
-        "Fake Out",
-        "Double-Edge",
-        "Low Kick"
+        "기습",
+        "속이다",
+        "이판사판태클",
+        "안다리걸기"
       ]
     }
   },
-  "Tropius": {
-    "Common Showdown": {
+  "트로피우스": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -2051,19 +2051,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Timid",
+      "nature": "겁쟁이",
       "ability": "",
-      "item": "Sitrus Berry",
+      "item": "자뭉열매",
       "moves": [
-        "Giga Drain",
-        "Air Slash",
-        "Leaf Storm",
-        "Hidden Power Ice"
+        "기가드레인",
+        "에어슬래시",
+        "리프스톰",
+        "잠재파워-얼음"
       ]
     }
   },
-  "Aron": {
-    "Common Showdown": {
+  "가보리": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 84,
@@ -2073,19 +2073,19 @@ var SETDEX_SHOWDOWN={
         "sd": 84,
         "sp": 84
       },
-      "nature": "Hardy",
+      "nature": "노력",
       "ability": "",
       "item": "",
       "moves": [
-        "Bulldoze",
-        "Aerial Ace",
-        "Hidden Power Rock",
-        "Rock Slide"
+        "땅고르기",
+        "제비반환",
+        "잠재파워-바위",
+        "스톤샤워"
       ]
     }
   },
-  "Machamp": {
-    "Common Showdown": {
+  "괴력몬": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -2095,19 +2095,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 0
       },
-      "nature": "Adamant",
+      "nature": "고집",
       "ability": "",
-      "item": "Lum Berry",
+      "item": "리샘열매",
       "moves": [
-        "Dynamic Punch",
-        "Ice Punch",
-        "Knock Off",
-        "Bullet Punch"
+        "폭발펀치",
+        "냉동펀치",
+        "탁쳐서떨구기",
+        "불릿펀치"
       ]
     }
   },
-  "Exeggutor": {
-    "Common Showdown": {
+  "나시": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -2117,19 +2117,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Modest",
+      "nature": "조심",
       "ability": "",
-      "item": "Sitrus Berry",
+      "item": "자뭉열매",
       "moves": [
-        "Psychic",
-        "Giga Drain",
-        "Psyshock",
-        "Leaf Storm"
+        "사이코키네시스",
+        "기가드레인",
+        "사이코쇼크",
+        "리프스톰"
       ]
     }
   },
-  "Parasect": {
-    "Common Showdown": {
+  "파라섹트": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 188,
@@ -2139,19 +2139,19 @@ var SETDEX_SHOWDOWN={
         "sd": 52,
         "sp": 12
       },
-      "nature": "Impish",
-      "ability": "Dry Skin",
-      "item": "Sitrus Berry",
+      "nature": "장난꾸러기",
+      "ability": "건조피부",
+      "item": "자뭉열매",
       "moves": [
-        "Seed Bomb",
-        "Knock Off",
-        "Giga Drain",
-        "X-Scissor"
+        "씨폭탄",
+        "탁쳐서떨구기",
+        "기가드레인",
+        "시저크로스"
       ]
     }
   },
-  "Cobalion": {
-    "Common Showdown": {
+  "코바르온": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -2161,19 +2161,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Jolly",
+      "nature": "명랑",
       "ability": "",
-      "item": "Life Orb",
+      "item": "생명의구슬",
       "moves": [
-        "Iron Head",
-        "Close Combat",
-        "Stone Edge",
-        "Sacred Sword"
+        "아이언헤드",
+        "인파이트",
+        "스톤에지",
+        "성스러운칼"
       ]
     }
   },
-  "Minun": {
-    "Common Showdown": {
+  "마이농": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 248,
@@ -2183,19 +2183,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Hasty",
+      "nature": "성급",
       "ability": "",
-      "item": "Sitrus Berry",
+      "item": "자뭉열매",
       "moves": [
-        "Thunderbolt",
-        "Discharge",
-        "Volt Switch",
-        "Charge Beam"
+        "10만볼트",
+        "방전",
+        "볼트체인지",
+        "차지빔"
       ]
     }
   },
-  "Ditto": {
-    "Common Showdown": {
+  "메타몽": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -2205,14 +2205,14 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Hasty",
+      "nature": "성급",
       "ability": "",
-      "item": "Choice Scarf",
+      "item": "구애스카프",
       "moves": []
     }
   },
-  "Eelektross": {
-    "Common Showdown": {
+  "저리더프": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -2222,19 +2222,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 0
       },
-      "nature": "Modest",
-      "ability": "Levitate",
-      "item": "Assault Vest",
+      "nature": "조심",
+      "ability": "부유",
+      "item": "돌격조끼",
       "moves": [
-        "Flamethrower",
-        "Thunderbolt",
-        "Giga Drain",
-        "Hidden Power Ice"
+        "화염방사",
+        "10만볼트",
+        "기가드레인",
+        "잠재파워-얼음"
       ]
     }
   },
-  "Sharpedo": {
-    "Common Showdown": {
+  "샤크니아": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -2244,19 +2244,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 252
       },
-      "nature": "Adamant",
+      "nature": "고집",
       "ability": "",
-      "item": "Sharpedonite",
+      "item": "샤크니아나이트",
       "moves": [
-        "Crunch",
-        "Waterfall",
-        "Ice Fang",
-        "Aqua Jet"
+        "깨물어부수기",
+        "폭포오르기",
+        "얼음엄니",
+        "아쿠아제트"
       ]
     }
   },
-  "Mesprit": {
-    "Common Showdown": {
+  "엠라이트": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -2266,19 +2266,19 @@ var SETDEX_SHOWDOWN={
         "sd": 84,
         "sp": 0
       },
-      "nature": "Bold",
-      "ability": "Levitate",
-      "item": "Sitrus Berry",
+      "nature": "대담",
+      "ability": "부유",
+      "item": "자뭉열매",
       "moves": [
-        "Psychic",
-        "Ice Beam",
-        "Thunderbolt",
-        "Dazzling Gleam"
+        "사이코키네시스",
+        "냉동빔",
+        "10만볼트",
+        "매지컬샤인"
       ]
     }
   },
-  "Bisharp": {
-    "Common Showdown": {
+  "절각참": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -2288,19 +2288,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Adamant",
-      "ability": "Defiant",
-      "item": "Life Orb",
+      "nature": "고집",
+      "ability": "오기",
+      "item": "생명의구슬",
       "moves": [
-        "Iron Head",
-        "Sucker Punch",
-        "Knock Off",
-        "Low Kick"
+        "아이언헤드",
+        "기습",
+        "탁쳐서떨구기",
+        "안다리걸기"
       ]
     }
   },
-  "Zangoose": {
-    "Common Showdown": {
+  "쟝고": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -2310,19 +2310,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Adamant",
-      "ability": "Toxic Boost",
-      "item": "Toxic Orb",
+      "nature": "고집",
+      "ability": "독폭주",
+      "item": "맹독구슬",
       "moves": [
-        "Facade",
-        "Close Combat",
-        "Shadow Claw",
-        "Knock Off"
+        "객기",
+        "인파이트",
+        "섀도크루",
+        "탁쳐서떨구기"
       ]
     }
   },
-  "Florges": {
-    "Common Showdown": {
+  "플라제스": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 244,
@@ -2332,19 +2332,19 @@ var SETDEX_SHOWDOWN={
         "sd": 44,
         "sp": 4
       },
-      "nature": "Calm",
+      "nature": "차분",
       "ability": "",
-      "item": "Leftovers",
+      "item": "먹다남은음식",
       "moves": [
-        "Moonblast",
-        "Dazzling Gleam",
-        "Psychic",
-        "Giga Drain"
+        "문포스",
+        "매지컬샤인",
+        "사이코키네시스",
+        "기가드레인"
       ]
     }
   },
-  "Nidoqueen": {
-    "Common Showdown": {
+  "니드퀸": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -2354,19 +2354,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 0
       },
-      "nature": "Modest",
-      "ability": "Sheer Force",
-      "item": "Life Orb",
+      "nature": "조심",
+      "ability": "우격다짐",
+      "item": "생명의구슬",
       "moves": [
-        "Earth Power",
-        "Sludge Bomb",
-        "Ice Beam",
-        "Thunderbolt"
+        "대지의힘",
+        "오물폭탄",
+        "냉동빔",
+        "10만볼트"
       ]
     }
   },
-  "Altaria": {
-    "Common Showdown": {
+  "파비코리": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -2376,19 +2376,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 60
       },
-      "nature": "Modest",
-      "ability": "Cloud Nine",
-      "item": "Altarianite",
+      "nature": "조심",
+      "ability": "날씨부정",
+      "item": "파비코리나이트",
       "moves": [
-        "Hyper Voice",
-        "Fire Blast",
-        "Draco Meteor",
-        "Flamethrower"
+        "하이퍼보이스",
+        "불대문자",
+        "용성군",
+        "화염방사"
       ]
     }
   },
-  "Togekiss": {
-    "Common Showdown": {
+  "토게키스": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 236,
@@ -2398,19 +2398,19 @@ var SETDEX_SHOWDOWN={
         "sd": 12,
         "sp": 60
       },
-      "nature": "Bold",
+      "nature": "대담",
       "ability": "",
-      "item": "Sitrus Berry",
+      "item": "자뭉열매",
       "moves": [
-        "Air Slash",
-        "Dazzling Gleam",
-        "Aura Sphere",
-        "Flamethrower"
+        "에어슬래시",
+        "매지컬샤인",
+        "파동탄",
+        "화염방사"
       ]
     }
   },
-  "Venusaur": {
-    "Common Showdown": {
+  "이상해꽃": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -2420,19 +2420,19 @@ var SETDEX_SHOWDOWN={
         "sd": 52,
         "sp": 4
       },
-      "nature": "Bold",
-      "ability": "Chlorophyll",
-      "item": "Venusaurite",
+      "nature": "대담",
+      "ability": "엽록소",
+      "item": "이상해꽃나이트",
       "moves": [
-        "Sludge Bomb",
-        "Giga Drain",
-        "Hidden Power Ice",
-        "Hidden Power Ground"
+        "오물폭탄",
+        "기가드레인",
+        "잠재파워-얼음",
+        "잠재파워-땅"
       ]
     }
   },
-  "Blastoise": {
-    "Common Showdown": {
+  "거북왕": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 248,
@@ -2442,19 +2442,19 @@ var SETDEX_SHOWDOWN={
         "sd": 8,
         "sp": 0
       },
-      "nature": "Modest",
-      "ability": "Torrent",
-      "item": "Blastoisinite",
+      "nature": "조심",
+      "ability": "급류",
+      "item": "거북왕나이트",
       "moves": [
-        "Aura Sphere",
-        "Ice Beam",
-        "Water Spout",
-        "Dark Pulse"
+        "파동탄",
+        "냉동빔",
+        "해수스파우팅",
+        "악의파동"
       ]
     }
   },
-  "Pachirisu": {
-    "Common Showdown": {
+  "파치리스": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -2464,19 +2464,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 0
       },
-      "nature": "Impish",
-      "ability": "Volt Absorb",
-      "item": "Sitrus Berry",
+      "nature": "장난꾸러기",
+      "ability": "축전",
+      "item": "자뭉열매",
       "moves": [
-        "Discharge",
-        "Volt Switch",
-        "Thunder Punch",
-        "Thunderbolt"
+        "방전",
+        "볼트체인지",
+        "번개펀치",
+        "10만볼트"
       ]
     }
   },
-  "Klefki": {
-    "Common Showdown": {
+  "클레피": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 248,
@@ -2486,19 +2486,19 @@ var SETDEX_SHOWDOWN={
         "sd": 8,
         "sp": 0
       },
-      "nature": "Bold",
+      "nature": "대담",
       "ability": "",
       "item": "",
       "moves": [
-        "Foul Play",
-        "Dazzling Gleam",
-        "Draining Kiss",
-        "Flash Cannon"
+        "속임수",
+        "매지컬샤인",
+        "드레인키스",
+        "러스터캐논"
       ]
     }
   },
-  "Jigglypuff": {
-    "Common Showdown": {
+  "푸린": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -2508,19 +2508,19 @@ var SETDEX_SHOWDOWN={
         "sd": 252,
         "sp": 0
       },
-      "nature": "Relaxed",
+      "nature": "무사태평",
       "ability": "",
-      "item": "Eviolite",
+      "item": "진화의휘석",
       "moves": [
-        "Dazzling Gleam",
-        "Icy Wind",
-        "Knock Off",
-        "Drain Punch"
+        "매지컬샤인",
+        "얼다바람",
+        "탁쳐서떨구기",
+        "드레인펀치"
       ]
     }
   },
-  "Kecleon": {
-    "Common Showdown": {
+  "켈리몬": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 248,
@@ -2530,19 +2530,19 @@ var SETDEX_SHOWDOWN={
         "sd": 8,
         "sp": 0
       },
-      "nature": "Adamant",
-      "ability": "Protean",
-      "item": "Assault Vest",
+      "nature": "고집",
+      "ability": "변환자재",
+      "item": "돌격조끼",
       "moves": [
-        "Sucker Punch",
-        "Fake Out",
-        "Shadow Sneak",
-        "Drain Punch"
+        "기습",
+        "속이다",
+        "야습",
+        "드레인펀치"
       ]
     }
   },
-  "Throh": {
-    "Common Showdown": {
+  "던지미": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -2552,19 +2552,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 0
       },
-      "nature": "Adamant",
+      "nature": "고집",
       "ability": "",
-      "item": "Assault Vest",
+      "item": "돌격조끼",
       "moves": [
-        "Knock Off",
-        "Storm Throw",
-        "Ice Punch",
-        "Rock Slide"
+        "탁쳐서떨구기",
+        "업어후리기",
+        "냉동펀치",
+        "스톤샤워"
       ]
     }
   },
-  "Wigglytuff": {
-    "Common Showdown": {
+  "푸크린": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -2574,19 +2574,19 @@ var SETDEX_SHOWDOWN={
         "sd": 12,
         "sp": 68
       },
-      "nature": "Modest",
+      "nature": "조심",
       "ability": "",
-      "item": "Assault Vest",
+      "item": "돌격조끼",
       "moves": [
-        "Dazzling Gleam",
-        "Fire Blast",
-        "Thunderbolt",
-        "Ice Beam"
+        "매지컬샤인",
+        "불대문자",
+        "10만볼트",
+        "냉동빔"
       ]
     }
   },
-  "Dusknoir": {
-    "Common Showdown": {
+  "야느와르몽": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -2596,19 +2596,19 @@ var SETDEX_SHOWDOWN={
         "sd": 252,
         "sp": 0
       },
-      "nature": "Sassy",
+      "nature": "건방",
       "ability": "",
       "item": "",
       "moves": [
-        "Shadow Sneak",
-        "Night Shade",
-        "Ice Punch",
-        "Rock Slide"
+        "야습",
+        "나이트헤드",
+        "냉동펀치",
+        "스톤샤워"
       ]
     }
   },
-  "Girafarig": {
-    "Common Showdown": {
+  "키링키": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -2618,19 +2618,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Jolly",
-      "ability": "Sap Sipper",
+      "nature": "명랑",
+      "ability": "초식",
       "item": "",
       "moves": [
-        "Hyper Voice",
-        "Foul Play",
-        "Psyshock",
-        "Psychic"
+        "하이퍼보이스",
+        "속임수",
+        "사이코쇼크",
+        "사이코키네시스"
       ]
     }
   },
-  "Granbull": {
-    "Common Showdown": {
+  "그랑블루": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -2640,19 +2640,19 @@ var SETDEX_SHOWDOWN={
         "sd": 76,
         "sp": 0
       },
-      "nature": "Adamant",
-      "ability": "Intimidate",
-      "item": "Assault Vest",
+      "nature": "고집",
+      "ability": "괴력집게",
+      "item": "돌격조끼",
       "moves": [
-        "Play Rough",
-        "Rock Slide",
-        "Ice Punch",
-        "Close Combat"
+        "치근거리기",
+        "스톤샤워",
+        "냉동펀치",
+        "인파이트"
       ]
     }
   },
-  "Kabutops": {
-    "Common Showdown": {
+  "투구푸스": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -2662,19 +2662,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 252
       },
-      "nature": "Adamant",
-      "ability": "Swift Swim",
-      "item": "Life Orb",
+      "nature": "고집",
+      "ability": "쓱쓱",
+      "item": "생명의구슬",
       "moves": [
-        "Rock Slide",
-        "Waterfall",
-        "Low Kick",
-        "Aqua Jet"
+        "스톤샤워",
+        "폭포오르기",
+        "안다리걸기",
+        "아쿠아제트"
       ]
     }
   },
-  "Sylveon": {
-    "Common Showdown": {
+  "님피아": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 248,
@@ -2684,19 +2684,19 @@ var SETDEX_SHOWDOWN={
         "sd": 8,
         "sp": 0
       },
-      "nature": "Modest",
-      "ability": "Pixilate",
-      "item": "Choice Specs",
+      "nature": "조심",
+      "ability": "페어리스킨",
+      "item": "구애안경",
       "moves": [
-        "Hyper Voice",
-        "Psyshock",
-        "Shadow Ball",
-        "Hidden Power Ground"
+        "하이퍼보이스",
+        "사이코쇼크",
+        "섀도볼",
+        "잠재파워-땅"
       ]
     }
   },
-  "Steelix": {
-    "Common Showdown": {
+  "강철톤": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -2706,19 +2706,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 0
       },
-      "nature": "Brave",
+      "nature": "용감",
       "ability": "",
-      "item": "Steelixite",
+      "item": "강철톤나이트",
       "moves": [
-        "Earthquake",
-        "Rock Slide",
-        "Gyro Ball",
-        "Heavy Slam"
+        "지진",
+        "스톤샤워",
+        "자이로볼",
+        "헤비봄버"
       ]
     }
   },
-  "Dedenne": {
-    "Common Showdown": {
+  "데덴네": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -2728,19 +2728,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Jolly",
+      "nature": "명랑",
       "ability": "",
-      "item": "Sitrus Berry",
+      "item": "자뭉열매",
       "moves": [
-        "Volt Switch",
-        "Play Rough",
-        "Grass Knot",
-        "Thunder"
+        "볼트체인지",
+        "치근거리기",
+        "풀묶기",
+        "번개"
       ]
     }
   },
-  "Slaking": {
-    "Common Showdown": {
+  "게을킹": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -2750,19 +2750,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 252
       },
-      "nature": "Jolly",
+      "nature": "명랑",
       "ability": "",
-      "item": "Assault Vest",
+      "item": "돌격조끼",
       "moves": [
-        "Return",
-        "Earthquake",
-        "Ice Punch",
-        "Gunk Shot"
+        "은혜갚기",
+        "지진",
+        "냉동펀치",
+        "더스트슈트"
       ]
     }
   },
-  "Scyther": {
-    "Common Showdown": {
+  "스라크": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -2772,19 +2772,19 @@ var SETDEX_SHOWDOWN={
         "sd": 120,
         "sp": 144
       },
-      "nature": "Jolly",
-      "ability": "Technician",
-      "item": "Eviolite",
+      "nature": "명랑",
+      "ability": "테크니션",
+      "item": "진화의휘석",
       "moves": [
-        "Aerial Ace",
-        "Bug Bite",
-        "Knock Off",
-        "Quick Attack"
+        "제비반환",
+        "벌레먹음",
+        "탁쳐서떨구기",
+        "전광석화"
       ]
     }
   },
-  "Honchkrow": {
-    "Common Showdown": {
+  "돈크로우": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 248,
@@ -2794,19 +2794,19 @@ var SETDEX_SHOWDOWN={
         "sd": 8,
         "sp": 0
       },
-      "nature": "Adamant",
+      "nature": "고집",
       "ability": "",
-      "item": "Life Orb",
+      "item": "생명의구슬",
       "moves": [
-        "Sucker Punch",
-        "Brave Bird",
-        "Superpower",
-        "Night Slash"
+        "기습",
+        "브레이브버드",
+        "엄청난힘",
+        "깜짝베기"
       ]
     }
   },
-  "Magnezone": {
-    "Common Showdown": {
+  "자포코일": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 248,
@@ -2816,19 +2816,19 @@ var SETDEX_SHOWDOWN={
         "sd": 8,
         "sp": 0
       },
-      "nature": "Modest",
+      "nature": "조심",
       "ability": "",
-      "item": "Air Balloon",
+      "item": "풍선",
       "moves": [
-        "Flash Cannon",
-        "Thunderbolt",
-        "Hidden Power Fire",
-        "Volt Switch"
+        "러스터캐논",
+        "10만볼트",
+        "잠재파워-불",
+        "볼트체인지"
       ]
     }
   },
-  "Togetic": {
-    "Common Showdown": {
+  "토게틱": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 248,
@@ -2838,19 +2838,19 @@ var SETDEX_SHOWDOWN={
         "sd": 252,
         "sp": 0
       },
-      "nature": "Calm",
+      "nature": "차분",
       "ability": "",
-      "item": "Eviolite",
+      "item": "진화의휘석",
       "moves": [
-        "Dazzling Gleam",
-        "Heat Wave",
-        "Aerial Ace",
-        "Flamethrower"
+        "매지컬샤인",
+        "열풍",
+        "제비반환",
+        "화염방사"
       ]
     }
   },
-  "Houndoom": {
-    "Common Showdown": {
+  "헬가": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -2860,19 +2860,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 252
       },
-      "nature": "Timid",
-      "ability": "Flash Fire",
-      "item": "Houndoominite",
+      "nature": "겁쟁이",
+      "ability": "타오르는불꽃",
+      "item": "헬가나이트",
       "moves": [
-        "Dark Pulse",
-        "Heat Wave",
-        "Flamethrower",
-        "Solar Beam"
+        "악의파동",
+        "열풍",
+        "화염방사",
+        "솔라빔"
       ]
     }
   },
-  "Quagsire": {
-    "Common Showdown": {
+  "누오": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -2882,19 +2882,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 0
       },
-      "nature": "Bold",
-      "ability": "Unaware",
-      "item": "Leftovers",
+      "nature": "대담",
+      "ability": "천진",
+      "item": "먹다남은음식",
       "moves": [
-        "Scald",
-        "Earthquake",
-        "Waterfall",
-        "Earth Power"
+        "열탕",
+        "지진",
+        "폭포오르기",
+        "대지의힘"
       ]
     }
   },
-  "Masquerain": {
-    "Common Showdown": {
+  "비나방": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -2904,19 +2904,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Impish",
-      "ability": "Intimidate",
+      "nature": "장난꾸러기",
+      "ability": "괴력집게",
       "item": "",
       "moves": [
-        "Air Slash",
-        "Ice Beam",
-        "Bug Buzz",
-        "Hydro Pump"
+        "에어슬래시",
+        "냉동빔",
+        "벌레의야단법석",
+        "하이드로펌프"
       ]
     }
   },
-  "Gyarados": {
-    "Common Showdown": {
+  "갸라도스": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -2926,19 +2926,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 252
       },
-      "nature": "Adamant",
-      "ability": "Intimidate",
-      "item": "Gyaradosite",
+      "nature": "고집",
+      "ability": "괴력집게",
+      "item": "갸라도스나이트",
       "moves": [
-        "Waterfall",
-        "Earthquake",
-        "Ice Fang",
-        "Crunch"
+        "폭포오르기",
+        "지진",
+        "얼음엄니",
+        "깨물어부수기"
       ]
     }
   },
-  "Spinda": {
-    "Common Showdown": {
+  "얼루기": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -2948,19 +2948,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 252
       },
-      "nature": "Jolly",
-      "ability": "Contrary",
-      "item": "Choice Scarf",
+      "nature": "명랑",
+      "ability": "심술꾸러기",
+      "item": "구애스카프",
       "moves": [
-        "Fake Out",
-        "Sucker Punch",
-        "Drain Punch",
-        "Icy Wind"
+        "속이다",
+        "기습",
+        "드레인펀치",
+        "얼다바람"
       ]
     }
   },
-  "Heatran": {
-    "Common Showdown": {
+  "히드런": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -2970,19 +2970,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Modest",
-      "ability": "Flash Fire",
-      "item": "Leftovers",
+      "nature": "조심",
+      "ability": "타오르는불꽃",
+      "item": "먹다남은음식",
       "moves": [
-        "Heat Wave",
-        "Earth Power",
-        "Flash Cannon",
-        "Overheat"
+        "열풍",
+        "대지의힘",
+        "러스터캐논",
+        "오버히트"
       ]
     }
   },
-  "Pangoro": {
-    "Common Showdown": {
+  "부란다": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 248,
@@ -2992,19 +2992,19 @@ var SETDEX_SHOWDOWN={
         "sd": 8,
         "sp": 0
       },
-      "nature": "Adamant",
-      "ability": "Iron Fist",
-      "item": "Life Orb",
+      "nature": "고집",
+      "ability": "철주먹",
+      "item": "생명의구슬",
       "moves": [
-        "Drain Punch",
-        "Knock Off",
-        "Ice Punch",
-        "Gunk Shot"
+        "드레인펀치",
+        "탁쳐서떨구기",
+        "냉동펀치",
+        "더스트슈트"
       ]
     }
   },
-  "Hariyama": {
-    "Common Showdown": {
+  "하리뭉": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 248,
@@ -3014,19 +3014,19 @@ var SETDEX_SHOWDOWN={
         "sd": 8,
         "sp": 0
       },
-      "nature": "Adamant",
-      "ability": "Guts",
-      "item": "Assault Vest",
+      "nature": "고집",
+      "ability": "근성",
+      "item": "돌격조끼",
       "moves": [
-        "Fake Out",
-        "Close Combat",
-        "Knock Off",
-        "Rock Slide"
+        "속이다",
+        "인파이트",
+        "탁쳐서떨구기",
+        "스톤샤워"
       ]
     }
   },
-  "Whiscash": {
-    "Common Showdown": {
+  "메깅": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 130,
@@ -3036,19 +3036,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 0
       },
-      "nature": "Impish",
+      "nature": "장난꾸러기",
       "ability": "",
-      "item": "Chesto Berry",
+      "item": "유루열매",
       "moves": [
-        "Earthquake",
-        "Ice Beam",
-        "Waterfall",
-        "Scald"
+        "지진",
+        "냉동빔",
+        "폭포오르기",
+        "열탕"
       ]
     }
   },
-  "Slowking": {
-    "Common Showdown": {
+  "야도킹": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -3058,19 +3058,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 0
       },
-      "nature": "Quiet",
+      "nature": "냉정",
       "ability": "",
-      "item": "Sitrus Berry",
+      "item": "자뭉열매",
       "moves": [
-        "Scald",
-        "Psychic",
-        "Ice Beam",
-        "Psyshock"
+        "열탕",
+        "사이코키네시스",
+        "냉동빔",
+        "사이코쇼크"
       ]
     }
   },
-  "Lopunny": {
-    "Common Showdown": {
+  "이어롭": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -3080,19 +3080,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Jolly",
+      "nature": "명랑",
       "ability": "",
-      "item": "Lopunnite",
+      "item": "이어롭나이트",
       "moves": [
-        "Fake Out",
-        "Return",
-        "Low Kick",
-        "Ice Punch"
+        "속이다",
+        "은혜갚기",
+        "안다리걸기",
+        "냉동펀치"
       ]
     }
   },
-  "Vanilluxe": {
-    "Common Showdown": {
+  "배바닐라": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 248,
@@ -3102,19 +3102,19 @@ var SETDEX_SHOWDOWN={
         "sd": 8,
         "sp": 0
       },
-      "nature": "Modest",
-      "ability": "Ice Body",
+      "nature": "조심",
+      "ability": "아이스바디",
       "item": "",
       "moves": [
-        "Freeze-Dry",
-        "Flash Cannon",
-        "Blizzard",
-        "Water Pulse"
+        "프리즈드라이",
+        "러스터캐논",
+        "눈보라",
+        "물의파동"
       ]
     }
   },
-  "Furfrou": {
-    "Common Showdown": {
+  "트리미앙": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -3124,19 +3124,19 @@ var SETDEX_SHOWDOWN={
         "sd": 252,
         "sp": 0
       },
-      "nature": "Careful",
-      "ability": "Fur Coat",
-      "item": "Leftovers",
+      "nature": "신중",
+      "ability": "퍼코트",
+      "item": "먹다남은음식",
       "moves": [
-        "Return",
-        "Snarl",
-        "Sucker Punch",
-        "Headbutt"
+        "은혜갚기",
+        "바크아웃",
+        "기습",
+        "박치기"
       ]
     }
   },
-  "Braviary": {
-    "Common Showdown": {
+  "워글": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -3146,19 +3146,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Adamant",
-      "ability": "Defiant",
-      "item": "Choice Scarf",
+      "nature": "고집",
+      "ability": "오기",
+      "item": "구애스카프",
       "moves": [
-        "Brave Bird",
-        "Superpower",
-        "Rock Slide",
-        "U-turn"
+        "브레이브버드",
+        "엄청난힘",
+        "스톤샤워",
+        "유턴"
       ]
     }
   },
-  "Venomoth": {
-    "Common Showdown": {
+  "도나리": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -3168,19 +3168,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 252
       },
-      "nature": "Modest",
-      "ability": "Tinted Lens",
+      "nature": "조심",
+      "ability": "색안경",
       "item": "",
       "moves": [
-        "Bug Buzz",
-        "Sludge Bomb",
-        "Psychic",
-        "Giga Drain"
+        "벌레의야단법석",
+        "오물폭탄",
+        "사이코키네시스",
+        "기가드레인"
       ]
     }
   },
-  "Hawlucha": {
-    "Common Showdown": {
+  "루차불": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -3190,19 +3190,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 252
       },
-      "nature": "Jolly",
+      "nature": "명랑",
       "ability": "",
       "item": "",
       "moves": [
-        "Acrobatics",
-        "High Jump Kick",
-        "Sky Attack",
-        "Sky Drop"
+        "애크러뱃",
+        "무릎차기",
+        "불새",
+        "프리폴"
       ]
     }
   },
-  "Smeargle": {
-    "Common Showdown": {
+  "루브도": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 248,
@@ -3212,19 +3212,19 @@ var SETDEX_SHOWDOWN={
         "sd": 8,
         "sp": 252
       },
-      "nature": "Timid",
+      "nature": "겁쟁이",
       "ability": "",
       "item": "",
       "moves": [
-        "Fake Out",
-        "Extreme Speed",
-        "Storm Throw",
-        "Circle Throw"
+        "속이다",
+        "신속",
+        "업어후리기",
+        "배대뒤치기"
       ]
     }
   },
-  "Whimsicott": {
-    "Common Showdown": {
+  "엘풍": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -3234,19 +3234,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Timid",
+      "nature": "겁쟁이",
       "ability": "",
       "item": "",
       "moves": [
-        "Moonblast",
-        "Giga Drain",
-        "Dazzling Gleam",
-        "Energy Ball"
+        "문포스",
+        "기가드레인",
+        "매지컬샤인",
+        "에너지볼"
       ]
     }
   },
-  "Medicham": {
-    "Common Showdown": {
+  "요가램": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -3256,19 +3256,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 252
       },
-      "nature": "Jolly",
-      "ability": "Pure Power",
-      "item": "Medichamite",
+      "nature": "명랑",
+      "ability": "순수한힘",
+      "item": "요가램나이트",
       "moves": [
-        "Fake Out",
-        "Drain Punch",
-        "Zen Headbutt",
-        "Ice Punch"
+        "속이다",
+        "드레인펀치",
+        "사념의박치기",
+        "냉동펀치"
       ]
     }
   },
-  "Rotom-F": {
-    "Common Showdown": {
+  "프로스트로토무": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -3278,19 +3278,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 252
       },
-      "nature": "Timid",
-      "ability": "Levitate",
-      "item": "Choice Scarf",
+      "nature": "겁쟁이",
+      "ability": "부유",
+      "item": "구애스카프",
       "moves": [
-        "Blizzard",
-        "Thunderbolt",
-        "Volt Switch",
-        "Thunder"
+        "눈보라",
+        "10만볼트",
+        "볼트체인지",
+        "번개"
       ]
     }
   },
-  "Golbat": {
-    "Common Showdown": {
+  "골뱃": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -3300,19 +3300,19 @@ var SETDEX_SHOWDOWN={
         "sd": 132,
         "sp": 0
       },
-      "nature": "Impish",
+      "nature": "장난꾸러기",
       "ability": "",
-      "item": "Eviolite",
+      "item": "진화의휘석",
       "moves": [
-        "Brave Bird",
-        "Air Slash",
-        "Poison Fang",
-        "U-turn"
+        "브레이브버드",
+        "에어슬래시",
+        "독엄니",
+        "유턴"
       ]
     }
   },
-  "Gengar": {
-    "Common Showdown": {
+  "팬텀": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -3322,19 +3322,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 252
       },
-      "nature": "Timid",
-      "ability": "Levitate",
+      "nature": "겁쟁이",
+      "ability": "부유",
       "item": "",
       "moves": [
-        "Sludge Bomb",
-        "Shadow Ball",
-        "Icy Wind",
-        "Dazzling Gleam"
+        "오물폭탄",
+        "섀도볼",
+        "얼다바람",
+        "매지컬샤인"
       ]
     }
   },
-  "Pyroar": {
-    "Common Showdown": {
+  "화염레오": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -3344,19 +3344,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 252
       },
-      "nature": "Timid",
-      "ability": "Unnerve",
-      "item": "Life Orb",
+      "nature": "겁쟁이",
+      "ability": "긴장감",
+      "item": "생명의구슬",
       "moves": [
-        "Hyper Voice",
-        "Heat Wave",
-        "Hidden Power Ice",
-        "Dark Pulse"
+        "하이퍼보이스",
+        "열풍",
+        "잠재파워-얼음",
+        "악의파동"
       ]
     }
   },
-  "Lumineon": {
-    "Common Showdown": {
+  "네오라이트": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 248,
@@ -3366,19 +3366,19 @@ var SETDEX_SHOWDOWN={
         "sd": 164,
         "sp": 0
       },
-      "nature": "Calm",
-      "ability": "Storm Drain",
-      "item": "Sitrus Berry",
+      "nature": "차분",
+      "ability": "마중물",
+      "item": "자뭉열매",
       "moves": [
-        "Scald",
-        "Ice Beam",
-        "Signal Beam",
-        "Surf"
+        "열탕",
+        "냉동빔",
+        "시그널빔",
+        "파도타기"
       ]
     }
   },
-  "Rotom-S": {
-    "Common Showdown": {
+  "스핀로토무": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -3388,19 +3388,19 @@ var SETDEX_SHOWDOWN={
         "sd": 148,
         "sp": 4
       },
-      "nature": "Calm",
-      "ability": "Levitate",
-      "item": "Leftovers",
+      "nature": "차분",
+      "ability": "부유",
+      "item": "먹다남은음식",
       "moves": [
-        "Air Slash",
-        "Thunderbolt",
-        "Hidden Power Ice",
-        "Discharge"
+        "에어슬래시",
+        "10만볼트",
+        "잠재파워-얼음",
+        "방전"
       ]
     }
   },
-  "Crustle": {
-    "Common Showdown": {
+  "암팰리스": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -3410,19 +3410,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 252
       },
-      "nature": "Adamant",
+      "nature": "고집",
       "ability": "",
-      "item": "Lum Berry",
+      "item": "리샘열매",
       "moves": [
-        "X-Scissor",
-        "Rock Slide",
-        "Night Slash",
-        "Knock Off"
+        "시저크로스",
+        "스톤샤워",
+        "깜짝베기",
+        "탁쳐서떨구기"
       ]
     }
   },
-  "Weavile": {
-    "Common Showdown": {
+  "포푸니라": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -3432,19 +3432,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 252
       },
-      "nature": "Jolly",
+      "nature": "명랑",
       "ability": "",
       "item": "",
       "moves": [
-        "Fake Out",
-        "Knock Off",
-        "Low Kick",
-        "Icicle Crash"
+        "속이다",
+        "탁쳐서떨구기",
+        "안다리걸기",
+        "고드름떨구기"
       ]
     }
   },
-  "Furret": {
-    "Common Showdown": {
+  "다꼬리": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -3454,19 +3454,19 @@ var SETDEX_SHOWDOWN={
         "sd": 124,
         "sp": 0
       },
-      "nature": "Careful",
+      "nature": "신중",
       "ability": "",
-      "item": "Sitrus Berry",
+      "item": "자뭉열매",
       "moves": [
-        "Knock Off",
-        "Sucker Punch",
-        "U-turn",
-        "Double-Edge"
+        "탁쳐서떨구기",
+        "기습",
+        "유턴",
+        "이판사판태클"
       ]
     }
   },
-  "Gigalith": {
-    "Common Showdown": {
+  "기가이어스": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 248,
@@ -3476,19 +3476,19 @@ var SETDEX_SHOWDOWN={
         "sd": 8,
         "sp": 0
       },
-      "nature": "Brave",
+      "nature": "용감",
       "ability": "",
-      "item": "Assault Vest",
+      "item": "돌격조끼",
       "moves": [
-        "Rock Slide",
-        "Earthquake",
-        "Explosion",
-        "Iron Head"
+        "스톤샤워",
+        "지진",
+        "대폭발",
+        "아이언헤드"
       ]
     }
   },
-  "Manectric": {
-    "Common Showdown": {
+  "썬더볼트": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -3498,19 +3498,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 252
       },
-      "nature": "Timid",
-      "ability": "Lightning Rod",
-      "item": "Manectite",
+      "nature": "겁쟁이",
+      "ability": "피뢰침",
+      "item": "썬더볼트나이트",
       "moves": [
-        "Hidden Power Ice",
-        "Thunderbolt",
-        "Flamethrower",
-        "Volt Switch"
+        "잠재파워-얼음",
+        "10만볼트",
+        "화염방사",
+        "볼트체인지"
       ]
     }
   },
-  "Illumise": {
-    "Common Showdown": {
+  "네오비트": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -3520,19 +3520,19 @@ var SETDEX_SHOWDOWN={
         "sd": 92,
         "sp": 36
       },
-      "nature": "Bold",
+      "nature": "대담",
       "ability": "",
-      "item": "Sitrus Berry",
+      "item": "자뭉열매",
       "moves": [
-        "Bug Buzz",
-        "U-turn",
-        "Giga Drain",
-        "Dazzling Gleam"
+        "벌레의야단법석",
+        "유턴",
+        "기가드레인",
+        "매지컬샤인"
       ]
     }
   },
-  "Registeel": {
-    "Common Showdown": {
+  "레지스틸": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -3542,19 +3542,19 @@ var SETDEX_SHOWDOWN={
         "sd": 164,
         "sp": 0
       },
-      "nature": "Impish",
-      "ability": "Clear Body",
-      "item": "Chesto Berry",
+      "nature": "장난꾸러기",
+      "ability": "클리어바디",
+      "item": "유루열매",
       "moves": [
-        "Iron Head",
-        "Rock Slide",
-        "Ice Punch",
-        "Earthquake"
+        "아이언헤드",
+        "스톤샤워",
+        "냉동펀치",
+        "지진"
       ]
     }
   },
-  "Xatu": {
-    "Common Showdown": {
+  "네이티오": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -3564,19 +3564,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Timid",
+      "nature": "겁쟁이",
       "ability": "",
       "item": "",
       "moves": [
-        "Air Slash",
-        "Psychic",
-        "Psyshock",
-        "Night Shade"
+        "에어슬래시",
+        "사이코키네시스",
+        "사이코쇼크",
+        "나이트헤드"
       ]
     }
   },
-  "Azelf": {
-    "Common Showdown": {
+  "아그놈": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -3586,19 +3586,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Adamant",
-      "ability": "Levitate",
-      "item": "Choice Band",
+      "nature": "고집",
+      "ability": "부유",
+      "item": "구애머리띠",
       "moves": [
-        "Zen Headbutt",
-        "Knock Off",
-        "U-turn",
-        "Explosion"
+        "사념의박치기",
+        "탁쳐서떨구기",
+        "유턴",
+        "대폭발"
       ]
     }
   },
-  "Shuckle": {
-    "Common Showdown": {
+  "단단지": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 228,
@@ -3608,19 +3608,19 @@ var SETDEX_SHOWDOWN={
         "sd": 28,
         "sp": 0
       },
-      "nature": "Bold",
+      "nature": "대담",
       "ability": "",
       "item": "",
       "moves": [
-        "Rock Slide",
-        "Gyro Ball",
-        "Earthquake",
-        "Bug Bite"
+        "스톤샤워",
+        "자이로볼",
+        "지진",
+        "벌레먹음"
       ]
     }
   },
-  "Seaking": {
-    "Common Showdown": {
+  "왕콘치": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 248,
@@ -3630,19 +3630,19 @@ var SETDEX_SHOWDOWN={
         "sd": 8,
         "sp": 0
       },
-      "nature": "Adamant",
-      "ability": "Lightning Rod",
-      "item": "Leftovers",
+      "nature": "고집",
+      "ability": "피뢰침",
+      "item": "먹다남은음식",
       "moves": [
-        "Scald",
-        "Ice Beam",
-        "Knock Off",
-        "Waterfall"
+        "열탕",
+        "냉동빔",
+        "탁쳐서떨구기",
+        "폭포오르기"
       ]
     }
   },
-  "Torterra": {
-    "Common Showdown": {
+  "토대부기": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -3652,19 +3652,19 @@ var SETDEX_SHOWDOWN={
         "sd": 252,
         "sp": 0
       },
-      "nature": "Brave",
-      "ability": "Shell Armor",
-      "item": "Life Orb",
+      "nature": "용감",
+      "ability": "조가비갑옷",
+      "item": "생명의구슬",
       "moves": [
-        "Earthquake",
-        "Wood Hammer",
-        "Rock Slide",
-        "Seed Bomb"
+        "지진",
+        "우드해머",
+        "스톤샤워",
+        "씨폭탄"
       ]
     }
   },
-  "Clawitzer": {
-    "Common Showdown": {
+  "블로스터": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 248,
@@ -3674,19 +3674,19 @@ var SETDEX_SHOWDOWN={
         "sd": 64,
         "sp": 0
       },
-      "nature": "Bold",
-      "ability": "Mega Launcher",
-      "item": "Life Orb",
+      "nature": "대담",
+      "ability": "메가런처",
+      "item": "생명의구슬",
       "moves": [
-        "Aura Sphere",
-        "Water Pulse",
-        "Dark Pulse",
-        "Ice Beam"
+        "파동탄",
+        "물의파동",
+        "악의파동",
+        "냉동빔"
       ]
     }
   },
-  "Rotom-H": {
-    "Common Showdown": {
+  "히트로토무": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -3696,19 +3696,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 140
       },
-      "nature": "Modest",
-      "ability": "Levitate",
-      "item": "Sitrus Berry",
+      "nature": "조심",
+      "ability": "부유",
+      "item": "자뭉열매",
       "moves": [
-        "Overheat",
-        "Thunderbolt",
-        "Hidden Power Ice",
-        "Volt Switch"
+        "오버히트",
+        "10만볼트",
+        "잠재파워-얼음",
+        "볼트체인지"
       ]
     }
   },
-  "Malamar": {
-    "Common Showdown": {
+  "칼라마네로": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -3718,19 +3718,19 @@ var SETDEX_SHOWDOWN={
         "sd": 120,
         "sp": 68
       },
-      "nature": "Careful",
-      "ability": "Contrary",
-      "item": "Lum Berry",
+      "nature": "신중",
+      "ability": "심술꾸러기",
+      "item": "리샘열매",
       "moves": [
-        "Superpower",
-        "Psycho Cut",
-        "Knock Off",
-        "Night Slash"
+        "엄청난힘",
+        "사이코커터",
+        "탁쳐서떨구기",
+        "깜짝베기"
       ]
     }
   },
-  "Entei": {
-    "Common Showdown": {
+  "앤테이": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -3740,19 +3740,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Jolly",
+      "nature": "명랑",
       "ability": "",
-      "item": "Leftovers",
+      "item": "먹다남은음식",
       "moves": [
-        "Sacred Fire",
-        "Stone Edge",
-        "Bulldoze",
-        "Iron Head"
+        "성스러운불꽃",
+        "스톤에지",
+        "땅고르기",
+        "아이언헤드"
       ]
     }
   },
-  "Beheeyem": {
-    "Common Showdown": {
+  "벰크": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 248,
@@ -3762,19 +3762,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 0
       },
-      "nature": "Quiet",
+      "nature": "냉정",
       "ability": "",
       "item": "",
       "moves": [
-        "Psychic",
-        "Psyshock",
-        "Signal Beam",
-        "Energy Ball"
+        "사이코키네시스",
+        "사이코쇼크",
+        "시그널빔",
+        "에너지볼"
       ]
     }
   },
-  "Dunsparce": {
-    "Common Showdown": {
+  "노고치": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -3784,19 +3784,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 0
       },
-      "nature": "Adamant",
+      "nature": "고집",
       "ability": "",
-      "item": "Leftovers",
+      "item": "먹다남은음식",
       "moves": [
-        "Rock Slide",
-        "Headbutt",
-        "Zen Headbutt",
-        "Bite"
+        "스톤샤워",
+        "박치기",
+        "사념의박치기",
+        "물기"
       ]
     }
   },
-  "Murkrow": {
-    "Common Showdown": {
+  "니로우": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -3806,19 +3806,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 0
       },
-      "nature": "Bold",
+      "nature": "대담",
       "ability": "",
-      "item": "Eviolite",
+      "item": "진화의휘석",
       "moves": [
-        "Snarl",
-        "Foul Play",
-        "Sucker Punch",
-        "Brave Bird"
+        "바크아웃",
+        "속임수",
+        "기습",
+        "브레이브버드"
       ]
     }
   },
-  "Dusclops": {
-    "Common Showdown": {
+  "미라몽": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 248,
@@ -3828,19 +3828,19 @@ var SETDEX_SHOWDOWN={
         "sd": 252,
         "sp": 0
       },
-      "nature": "Sassy",
+      "nature": "건방",
       "ability": "",
-      "item": "Eviolite",
+      "item": "진화의휘석",
       "moves": [
-        "Night Shade",
-        "Shadow Punch",
-        "Shadow Sneak",
-        "Shadow Ball"
+        "나이트헤드",
+        "섀도펀치",
+        "야습",
+        "섀도볼"
       ]
     }
   },
-  "Yanmega": {
-    "Common Showdown": {
+  "메가자리": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -3850,19 +3850,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 252
       },
-      "nature": "Modest",
+      "nature": "조심",
       "ability": "",
       "item": "",
       "moves": [
-        "Air Slash",
-        "Bug Buzz",
-        "Giga Drain",
-        "Hidden Power Ice"
+        "에어슬래시",
+        "벌레의야단법석",
+        "기가드레인",
+        "잠재파워-얼음"
       ]
     }
   },
-  "Sunflora": {
-    "Common Showdown": {
+  "해루미": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -3872,19 +3872,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 0
       },
-      "nature": "Quiet",
-      "ability": "Solar Power",
-      "item": "Life Orb",
+      "nature": "냉정",
+      "ability": "선파워",
+      "item": "생명의구슬",
       "moves": [
-        "Earth Power",
-        "Sludge Bomb",
-        "Leaf Storm",
-        "Solar Beam"
+        "대지의힘",
+        "오물폭탄",
+        "리프스톰",
+        "솔라빔"
       ]
     }
   },
-  "Porygon-Z": {
-    "Common Showdown": {
+  "폴리곤Z": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -3894,19 +3894,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Modest",
-      "ability": "Adaptability",
-      "item": "Choice Scarf",
+      "nature": "조심",
+      "ability": "적응력",
+      "item": "구애스카프",
       "moves": [
-        "Tri Attack",
-        "Ice Beam",
-        "Dark Pulse",
-        "Thunderbolt"
+        "트라이어택",
+        "냉동빔",
+        "악의파동",
+        "10만볼트"
       ]
     }
   },
-  "Mandibuzz": {
-    "Common Showdown": {
+  "버랜지나": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 244,
@@ -3916,19 +3916,19 @@ var SETDEX_SHOWDOWN={
         "sd": 252,
         "sp": 0
       },
-      "nature": "Bold",
-      "ability": "Overcoat",
-      "item": "Leftovers",
+      "nature": "대담",
+      "ability": "방진",
+      "item": "먹다남은음식",
       "moves": [
-        "Foul Play",
-        "Knock Off",
-        "Brave Bird",
-        "Snarl"
+        "속임수",
+        "탁쳐서떨구기",
+        "브레이브버드",
+        "바크아웃"
       ]
     }
   },
-  "Volcarona": {
-    "Common Showdown": {
+  "불카모스": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -3938,19 +3938,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Timid",
+      "nature": "겁쟁이",
       "ability": "",
       "item": "",
       "moves": [
-        "Bug Buzz",
-        "Heat Wave",
-        "Fiery Dance",
-        "Giga Drain"
+        "벌레의야단법석",
+        "열풍",
+        "불꽃춤",
+        "기가드레인"
       ]
     }
   },
-  "Swampert": {
-    "Common Showdown": {
+  "대짱이": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -3960,19 +3960,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 20
       },
-      "nature": "Modest",
-      "ability": "Torrent",
-      "item": "Expert Belt",
+      "nature": "조심",
+      "ability": "급류",
+      "item": "달인의띠",
       "moves": [
-        "Earth Power",
-        "Scald",
-        "Ice Beam",
-        "Earthquake"
+        "대지의힘",
+        "열탕",
+        "냉동빔",
+        "지진"
       ]
     }
   },
-  "Stoutland": {
-    "Common Showdown": {
+  "바랜드": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -3982,19 +3982,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 252
       },
-      "nature": "Adamant",
-      "ability": "Sand Rush",
-      "item": "Choice Band",
+      "nature": "고집",
+      "ability": "모래헤치기",
+      "item": "구애머리띠",
       "moves": [
-        "Play Rough",
-        "Return",
-        "Superpower",
-        "Crunch"
+        "치근거리기",
+        "은혜갚기",
+        "엄청난힘",
+        "깨물어부수기"
       ]
     }
   },
-  "Purugly": {
-    "Common Showdown": {
+  "몬냥이": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -4004,19 +4004,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 252
       },
-      "nature": "Jolly",
-      "ability": "Defiant",
-      "item": "Life Orb",
+      "nature": "명랑",
+      "ability": "오기",
+      "item": "생명의구슬",
       "moves": [
-        "Fake Out",
-        "Return",
-        "Sucker Punch",
-        "Play Rough"
+        "속이다",
+        "은혜갚기",
+        "기습",
+        "치근거리기"
       ]
     }
   },
-  "Uxie": {
-    "Common Showdown": {
+  "유크시": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -4026,19 +4026,19 @@ var SETDEX_SHOWDOWN={
         "sd": 252,
         "sp": 0
       },
-      "nature": "Calm",
-      "ability": "Levitate",
-      "item": "Leftovers",
+      "nature": "차분",
+      "ability": "부유",
+      "item": "먹다남은음식",
       "moves": [
-        "Psychic",
-        "Psyshock",
-        "Foul Play",
-        "U-turn"
+        "사이코키네시스",
+        "사이코쇼크",
+        "속임수",
+        "유턴"
       ]
     }
   },
-  "Beedrill": {
-    "Common Showdown": {
+  "독침붕": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -4048,19 +4048,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 252
       },
-      "nature": "Jolly",
-      "ability": "Swarm",
-      "item": "Beedrillite",
+      "nature": "명랑",
+      "ability": "벌레의알림",
+      "item": "독침붕나이트",
       "moves": [
-        "Poison Jab",
-        "Drill Run",
-        "U-turn",
-        "X-Scissor"
+        "독찌르기",
+        "드릴라이너",
+        "유턴",
+        "시저크로스"
       ]
     }
   },
-  "Ambipom": {
-    "Common Showdown": {
+  "겟핸보숭": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -4070,19 +4070,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Jolly",
-      "ability": "Technician",
-      "item": "Life Orb",
+      "nature": "명랑",
+      "ability": "테크니션",
+      "item": "생명의구슬",
       "moves": [
-        "Fake Out",
-        "Double Hit",
-        "Knock Off",
-        "Low Kick"
+        "속이다",
+        "더블어택",
+        "탁쳐서떨구기",
+        "안다리걸기"
       ]
     }
   },
-  "Hitmonlee": {
-    "Common Showdown": {
+  "시라소몬": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -4092,19 +4092,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 252
       },
-      "nature": "Adamant",
+      "nature": "고집",
       "ability": "",
-      "item": "Normal Gem",
+      "item": "노말젬",
       "moves": [
-        "Fake Out",
-        "Close Combat",
-        "Rock Slide",
-        "High Jump Kick"
+        "속이다",
+        "인파이트",
+        "스톤샤워",
+        "무릎차기"
       ]
     }
   },
-  "Gorebyss": {
-    "Common Showdown": {
+  "분홍장이": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -4114,19 +4114,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 252
       },
-      "nature": "Modest",
-      "ability": "Swift Swim",
+      "nature": "조심",
+      "ability": "쓱쓱",
       "item": "",
       "moves": [
-        "Surf",
-        "Ice Beam",
-        "Shadow Ball",
-        "Psychic"
+        "파도타기",
+        "냉동빔",
+        "섀도볼",
+        "사이코키네시스"
       ]
     }
   },
-  "Cacturne": {
-    "Common Showdown": {
+  "밤선인": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 248,
@@ -4136,19 +4136,19 @@ var SETDEX_SHOWDOWN={
         "sd": 8,
         "sp": 0
       },
-      "nature": "Adamant",
-      "ability": "Water Absorb",
+      "nature": "고집",
+      "ability": "축전",
       "item": "",
       "moves": [
-        "Sucker Punch",
-        "Seed Bomb",
-        "Energy Ball",
-        "Drain Punch"
+        "기습",
+        "씨폭탄",
+        "에너지볼",
+        "드레인펀치"
       ]
     }
   },
-  "Raichu": {
-    "Common Showdown": {
+  "라이츄": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -4158,19 +4158,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Timid",
-      "ability": "Lightning Rod",
+      "nature": "겁쟁이",
+      "ability": "피뢰침",
       "item": "",
       "moves": [
-        "Fake Out",
-        "Thunderbolt",
-        "Hidden Power Ice",
-        "Volt Switch"
+        "속이다",
+        "10만볼트",
+        "잠재파워-얼음",
+        "볼트체인지"
       ]
     }
   },
-  "Musharna": {
-    "Common Showdown": {
+  "몽얌나": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -4180,19 +4180,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 0
       },
-      "nature": "Sassy",
+      "nature": "건방",
       "ability": "",
       "item": "",
       "moves": [
-        "Psychic",
-        "Energy Ball",
-        "Psyshock",
-        "Dazzling Gleam"
+        "사이코키네시스",
+        "에너지볼",
+        "사이코쇼크",
+        "매지컬샤인"
       ]
     }
   },
-  "Emboar": {
-    "Common Showdown": {
+  "염무왕": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 112,
@@ -4202,19 +4202,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 0
       },
-      "nature": "Brave",
-      "ability": "Reckless",
-      "item": "Life Orb",
+      "nature": "용감",
+      "ability": "이판사판",
+      "item": "생명의구슬",
       "moves": [
-        "Flare Blitz",
-        "Head Smash",
-        "Wild Charge",
-        "Hammer Arm"
+        "플레어드라이브",
+        "양날박치기",
+        "와일드볼트",
+        "암해머"
       ]
     }
   },
-  "Blaziken": {
-    "Common Showdown": {
+  "번치코": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -4224,19 +4224,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 252
       },
-      "nature": "Adamant",
+      "nature": "고집",
       "ability": "",
-      "item": "Blazikenite",
+      "item": "번치코나이트",
       "moves": [
-        "Flare Blitz",
-        "Low Kick",
-        "Rock Slide",
-        "Superpower"
+        "플레어드라이브",
+        "안다리걸기",
+        "스톤샤워",
+        "엄청난힘"
       ]
     }
   },
-  "Rhydon": {
-    "Common Showdown": {
+  "코뿌리": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 248,
@@ -4246,19 +4246,19 @@ var SETDEX_SHOWDOWN={
         "sd": 8,
         "sp": 0
       },
-      "nature": "Adamant",
-      "ability": "Lightning Rod",
-      "item": "Eviolite",
+      "nature": "고집",
+      "ability": "피뢰침",
+      "item": "진화의휘석",
       "moves": [
-        "Rock Slide",
-        "Earthquake",
-        "Drill Run",
-        "Ice Punch"
+        "스톤샤워",
+        "지진",
+        "드릴라이너",
+        "냉동펀치"
       ]
     }
   },
-  "Heatmor": {
-    "Common Showdown": {
+  "앤티골": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -4268,19 +4268,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 0
       },
-      "nature": "Quiet",
-      "ability": "Flash Fire",
-      "item": "Life Orb",
+      "nature": "냉정",
+      "ability": "타오르는불꽃",
+      "item": "생명의구슬",
       "moves": [
-        "Heat Wave",
-        "Giga Drain",
-        "Focus Blast",
-        "Sucker Punch"
+        "열풍",
+        "기가드레인",
+        "기합구슬",
+        "기습"
       ]
     }
   },
-  "Slurpuff": {
-    "Common Showdown": {
+  "나루림": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -4290,19 +4290,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Adamant",
+      "nature": "고집",
       "ability": "",
-      "item": "Sitrus Berry",
+      "item": "자뭉열매",
       "moves": [
-        "Play Rough",
-        "Drain Punch",
-        "Return",
-        "Draining Kiss"
+        "치근거리기",
+        "드레인펀치",
+        "은혜갚기",
+        "드레인키스"
       ]
     }
   },
-  "Ferrothorn": {
-    "Common Showdown": {
+  "너트령": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -4312,19 +4312,19 @@ var SETDEX_SHOWDOWN={
         "sd": 52,
         "sp": 0
       },
-      "nature": "Brave",
+      "nature": "용감",
       "ability": "",
       "item": "",
       "moves": [
-        "Gyro Ball",
-        "Power Whip",
-        "Iron Head",
-        "Knock Off"
+        "자이로볼",
+        "파워휩",
+        "아이언헤드",
+        "탁쳐서떨구기"
       ]
     }
   },
-  "Milotic": {
-    "Common Showdown": {
+  "밀로틱": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -4334,19 +4334,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 0
       },
-      "nature": "Bold",
+      "nature": "대담",
       "ability": "",
-      "item": "Leftovers",
+      "item": "먹다남은음식",
       "moves": [
-        "Scald",
-        "Ice Beam",
-        "Icy Wind",
-        "Hydro Pump"
+        "열탕",
+        "냉동빔",
+        "얼다바람",
+        "하이드로펌프"
       ]
     }
   },
-  "Aerodactyl": {
-    "Common Showdown": {
+  "프테라": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -4356,19 +4356,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Jolly",
-      "ability": "Unnerve",
+      "nature": "명랑",
+      "ability": "긴장감",
       "item": "",
       "moves": [
-        "Rock Slide",
-        "Sky Drop",
-        "Ice Fang",
-        "Earthquake"
+        "스톤샤워",
+        "프리폴",
+        "얼음엄니",
+        "지진"
       ]
     }
   },
-  "Plusle": {
-    "Common Showdown": {
+  "플러시": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 100,
@@ -4378,19 +4378,19 @@ var SETDEX_SHOWDOWN={
         "sd": 50,
         "sp": 252
       },
-      "nature": "Timid",
-      "ability": "Lightning Rod",
-      "item": "Sitrus Berry",
+      "nature": "겁쟁이",
+      "ability": "피뢰침",
+      "item": "자뭉열매",
       "moves": [
-        "Thunderbolt",
-        "Hidden Power Ice",
-        "Grass Knot",
-        "Volt Switch"
+        "10만볼트",
+        "잠재파워-얼음",
+        "풀묶기",
+        "볼트체인지"
       ]
     }
   },
-  "Aurorus": {
-    "Common Showdown": {
+  "아마루르가": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -4400,19 +4400,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Modest",
-      "ability": "Refrigerate",
-      "item": "Life Orb",
+      "nature": "조심",
+      "ability": "프리즈스킨",
+      "item": "생명의구슬",
       "moves": [
-        "Hyper Voice",
-        "Freeze-Dry",
-        "Earth Power",
-        "Ancient Power"
+        "하이퍼보이스",
+        "프리즈드라이",
+        "대지의힘",
+        "원시의힘"
       ]
     }
   },
-  "Mantine": {
-    "Common Showdown": {
+  "만타인": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -4422,19 +4422,19 @@ var SETDEX_SHOWDOWN={
         "sd": 252,
         "sp": 0
       },
-      "nature": "Calm",
-      "ability": "Water Absorb",
-      "item": "Leftovers",
+      "nature": "차분",
+      "ability": "축전",
+      "item": "먹다남은음식",
       "moves": [
-        "Scald",
-        "Air Slash",
-        "Icy Wind",
-        "Ice Beam"
+        "열탕",
+        "에어슬래시",
+        "얼다바람",
+        "냉동빔"
       ]
     }
   },
-  "Doublade": {
-    "Common Showdown": {
+  "쌍검킬": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -4444,19 +4444,19 @@ var SETDEX_SHOWDOWN={
         "sd": 252,
         "sp": 0
       },
-      "nature": "Sassy",
+      "nature": "건방",
       "ability": "",
-      "item": "Eviolite",
+      "item": "진화의휘석",
       "moves": [
-        "Shadow Sneak",
-        "Iron Head",
-        "Sacred Sword",
-        "Shadow Claw"
+        "야습",
+        "아이언헤드",
+        "성스러운칼",
+        "섀도크루"
       ]
     }
   },
-  "Leafeon": {
-    "Common Showdown": {
+  "리피아": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -4466,19 +4466,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 252
       },
-      "nature": "Adamant",
-      "ability": "Chlorophyll",
-      "item": "Life Orb",
+      "nature": "고집",
+      "ability": "엽록소",
+      "item": "생명의구슬",
       "moves": [
-        "Leaf Blade",
-        "Knock Off",
-        "X-Scissor",
-        "Aerial Ace"
+        "리프블레이드",
+        "탁쳐서떨구기",
+        "시저크로스",
+        "제비반환"
       ]
     }
   },
-  "Arcanine": {
-    "Common Showdown": {
+  "윈디": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -4488,19 +4488,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Adamant",
-      "ability": "Intimidate",
-      "item": "Leftovers",
+      "nature": "고집",
+      "ability": "괴력집게",
+      "item": "먹다남은음식",
       "moves": [
-        "Snarl",
-        "Flare Blitz",
-        "Extreme Speed",
-        "Close Combat"
+        "바크아웃",
+        "플레어드라이브",
+        "신속",
+        "인파이트"
       ]
     }
   },
-  "Politoed": {
-    "Common Showdown": {
+  "왕구리": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -4510,19 +4510,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Timid",
-      "ability": "Drizzle",
-      "item": "Sitrus Berry",
+      "nature": "겁쟁이",
+      "ability": "잔비",
+      "item": "자뭉열매",
       "moves": [
-        "Scald",
-        "Ice Beam",
-        "Icy Wind",
-        "Hydro Pump"
+        "열탕",
+        "냉동빔",
+        "얼다바람",
+        "하이드로펌프"
       ]
     }
   },
-  "Cofagrigus": {
-    "Common Showdown": {
+  "데스니칸": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 248,
@@ -4532,19 +4532,19 @@ var SETDEX_SHOWDOWN={
         "sd": 252,
         "sp": 0
       },
-      "nature": "Sassy",
+      "nature": "건방",
       "ability": "",
       "item": "",
       "moves": [
-        "Shadow Ball",
-        "Hex",
-        "Night Shade",
-        "Dark Pulse"
+        "섀도볼",
+        "병상첨병",
+        "나이트헤드",
+        "악의파동"
       ]
     }
   },
-  "Sandslash": {
-    "Common Showdown": {
+  "고지": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 44,
@@ -4554,19 +4554,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 212
       },
-      "nature": "Adamant",
-      "ability": "Sand Rush",
-      "item": "Life Orb",
+      "nature": "고집",
+      "ability": "모래헤치기",
+      "item": "생명의구슬",
       "moves": [
-        "Earthquake",
-        "Rock Slide",
-        "Knock Off",
-        "Poison Jab"
+        "지진",
+        "스톤샤워",
+        "탁쳐서떨구기",
+        "독찌르기"
       ]
     }
   },
-  "Articuno": {
-    "Common Showdown": {
+  "프리져": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 212,
@@ -4576,19 +4576,19 @@ var SETDEX_SHOWDOWN={
         "sd": 44,
         "sp": 60
       },
-      "nature": "Bold",
+      "nature": "대담",
       "ability": "",
-      "item": "Leftovers",
+      "item": "먹다남은음식",
       "moves": [
-        "Freeze-Dry",
-        "Hurricane",
-        "Ice Shard",
-        "Ice Beam"
+        "프리즈드라이",
+        "폭풍",
+        "얼음뭉치",
+        "냉동빔"
       ]
     }
   },
-  "Rhyperior": {
-    "Common Showdown": {
+  "거대코뿌리": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 68,
@@ -4598,19 +4598,19 @@ var SETDEX_SHOWDOWN={
         "sd": 188,
         "sp": 0
       },
-      "nature": "Brave",
-      "ability": "Solid Rock",
+      "nature": "용감",
+      "ability": "하드록",
       "item": "",
       "moves": [
-        "Rock Slide",
-        "Earthquake",
-        "Drill Run",
-        "Ice Punch"
+        "스톤샤워",
+        "지진",
+        "드릴라이너",
+        "냉동펀치"
       ]
     }
   },
-  "Golem": {
-    "Common Showdown": {
+  "딱구리": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -4620,19 +4620,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 0
       },
-      "nature": "Brave",
+      "nature": "용감",
       "ability": "",
       "item": "",
       "moves": [
-        "Rock Slide",
-        "Earthquake",
-        "Explosion",
-        "Thunder Punch"
+        "스톤샤워",
+        "지진",
+        "대폭발",
+        "번개펀치"
       ]
     }
   },
-  "Pinsir": {
-    "Common Showdown": {
+  "쁘사이저": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 20,
@@ -4642,19 +4642,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 236
       },
-      "nature": "Jolly",
-      "ability": "Hyper Cutter",
-      "item": "Pinsirite",
+      "nature": "명랑",
+      "ability": "괴력집게",
+      "item": "쁘사이저나이트",
       "moves": [
-        "Return",
-        "Feint",
-        "Close Combat",
-        "Earthquake"
+        "은혜갚기",
+        "페인트",
+        "인파이트",
+        "지진"
       ]
     }
   },
-  "Meowstic": {
-    "Common Showdown": {
+  "냐오닉스": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -4664,19 +4664,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 0
       },
-      "nature": "Bold",
+      "nature": "대담",
       "ability": "",
       "item": "",
       "moves": [
-        "Fake Out",
-        "Psychic",
-        "Psyshock",
-        "Dark Pulse"
+        "속이다",
+        "사이코키네시스",
+        "사이코쇼크",
+        "악의파동"
       ]
     }
   },
-  "Banette": {
-    "Common Showdown": {
+  "다크펫": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -4686,19 +4686,19 @@ var SETDEX_SHOWDOWN={
         "sd": 252,
         "sp": 0
       },
-      "nature": "Calm",
+      "nature": "차분",
       "ability": "",
-      "item": "Banettite",
+      "item": "다크펫나이트",
       "moves": [
-        "Shadow Claw",
-        "Phantom Force",
-        "Shadow Sneak",
-        "Sucker Punch"
+        "섀도크루",
+        "고스트다이브",
+        "야습",
+        "기습"
       ]
     }
   },
-  "Tauros": {
-    "Common Showdown": {
+  "켄타로스": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -4708,19 +4708,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Jolly",
+      "nature": "명랑",
       "ability": "",
-      "item": "Life Orb",
+      "item": "생명의구슬",
       "moves": [
-        "Earthquake",
-        "Rock Slide",
-        "Return",
-        "Zen Headbutt"
+        "지진",
+        "스톤샤워",
+        "은혜갚기",
+        "사념의박치기"
       ]
     }
   },
-  "Raikou": {
-    "Common Showdown": {
+  "라이코": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -4730,19 +4730,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 252
       },
-      "nature": "Timid",
+      "nature": "겁쟁이",
       "ability": "",
-      "item": "Assault Vest",
+      "item": "돌격조끼",
       "moves": [
-        "Thunderbolt",
-        "Hidden Power Ice",
-        "Snarl",
-        "Extrasensory"
+        "10만볼트",
+        "잠재파워-얼음",
+        "바크아웃",
+        "신통력"
       ]
     }
   },
-  "Arbok": {
-    "Common Showdown": {
+  "아보크": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -4752,19 +4752,19 @@ var SETDEX_SHOWDOWN={
         "sd": 248,
         "sp": 0
       },
-      "nature": "Jolly",
-      "ability": "Intimidate",
-      "item": "Black Sludge",
+      "nature": "명랑",
+      "ability": "괴력집게",
+      "item": "검은진흙",
       "moves": [
-        "Gunk Shot",
-        "Earthquake",
-        "Sucker Punch",
-        "Aqua Tail"
+        "더스트슈트",
+        "지진",
+        "기습",
+        "아쿠아테일"
       ]
     }
   },
-  "Porygon2": {
-    "Common Showdown": {
+  "폴리곤2": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -4774,19 +4774,19 @@ var SETDEX_SHOWDOWN={
         "sd": 76,
         "sp": 0
       },
-      "nature": "Sassy",
-      "ability": "Download",
-      "item": "Eviolite",
+      "nature": "건방",
+      "ability": "다운로드",
+      "item": "진화의휘석",
       "moves": [
-        "Ice Beam",
-        "Tri Attack",
-        "Thunderbolt",
-        "Shadow Ball"
+        "냉동빔",
+        "트라이어택",
+        "10만볼트",
+        "섀도볼"
       ]
     }
   },
-  "Mamoswine": {
-    "Common Showdown": {
+  "맘모꾸리": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -4796,19 +4796,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 252
       },
-      "nature": "Jolly",
-      "ability": "Thick Fat",
-      "item": "Choice Scarf",
+      "nature": "명랑",
+      "ability": "두꺼운지방",
+      "item": "구애스카프",
       "moves": [
-        "Earthquake",
-        "Icicle Crash",
-        "Rock Slide",
-        "Ice Shard"
+        "지진",
+        "고드름떨구기",
+        "스톤샤워",
+        "얼음뭉치"
       ]
     }
   },
-  "Chansey": {
-    "Common Showdown": {
+  "럭키": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -4818,19 +4818,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 0
       },
-      "nature": "Bold",
+      "nature": "대담",
       "ability": "",
-      "item": "Eviolite",
+      "item": "진화의휘석",
       "moves": [
-        "Seismic Toss",
-        "Icy Wind",
-        "Hyper Voice",
-        "Flamethrower"
+        "지구던지기",
+        "얼다바람",
+        "하이퍼보이스",
+        "화염방사"
       ]
     }
   },
-  "Infernape": {
-    "Common Showdown": {
+  "초염몽": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -4840,19 +4840,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 252
       },
-      "nature": "Jolly",
-      "ability": "Blaze",
+      "nature": "명랑",
+      "ability": "맹화",
       "item": "",
       "moves": [
-        "Close Combat",
-        "Fake Out",
-        "Overheat",
-        "Flare Blitz"
+        "인파이트",
+        "속이다",
+        "오버히트",
+        "플레어드라이브"
       ]
     }
   },
-  "Mismagius": {
-    "Common Showdown": {
+  "무우마직": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -4862,19 +4862,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Timid",
-      "ability": "Levitate",
+      "nature": "겁쟁이",
+      "ability": "부유",
       "item": "",
       "moves": [
-        "Shadow Ball",
-        "Icy Wind",
-        "Power Gem",
-        "Dazzling Gleam"
+        "섀도볼",
+        "얼다바람",
+        "파워젬",
+        "매지컬샤인"
       ]
     }
   },
-  "Primeape": {
-    "Common Showdown": {
+  "성원숭": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -4884,19 +4884,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Jolly",
-      "ability": "Defiant",
-      "item": "Choice Scarf",
+      "nature": "명랑",
+      "ability": "오기",
+      "item": "구애스카프",
       "moves": [
-        "Close Combat",
-        "Ice Punch",
-        "Rock Slide",
-        "Gunk Shot"
+        "인파이트",
+        "냉동펀치",
+        "스톤샤워",
+        "더스트슈트"
       ]
     }
   },
-  "Greninja": {
-    "Common Showdown": {
+  "개굴닌자": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -4906,19 +4906,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Timid",
-      "ability": "Protean",
-      "item": "Life Orb",
+      "nature": "겁쟁이",
+      "ability": "변환자재",
+      "item": "생명의구슬",
       "moves": [
-        "Ice Beam",
-        "Dark Pulse",
-        "Scald",
-        "Gunk Shot"
+        "냉동빔",
+        "악의파동",
+        "열탕",
+        "더스트슈트"
       ]
     }
   },
-  "Sawsbuck": {
-    "Common Showdown": {
+  "바라철록": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -4928,19 +4928,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 252
       },
-      "nature": "Adamant",
-      "ability": "Chlorophyll",
-      "item": "Life Orb",
+      "nature": "고집",
+      "ability": "엽록소",
+      "item": "생명의구슬",
       "moves": [
-        "Horn Leech",
-        "Jump Kick",
-        "Wild Charge",
-        "Double-Edge"
+        "우드호른",
+        "점프킥",
+        "와일드볼트",
+        "이판사판태클"
       ]
     }
   },
-  "Amoonguss": {
-    "Common Showdown": {
+  "뽀록나": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -4950,19 +4950,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 0
       },
-      "nature": "Relaxed",
+      "nature": "무사태평",
       "ability": "",
       "item": "",
       "moves": [
-        "Giga Drain",
-        "Sludge Bomb",
-        "Energy Ball",
-        "Clear Smog"
+        "기가드레인",
+        "오물폭탄",
+        "에너지볼",
+        "클리어스모그"
       ]
     }
   },
-  "Jolteon": {
-    "Common Showdown": {
+  "쥬피썬더": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -4972,19 +4972,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 252
       },
-      "nature": "Timid",
-      "ability": "Volt Absorb",
-      "item": "Choice Specs",
+      "nature": "겁쟁이",
+      "ability": "축전",
+      "item": "구애안경",
       "moves": [
-        "Shadow Ball",
-        "Hidden Power Ice",
-        "Thunderbolt",
-        "Volt Switch"
+        "섀도볼",
+        "잠재파워-얼음",
+        "10만볼트",
+        "볼트체인지"
       ]
     }
   },
-  "Golduck": {
-    "Common Showdown": {
+  "골덕": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -4994,19 +4994,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 252
       },
-      "nature": "Timid",
-      "ability": "Cloud Nine",
-      "item": "Choice Scarf",
+      "nature": "겁쟁이",
+      "ability": "날씨부정",
+      "item": "구애스카프",
       "moves": [
-        "Scald",
-        "Ice Beam",
-        "Psychic",
-        "Icy Wind"
+        "열탕",
+        "냉동빔",
+        "사이코키네시스",
+        "얼다바람"
       ]
     }
   },
-  "Rotom-W": {
-    "Common Showdown": {
+  "워시로토무": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -5016,19 +5016,19 @@ var SETDEX_SHOWDOWN={
         "sd": 148,
         "sp": 4
       },
-      "nature": "Calm",
-      "ability": "Levitate",
-      "item": "Sitrus Berry",
+      "nature": "차분",
+      "ability": "부유",
+      "item": "자뭉열매",
       "moves": [
-        "Hydro Pump",
-        "Thunderbolt",
-        "Volt Switch",
-        "Hidden Power Ice"
+        "하이드로펌프",
+        "10만볼트",
+        "볼트체인지",
+        "잠재파워-얼음"
       ]
     }
   },
-  "Chesnaught": {
-    "Common Showdown": {
+  "브리가론": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 224,
@@ -5038,19 +5038,19 @@ var SETDEX_SHOWDOWN={
         "sd": 180,
         "sp": 0
       },
-      "nature": "Sassy",
-      "ability": "Bulletproof",
-      "item": "Sitrus Berry",
+      "nature": "건방",
+      "ability": "방탄",
+      "item": "자뭉열매",
       "moves": [
-        "Drain Punch",
-        "Wood Hammer",
-        "Feint",
-        "Low Kick"
+        "드레인펀치",
+        "우드해머",
+        "페인트",
+        "안다리걸기"
       ]
     }
   },
-  "Umbreon": {
-    "Common Showdown": {
+  "블래키": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -5060,19 +5060,19 @@ var SETDEX_SHOWDOWN={
         "sd": 252,
         "sp": 0
       },
-      "nature": "Calm",
+      "nature": "차분",
       "ability": "",
-      "item": "Leftovers",
+      "item": "먹다남은음식",
       "moves": [
-        "Foul Play",
-        "Snarl",
-        "Payback",
-        "Dark Pulse"
+        "속임수",
+        "바크아웃",
+        "보복",
+        "악의파동"
       ]
     }
   },
-  "Heracross": {
-    "Common Showdown": {
+  "헤라크로스": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -5082,19 +5082,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Jolly",
+      "nature": "명랑",
       "ability": "",
-      "item": "Heracronite",
+      "item": "헤라크로스나이트",
       "moves": [
-        "Pin Missile",
-        "Rock Blast",
-        "Close Combat",
-        "Bullet Seed"
+        "바늘미사일",
+        "락블레스트",
+        "인파이트",
+        "기관총"
       ]
     }
   },
-  "Feraligatr": {
-    "Common Showdown": {
+  "장크로다일": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -5104,19 +5104,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 252
       },
-      "nature": "Adamant",
-      "ability": "Sheer Force",
-      "item": "Life Orb",
+      "nature": "고집",
+      "ability": "우격다짐",
+      "item": "생명의구슬",
       "moves": [
-        "Waterfall",
-        "Ice Punch",
-        "Crunch",
-        "Rock Slide"
+        "폭포오르기",
+        "냉동펀치",
+        "깨물어부수기",
+        "스톤샤워"
       ]
     }
   },
-  "Toxicroak": {
-    "Common Showdown": {
+  "독개굴": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -5126,19 +5126,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 252
       },
-      "nature": "Jolly",
-      "ability": "Dry Skin",
-      "item": "Black Sludge",
+      "nature": "명랑",
+      "ability": "건조피부",
+      "item": "검은진흙",
       "moves": [
-        "Drain Punch",
-        "Fake Out",
-        "Gunk Shot",
-        "Sucker Punch"
+        "드레인펀치",
+        "속이다",
+        "더스트슈트",
+        "기습"
       ]
     }
   },
-  "Dragonite": {
-    "Common Showdown": {
+  "망나뇽": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -5148,19 +5148,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 252
       },
-      "nature": "Adamant",
-      "ability": "Multiscale",
+      "nature": "고집",
+      "ability": "멀티스케일",
       "item": "",
       "moves": [
-        "Extreme Speed",
-        "Dragon Claw",
-        "Earthquake",
-        "Fire Punch"
+        "신속",
+        "드래곤크루",
+        "지진",
+        "불꽃펀치"
       ]
     }
   },
-  "Lileep": {
-    "Common Showdown": {
+  "릴링": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -5170,19 +5170,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 0
       },
-      "nature": "Bold",
-      "ability": "Storm Drain",
-      "item": "Eviolite",
+      "nature": "대담",
+      "ability": "마중물",
+      "item": "진화의휘석",
       "moves": [
-        "Giga Drain",
-        "Ancient Power",
-        "Energy Ball",
-        "Earth Power"
+        "기가드레인",
+        "원시의힘",
+        "에너지볼",
+        "대지의힘"
       ]
     }
   },
-  "Vaporeon": {
-    "Common Showdown": {
+  "샤미드": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 148,
@@ -5192,19 +5192,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 0
       },
-      "nature": "Modest",
-      "ability": "Water Absorb",
-      "item": "Leftovers",
+      "nature": "조심",
+      "ability": "축전",
+      "item": "먹다남은음식",
       "moves": [
-        "Scald",
-        "Ice Beam",
-        "Icy Wind",
-        "Muddy Water"
+        "열탕",
+        "냉동빔",
+        "얼다바람",
+        "탁류"
       ]
     }
   },
-  "Virizion": {
-    "Common Showdown": {
+  "비리디온": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -5214,19 +5214,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Jolly",
+      "nature": "명랑",
       "ability": "",
-      "item": "Life Orb",
+      "item": "생명의구슬",
       "moves": [
-        "Leaf Blade",
-        "Close Combat",
-        "Stone Edge",
-        "Sacred Sword"
+        "리프블레이드",
+        "인파이트",
+        "스톤에지",
+        "성스러운칼"
       ]
     }
   },
-  "Froslass": {
-    "Common Showdown": {
+  "눈여아": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -5236,19 +5236,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Timid",
+      "nature": "겁쟁이",
       "ability": "",
       "item": "",
       "moves": [
-        "Shadow Ball",
-        "Ice Beam",
-        "Icy Wind",
-        "Blizzard"
+        "섀도볼",
+        "냉동빔",
+        "얼다바람",
+        "눈보라"
       ]
     }
   },
-  "Klinklang": {
-    "Common Showdown": {
+  "기기기어르": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 156,
@@ -5258,19 +5258,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 100
       },
-      "nature": "Adamant",
-      "ability": "Clear Body",
-      "item": "Leftovers",
+      "nature": "고집",
+      "ability": "클리어바디",
+      "item": "먹다남은음식",
       "moves": [
-        "Gear Grind",
-        "Wild Charge",
-        "Return",
-        "Flash Cannon"
+        "기어소서",
+        "와일드볼트",
+        "은혜갚기",
+        "러스터캐논"
       ]
     }
   },
-  "Terrakion": {
-    "Common Showdown": {
+  "테라키온": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -5280,19 +5280,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Jolly",
+      "nature": "명랑",
       "ability": "",
-      "item": "Lum Berry",
+      "item": "리샘열매",
       "moves": [
-        "Rock Slide",
-        "Close Combat",
-        "Earthquake",
-        "Double Kick"
+        "스톤샤워",
+        "인파이트",
+        "지진",
+        "두번치기"
       ]
     }
   },
-  "Conkeldurr": {
-    "Common Showdown": {
+  "노보청": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 248,
@@ -5302,19 +5302,19 @@ var SETDEX_SHOWDOWN={
         "sd": 8,
         "sp": 0
       },
-      "nature": "Adamant",
-      "ability": "Guts",
-      "item": "Assault Vest",
+      "nature": "고집",
+      "ability": "근성",
+      "item": "돌격조끼",
       "moves": [
-        "Mach Punch",
-        "Drain Punch",
-        "Ice Punch",
-        "Knock Off"
+        "마하펀치",
+        "드레인펀치",
+        "냉동펀치",
+        "탁쳐서떨구기"
       ]
     }
   },
-  "Hypno": {
-    "Common Showdown": {
+  "슬리퍼": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -5324,19 +5324,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 0
       },
-      "nature": "Relaxed",
+      "nature": "무사태평",
       "ability": "",
       "item": "",
       "moves": [
-        "Psychic",
-        "Psyshock",
-        "Zen Headbutt",
-        "Ice Punch"
+        "사이코키네시스",
+        "사이코쇼크",
+        "사념의박치기",
+        "냉동펀치"
       ]
     }
   },
-  "Porygon": {
-    "Common Showdown": {
+  "폴리곤": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -5346,19 +5346,19 @@ var SETDEX_SHOWDOWN={
         "sd": 252,
         "sp": 0
       },
-      "nature": "Calm",
+      "nature": "차분",
       "ability": "",
-      "item": "Eviolite",
+      "item": "진화의휘석",
       "moves": [
-        "Thunderbolt",
-        "Ice Beam",
-        "Tri Attack",
-        "Foul Play"
+        "10만볼트",
+        "냉동빔",
+        "트라이어택",
+        "속임수"
       ]
     }
   },
-  "Audino": {
-    "Common Showdown": {
+  "다부니": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -5368,19 +5368,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 0
       },
-      "nature": "Bold",
+      "nature": "대담",
       "ability": "",
-      "item": "Audinite",
+      "item": "다부니나이트",
       "moves": [
-        "Dazzling Gleam",
-        "Ice Beam",
-        "Fire Blast",
-        "Draining Kiss"
+        "매지컬샤인",
+        "냉동빔",
+        "불대문자",
+        "드레인키스"
       ]
     }
   },
-  "Jumpluff": {
-    "Common Showdown": {
+  "솜솜코": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -5390,19 +5390,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 252
       },
-      "nature": "Jolly",
-      "ability": "Infiltrator",
+      "nature": "명랑",
+      "ability": "틈새포착",
       "item": "",
       "moves": [
-        "Giga Drain",
-        "Acrobatics",
-        "Energy Ball",
-        "U-turn"
+        "기가드레인",
+        "애크러뱃",
+        "에너지볼",
+        "유턴"
       ]
     }
   },
-  "Drapion": {
-    "Common Showdown": {
+  "드래피온": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 76,
@@ -5412,19 +5412,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 0
       },
-      "nature": "Adamant",
-      "ability": "Sniper",
+      "nature": "고집",
+      "ability": "스나이퍼",
       "item": "",
       "moves": [
-        "Cross Poison",
-        "Knock Off",
-        "Night Slash",
-        "Rock Slide"
+        "크로스포이즌",
+        "탁쳐서떨구기",
+        "깜짝베기",
+        "스톤샤워"
       ]
     }
   },
-  "Probopass": {
-    "Common Showdown": {
+  "대코파스": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 248,
@@ -5434,19 +5434,19 @@ var SETDEX_SHOWDOWN={
         "sd": 8,
         "sp": 0
       },
-      "nature": "Modest",
+      "nature": "조심",
       "ability": "",
-      "item": "Sitrus Berry",
+      "item": "자뭉열매",
       "moves": [
-        "Power Gem",
-        "Earth Power",
-        "Discharge",
-        "Flash Cannon"
+        "파워젬",
+        "대지의힘",
+        "방전",
+        "러스터캐논"
       ]
     }
   },
-  "Excadrill": {
-    "Common Showdown": {
+  "몰드류": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -5456,19 +5456,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Adamant",
-      "ability": "Mold Breaker",
-      "item": "Life Orb",
+      "nature": "고집",
+      "ability": "틀깨기",
+      "item": "생명의구슬",
       "moves": [
-        "Rock Slide",
-        "Iron Head",
-        "Earthquake",
-        "Drill Run"
+        "스톤샤워",
+        "아이언헤드",
+        "지진",
+        "드릴라이너"
       ]
     }
   },
-  "Solosis": {
-    "Common Showdown": {
+  "유니란": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 84,
@@ -5478,16 +5478,16 @@ var SETDEX_SHOWDOWN={
         "sd": 84,
         "sp": 84
       },
-      "nature": "Sassy",
-      "ability": "Overcoat",
+      "nature": "건방",
+      "ability": "방진",
       "item": "",
       "moves": [
-        "Psychic"
+        "사이코키네시스"
       ]
     }
   },
-  "Sawk": {
-    "Common Showdown": {
+  "타격귀": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -5497,19 +5497,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Adamant",
+      "nature": "고집",
       "ability": "",
-      "item": "Choice Scarf",
+      "item": "구애스카프",
       "moves": [
-        "Close Combat",
-        "Rock Slide",
-        "Ice Punch",
-        "Poison Jab"
+        "인파이트",
+        "스톤샤워",
+        "냉동펀치",
+        "독찌르기"
       ]
     }
   },
-  "Samurott": {
-    "Common Showdown": {
+  "대검귀": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -5519,19 +5519,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 0
       },
-      "nature": "Modest",
-      "ability": "Shell Armor",
-      "item": "Life Orb",
+      "nature": "조심",
+      "ability": "조가비갑옷",
+      "item": "생명의구슬",
       "moves": [
-        "Icy Wind",
-        "Scald",
-        "Ice Beam",
-        "Aqua Jet"
+        "얼다바람",
+        "열탕",
+        "냉동빔",
+        "아쿠아제트"
       ]
     }
   },
-  "Thundurus": {
-    "Common Showdown": {
+  "볼트로스": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -5541,19 +5541,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Timid",
+      "nature": "겁쟁이",
       "ability": "",
-      "item": "Sitrus Berry",
+      "item": "자뭉열매",
       "moves": [
-        "Thunderbolt",
-        "Hidden Power Ice",
-        "Grass Knot",
-        "Thunder"
+        "10만볼트",
+        "잠재파워-얼음",
+        "풀묶기",
+        "번개"
       ]
     }
   },
-  "Spritzee": {
-    "Common Showdown": {
+  "슈쁘": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 84,
@@ -5563,18 +5563,18 @@ var SETDEX_SHOWDOWN={
         "sd": 84,
         "sp": 84
       },
-      "nature": "Hardy",
+      "nature": "노력",
       "ability": "",
-      "item": "Eviolite",
+      "item": "진화의휘석",
       "moves": [
-        "Draining Kiss",
-        "Moonblast",
-        "Dazzling Gleam"
+        "드레인키스",
+        "문포스",
+        "매지컬샤인"
       ]
     }
   },
-  "Sableye": {
-    "Common Showdown": {
+  "깜까미": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -5584,19 +5584,19 @@ var SETDEX_SHOWDOWN={
         "sd": 252,
         "sp": 0
       },
-      "nature": "Calm",
+      "nature": "차분",
       "ability": "",
-      "item": "Sablenite",
+      "item": "깜까미나이트",
       "moves": [
-        "Foul Play",
-        "Fake Out",
-        "Knock Off",
-        "Snarl"
+        "속임수",
+        "속이다",
+        "탁쳐서떨구기",
+        "바크아웃"
       ]
     }
   },
-  "Dugtrio": {
-    "Common Showdown": {
+  "닥트리오": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -5606,19 +5606,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 252
       },
-      "nature": "Jolly",
+      "nature": "명랑",
       "ability": "",
       "item": "",
       "moves": [
-        "Earthquake",
-        "Rock Slide",
-        "Sucker Punch",
-        "Stone Edge"
+        "지진",
+        "스톤샤워",
+        "기습",
+        "스톤에지"
       ]
     }
   },
-  "Typhlosion": {
-    "Common Showdown": {
+  "블레이범": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -5628,19 +5628,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 252
       },
-      "nature": "Timid",
-      "ability": "Flash Fire",
-      "item": "Choice Scarf",
+      "nature": "겁쟁이",
+      "ability": "타오르는불꽃",
+      "item": "구애스카프",
       "moves": [
-        "Eruption",
-        "Heat Wave",
-        "Focus Blast",
-        "Extrasensory"
+        "분화",
+        "열풍",
+        "기합구슬",
+        "신통력"
       ]
     }
   },
-  "Golurk": {
-    "Common Showdown": {
+  "골루그": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 248,
@@ -5650,19 +5650,19 @@ var SETDEX_SHOWDOWN={
         "sd": 8,
         "sp": 0
       },
-      "nature": "Adamant",
+      "nature": "고집",
       "ability": "",
-      "item": "Assault Vest",
+      "item": "돌격조끼",
       "moves": [
-        "Earthquake",
-        "Dynamic Punch",
-        "Ice Punch",
-        "Shadow Punch"
+        "지진",
+        "폭발펀치",
+        "냉동펀치",
+        "섀도펀치"
       ]
     }
   },
-  "Bastiodon": {
-    "Common Showdown": {
+  "바리톱스": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -5672,19 +5672,19 @@ var SETDEX_SHOWDOWN={
         "sd": 252,
         "sp": 0
       },
-      "nature": "Relaxed",
+      "nature": "무사태평",
       "ability": "",
-      "item": "Chople Berry",
+      "item": "로플열매",
       "moves": [
-        "Rock Slide",
-        "Iron Head",
-        "Heavy Slam",
-        "Earthquake"
+        "스톤샤워",
+        "아이언헤드",
+        "헤비봄버",
+        "지진"
       ]
     }
   },
-  "Scizor": {
-    "Common Showdown": {
+  "핫삼": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -5694,19 +5694,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 0
       },
-      "nature": "Adamant",
-      "ability": "Technician",
-      "item": "Life Orb",
+      "nature": "고집",
+      "ability": "테크니션",
+      "item": "생명의구슬",
       "moves": [
-        "Bullet Punch",
-        "Bug Bite",
-        "Knock Off",
-        "Superpower"
+        "불릿펀치",
+        "벌레먹음",
+        "탁쳐서떨구기",
+        "엄청난힘"
       ]
     }
   },
-  "Persian": {
-    "Common Showdown": {
+  "페르시온": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -5716,19 +5716,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Adamant",
-      "ability": "Technician",
-      "item": "Life Orb",
+      "nature": "고집",
+      "ability": "테크니션",
+      "item": "생명의구슬",
       "moves": [
-        "Fake Out",
-        "Knock Off",
-        "Feint",
-        "U-turn"
+        "속이다",
+        "탁쳐서떨구기",
+        "페인트",
+        "유턴"
       ]
     }
   },
-  "Nidoking": {
-    "Common Showdown": {
+  "니드킹": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -5738,19 +5738,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Modest",
-      "ability": "Sheer Force",
-      "item": "Life Orb",
+      "nature": "조심",
+      "ability": "우격다짐",
+      "item": "생명의구슬",
       "moves": [
-        "Earth Power",
-        "Ice Beam",
-        "Sludge Bomb",
-        "Thunderbolt"
+        "대지의힘",
+        "냉동빔",
+        "오물폭탄",
+        "10만볼트"
       ]
     }
   },
-  "Zapdos": {
-    "Common Showdown": {
+  "썬더": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -5760,19 +5760,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 112
       },
-      "nature": "Modest",
+      "nature": "조심",
       "ability": "",
-      "item": "Sitrus Berry",
+      "item": "자뭉열매",
       "moves": [
-        "Thunderbolt",
-        "Hidden Power Ice",
-        "Heat Wave",
-        "Discharge"
+        "10만볼트",
+        "잠재파워-얼음",
+        "열풍",
+        "방전"
       ]
     }
   },
-  "Ninjask": {
-    "Common Showdown": {
+  "아이스크": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 248,
@@ -5782,19 +5782,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 36
       },
-      "nature": "Impish",
+      "nature": "장난꾸러기",
       "ability": "",
       "item": "",
       "moves": [
-        "X-Scissor",
-        "Aerial Ace",
-        "U-turn",
-        "Return"
+        "시저크로스",
+        "제비반환",
+        "유턴",
+        "은혜갚기"
       ]
     }
   },
-  "Vivillon": {
-    "Common Showdown": {
+  "비비용": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -5804,19 +5804,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Timid",
+      "nature": "겁쟁이",
       "ability": "",
       "item": "",
       "moves": [
-        "Hurricane",
-        "Bug Buzz",
-        "Giga Drain",
-        "Energy Ball"
+        "폭풍",
+        "벌레의야단법석",
+        "기가드레인",
+        "에너지볼"
       ]
     }
   },
-  "Grumpig": {
-    "Common Showdown": {
+  "피그킹": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 80,
@@ -5826,19 +5826,19 @@ var SETDEX_SHOWDOWN={
         "sd": 176,
         "sp": 0
       },
-      "nature": "Bold",
-      "ability": "Thick Fat",
-      "item": "Sitrus Berry",
+      "nature": "대담",
+      "ability": "두꺼운지방",
+      "item": "자뭉열매",
       "moves": [
-        "Psychic",
-        "Icy Wind",
-        "Psyshock",
-        "Energy Ball"
+        "사이코키네시스",
+        "얼다바람",
+        "사이코쇼크",
+        "에너지볼"
       ]
     }
   },
-  "Moltres": {
-    "Common Showdown": {
+  "파이어": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -5848,19 +5848,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Timid",
+      "nature": "겁쟁이",
       "ability": "",
-      "item": "Charti Berry",
+      "item": "루미열매",
       "moves": [
-        "Heat Wave",
-        "Hurricane",
-        "Air Slash",
-        "Overheat"
+        "열풍",
+        "폭풍",
+        "에어슬래시",
+        "오버히트"
       ]
     }
   },
-  "Flareon": {
-    "Common Showdown": {
+  "부스터": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 212,
@@ -5870,19 +5870,19 @@ var SETDEX_SHOWDOWN={
         "sd": 12,
         "sp": 28
       },
-      "nature": "Adamant",
-      "ability": "Guts",
-      "item": "Toxic Orb",
+      "nature": "고집",
+      "ability": "근성",
+      "item": "맹독구슬",
       "moves": [
-        "Flare Blitz",
-        "Superpower",
-        "Facade",
-        "Quick Attack"
+        "플레어드라이브",
+        "엄청난힘",
+        "객기",
+        "전광석화"
       ]
     }
   },
-  "Tornadus-T": {
-    "Common Showdown": {
+  "토네로스-영물": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -5892,19 +5892,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 252
       },
-      "nature": "Timid",
+      "nature": "겁쟁이",
       "ability": "",
-      "item": "Life Orb",
+      "item": "생명의구슬",
       "moves": [
-        "Hurricane",
-        "U-turn",
-        "Heat Wave",
-        "Hidden Power Ice"
+        "폭풍",
+        "유턴",
+        "열풍",
+        "잠재파워-얼음"
       ]
     }
   },
-  "Chatot": {
-    "Common Showdown": {
+  "페라페": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -5914,19 +5914,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Modest",
+      "nature": "조심",
       "ability": "",
-      "item": "Choice Scarf",
+      "item": "구애스카프",
       "moves": [
-        "Chatter",
-        "Thief",
-        "Boomburst",
-        "Heat Wave"
+        "수다",
+        "도둑질",
+        "폭음파",
+        "열풍"
       ]
     }
   },
-  "Stantler": {
-    "Common Showdown": {
+  "노라키": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -5936,19 +5936,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Timid",
-      "ability": "Intimidate",
+      "nature": "겁쟁이",
+      "ability": "괴력집게",
       "item": "",
       "moves": [
-        "Return",
-        "Psychic",
-        "Thunderbolt",
-        "Megahorn"
+        "은혜갚기",
+        "사이코키네시스",
+        "10만볼트",
+        "메가폰"
       ]
     }
   },
-  "Charizard": {
-    "Common Showdown": {
+  "리자몽": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -5958,19 +5958,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 252
       },
-      "nature": "Timid",
-      "ability": "Blaze",
-      "item": "Charizardite Y",
+      "nature": "겁쟁이",
+      "ability": "맹화",
+      "item": "리자몽나이트Y",
       "moves": [
-        "Heat Wave",
-        "Solar Beam",
-        "Overheat",
-        "Air Slash"
+        "열풍",
+        "솔라빔",
+        "오버히트",
+        "에어슬래시"
       ]
     }
   },
-  "Magmortar": {
-    "Common Showdown": {
+  "마그마번": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 196,
@@ -5980,19 +5980,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 172
       },
-      "nature": "Modest",
+      "nature": "조심",
       "ability": "",
-      "item": "Assault Vest",
+      "item": "돌격조끼",
       "moves": [
-        "Flamethrower",
-        "Thunderbolt",
-        "Focus Blast",
-        "Heat Wave"
+        "화염방사",
+        "10만볼트",
+        "기합구슬",
+        "열풍"
       ]
     }
   },
-  "Abomasnow": {
-    "Common Showdown": {
+  "눈설왕": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -6002,19 +6002,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 0
       },
-      "nature": "Quiet",
-      "ability": "Snow Warning",
-      "item": "Abomasite",
+      "nature": "냉정",
+      "ability": "눈퍼뜨리기",
+      "item": "눈설왕나이트",
       "moves": [
-        "Blizzard",
-        "Ice Shard",
-        "Energy Ball",
-        "Giga Drain"
+        "눈보라",
+        "얼음뭉치",
+        "에너지볼",
+        "기가드레인"
       ]
     }
   },
-  "Luxray": {
-    "Common Showdown": {
+  "렌트라": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -6024,19 +6024,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 0
       },
-      "nature": "Adamant",
-      "ability": "Intimidate",
-      "item": "Sitrus Berry",
+      "nature": "고집",
+      "ability": "괴력집게",
+      "item": "자뭉열매",
       "moves": [
-        "Wild Charge",
-        "Ice Fang",
-        "Superpower",
-        "Fire Fang"
+        "와일드볼트",
+        "얼음엄니",
+        "엄청난힘",
+        "불꽃엄니"
       ]
     }
   },
-  "Jellicent": {
-    "Common Showdown": {
+  "탱탱겔": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -6046,19 +6046,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 0
       },
-      "nature": "Quiet",
+      "nature": "냉정",
       "ability": "",
-      "item": "Leftovers",
+      "item": "먹다남은음식",
       "moves": [
-        "Scald",
-        "Water Spout",
-        "Shadow Ball",
-        "Ice Beam"
+        "열탕",
+        "해수스파우팅",
+        "섀도볼",
+        "냉동빔"
       ]
     }
   },
-  "Mienshao": {
-    "Common Showdown": {
+  "비조도": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -6068,19 +6068,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Jolly",
+      "nature": "명랑",
       "ability": "",
       "item": "",
       "moves": [
-        "Fake Out",
-        "Rock Slide",
-        "High Jump Kick",
-        "Drain Punch"
+        "속이다",
+        "스톤샤워",
+        "무릎차기",
+        "드레인펀치"
       ]
     }
   },
-  "Gogoat": {
-    "Common Showdown": {
+  "고고트": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 248,
@@ -6090,19 +6090,19 @@ var SETDEX_SHOWDOWN={
         "sd": 8,
         "sp": 0
       },
-      "nature": "Adamant",
-      "ability": "Sap Sipper",
-      "item": "Choice Band",
+      "nature": "고집",
+      "ability": "초식",
+      "item": "구애머리띠",
       "moves": [
-        "Horn Leech",
-        "Earthquake",
-        "Rock Slide",
-        "Wild Charge"
+        "우드호른",
+        "지진",
+        "스톤샤워",
+        "와일드볼트"
       ]
     }
   },
-  "Flygon": {
-    "Common Showdown": {
+  "플라이곤": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -6112,19 +6112,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Timid",
-      "ability": "Levitate",
-      "item": "Life Orb",
+      "nature": "겁쟁이",
+      "ability": "부유",
+      "item": "생명의구슬",
       "moves": [
-        "Earthquake",
-        "Earth Power",
-        "Draco Meteor",
-        "Rock Slide"
+        "지진",
+        "대지의힘",
+        "용성군",
+        "스톤샤워"
       ]
     }
   },
-  "Escavalier": {
-    "Common Showdown": {
+  "슈바르고": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -6134,19 +6134,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 0
       },
-      "nature": "Brave",
-      "ability": "Overcoat",
-      "item": "Life Orb",
+      "nature": "용감",
+      "ability": "방진",
+      "item": "생명의구슬",
       "moves": [
-        "Iron Head",
-        "Megahorn",
-        "Drill Run",
-        "Knock Off"
+        "아이언헤드",
+        "메가폰",
+        "드릴라이너",
+        "탁쳐서떨구기"
       ]
     }
   },
-  "Bouffalant": {
-    "Common Showdown": {
+  "버프론": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -6156,19 +6156,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 0
       },
-      "nature": "Brave",
-      "ability": "Reckless",
-      "item": "Choice Band",
+      "nature": "용감",
+      "ability": "이판사판",
+      "item": "구애머리띠",
       "moves": [
-        "Head Charge",
-        "Iron Head",
-        "Rock Slide",
-        "Earthquake"
+        "아프로브레이크",
+        "아이언헤드",
+        "스톤샤워",
+        "지진"
       ]
     }
   },
-  "Landorus": {
-    "Common Showdown": {
+  "랜드로스": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -6178,19 +6178,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Timid",
-      "ability": "Sand Force",
-      "item": "Life Orb",
+      "nature": "겁쟁이",
+      "ability": "모래의힘",
+      "item": "생명의구슬",
       "moves": [
-        "Earth Power",
-        "Rock Slide",
-        "Hidden Power Ice",
-        "Earthquake"
+        "대지의힘",
+        "스톤샤워",
+        "잠재파워-얼음",
+        "지진"
       ]
     }
   },
-  "Vileplume": {
-    "Common Showdown": {
+  "라플레시아": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -6200,19 +6200,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Timid",
-      "ability": "Chlorophyll",
-      "item": "Black Sludge",
+      "nature": "겁쟁이",
+      "ability": "엽록소",
+      "item": "검은진흙",
       "moves": [
-        "Sludge Bomb",
-        "Giga Drain",
-        "Solar Beam",
-        "Dazzling Gleam"
+        "오물폭탄",
+        "기가드레인",
+        "솔라빔",
+        "매지컬샤인"
       ]
     }
   },
-  "Clefairy": {
-    "Common Showdown": {
+  "삐삐": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -6222,19 +6222,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 0
       },
-      "nature": "Bold",
+      "nature": "대담",
       "ability": "",
-      "item": "Eviolite",
+      "item": "진화의휘석",
       "moves": [
-        "Moonblast",
-        "Icy Wind",
-        "Dazzling Gleam",
-        "Ice Beam"
+        "문포스",
+        "얼다바람",
+        "매지컬샤인",
+        "냉동빔"
       ]
     }
   },
-  "Magneton": {
-    "Common Showdown": {
+  "레어코일": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -6244,19 +6244,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 140
       },
-      "nature": "Modest",
+      "nature": "조심",
       "ability": "",
-      "item": "Eviolite",
+      "item": "진화의휘석",
       "moves": [
-        "Flash Cannon",
-        "Thunderbolt",
-        "Volt Switch",
-        "Hidden Power Fire"
+        "러스터캐논",
+        "10만볼트",
+        "볼트체인지",
+        "잠재파워-불"
       ]
     }
   },
-  "Forretress": {
-    "Common Showdown": {
+  "쏘콘": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 248,
@@ -6266,19 +6266,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 0
       },
-      "nature": "Relaxed",
+      "nature": "무사태평",
       "ability": "",
       "item": "",
       "moves": [
-        "Gyro Ball",
-        "Rapid Spin",
-        "Explosion",
-        "Volt Switch"
+        "자이로볼",
+        "고속스핀",
+        "대폭발",
+        "볼트체인지"
       ]
     }
   },
-  "Skarmory": {
-    "Common Showdown": {
+  "무장조": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 248,
@@ -6288,19 +6288,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 24
       },
-      "nature": "Impish",
+      "nature": "장난꾸러기",
       "ability": "",
       "item": "",
       "moves": [
-        "Brave Bird",
-        "Iron Head",
-        "Rock Slide",
-        "Feint"
+        "브레이브버드",
+        "아이언헤드",
+        "스톤샤워",
+        "페인트"
       ]
     }
   },
-  "Volbeat": {
-    "Common Showdown": {
+  "볼비트": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 248,
@@ -6310,19 +6310,19 @@ var SETDEX_SHOWDOWN={
         "sd": 252,
         "sp": 0
       },
-      "nature": "Calm",
+      "nature": "차분",
       "ability": "",
       "item": "",
       "moves": [
-        "Bug Buzz",
-        "Dazzling Gleam",
-        "U-turn",
-        "Bug Bite"
+        "벌레의야단법석",
+        "매지컬샤인",
+        "유턴",
+        "벌레먹음"
       ]
     }
   },
-  "Archeops": {
-    "Common Showdown": {
+  "아케오스": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -6332,19 +6332,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Jolly",
-      "ability": "Defeatist",
-      "item": "Choice Scarf",
+      "nature": "명랑",
+      "ability": "무기력",
+      "item": "구애스카프",
       "moves": [
-        "Rock Slide",
-        "Earthquake",
-        "U-turn",
-        "Acrobatics"
+        "스톤샤워",
+        "지진",
+        "유턴",
+        "애크러뱃"
       ]
     }
   },
-  "Bronzong": {
-    "Common Showdown": {
+  "동탁군": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 244,
@@ -6354,19 +6354,19 @@ var SETDEX_SHOWDOWN={
         "sd": 188,
         "sp": 0
       },
-      "nature": "Sassy",
-      "ability": "Levitate",
+      "nature": "건방",
+      "ability": "부유",
       "item": "",
       "moves": [
-        "Gyro Ball",
-        "Psychic",
-        "Zen Headbutt",
-        "Earthquake"
+        "자이로볼",
+        "사이코키네시스",
+        "사념의박치기",
+        "지진"
       ]
     }
   },
-  "Mightyena": {
-    "Common Showdown": {
+  "그라에나": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 156,
@@ -6376,19 +6376,19 @@ var SETDEX_SHOWDOWN={
         "sd": 140,
         "sp": 0
       },
-      "nature": "Adamant",
-      "ability": "Intimidate",
-      "item": "Life Orb",
+      "nature": "고집",
+      "ability": "괴력집게",
+      "item": "생명의구슬",
       "moves": [
-        "Sucker Punch",
-        "Crunch",
-        "Play Rough",
-        "Foul Play"
+        "기습",
+        "깨물어부수기",
+        "치근거리기",
+        "속임수"
       ]
     }
   },
-  "Diggersby": {
-    "Common Showdown": {
+  "파르토": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -6398,19 +6398,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Adamant",
-      "ability": "Huge Power",
+      "nature": "고집",
+      "ability": "천하장사",
       "item": "",
       "moves": [
-        "Earthquake",
-        "Return",
-        "Quick Attack",
-        "Rock Slide"
+        "지진",
+        "은혜갚기",
+        "전광석화",
+        "스톤샤워"
       ]
     }
   },
-  "Garchomp": {
-    "Common Showdown": {
+  "한카리아스": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -6420,19 +6420,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 252
       },
-      "nature": "Jolly",
+      "nature": "명랑",
       "ability": "",
-      "item": "Lum Berry",
+      "item": "리샘열매",
       "moves": [
-        "Earthquake",
-        "Rock Slide",
-        "Dragon Claw",
-        "Iron Head"
+        "지진",
+        "스톤샤워",
+        "드래곤크루",
+        "아이언헤드"
       ]
     }
   },
-  "Scrafty": {
-    "Common Showdown": {
+  "곤율거니": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 248,
@@ -6442,19 +6442,19 @@ var SETDEX_SHOWDOWN={
         "sd": 8,
         "sp": 0
       },
-      "nature": "Adamant",
-      "ability": "Intimidate",
-      "item": "Lum Berry",
+      "nature": "고집",
+      "ability": "괴력집게",
+      "item": "리샘열매",
       "moves": [
-        "Fake Out",
-        "Drain Punch",
-        "Knock Off",
-        "Ice Punch"
+        "속이다",
+        "드레인펀치",
+        "탁쳐서떨구기",
+        "냉동펀치"
       ]
     }
   },
-  "Lilligant": {
-    "Common Showdown": {
+  "드레디어": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 240,
@@ -6464,19 +6464,19 @@ var SETDEX_SHOWDOWN={
         "sd": 48,
         "sp": 48
       },
-      "nature": "Modest",
+      "nature": "조심",
       "ability": "",
       "item": "",
       "moves": [
-        "Giga Drain",
-        "Petal Dance",
-        "Solar Beam",
-        "Energy Ball"
+        "기가드레인",
+        "꽃잎댄스",
+        "솔라빔",
+        "에너지볼"
       ]
     }
   },
-  "Latias": {
-    "Common Showdown": {
+  "라티아스": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -6486,19 +6486,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 252
       },
-      "nature": "Timid",
-      "ability": "Levitate",
-      "item": "Latiasite",
+      "nature": "겁쟁이",
+      "ability": "부유",
+      "item": "라티아스나이트",
       "moves": [
-        "Draco Meteor",
-        "Psychic",
-        "Psyshock",
-        "Ice Beam"
+        "용성군",
+        "사이코키네시스",
+        "사이코쇼크",
+        "냉동빔"
       ]
     }
   },
-  "Magmar": {
-    "Common Showdown": {
+  "마그마": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 244,
@@ -6508,19 +6508,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 4
       },
-      "nature": "Bold",
+      "nature": "대담",
       "ability": "",
-      "item": "Eviolite",
+      "item": "진화의휘석",
       "moves": [
-        "Overheat",
-        "Heat Wave",
-        "Flamethrower",
-        "Psychic"
+        "오버히트",
+        "열풍",
+        "화염방사",
+        "사이코키네시스"
       ]
     }
   },
-  "Lucario": {
-    "Common Showdown": {
+  "루카리오": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -6530,19 +6530,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 252
       },
-      "nature": "Jolly",
+      "nature": "명랑",
       "ability": "",
-      "item": "Lucarionite",
+      "item": "루카리오나이트",
       "moves": [
-        "Close Combat",
-        "Bullet Punch",
-        "Flash Cannon",
-        "Aura Sphere"
+        "인파이트",
+        "불릿펀치",
+        "러스터캐논",
+        "파동탄"
       ]
     }
   },
-  "Rampardos": {
-    "Common Showdown": {
+  "램펄드": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -6552,19 +6552,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 0
       },
-      "nature": "Brave",
-      "ability": "Sheer Force",
-      "item": "Life Orb",
+      "nature": "용감",
+      "ability": "우격다짐",
+      "item": "생명의구슬",
       "moves": [
-        "Rock Slide",
-        "Earthquake",
-        "Iron Head",
-        "Head Smash"
+        "스톤샤워",
+        "지진",
+        "아이언헤드",
+        "양날박치기"
       ]
     }
   },
-  "Cinccino": {
-    "Common Showdown": {
+  "치라치노": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -6574,19 +6574,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Jolly",
-      "ability": "Skill Link",
-      "item": "King's Rock",
+      "nature": "명랑",
+      "ability": "스킬링크",
+      "item": "왕의징표석",
       "moves": [
-        "Rock Blast",
-        "Bullet Seed",
-        "Tail Slap",
-        "U-turn"
+        "락블레스트",
+        "기관총",
+        "스위프뺨치기",
+        "유턴"
       ]
     }
   },
-  "Charmeleon": {
-    "Common Showdown": {
+  "리자드": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -6596,19 +6596,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 0
       },
-      "nature": "Quiet",
-      "ability": "Solar Power",
-      "item": "Choice Specs",
+      "nature": "냉정",
+      "ability": "선파워",
+      "item": "구애안경",
       "moves": [
-        "Heat Wave",
-        "Flamethrower",
-        "Overheat",
-        "Ancient Power"
+        "열풍",
+        "화염방사",
+        "오버히트",
+        "원시의힘"
       ]
     }
   },
-  "Scolipede": {
-    "Common Showdown": {
+  "펜드라": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -6618,19 +6618,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 252
       },
-      "nature": "Adamant",
+      "nature": "고집",
       "ability": "",
       "item": "",
       "moves": [
-        "Megahorn",
-        "Poison Jab",
-        "Rock Slide",
-        "Earthquake"
+        "메가폰",
+        "독찌르기",
+        "스톤샤워",
+        "지진"
       ]
     }
   },
-  "Serperior": {
-    "Common Showdown": {
+  "샤로다": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -6640,19 +6640,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 252
       },
-      "nature": "Timid",
-      "ability": "Contrary",
+      "nature": "겁쟁이",
+      "ability": "심술꾸러기",
       "item": "",
       "moves": [
-        "Leaf Storm",
-        "Dragon Pulse",
-        "Giga Drain",
-        "Hidden Power Ice"
+        "리프스톰",
+        "용의파동",
+        "기가드레인",
+        "잠재파워-얼음"
       ]
     }
   },
-  "Staraptor": {
-    "Common Showdown": {
+  "찌르호크": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -6662,19 +6662,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Jolly",
-      "ability": "Intimidate",
-      "item": "Choice Scarf",
+      "nature": "명랑",
+      "ability": "괴력집게",
+      "item": "구애스카프",
       "moves": [
-        "Brave Bird",
-        "Close Combat",
-        "U-turn",
-        "Double-Edge"
+        "브레이브버드",
+        "인파이트",
+        "유턴",
+        "이판사판태클"
       ]
     }
   },
-  "Ludicolo": {
-    "Common Showdown": {
+  "로파파": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -6684,19 +6684,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 20
       },
-      "nature": "Modest",
-      "ability": "Swift Swim",
-      "item": "Assault Vest",
+      "nature": "조심",
+      "ability": "쓱쓱",
+      "item": "돌격조끼",
       "moves": [
-        "Fake Out",
-        "Ice Beam",
-        "Giga Drain",
-        "Scald"
+        "속이다",
+        "냉동빔",
+        "기가드레인",
+        "열탕"
       ]
     }
   },
-  "Cloyster": {
-    "Common Showdown": {
+  "파르셀": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -6706,19 +6706,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 252
       },
-      "nature": "Jolly",
-      "ability": "Skill Link",
-      "item": "Choice Scarf",
+      "nature": "명랑",
+      "ability": "스킬링크",
+      "item": "구애스카프",
       "moves": [
-        "Icicle Spear",
-        "Rock Blast",
-        "Razor Shell",
-        "Ice Shard"
+        "고드름침",
+        "락블레스트",
+        "셸블레이드",
+        "얼음뭉치"
       ]
     }
   },
-  "Salamence": {
-    "Common Showdown": {
+  "보만다": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -6728,19 +6728,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Jolly",
-      "ability": "Intimidate",
-      "item": "Salamencite",
+      "nature": "명랑",
+      "ability": "괴력집게",
+      "item": "보만다나이트",
       "moves": [
-        "Double-Edge",
-        "Earthquake",
-        "Draco Meteor",
-        "Hyper Voice"
+        "이판사판태클",
+        "지진",
+        "용성군",
+        "하이퍼보이스"
       ]
     }
   },
-  "Haxorus": {
-    "Common Showdown": {
+  "액스라이즈": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -6750,19 +6750,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Adamant",
-      "ability": "Mold Breaker",
-      "item": "Choice Scarf",
+      "nature": "고집",
+      "ability": "틀깨기",
+      "item": "구애스카프",
       "moves": [
-        "Dragon Claw",
-        "Earthquake",
-        "Poison Jab",
-        "Rock Slide"
+        "드래곤크루",
+        "지진",
+        "독찌르기",
+        "스톤샤워"
       ]
     }
   },
-  "Garbodor": {
-    "Common Showdown": {
+  "더스트나": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -6772,19 +6772,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 0
       },
-      "nature": "Adamant",
+      "nature": "고집",
       "ability": "",
       "item": "",
       "moves": [
-        "Gunk Shot",
-        "Drain Punch",
-        "Seed Bomb",
-        "Explosion"
+        "더스트슈트",
+        "드레인펀치",
+        "씨폭탄",
+        "대폭발"
       ]
     }
   },
-  "Marowak": {
-    "Common Showdown": {
+  "텅구리": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -6794,19 +6794,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 0
       },
-      "nature": "Brave",
-      "ability": "Lightning Rod",
-      "item": "Thick Club",
+      "nature": "용감",
+      "ability": "피뢰침",
+      "item": "굵은뼈",
       "moves": [
-        "Bonemerang",
-        "Rock Slide",
-        "Low Kick",
-        "Knock Off"
+        "뻐다귀부메랑",
+        "스톤샤워",
+        "안다리걸기",
+        "탁쳐서떨구기"
       ]
     }
   },
-  "Glaceon": {
-    "Common Showdown": {
+  "글레이시아": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -6816,19 +6816,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 4
       },
-      "nature": "Modest",
-      "ability": "Snow Cloak",
-      "item": "Choice Specs",
+      "nature": "조심",
+      "ability": "눈숨기",
+      "item": "구애안경",
       "moves": [
-        "Blizzard",
-        "Ice Beam",
-        "Shadow Ball",
-        "Hidden Power Ground"
+        "눈보라",
+        "냉동빔",
+        "섀도볼",
+        "잠재파워-땅"
       ]
     }
   },
-  "Hippowdon": {
-    "Common Showdown": {
+  "하마돈": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -6838,19 +6838,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 0
       },
-      "nature": "Impish",
-      "ability": "Sand Stream",
-      "item": "Leftovers",
+      "nature": "장난꾸러기",
+      "ability": "모래날림",
+      "item": "먹다남은음식",
       "moves": [
-        "Earthquake",
-        "Ice Fang",
-        "Rock Slide",
-        "Crunch"
+        "지진",
+        "얼음엄니",
+        "스톤샤워",
+        "깨물어부수기"
       ]
     }
   },
-  "Bellossom": {
-    "Common Showdown": {
+  "아르코": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -6860,19 +6860,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Modest",
-      "ability": "Chlorophyll",
-      "item": "Assault Vest",
+      "nature": "조심",
+      "ability": "엽록소",
+      "item": "돌격조끼",
       "moves": [
-        "Giga Drain",
-        "Sludge Bomb",
-        "Hidden Power Rock",
-        "Dazzling Gleam"
+        "기가드레인",
+        "오물폭탄",
+        "잠재파워-바위",
+        "매지컬샤인"
       ]
     }
   },
-  "Blissey": {
-    "Common Showdown": {
+  "해피너스": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -6882,19 +6882,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 0
       },
-      "nature": "Bold",
+      "nature": "대담",
       "ability": "",
-      "item": "Leftovers",
+      "item": "먹다남은음식",
       "moves": [
-        "Seismic Toss",
-        "Charge Beam",
-        "Flamethrower",
-        "Shadow Ball"
+        "지구던지기",
+        "차지빔",
+        "화염방사",
+        "섀도볼"
       ]
     }
   },
-  "Metagross": {
-    "Common Showdown": {
+  "메타그로스": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -6904,19 +6904,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Jolly",
-      "ability": "Clear Body",
-      "item": "Metagrossite",
+      "nature": "명랑",
+      "ability": "클리어바디",
+      "item": "메타그로스나이트",
       "moves": [
-        "Zen Headbutt",
-        "Iron Head",
-        "Ice Punch",
-        "Bullet Punch"
+        "사념의박치기",
+        "아이언헤드",
+        "냉동펀치",
+        "불릿펀치"
       ]
     }
   },
-  "Misdreavus": {
-    "Common Showdown": {
+  "무우마": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -6926,19 +6926,19 @@ var SETDEX_SHOWDOWN={
         "sd": 188,
         "sp": 0
       },
-      "nature": "Calm",
-      "ability": "Levitate",
-      "item": "Eviolite",
+      "nature": "차분",
+      "ability": "부유",
+      "item": "진화의휘석",
       "moves": [
-        "Shadow Ball",
-        "Hex",
-        "Foul Play",
-        "Icy Wind"
+        "섀도볼",
+        "병상첨병",
+        "속임수",
+        "얼다바람"
       ]
     }
   },
-  "Delphox": {
-    "Common Showdown": {
+  "마폭시": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -6948,19 +6948,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 252
       },
-      "nature": "Timid",
-      "ability": "Blaze",
+      "nature": "겁쟁이",
+      "ability": "맹화",
       "item": "",
       "moves": [
-        "Psychic",
-        "Heat Wave",
-        "Psyshock",
-        "Dazzling Gleam"
+        "사이코키네시스",
+        "열풍",
+        "사이코쇼크",
+        "매지컬샤인"
       ]
     }
   },
-  "Pelipper": {
-    "Common Showdown": {
+  "패리퍼": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -6970,19 +6970,19 @@ var SETDEX_SHOWDOWN={
         "sd": 252,
         "sp": 0
       },
-      "nature": "Calm",
-      "ability": "Rain Dish",
-      "item": "Safety Goggles",
+      "nature": "차분",
+      "ability": "젖은접시",
+      "item": "방진고글",
       "moves": [
-        "Scald",
-        "Hurricane",
-        "Icy Wind",
-        "Air Slash"
+        "열탕",
+        "폭풍",
+        "얼다바람",
+        "에어슬래시"
       ]
     }
   },
-  "Avalugg": {
-    "Common Showdown": {
+  "크레베이스": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 84,
@@ -6992,19 +6992,19 @@ var SETDEX_SHOWDOWN={
         "sd": 84,
         "sp": 84
       },
-      "nature": "Hardy",
+      "nature": "노력",
       "ability": "",
-      "item": "Leftovers",
+      "item": "먹다남은음식",
       "moves": [
-        "Avalanche",
-        "Gyro Ball",
-        "Rock Slide",
-        "Earthquake"
+        "눈사태",
+        "자이로볼",
+        "스톤샤워",
+        "지진"
       ]
     }
   },
-  "Talonflame": {
-    "Common Showdown": {
+  "파이어로": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -7014,19 +7014,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Adamant",
+      "nature": "고집",
       "ability": "",
-      "item": "Life Orb",
+      "item": "생명의구슬",
       "moves": [
-        "Brave Bird",
-        "Flare Blitz",
-        "U-turn",
-        "Overheat"
+        "브레이브버드",
+        "플레어드라이브",
+        "유턴",
+        "오버히트"
       ]
     }
   },
-  "Meganium": {
-    "Common Showdown": {
+  "메가니움": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -7036,19 +7036,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 0
       },
-      "nature": "Relaxed",
+      "nature": "무사태평",
       "ability": "",
-      "item": "Leftovers",
+      "item": "먹다남은음식",
       "moves": [
-        "Giga Drain",
-        "Solar Beam",
-        "Earthquake",
-        "Ancient Power"
+        "기가드레인",
+        "솔라빔",
+        "지진",
+        "원시의힘"
       ]
     }
   },
-  "Mr. Mime": {
-    "Common Showdown": {
+  "마임맨": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -7058,19 +7058,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Timid",
-      "ability": "Filter",
-      "item": "Sitrus Berry",
+      "nature": "겁쟁이",
+      "ability": "필터",
+      "item": "자뭉열매",
       "moves": [
-        "Fake Out",
-        "Dazzling Gleam",
-        "Icy Wind",
-        "Psychic"
+        "속이다",
+        "매지컬샤인",
+        "얼다바람",
+        "사이코키네시스"
       ]
     }
   },
-  "Barbaracle": {
-    "Common Showdown": {
+  "거북손데스": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -7080,19 +7080,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 252
       },
-      "nature": "Adamant",
-      "ability": "Tough Claws",
+      "nature": "고집",
+      "ability": "단단한발톱",
       "item": "",
       "moves": [
-        "Razor Shell",
-        "Rock Slide",
-        "Poison Jab",
-        "Earthquake"
+        "셸블레이드",
+        "스톤샤워",
+        "독찌르기",
+        "지진"
       ]
     }
   },
-  "Wailord": {
-    "Common Showdown": {
+  "고래왕": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -7102,19 +7102,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Timid",
+      "nature": "겁쟁이",
       "ability": "",
-      "item": "Sitrus Berry",
+      "item": "자뭉열매",
       "moves": [
-        "Water Spout",
-        "Ice Beam",
-        "Scald",
-        "Hydro Pump"
+        "해수스파우팅",
+        "냉동빔",
+        "열탕",
+        "하이드로펌프"
       ]
     }
   },
-  "Chandelure": {
-    "Common Showdown": {
+  "샹델라": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -7124,19 +7124,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Timid",
-      "ability": "Flash Fire",
+      "nature": "겁쟁이",
+      "ability": "타오르는불꽃",
       "item": "",
       "moves": [
-        "Shadow Ball",
-        "Heat Wave",
-        "Energy Ball",
-        "Overheat"
+        "섀도볼",
+        "열풍",
+        "에너지볼",
+        "오버히트"
       ]
     }
   },
-  "Ursaring": {
-    "Common Showdown": {
+  "링곰": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 248,
@@ -7146,19 +7146,19 @@ var SETDEX_SHOWDOWN={
         "sd": 8,
         "sp": 0
       },
-      "nature": "Brave",
-      "ability": "Guts",
-      "item": "Flame Orb",
+      "nature": "용감",
+      "ability": "근성",
+      "item": "화염구슬",
       "moves": [
-        "Facade",
-        "Close Combat",
-        "Crunch",
-        "Earthquake"
+        "객기",
+        "인파이트",
+        "깨물어부수기",
+        "지진"
       ]
     }
   },
-  "Tyrantrum": {
-    "Common Showdown": {
+  "견고라스": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -7168,19 +7168,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 252
       },
-      "nature": "Adamant",
+      "nature": "고집",
       "ability": "",
-      "item": "Choice Scarf",
+      "item": "구애스카프",
       "moves": [
-        "Head Smash",
-        "Dragon Claw",
-        "Earthquake",
-        "Rock Slide"
+        "양날박치기",
+        "드래곤크루",
+        "지진",
+        "스톤샤워"
       ]
     }
   },
-  "Gardevoir": {
-    "Common Showdown": {
+  "가디안": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -7190,19 +7190,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Timid",
+      "nature": "겁쟁이",
       "ability": "",
-      "item": "Gardevoirite",
+      "item": "가디안나이트",
       "moves": [
-        "Hyper Voice",
-        "Psychic",
-        "Psyshock",
-        "Moonblast"
+        "하이퍼보이스",
+        "사이코키네시스",
+        "사이코쇼크",
+        "문포스"
       ]
     }
   },
-  "Stunfisk": {
-    "Common Showdown": {
+  "메더": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -7212,19 +7212,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 0
       },
-      "nature": "Modest",
+      "nature": "조심",
       "ability": "",
-      "item": "Assault Vest",
+      "item": "돌격조끼",
       "moves": [
-        "Earth Power",
-        "Thunderbolt",
-        "Sludge Bomb",
-        "Foul Play"
+        "대지의힘",
+        "10만볼트",
+        "오물폭탄",
+        "속임수"
       ]
     }
   },
-  "Aromatisse": {
-    "Common Showdown": {
+  "프레프티르": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -7234,19 +7234,19 @@ var SETDEX_SHOWDOWN={
         "sd": 56,
         "sp": 0
       },
-      "nature": "Relaxed",
+      "nature": "무사태평",
       "ability": "",
-      "item": "Sitrus Berry",
+      "item": "자뭉열매",
       "moves": [
-        "Moonblast",
-        "Dazzling Gleam",
-        "Draining Kiss",
-        "Energy Ball"
+        "문포스",
+        "매지컬샤인",
+        "드레인키스",
+        "에너지볼"
       ]
     }
   },
-  "Castform": {
-    "Common Showdown": {
+  "캐스퐁": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -7256,19 +7256,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Timid",
-      "ability": "Forecast",
-      "item": "Life Orb",
+      "nature": "겁쟁이",
+      "ability": "기분파",
+      "item": "생명의구슬",
       "moves": [
-        "Weather Ball",
-        "Hurricane",
-        "Thunder",
-        "Ice Beam"
+        "웨더볼",
+        "폭풍",
+        "번개",
+        "냉동빔"
       ]
     }
   },
-  "Cradily": {
-    "Common Showdown": {
+  "릴리요": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -7278,19 +7278,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 0
       },
-      "nature": "Bold",
-      "ability": "Storm Drain",
-      "item": "Leftovers",
+      "nature": "대담",
+      "ability": "마중물",
+      "item": "먹다남은음식",
       "moves": [
-        "Giga Drain",
-        "Ancient Power",
-        "Earth Power",
-        "Sludge Bomb"
+        "기가드레인",
+        "원시의힘",
+        "대지의힘",
+        "오물폭탄"
       ]
     }
   },
-  "Pidgeot": {
-    "Common Showdown": {
+  "피죤투": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -7300,19 +7300,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Timid",
+      "nature": "겁쟁이",
       "ability": "",
-      "item": "Pidgeotite",
+      "item": "피죤투나이트",
       "moves": [
-        "Hurricane",
-        "Heat Wave",
-        "Hidden Power Ice",
-        "Hyper Beam"
+        "폭풍",
+        "열풍",
+        "잠재파워-얼음",
+        "파괴광선"
       ]
     }
   },
-  "Kingler": {
-    "Common Showdown": {
+  "킹크랩": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -7322,19 +7322,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Adamant",
-      "ability": "Hyper Cutter",
-      "item": "Sitrus Berry",
+      "nature": "고집",
+      "ability": "괴력집게",
+      "item": "자뭉열매",
       "moves": [
-        "Crabhammer",
-        "Knock Off",
-        "Superpower",
-        "Rock Slide"
+        "찝게햄머",
+        "탁쳐서떨구기",
+        "엄청난힘",
+        "스톤샤워"
       ]
     }
   },
-  "Lunatone": {
-    "Common Showdown": {
+  "루나톤": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -7344,19 +7344,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 0
       },
-      "nature": "Modest",
-      "ability": "Levitate",
+      "nature": "조심",
+      "ability": "부유",
       "item": "",
       "moves": [
-        "Psyshock",
-        "Earth Power",
-        "Hidden Power Rock",
-        "Moonblast"
+        "사이코쇼크",
+        "대지의힘",
+        "잠재파워-바위",
+        "문포스"
       ]
     }
   },
-  "Roserade": {
-    "Common Showdown": {
+  "로즈레이드": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -7366,19 +7366,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 252
       },
-      "nature": "Timid",
-      "ability": "Technician",
-      "item": "Life Orb",
+      "nature": "겁쟁이",
+      "ability": "테크니션",
+      "item": "생명의구슬",
       "moves": [
-        "Sludge Bomb",
-        "Leaf Storm",
-        "Giga Drain",
-        "Hidden Power Fire"
+        "오물폭탄",
+        "리프스톰",
+        "기가드레인",
+        "잠재파워-불"
       ]
     }
   },
-  "Rapidash": {
-    "Common Showdown": {
+  "날쌩마": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -7388,19 +7388,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 252
       },
-      "nature": "Jolly",
-      "ability": "Flash Fire",
-      "item": "Life Orb",
+      "nature": "명랑",
+      "ability": "타오르는불꽃",
+      "item": "생명의구슬",
       "moves": [
-        "Flare Blitz",
-        "Drill Run",
-        "Wild Charge",
-        "Overheat"
+        "플레어드라이브",
+        "드릴라이너",
+        "와일드볼트",
+        "오버히트"
       ]
     }
   },
-  "Electivire": {
-    "Common Showdown": {
+  "에레키블": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -7410,19 +7410,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Adamant",
-      "ability": "Motor Drive",
-      "item": "Air Balloon",
+      "nature": "고집",
+      "ability": "전기엔진",
+      "item": "풍선",
       "moves": [
-        "Ice Punch",
-        "Thunder Punch",
-        "Wild Charge",
-        "Earthquake"
+        "냉동펀치",
+        "번개펀치",
+        "와일드볼트",
+        "지진"
       ]
     }
   },
-  "Suicune": {
-    "Common Showdown": {
+  "스이쿤": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -7432,19 +7432,19 @@ var SETDEX_SHOWDOWN={
         "sd": 52,
         "sp": 4
       },
-      "nature": "Bold",
+      "nature": "대담",
       "ability": "",
-      "item": "Sitrus Berry",
+      "item": "자뭉열매",
       "moves": [
-        "Scald",
-        "Ice Beam",
-        "Snarl",
-        "Icy Wind"
+        "열탕",
+        "냉동빔",
+        "바크아웃",
+        "얼다바람"
       ]
     }
   },
-  "Gourgeist-Super": {
-    "Common Showdown": {
+  "펌킨인-특대": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -7454,19 +7454,19 @@ var SETDEX_SHOWDOWN={
         "sd": 220,
         "sp": 0
       },
-      "nature": "Careful",
+      "nature": "신중",
       "ability": "",
-      "item": "Leftovers",
+      "item": "먹다남은음식",
       "moves": [
-        "Phantom Force",
-        "Seed Bomb",
-        "Shadow Sneak",
-        "Bullet Seed"
+        "고스트다이브",
+        "씨폭탄",
+        "야습",
+        "기관총"
       ]
     }
   },
-  "Donphan": {
-    "Common Showdown": {
+  "코리갑": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -7476,19 +7476,19 @@ var SETDEX_SHOWDOWN={
         "sd": 252,
         "sp": 0
       },
-      "nature": "Careful",
+      "nature": "신중",
       "ability": "",
-      "item": "Assault Vest",
+      "item": "돌격조끼",
       "moves": [
-        "Earthquake",
-        "Ice Shard",
-        "Play Rough",
-        "Knock Off"
+        "지진",
+        "얼음뭉치",
+        "치근거리기",
+        "탁쳐서떨구기"
       ]
     }
   },
-  "Gastrodon": {
-    "Common Showdown": {
+  "트리토돈": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 244,
@@ -7498,19 +7498,19 @@ var SETDEX_SHOWDOWN={
         "sd": 88,
         "sp": 0
       },
-      "nature": "Bold",
-      "ability": "Storm Drain",
-      "item": "Leftovers",
+      "nature": "대담",
+      "ability": "마중물",
+      "item": "먹다남은음식",
       "moves": [
-        "Earth Power",
-        "Ice Beam",
-        "Scald",
-        "Muddy Water"
+        "대지의힘",
+        "냉동빔",
+        "열탕",
+        "탁류"
       ]
     }
   },
-  "Thundurus-T": {
-    "Common Showdown": {
+  "볼트로스-영물": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -7520,19 +7520,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Timid",
-      "ability": "Volt Absorb",
-      "item": "Choice Scarf",
+      "nature": "겁쟁이",
+      "ability": "축전",
+      "item": "구애스카프",
       "moves": [
-        "Hidden Power Ice",
-        "Thunderbolt",
-        "Volt Switch",
-        "Grass Knot"
+        "잠재파워-얼음",
+        "10만볼트",
+        "볼트체인지",
+        "풀묶기"
       ]
     }
   },
-  "Tyranitar": {
-    "Common Showdown": {
+  "마기라스": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -7542,19 +7542,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Jolly",
-      "ability": "Sand Stream",
-      "item": "Tyranitarite",
+      "nature": "명랑",
+      "ability": "모래날림",
+      "item": "마기라스나이트",
       "moves": [
-        "Rock Slide",
-        "Crunch",
-        "Ice Beam",
-        "Low Kick"
+        "스톤샤워",
+        "깨물어부수기",
+        "냉동빔",
+        "안다리걸기"
       ]
     }
   },
-  "Miltank": {
-    "Common Showdown": {
+  "밀탱크": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 140,
@@ -7564,19 +7564,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Jolly",
-      "ability": "Thick Fat",
-      "item": "Leftovers",
+      "nature": "명랑",
+      "ability": "두꺼운지방",
+      "item": "먹다남은음식",
       "moves": [
-        "Body Slam",
-        "Rock Slide",
-        "Return",
-        "Ice Punch"
+        "누르기",
+        "스톤샤워",
+        "은혜갚기",
+        "냉동펀치"
       ]
     }
   },
-  "Accelgor": {
-    "Common Showdown": {
+  "어지리더": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -7586,19 +7586,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Timid",
+      "nature": "겁쟁이",
       "ability": "",
       "item": "",
       "moves": [
-        "Bug Buzz",
-        "Acid Spray",
-        "Energy Ball",
-        "Sludge Bomb"
+        "벌레의야단법석",
+        "애시드봄",
+        "에너지볼",
+        "오물폭탄"
       ]
     }
   },
-  "Dewgong": {
-    "Common Showdown": {
+  "쥬레곤": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -7608,19 +7608,19 @@ var SETDEX_SHOWDOWN={
         "sd": 180,
         "sp": 0
       },
-      "nature": "Careful",
-      "ability": "Thick Fat",
-      "item": "Sitrus Berry",
+      "nature": "신중",
+      "ability": "두꺼운지방",
+      "item": "자뭉열매",
       "moves": [
-        "Fake Out",
-        "Icy Wind",
-        "Ice Beam",
-        "Aqua Jet"
+        "속이다",
+        "얼다바람",
+        "냉동빔",
+        "아쿠아제트"
       ]
     }
   },
-  "Muk": {
-    "Common Showdown": {
+  "질뻐기": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 248,
@@ -7630,19 +7630,19 @@ var SETDEX_SHOWDOWN={
         "sd": 8,
         "sp": 0
       },
-      "nature": "Adamant",
+      "nature": "고집",
       "ability": "",
-      "item": "Black Sludge",
+      "item": "검은진흙",
       "moves": [
-        "Gunk Shot",
-        "Poison Jab",
-        "Fire Punch",
-        "Ice Punch"
+        "더스트슈트",
+        "독찌르기",
+        "불꽃펀치",
+        "냉동펀치"
       ]
     }
   },
-  "Shiftry": {
-    "Common Showdown": {
+  "다탱구": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -7652,19 +7652,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Adamant",
-      "ability": "Chlorophyll",
+      "nature": "고집",
+      "ability": "엽록소",
       "item": "",
       "moves": [
-        "Fake Out",
-        "Knock Off",
-        "Leaf Blade",
-        "Rock Slide"
+        "속이다",
+        "탁쳐서떨구기",
+        "리프블레이드",
+        "스톤샤워"
       ]
     }
   },
-  "Cryogonal": {
-    "Common Showdown": {
+  "프리지오": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -7674,19 +7674,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Timid",
-      "ability": "Levitate",
+      "nature": "겁쟁이",
+      "ability": "부유",
       "item": "",
       "moves": [
-        "Freeze-Dry",
-        "Flash Cannon",
-        "Ice Beam",
-        "Icy Wind"
+        "프리즈드라이",
+        "러스터캐논",
+        "냉동빔",
+        "얼다바람"
       ]
     }
   },
-  "Beartic": {
-    "Common Showdown": {
+  "툰베어": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -7696,19 +7696,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Jolly",
-      "ability": "Swift Swim",
-      "item": "Life Orb",
+      "nature": "명랑",
+      "ability": "쓱쓱",
+      "item": "생명의구슬",
       "moves": [
-        "Icicle Crash",
-        "Superpower",
-        "Aqua Jet",
-        "Rock Slide"
+        "고드름떨구기",
+        "엄청난힘",
+        "아쿠아제트",
+        "스톤샤워"
       ]
     }
   },
-  "Regice": {
-    "Common Showdown": {
+  "레지아이스": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -7718,19 +7718,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 0
       },
-      "nature": "Quiet",
-      "ability": "Clear Body",
-      "item": "Choice Specs",
+      "nature": "냉정",
+      "ability": "클리어바디",
+      "item": "구애안경",
       "moves": [
-        "Ice Beam",
-        "Thunderbolt",
-        "Focus Blast",
-        "Blizzard"
+        "냉동빔",
+        "10만볼트",
+        "기합구슬",
+        "눈보라"
       ]
     }
   },
-  "Armaldo": {
-    "Common Showdown": {
+  "아말도": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -7740,19 +7740,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Adamant",
-      "ability": "Swift Swim",
-      "item": "Assault Vest",
+      "nature": "고집",
+      "ability": "쓱쓱",
+      "item": "돌격조끼",
       "moves": [
-        "X-Scissor",
-        "Rock Slide",
-        "Cross Poison",
-        "Earthquake"
+        "시저크로스",
+        "스톤샤워",
+        "크로스포이즌",
+        "지진"
       ]
     }
   },
-  "Espeon": {
-    "Common Showdown": {
+  "에브이": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -7762,19 +7762,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 252
       },
-      "nature": "Timid",
+      "nature": "겁쟁이",
       "ability": "",
-      "item": "Leftovers",
+      "item": "먹다남은음식",
       "moves": [
-        "Psychic",
-        "Dazzling Gleam",
-        "Psyshock",
-        "Shadow Ball"
+        "사이코키네시스",
+        "매지컬샤인",
+        "사이코쇼크",
+        "섀도볼"
       ]
     }
   },
-  "Shedinja": {
-    "Common Showdown": {
+  "껍질몬": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -7784,19 +7784,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Adamant",
-      "ability": "Wonder Guard",
+      "nature": "고집",
+      "ability": "불가사의부적",
       "item": "",
       "moves": [
-        "X-Scissor",
-        "Shadow Sneak",
-        "Phantom Force",
-        "Shadow Claw"
+        "시저크로스",
+        "야습",
+        "고스트다이브",
+        "섀도크루"
       ]
     }
   },
-  "Sneasel": {
-    "Common Showdown": {
+  "포푸니": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -7806,19 +7806,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 252
       },
-      "nature": "Jolly",
+      "nature": "명랑",
       "ability": "",
       "item": "",
       "moves": [
-        "Fake Out",
-        "Knock Off",
-        "Icicle Crash",
-        "Icy Wind"
+        "속이다",
+        "탁쳐서떨구기",
+        "고드름떨구기",
+        "얼다바람"
       ]
     }
   },
-  "Hitmontop": {
-    "Common Showdown": {
+  "카포에라": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -7828,19 +7828,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 0
       },
-      "nature": "Adamant",
-      "ability": "Intimidate",
-      "item": "Sitrus Berry",
+      "nature": "고집",
+      "ability": "괴력집게",
+      "item": "자뭉열매",
       "moves": [
-        "Fake Out",
-        "Close Combat",
-        "Feint",
-        "Mach Punch"
+        "속이다",
+        "인파이트",
+        "페인트",
+        "마하펀치"
       ]
     }
   },
-  "Kingdra": {
-    "Common Showdown": {
+  "킹드라": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -7850,19 +7850,19 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 252
       },
-      "nature": "Modest",
-      "ability": "Swift Swim",
-      "item": "Life Orb",
+      "nature": "조심",
+      "ability": "쓱쓱",
+      "item": "생명의구슬",
       "moves": [
-        "Draco Meteor",
-        "Muddy Water",
-        "Ice Beam",
-        "Hydro Pump"
+        "용성군",
+        "탁류",
+        "냉동빔",
+        "하이드로펌프"
       ]
     }
   },
-    "Primal Kyogre": {
-    "Common Showdown": {
+    "원시가이오가": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -7872,19 +7872,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Modest",
-      "ability": "Drizzle",
-      "item": "Blue Orb",
+      "nature": "조심",
+      "ability": "잔비",
+      "item": "쪽빛구슬",
       "moves": [
-        "Origin Pulse",
-        "Water Spout",
-        "Ice Beam",
-        "Thunder"
+        "근원의파동",
+        "해수스파우팅",
+        "냉동빔",
+        "번개"
       ]
     }
   },  
 
-  "Primal Groudon": {
+  "원시그란돈": {
     "Common Physical Showdown": {
       "level": 50,
       "evs": {
@@ -7895,14 +7895,14 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 0
       },
-      "nature": "Adamant",
-      "ability": "Drought",
-      "item": "Red Orb",
+      "nature": "고집",
+      "ability": "가뭄",
+      "item": "주홍구슬",
       "moves": [
-        "Precipice Blades",
-        "Fire Punch",
-        "Rock Slide",
-        "Earthquake"
+        "단애의칼",
+        "불꽃펀치",
+        "스톤샤워",
+        "지진"
       ]
     },
     "Common Mixed Showdown": {
@@ -7915,20 +7915,20 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Modest",
-      "ability": "Drought",
-      "item": "Red Orb",
+      "nature": "조심",
+      "ability": "가뭄",
+      "item": "주홍구슬",
       "moves": [
-        "Eruption",
-        "Flamethrower",
-        "Earth Power",
-        "Precipice Blades"
+        "분화",
+        "화염방사",
+        "대지의힘",
+        "단애의칼"
       ]
     }
   },
 
-  "Kyogre": {
-    "Common Showdown": {
+  "가이오가": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -7938,19 +7938,19 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Modest",
-      "ability": "Drizzle",
-      "item": "Blue Orb",
+      "nature": "조심",
+      "ability": "잔비",
+      "item": "쪽빛구슬",
       "moves": [
-        "Origin Pulse",
-        "Water Spout",
-        "Ice Beam",
-        "Thunder"
+        "근원의파동",
+        "해수스파우팅",
+        "냉동빔",
+        "번개"
       ]
     }
   },  
 
-  "Groudon": {
+  "그란돈": {
     "Common Physical Showdown": {
       "level": 50,
       "evs": {
@@ -7961,14 +7961,14 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 0
       },
-      "nature": "Adamant",
-      "ability": "Drought",
-      "item": "Red Orb",
+      "nature": "고집",
+      "ability": "가뭄",
+      "item": "주홍구슬",
       "moves": [
-        "Precipice Blades",
-        "Fire Punch",
-        "Rock Slide",
-        "Earthquake"
+        "단애의칼",
+        "불꽃펀치",
+        "스톤샤워",
+        "지진"
       ]
     },
     "Common Mixed Showdown": {
@@ -7981,20 +7981,20 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Modest",
-      "ability": "Drought",
-      "item": "Red Orb",
+      "nature": "조심",
+      "ability": "가뭄",
+      "item": "주홍구슬",
       "moves": [
-        "Eruption",
-        "Flamethrower",
-        "Earth Power",
-        "Precipice Blades"
+        "분화",
+        "화염방사",
+        "대지의힘",
+        "단애의칼"
       ]
     }
   },
 
-  "Rayquaza": {
-    "Common Showdown Physical": {
+  "레쿠쟈": {
+    "일반 쇼다운 Physical": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -8004,18 +8004,18 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Jolly",
-      "ability": "Drought",
-      "item": "Life Orb",
+      "nature": "명랑",
+      "ability": "가뭄",
+      "item": "생명의구슬",
       "moves": [
-        "Dragon Ascent",
-        "Draco Meteor",
-        "Extreme Speed",
-        "Earthquake"
+        "화룡점정",
+        "용성군",
+        "신속",
+        "지진"
       ]
     },
 
-    "Common Showdown Mixed": {
+    "일반 쇼다운 Mixed": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -8025,20 +8025,20 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Naive",
-      "ability": "Drought",
-      "item": "Life Orb",
+      "nature": "천진난만",
+      "ability": "가뭄",
+      "item": "생명의구슬",
       "moves": [
-        "Dragon Ascent",
-        "Draco Meteor",
-        "Extreme Speed",
-        "Earthquake"
+        "화룡점정",
+        "용성군",
+        "신속",
+        "지진"
       ]
     }
   },
 
-  "Xerneas": {
-    "Common Showdown": {
+  "제르네아스": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -8048,20 +8048,20 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Timid",
-      "ability": "Fairy Aura",
+      "nature": "겁쟁이",
+      "ability": "페어리오라",
       "item": "",
       "moves": [
-        "Moonblast",
-        "Dazzling Gleam",
-        "Grass Knot",
-        "Hidden Power Ground"
+        "문포스",
+        "매지컬샤인",
+        "풀묶기",
+        "잠재파워-땅"
       ]
     }
   },
 
-  "Yveltal": {
-    "Common Showdown": {
+  "이벨타르": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
@@ -8071,20 +8071,20 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 252
       },
-      "nature": "Timid",
-      "ability": "Dark Aura",
-      "item": "Life Orb",
+      "nature": "겁쟁이",
+      "ability": "다크오라",
+      "item": "생명의구슬",
       "moves": [
-        "Oblivion Wing",
-        "Sucker Punch",
-        "Foul Play",
-        "Snarl"
+        "데스윙",
+        "기습",
+        "속임수",
+        "바크아웃"
       ]
     }
   },
 
-  "Dialga": {
-    "Common Showdown": {
+  "디아루가": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -8094,20 +8094,20 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 0
       },
-      "nature": "Modest",
-      "ability": "Pressure",
-      "item": "Adamant Orb",
+      "nature": "조심",
+      "ability": "프레셔",
+      "item": "금강옥",
       "moves": [
-        "Draco Meteor",
-        "Flash Cannon",
-        "Earth Power",
-        "Fire Blast"
+        "용성군",
+        "러스터캐논",
+        "대지의힘",
+        "불대문자"
       ]
     }
   },
 
-  "Palkia": {
-    "Common Showdown": {
+  "펄기아": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -8117,20 +8117,20 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 0
       },
-      "nature": "Modest",
-      "ability": "Pressure",
-      "item": "Lustrous Orb",
+      "nature": "조심",
+      "ability": "프레셔",
+      "item": "백옥",
       "moves": [
-        "Draco Meteor",
-        "Hydro Pump",
-        "Earth Power",
-        "Ice Beam"
+        "용성군",
+        "하이드로펌프",
+        "대지의힘",
+        "냉동빔"
       ]
     }
   },
 
-  "Giratina": {
-    "Common Showdown": {
+  "기라티나": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -8140,20 +8140,20 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 0
       },
-      "nature": "Adamant",
-      "ability": "Pressure",
-      "item": "Sitrus Berry",
+      "nature": "고집",
+      "ability": "프레셔",
+      "item": "자뭉열매",
       "moves": [
-        "Shadow Force",
-        "Shadow Sneak",
-        "Draco Meteor",
-        "Dragon Claw"
+        "섀도다이브",
+        "야습",
+        "용성군",
+        "드래곤크루"
       ]
     }    
   },
 
-  "Giratina-O": {
-    "Common Showdown": {
+  "기라티나-오리진": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -8163,20 +8163,20 @@ var SETDEX_SHOWDOWN={
         "sd": 4,
         "sp": 0
       },
-      "nature": "Adamant",
-      "ability": "Levitate",
-      "item": "Griseous Orb",
+      "nature": "고집",
+      "ability": "부유",
+      "item": "백금옥",
       "moves": [
-        "Shadow Force",
-        "Shadow Sneak",
-        "Draco Meteor",
-        "Dragon Claw"
+        "섀도다이브",
+        "야습",
+        "용성군",
+        "드래곤크루"
       ]
     }    
   },  
 
-  "Kyurem-W": {
-    "Common Showdown": {
+  "화이트큐레무": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -8186,20 +8186,20 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Modest",
-      "ability": "Turboblaze",
-      "item": "Choice Scarf",
+      "nature": "조심",
+      "ability": "터보블레이즈",
+      "item": "구애스카프",
       "moves": [
-        "Draco Meteor",
-        "Ice Beam",
-        "Fusion Flare",
-        "Earth Power"
+        "용성군",
+        "냉동빔",
+        "크로스플레임",
+        "대지의힘"
       ]
     }    
   },
 
-  "Kyurem-B": {
-    "Common Showdown": {
+  "블랙큐레무": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -8209,20 +8209,20 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 124
       },
-      "nature": "Rash",
-      "ability": "Teravolt",
-      "item": "Life Orb",
+      "nature": "덜렁",
+      "ability": "테라볼티지",
+      "item": "생명의구슬",
       "moves": [
-        "Fusion Bolt",
-        "Ice Beam",
-        "Earth Power",
-        "Draco Meteor"
+        "크로스썬더",
+        "냉동빔",
+        "대지의힘",
+        "용성군"
       ]
     }    
   },
 
-  "Ho-Oh": {
-    "Common Showdown": {
+  "칠색조": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -8232,20 +8232,20 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 0
       },
-      "nature": "Adamant",
-      "ability": "Pressure",
-      "item": "Leftovers",
+      "nature": "고집",
+      "ability": "프레셔",
+      "item": "먹다남은음식",
       "moves": [
-        "Brave Bird",
-        "Sacred Fire",
-        "Iron Head",
-        "Earth Power"
+        "브레이브버드",
+        "성스러운불꽃",
+        "아이언헤드",
+        "대지의힘"
       ]
     }    
   },
 
-  "Lugia": {
-    "Common Showdown": {
+  "루기아": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 252,
@@ -8255,20 +8255,20 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 0
       },
-      "nature": "Modest",
-      "ability": "Pressure",
-      "item": "Kee Berry",
+      "nature": "조심",
+      "ability": "프레셔",
+      "item": "악키열매",
       "moves": [
-        "Aeroblast",
-        "Earth Power",
-        "Psychic",
-        "Thunder"
+        "에어로블라스트",
+        "대지의힘",
+        "사이코키네시스",
+        "번개"
       ]
     }    
   },  
 
-  "Mewtwo": {
-    "Common Showdown Y": {
+  "뮤츠": {
+    "일반 쇼다운 Y": {
       "level": 50,
       "evs": {
         "hp": 4,
@@ -8278,14 +8278,14 @@ var SETDEX_SHOWDOWN={
         "sd": 0,
         "sp": 252
       },
-      "nature": "Timid",
-      "ability": "Pressure",
-      "item": "Mewtwonite Y",
+      "nature": "겁쟁이",
+      "ability": "프레셔",
+      "item": "뮤츠나이트Y",
       "moves": [
-        "Psystrike",
-        "Ice Beam",
-        "Flamethrower",
-        "Aura Sphere"
+        "사이코브레이크",
+        "냉동빔",
+        "화염방사",
+        "파동탄"
       ]
     }    
   }

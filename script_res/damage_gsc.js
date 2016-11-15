@@ -1,4 +1,4 @@
-function CALCULATE_ALL_MOVES_GSC(p1, p2, field) {
+﻿function CALCULATE_ALL_MOVES_GSC(p1, p2, field) {
     p1.stats[AT] = Math.min(999, Math.max(1, getModifiedStat(p1.rawStats[AT], p1.boosts[AT])));
     p1.stats[DF] = Math.min(999, Math.max(1, getModifiedStat(p1.rawStats[DF], p1.boosts[DF])));
     p1.stats[SA] = Math.min(999, Math.max(1, getModifiedStat(p1.rawStats[SA], p1.boosts[SA])));
@@ -37,7 +37,7 @@ function CALCULATE_DAMAGE_GSC(attacker, defender, move, field) {
     }
     
     var lv = attacker.level;
-    if (move.name === "Seismic Toss" || move.name === "Night Shade") {
+    if (move.name === "지구던지기" || move.name === "나이트헤드") {
         return {"damage":[lv], "description":buildDescription(description)};
     }
     
@@ -45,15 +45,15 @@ function CALCULATE_DAMAGE_GSC(attacker, defender, move, field) {
         description.hits = move.hits;
     }
     
-    // Flail and Reversal are variable BP and never crit
-    if (move.name === "Flail" || move.name === "Reversal") {
+    // 바둥바둥 and 기사회생 are variable BP and never crit
+    if (move.name === "바둥바둥" || move.name === "기사회생") {
         move.isCrit = false;
         var p = Math.floor(48 * attacker.curHP / attacker.maxHP);
         move.bp = p <= 1 ? 200 : p <= 4 ? 150 : p <= 9 ? 100 : p <= 16 ? 80 : p <= 32 ? 40 : 20;
         description.moveBP = move.bp;
     }
     
-    var isPhysical = typeChart[move.type].category === "Physical";
+    var isPhysical = typeChart[move.type].category === "물리";
     var attackStat = isPhysical ? AT : SA;
     var defenseStat = isPhysical ? DF : SD;
     var at = attacker.stats[attackStat];
@@ -72,13 +72,13 @@ function CALCULATE_DAMAGE_GSC(attacker, defender, move, field) {
         if (defender.boosts[defenseStat] !== 0) {
             description.defenseBoost = defender.boosts[defenseStat];
         }
-        if (isPhysical && attacker.status === "Burned") {
+        if (isPhysical && attacker.status === "화상") {
             at = Math.floor(at / 2);
             description.isBurned = true;
         }
     }
     
-    if (move.name === "Explosion" || move.name === "Selfdestruct") {
+    if (move.name === "대폭발" || move.name === "자폭") {
         df = Math.floor(df / 2);
     }
     
@@ -92,8 +92,8 @@ function CALCULATE_DAMAGE_GSC(attacker, defender, move, field) {
         }
     }
     
-    if ((attacker.name === "Pikachu" && attacker.item === "Light Ball" && !isPhysical) ||
-            ((attacker.name === "Cubone" || attacker.name === "Marowak") && attacker.item === "Thick Club" && isPhysical)) {
+    if ((attacker.name === "피카츄" && attacker.item === "전기구슬" && !isPhysical) ||
+            ((attacker.name === "탕구리" || attacker.name === "텅구리") && attacker.item === "굵은뼈" && isPhysical)) {
         at *= 2;
         description.attackerItem = attacker.item;
     }
@@ -103,7 +103,7 @@ function CALCULATE_DAMAGE_GSC(attacker, defender, move, field) {
         df = Math.floor(df / 4) % 256;
     }
     
-    if (defender.name === "Ditto" && defender.item === "Metal Powder") {
+    if (defender.name === "메타몽" && defender.item === "금속파우더") {
         df = Math.floor(df * 1.5);
         description.defenderItem = defender.item;
     }
@@ -122,10 +122,10 @@ function CALCULATE_DAMAGE_GSC(attacker, defender, move, field) {
     
     baseDamage = Math.min(997, baseDamage) + 2;
     
-    if ((field.weather === "Sun" && move.type === "Fire") || (field.weather === "Rain" && move.type === "Water")) {
+    if ((field.weather === "쾌청" && move.type === "불꽃") || (field.weather === "비" && move.type === "물")) {
         baseDamage = Math.floor(baseDamage * 1.5);
         description.weather = field.weather;
-    } else if ((field.weather === "Sun" && move.type === "Water") || (field.weather === "Rain" && (move.type === "Fire" || move.name === "SolarBeam"))) {
+    } else if ((field.weather === "쾌청" && move.type === "물") || (field.weather === "비" && (move.type === "불꽃" || move.name === "솔라빔"))) {
         baseDamage = Math.floor(baseDamage / 2);
         description.weather = field.weather;
     }
@@ -136,8 +136,8 @@ function CALCULATE_DAMAGE_GSC(attacker, defender, move, field) {
     
     baseDamage = Math.floor(baseDamage * typeEffectiveness);
     
-    // Flail and Reversal don't use random factor
-    if (move.name === "Flail" || move.name === "Reversal") {
+    // 바둥바둥 and 기사회생 don't use random factor
+    if (move.name === "바둥바둥" || move.name === "기사회생") {
         return {"damage":[baseDamage], "description":buildDescription(description)};
     }
     

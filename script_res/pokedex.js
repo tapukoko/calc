@@ -1,6 +1,6 @@
-var POKEDEX_RBY = {
-  "Abra": {
-    "t1": "Psychic",
+﻿var POKEDEX_RBY = {
+  "캐이시": {
+    "t1": "에스퍼",
     "bs": {
       "hp": 25,
       "at": 20,
@@ -12,9 +12,9 @@ var POKEDEX_RBY = {
     },
     "w": 19.5
   },
-  "Aerodactyl": {
-    "t1": "Rock",
-    "t2": "Flying",
+  "프테라": {
+    "t1": "바위",
+    "t2": "비행",
     "bs": {
       "hp": 80,
       "at": 105,
@@ -26,8 +26,8 @@ var POKEDEX_RBY = {
     },
     "w": 59.0
   },
-  "Alakazam": {
-    "t1": "Psychic",
+  "후딘": {
+    "t1": "에스퍼",
     "bs": {
       "hp": 55,
       "at": 50,
@@ -39,8 +39,8 @@ var POKEDEX_RBY = {
     },
     "w": 48.0
   },
-  "Arbok": {
-    "t1": "Poison",
+  "아보크": {
+    "t1": "독",
     "bs": {
       "hp": 60,
       "at": 85,
@@ -52,8 +52,8 @@ var POKEDEX_RBY = {
     },
     "w": 65.0
   },
-  "Arcanine": {
-    "t1": "Fire",
+  "윈디": {
+    "t1": "불꽃",
     "bs": {
       "hp": 90,
       "at": 110,
@@ -65,9 +65,9 @@ var POKEDEX_RBY = {
     },
     "w": 155.0
   },
-  "Articuno": {
-    "t1": "Ice",
-    "t2": "Flying",
+  "프리져": {
+    "t1": "얼음",
+    "t2": "비행",
     "bs": {
       "hp": 90,
       "at": 85,
@@ -79,9 +79,9 @@ var POKEDEX_RBY = {
     },
     "w": 55.4
   },
-  "Beedrill": {
-    "t1": "Bug",
-    "t2": "Poison",
+  "독침붕": {
+    "t1": "벌레",
+    "t2": "독",
     "bs": {
       "hp": 65,
       "at": 80,
@@ -92,11 +92,11 @@ var POKEDEX_RBY = {
       "sl": 45
     },
     "w": 29.5,
-    "ab": "Swarm"
+    "ab": "벌레의알림"
   },
-  "Bellsprout": {
-    "t1": "Grass",
-    "t2": "Poison",
+  "모다피": {
+    "t1": "풀",
+    "t2": "독",
     "bs": {
       "hp": 50,
       "at": 75,
@@ -107,10 +107,10 @@ var POKEDEX_RBY = {
       "sl": 70
     },
     "w": 4.0,
-    "ab": "Chlorophyll"
+    "ab": "엽록소"
   },
-  "Blastoise": {
-    "t1": "Water",
+  "거북왕": {
+    "t1": "물",
     "bs": {
       "hp": 79,
       "at": 83,
@@ -121,11 +121,11 @@ var POKEDEX_RBY = {
       "sl": 85
     },
     "w": 85.5,
-    "ab": "Torrent"
+    "ab": "급류"
   },
-  "Bulbasaur": {
-    "t1": "Grass",
-    "t2": "Poison",
+  "이상해씨": {
+    "t1": "풀",
+    "t2": "독",
     "bs": {
       "hp": 45,
       "at": 49,
@@ -136,11 +136,11 @@ var POKEDEX_RBY = {
       "sl": 65
     },
     "w": 6.9,
-    "ab": "Overgrow"
+    "ab": "심록"
   },
-  "Butterfree": {
-    "t1": "Bug",
-    "t2": "Flying",
+  "버터플": {
+    "t1": "벌레",
+    "t2": "비행",
     "bs": {
       "hp": 60,
       "at": 45,
@@ -152,8 +152,8 @@ var POKEDEX_RBY = {
     },
     "w": 32.0
   },
-  "Caterpie": {
-    "t1": "Bug",
+  "캐터피": {
+    "t1": "벌레",
     "bs": {
       "hp": 45,
       "at": 30,
@@ -165,8 +165,8 @@ var POKEDEX_RBY = {
     },
     "w": 2.9
   },
-  "Chansey": {
-    "t1": "Normal",
+  "럭키": {
+    "t1": "노말",
     "bs": {
       "hp": 250,
       "at": 5,
@@ -178,9 +178,9 @@ var POKEDEX_RBY = {
     },
     "w": 34.6
   },
-  "Charizard": {
-    "t1": "Fire",
-    "t2": "Flying",
+  "리자몽": {
+    "t1": "불꽃",
+    "t2": "비행",
     "bs": {
       "hp": 78,
       "at": 84,
@@ -191,10 +191,10 @@ var POKEDEX_RBY = {
       "sl": 85
     },
     "w": 90.5,
-    "ab": "Blaze"
+    "ab": "맹화"
   },
-  "Charmander": {
-    "t1": "Fire",
+  "파이리": {
+    "t1": "불꽃",
     "bs": {
       "hp": 39,
       "at": 52,
@@ -205,10 +205,10 @@ var POKEDEX_RBY = {
       "sl": 50
     },
     "w": 8.5,
-    "ab": "Blaze"
+    "ab": "맹화"
   },
-  "Charmeleon": {
-    "t1": "Fire",
+  "리자드": {
+    "t1": "불꽃",
     "bs": {
       "hp": 58,
       "at": 64,
@@ -219,10 +219,10 @@ var POKEDEX_RBY = {
       "sl": 65
     },
     "w": 19.0,
-    "ab": "Blaze"
+    "ab": "맹화"
   },
-  "Clefable": {
-    "t1": "Normal",
+  "픽시": {
+    "t1": "노말",
     "bs": {
       "hp": 95,
       "at": 70,
@@ -234,8 +234,8 @@ var POKEDEX_RBY = {
     },
     "w": 40.0
   },
-  "Clefairy": {
-    "t1": "Normal",
+  "삐삐": {
+    "t1": "노말",
     "bs": {
       "hp": 70,
       "at": 45,
@@ -247,9 +247,9 @@ var POKEDEX_RBY = {
     },
     "w": 7.5
   },
-  "Cloyster": {
-    "t1": "Water",
-    "t2": "Ice",
+  "파르셀": {
+    "t1": "물",
+    "t2": "얼음",
     "bs": {
       "hp": 50,
       "at": 95,
@@ -260,10 +260,10 @@ var POKEDEX_RBY = {
       "sl": 85
     },
     "w": 132.5,
-    "ab": "Shell Armor"
+    "ab": "조가비갑옷"
   },
-  "Cubone": {
-    "t1": "Ground",
+  "탕구리": {
+    "t1": "땅",
     "bs": {
       "hp": 50,
       "at": 50,
@@ -275,9 +275,9 @@ var POKEDEX_RBY = {
     },
     "w": 6.5
   },
-  "Dewgong": {
-    "t1": "Water",
-    "t2": "Ice",
+  "쥬레곤": {
+    "t1": "물",
+    "t2": "얼음",
     "bs": {
       "hp": 90,
       "at": 70,
@@ -288,10 +288,10 @@ var POKEDEX_RBY = {
       "sl": 95
     },
     "w": 120.0,
-    "ab": "Thick Fat"
+    "ab": "두꺼운지방"
   },
-  "Diglett": {
-    "t1": "Ground",
+  "디그다": {
+    "t1": "땅",
     "bs": {
       "hp": 10,
       "at": 55,
@@ -303,8 +303,8 @@ var POKEDEX_RBY = {
     },
     "w": 0.8
   },
-  "Ditto": {
-    "t1": "Normal",
+  "메타몽": {
+    "t1": "노말",
     "bs": {
       "hp": 48,
       "at": 48,
@@ -316,9 +316,9 @@ var POKEDEX_RBY = {
     },
     "w": 4.0
   },
-  "Dodrio": {
-    "t1": "Normal",
-    "t2": "Flying",
+  "두트리오": {
+    "t1": "노말",
+    "t2": "비행",
     "bs": {
       "hp": 60,
       "at": 110,
@@ -330,9 +330,9 @@ var POKEDEX_RBY = {
     },
     "w": 85.2
   },
-  "Doduo": {
-    "t1": "Normal",
-    "t2": "Flying",
+  "두두": {
+    "t1": "노말",
+    "t2": "비행",
     "bs": {
       "hp": 35,
       "at": 85,
@@ -344,8 +344,8 @@ var POKEDEX_RBY = {
     },
     "w": 39.2
   },
-  "Dragonair": {
-    "t1": "Dragon",
+  "신뇽": {
+    "t1": "드래곤",
     "bs": {
       "hp": 61,
       "at": 84,
@@ -357,9 +357,9 @@ var POKEDEX_RBY = {
     },
     "w": 16.5
   },
-  "Dragonite": {
-    "t1": "Dragon",
-    "t2": "Flying",
+  "망나뇽": {
+    "t1": "드래곤",
+    "t2": "비행",
     "bs": {
       "hp": 91,
       "at": 134,
@@ -371,8 +371,8 @@ var POKEDEX_RBY = {
     },
     "w": 210.0
   },
-  "Dratini": {
-    "t1": "Dragon",
+  "미뇽": {
+    "t1": "드래곤",
     "bs": {
       "hp": 41,
       "at": 64,
@@ -384,8 +384,8 @@ var POKEDEX_RBY = {
     },
     "w": 3.3
   },
-  "Drowzee": {
-    "t1": "Psychic",
+  "슬리프": {
+    "t1": "에스퍼",
     "bs": {
       "hp": 60,
       "at": 48,
@@ -397,8 +397,8 @@ var POKEDEX_RBY = {
     },
     "w": 32.4
   },
-  "Dugtrio": {
-    "t1": "Ground",
+  "닥트리오": {
+    "t1": "땅",
     "bs": {
       "hp": 35,
       "at": 80,
@@ -410,8 +410,8 @@ var POKEDEX_RBY = {
     },
     "w": 33.3
   },
-  "Eevee": {
-    "t1": "Normal",
+  "이브이": {
+    "t1": "노말",
     "bs": {
       "hp": 55,
       "at": 55,
@@ -423,8 +423,8 @@ var POKEDEX_RBY = {
     },
     "w": 6.5
   },
-  "Ekans": {
-    "t1": "Poison",
+  "아보": {
+    "t1": "독",
     "bs": {
       "hp": 35,
       "at": 60,
@@ -436,8 +436,8 @@ var POKEDEX_RBY = {
     },
     "w": 6.9
   },
-  "Electabuzz": {
-    "t1": "Electric",
+  "에레브": {
+    "t1": "전기",
     "bs": {
       "hp": 65,
       "at": 83,
@@ -449,8 +449,8 @@ var POKEDEX_RBY = {
     },
     "w": 30.0
   },
-  "Electrode": {
-    "t1": "Electric",
+  "붐볼": {
+    "t1": "전기",
     "bs": {
       "hp": 60,
       "at": 50,
@@ -462,9 +462,9 @@ var POKEDEX_RBY = {
     },
     "w": 66.6
   },
-  "Exeggcute": {
-    "t1": "Grass",
-    "t2": "Psychic",
+  "아라리": {
+    "t1": "풀",
+    "t2": "에스퍼",
     "bs": {
       "hp": 60,
       "at": 40,
@@ -475,11 +475,11 @@ var POKEDEX_RBY = {
       "sl": 60
     },
     "w": 2.5,
-    "ab": "Chlorophyll"
+    "ab": "엽록소"
   },
-  "Exeggutor": {
-    "t1": "Grass",
-    "t2": "Psychic",
+  "나시": {
+    "t1": "풀",
+    "t2": "에스퍼",
     "bs": {
       "hp": 95,
       "at": 95,
@@ -490,11 +490,11 @@ var POKEDEX_RBY = {
       "sl": 125
     },
     "w": 120.0,
-    "ab": "Chlorophyll"
+    "ab": "엽록소"
   },
-  "Farfetch\u0027d": {
-    "t1": "Normal",
-    "t2": "Flying",
+  "파오리": {
+    "t1": "노말",
+    "t2": "비행",
     "bs": {
       "hp": 52,
       "at": 65,
@@ -506,9 +506,9 @@ var POKEDEX_RBY = {
     },
     "w": 15.0
   },
-  "Fearow": {
-    "t1": "Normal",
-    "t2": "Flying",
+  "깨비드릴조": {
+    "t1": "노말",
+    "t2": "비행",
     "bs": {
       "hp": 65,
       "at": 90,
@@ -520,8 +520,8 @@ var POKEDEX_RBY = {
     },
     "w": 38.0
   },
-  "Flareon": {
-    "t1": "Fire",
+  "부스터": {
+    "t1": "불꽃",
     "bs": {
       "hp": 65,
       "at": 130,
@@ -532,11 +532,11 @@ var POKEDEX_RBY = {
       "sl": 110
     },
     "w": 25.0,
-    "ab": "Flash Fire"
+    "ab": "타오르는불꽃"
   },
-  "Gastly": {
-    "t1": "Ghost",
-    "t2": "Poison",
+  "고오스": {
+    "t1": "고스트",
+    "t2": "독",
     "bs": {
       "hp": 30,
       "at": 35,
@@ -547,11 +547,11 @@ var POKEDEX_RBY = {
       "sl": 100
     },
     "w": 0.1,
-    "ab": "Levitate"
+    "ab": "부유"
   },
-  "Gengar": {
-    "t1": "Ghost",
-    "t2": "Poison",
+  "팬텀": {
+    "t1": "고스트",
+    "t2": "독",
     "bs": {
       "hp": 60,
       "at": 65,
@@ -562,11 +562,11 @@ var POKEDEX_RBY = {
       "sl": 130
     },
     "w": 40.5,
-    "ab": "Levitate"
+    "ab": "부유"
   },
-  "Geodude": {
-    "t1": "Rock",
-    "t2": "Ground",
+  "꼬마돌": {
+    "t1": "바위",
+    "t2": "땅",
     "bs": {
       "hp": 40,
       "at": 80,
@@ -578,9 +578,9 @@ var POKEDEX_RBY = {
     },
     "w": 20.0
   },
-  "Gloom": {
-    "t1": "Grass",
-    "t2": "Poison",
+  "냄새꼬": {
+    "t1": "풀",
+    "t2": "독",
     "bs": {
       "hp": 60,
       "at": 65,
@@ -591,11 +591,11 @@ var POKEDEX_RBY = {
       "sl": 85
     },
     "w": 8.6,
-    "ab": "Chlorophyll"
+    "ab": "엽록소"
   },
-  "Golbat": {
-    "t1": "Poison",
-    "t2": "Flying",
+  "골뱃": {
+    "t1": "독",
+    "t2": "비행",
     "bs": {
       "hp": 75,
       "at": 80,
@@ -607,8 +607,8 @@ var POKEDEX_RBY = {
     },
     "w": 55.0
   },
-  "Goldeen": {
-    "t1": "Water",
+  "콘치": {
+    "t1": "물",
     "bs": {
       "hp": 45,
       "at": 67,
@@ -620,8 +620,8 @@ var POKEDEX_RBY = {
     },
     "w": 15.0
   },
-  "Golduck": {
-    "t1": "Water",
+  "골덕": {
+    "t1": "물",
     "bs": {
       "hp": 80,
       "at": 82,
@@ -633,9 +633,9 @@ var POKEDEX_RBY = {
     },
     "w": 76.6
   },
-  "Golem": {
-    "t1": "Rock",
-    "t2": "Ground",
+  "딱구리": {
+    "t1": "바위",
+    "t2": "땅",
     "bs": {
       "hp": 80,
       "at": 110,
@@ -647,9 +647,9 @@ var POKEDEX_RBY = {
     },
     "w": 300.0
   },
-  "Graveler": {
-    "t1": "Rock",
-    "t2": "Ground",
+  "딱구리": {
+    "t1": "바위",
+    "t2": "땅",
     "bs": {
       "hp": 55,
       "at": 95,
@@ -661,8 +661,8 @@ var POKEDEX_RBY = {
     },
     "w": 105.0
   },
-  "Grimer": {
-    "t1": "Poison",
+  "질퍽이": {
+    "t1": "독",
     "bs": {
       "hp": 80,
       "at": 80,
@@ -674,8 +674,8 @@ var POKEDEX_RBY = {
     },
     "w": 30.0
   },
-  "Growlithe": {
-    "t1": "Fire",
+  "가디": {
+    "t1": "불꽃",
     "bs": {
       "hp": 55,
       "at": 70,
@@ -687,9 +687,9 @@ var POKEDEX_RBY = {
     },
     "w": 19.0
   },
-  "Gyarados": {
-    "t1": "Water",
-    "t2": "Flying",
+  "갸라도스": {
+    "t1": "물",
+    "t2": "비행",
     "bs": {
       "hp": 95,
       "at": 125,
@@ -700,11 +700,11 @@ var POKEDEX_RBY = {
       "sl": 100
     },
     "w": 235.0,
-    "ab": "Intimidate"
+    "ab": "괴력집게"
   },
-  "Haunter": {
-    "t1": "Ghost",
-    "t2": "Poison",
+  "고우스트": {
+    "t1": "고스트",
+    "t2": "독",
     "bs": {
       "hp": 45,
       "at": 50,
@@ -715,10 +715,10 @@ var POKEDEX_RBY = {
       "sl": 115
     },
     "w": 0.1,
-    "ab": "Levitate"
+    "ab": "부유"
   },
-  "Hitmonchan": {
-    "t1": "Fighting",
+  "홍수몬": {
+    "t1": "격투",
     "bs": {
       "hp": 50,
       "at": 105,
@@ -730,8 +730,8 @@ var POKEDEX_RBY = {
     },
     "w": 50.2
   },
-  "Hitmonlee": {
-    "t1": "Fighting",
+  "시라소몬": {
+    "t1": "격투",
     "bs": {
       "hp": 50,
       "at": 120,
@@ -743,8 +743,8 @@ var POKEDEX_RBY = {
     },
     "w": 49.8
   },
-  "Horsea": {
-    "t1": "Water",
+  "쏘드라": {
+    "t1": "물",
     "bs": {
       "hp": 30,
       "at": 40,
@@ -755,10 +755,10 @@ var POKEDEX_RBY = {
       "sl": 70
     },
     "w": 8.0,
-    "ab": "Swift Swim"
+    "ab": "쓱쓱"
   },
-  "Hypno": {
-    "t1": "Psychic",
+  "슬리퍼": {
+    "t1": "에스퍼",
     "bs": {
       "hp": 85,
       "at": 73,
@@ -770,9 +770,9 @@ var POKEDEX_RBY = {
     },
     "w": 75.6
   },
-  "Ivysaur": {
-    "t1": "Grass",
-    "t2": "Poison",
+  "이상해씨": {
+    "t1": "풀",
+    "t2": "독",
     "bs": {
       "hp": 60,
       "at": 62,
@@ -783,10 +783,10 @@ var POKEDEX_RBY = {
       "sl": 80
     },
     "w": 13.0,
-    "ab": "Overgrow"
+    "ab": "심록"
   },
-  "Jigglypuff": {
-    "t1": "Normal",
+  "푸린": {
+    "t1": "노말",
     "bs": {
       "hp": 115,
       "at": 45,
@@ -798,8 +798,8 @@ var POKEDEX_RBY = {
     },
     "w": 5.5
   },
-  "Jolteon": {
-    "t1": "Electric",
+  "쥬피썬더": {
+    "t1": "전기",
     "bs": {
       "hp": 65,
       "at": 65,
@@ -810,11 +810,11 @@ var POKEDEX_RBY = {
       "sl": 110
     },
     "w": 24.5,
-    "ab": "Volt Abdsorb"
+    "ab": "축전"
   },
-  "Jynx": {
-    "t1": "Ice",
-    "t2": "Psychic",
+  "루주라": {
+    "t1": "얼음",
+    "t2": "에스퍼",
     "bs": {
       "hp": 65,
       "at": 50,
@@ -826,9 +826,9 @@ var POKEDEX_RBY = {
     },
     "w": 40.6
   },
-  "Kabuto": {
-    "t1": "Rock",
-    "t2": "Water",
+  "투구": {
+    "t1": "바위",
+    "t2": "물",
     "bs": {
       "hp": 30,
       "at": 80,
@@ -840,9 +840,9 @@ var POKEDEX_RBY = {
     },
     "w": 11.5
   },
-  "Kabutops": {
-    "t1": "Rock",
-    "t2": "Water",
+  "투구푸스": {
+    "t1": "바위",
+    "t2": "물",
     "bs": {
       "hp": 60,
       "at": 115,
@@ -854,8 +854,8 @@ var POKEDEX_RBY = {
     },
     "w": 40.5
   },
-  "Kadabra": {
-    "t1": "Psychic",
+  "윤겔라": {
+    "t1": "에스퍼",
     "bs": {
       "hp": 40,
       "at": 35,
@@ -867,9 +867,9 @@ var POKEDEX_RBY = {
     },
     "w": 56.5
   },
-  "Kakuna": {
-    "t1": "Bug",
-    "t2": "Poison",
+  "딱충이": {
+    "t1": "벌레",
+    "t2": "독",
     "bs": {
       "hp": 45,
       "at": 25,
@@ -880,10 +880,10 @@ var POKEDEX_RBY = {
       "sl": 25
     },
     "w": 10.0,
-    "ab": "Shed Skin"
+    "ab": "탈피"
   },
-  "Kangaskhan": {
-    "t1": "Normal",
+  "캥카": {
+    "t1": "노말",
     "bs": {
       "hp": 105,
       "at": 95,
@@ -895,8 +895,8 @@ var POKEDEX_RBY = {
     },
     "w": 80.0
   },
-  "Kingler": {
-    "t1": "Water",
+  "킹크랩": {
+    "t1": "물",
     "bs": {
       "hp": 55,
       "at": 130,
@@ -908,8 +908,8 @@ var POKEDEX_RBY = {
     },
     "w": 60.0
   },
-  "Koffing": {
-    "t1": "Poison",
+  "또가스": {
+    "t1": "독",
     "bs": {
       "hp": 40,
       "at": 65,
@@ -920,10 +920,10 @@ var POKEDEX_RBY = {
       "sl": 60
     },
     "w": 1.0,
-    "ab": "Levitate"
+    "ab": "부유"
   },
-  "Krabby": {
-    "t1": "Water",
+  "크랩": {
+    "t1": "물",
     "bs": {
       "hp": 30,
       "at": 105,
@@ -935,9 +935,9 @@ var POKEDEX_RBY = {
     },
     "w": 6.5
   },
-  "Lapras": {
-    "t1": "Water",
-    "t2": "Ice",
+  "라프라스": {
+    "t1": "물",
+    "t2": "얼음",
     "bs": {
       "hp": 130,
       "at": 85,
@@ -949,8 +949,8 @@ var POKEDEX_RBY = {
     },
     "w": 220.0
   },
-  "Lickitung": {
-    "t1": "Normal",
+  "내루미": {
+    "t1": "노말",
     "bs": {
       "hp": 90,
       "at": 55,
@@ -962,8 +962,8 @@ var POKEDEX_RBY = {
     },
     "w": 65.5
   },
-  "Machamp": {
-    "t1": "Fighting",
+  "괴력몬": {
+    "t1": "격투",
     "bs": {
       "hp": 90,
       "at": 130,
@@ -974,10 +974,10 @@ var POKEDEX_RBY = {
       "sl": 65
     },
     "w": 130.0,
-    "ab": "Guts"
+    "ab": "근성"
   },
-  "Machoke": {
-    "t1": "Fighting",
+  "근육몬": {
+    "t1": "격투",
     "bs": {
       "hp": 80,
       "at": 100,
@@ -988,10 +988,10 @@ var POKEDEX_RBY = {
       "sl": 50
     },
     "w": 70.5,
-    "ab": "Guts"
+    "ab": "근성"
   },
-  "Machop": {
-    "t1": "Fighting",
+  "알통몬": {
+    "t1": "격투",
     "bs": {
       "hp": 70,
       "at": 80,
@@ -1002,10 +1002,10 @@ var POKEDEX_RBY = {
       "sl": 35
     },
     "w": 19.5,
-    "ab": "Guts"
+    "ab": "근성"
   },
-  "Magikarp": {
-    "t1": "Water",
+  "잉어킹": {
+    "t1": "물",
     "bs": {
       "hp": 20,
       "at": 10,
@@ -1016,10 +1016,10 @@ var POKEDEX_RBY = {
       "sl": 20
     },
     "w": 10.0,
-    "ab": "Swift Swim"
+    "ab": "쓱쓱"
   },
-  "Magmar": {
-    "t1": "Fire",
+  "마그마": {
+    "t1": "불꽃",
     "bs": {
       "hp": 65,
       "at": 95,
@@ -1031,8 +1031,8 @@ var POKEDEX_RBY = {
     },
     "w": 44.5
   },
-  "Magnemite": {
-    "t1": "Electric",
+  "코일": {
+    "t1": "전기",
     "bs": {
       "hp": 25,
       "at": 35,
@@ -1044,8 +1044,8 @@ var POKEDEX_RBY = {
     },
     "w": 6.0
   },
-  "Magneton": {
-    "t1": "Electric",
+  "레어코일": {
+    "t1": "전기",
     "bs": {
       "hp": 50,
       "at": 60,
@@ -1057,8 +1057,8 @@ var POKEDEX_RBY = {
     },
     "w": 60.0
   },
-  "Mankey": {
-    "t1": "Fighting",
+  "망키": {
+    "t1": "격투",
     "bs": {
       "hp": 40,
       "at": 80,
@@ -1070,8 +1070,8 @@ var POKEDEX_RBY = {
     },
     "w": 28.0
   },
-  "Marowak": {
-    "t1": "Ground",
+  "텅구리": {
+    "t1": "땅",
     "bs": {
       "hp": 60,
       "at": 80,
@@ -1083,8 +1083,8 @@ var POKEDEX_RBY = {
     },
     "w": 45.0
   },
-  "Meowth": {
-    "t1": "Normal",
+  "나옹": {
+    "t1": "노말",
     "bs": {
       "hp": 40,
       "at": 45,
@@ -1096,8 +1096,8 @@ var POKEDEX_RBY = {
     },
     "w": 4.2
   },
-  "Metapod": {
-    "t1": "Bug",
+  "단데기": {
+    "t1": "벌레",
     "bs": {
       "hp": 50,
       "at": 20,
@@ -1108,10 +1108,10 @@ var POKEDEX_RBY = {
       "sl": 25
     },
     "w": 9.9,
-    "ab": "Shed Skin"
+    "ab": "탈피"
   },
-  "Mew": {
-    "t1": "Psychic",
+  "뮤": {
+    "t1": "에스퍼",
     "bs": {
       "hp": 100,
       "at": 100,
@@ -1122,10 +1122,10 @@ var POKEDEX_RBY = {
       "sl": 100
     },
     "w": 4.0,
-    "ab": "Synchronize"
+    "ab": "싱크로"
   },
-  "Mewtwo": {
-    "t1": "Psychic",
+  "뮤츠": {
+    "t1": "에스퍼",
     "bs": {
       "hp": 106,
       "at": 110,
@@ -1137,9 +1137,9 @@ var POKEDEX_RBY = {
     },
     "w": 122.0
   },
-  "Moltres": {
-    "t1": "Fire",
-    "t2": "Flying",
+  "파이어": {
+    "t1": "불꽃",
+    "t2": "비행",
     "bs": {
       "hp": 90,
       "at": 100,
@@ -1151,8 +1151,8 @@ var POKEDEX_RBY = {
     },
     "w": 60.0
   },
-  "Mr. Mime": {
-    "t1": "Psychic",
+  "마임맨": {
+    "t1": "에스퍼",
     "bs": {
       "hp": 40,
       "at": 45,
@@ -1163,10 +1163,10 @@ var POKEDEX_RBY = {
       "sl": 100
     },
     "w": 54.5,
-    "ab": "Soundproof"
+    "ab": "방음"
   },
-  "Muk": {
-    "t1": "Poison",
+  "질뻐기": {
+    "t1": "독",
     "bs": {
       "hp": 105,
       "at": 105,
@@ -1178,9 +1178,9 @@ var POKEDEX_RBY = {
     },
     "w": 30.0
   },
-  "Nidoking": {
-    "t1": "Poison",
-    "t2": "Ground",
+  "니드킹": {
+    "t1": "독",
+    "t2": "땅",
     "bs": {
       "hp": 81,
       "at": 92,
@@ -1192,9 +1192,9 @@ var POKEDEX_RBY = {
     },
     "w": 62.0
   },
-  "Nidoqueen": {
-    "t1": "Poison",
-    "t2": "Ground",
+  "니드퀸": {
+    "t1": "독",
+    "t2": "땅",
     "bs": {
       "hp": 90,
       "at": 82,
@@ -1206,8 +1206,8 @@ var POKEDEX_RBY = {
     },
     "w": 60.0
   },
-  "Nidoran-F": {
-    "t1": "Poison",
+  "니드런-암": {
+    "t1": "독",
     "bs": {
       "hp": 55,
       "at": 47,
@@ -1219,8 +1219,8 @@ var POKEDEX_RBY = {
     },
     "w": 7.0
   },
-  "Nidoran-M": {
-    "t1": "Poison",
+  "니드런-수": {
+    "t1": "독",
     "bs": {
       "hp": 46,
       "at": 57,
@@ -1232,8 +1232,8 @@ var POKEDEX_RBY = {
     },
     "w": 9.0
   },
-  "Nidorina": {
-    "t1": "Poison",
+  "니드리나": {
+    "t1": "독",
     "bs": {
       "hp": 70,
       "at": 62,
@@ -1245,8 +1245,8 @@ var POKEDEX_RBY = {
     },
     "w": 20.0
   },
-  "Nidorino": {
-    "t1": "Poison",
+  "니드리노": {
+    "t1": "독",
     "bs": {
       "hp": 61,
       "at": 72,
@@ -1258,8 +1258,8 @@ var POKEDEX_RBY = {
     },
     "w": 19.5
   },
-  "Ninetales": {
-    "t1": "Fire",
+  "나인테일": {
+    "t1": "불꽃",
     "bs": {
       "hp": 73,
       "at": 76,
@@ -1270,11 +1270,11 @@ var POKEDEX_RBY = {
       "sl": 100
     },
     "w": 19.9,
-    "ab": "Flash Fire"
+    "ab": "타오르는불꽃"
   },
-  "Oddish": {
-    "t1": "Grass",
-    "t2": "Poison",
+  "뚜벅쵸": {
+    "t1": "풀",
+    "t2": "독",
     "bs": {
       "hp": 45,
       "at": 50,
@@ -1285,11 +1285,11 @@ var POKEDEX_RBY = {
       "sl": 75
     },
     "w": 5.4,
-    "ab": "Chlorophyll"
+    "ab": "엽록소"
   },
-  "Omanyte": {
-    "t1": "Rock",
-    "t2": "Water",
+  "암나이트": {
+    "t1": "바위",
+    "t2": "물",
     "bs": {
       "hp": 35,
       "at": 40,
@@ -1301,9 +1301,9 @@ var POKEDEX_RBY = {
     },
     "w": 7.5
   },
-  "Omastar": {
-    "t1": "Rock",
-    "t2": "Water",
+  "암스타": {
+    "t1": "바위",
+    "t2": "물",
     "bs": {
       "hp": 70,
       "at": 60,
@@ -1315,9 +1315,9 @@ var POKEDEX_RBY = {
     },
     "w": 35.0
   },
-  "Onix": {
-    "t1": "Rock",
-    "t2": "Ground",
+  "롱스톤": {
+    "t1": "바위",
+    "t2": "땅",
     "bs": {
       "hp": 35,
       "at": 45,
@@ -1329,9 +1329,9 @@ var POKEDEX_RBY = {
     },
     "w": 210.0
   },
-  "Paras": {
-    "t1": "Bug",
-    "t2": "Grass",
+  "파라스": {
+    "t1": "벌레",
+    "t2": "풀",
     "bs": {
       "hp": 35,
       "at": 70,
@@ -1343,9 +1343,9 @@ var POKEDEX_RBY = {
     },
     "w": 5.4
   },
-  "Parasect": {
-    "t1": "Bug",
-    "t2": "Grass",
+  "파라섹트": {
+    "t1": "벌레",
+    "t2": "풀",
     "bs": {
       "hp": 60,
       "at": 95,
@@ -1357,8 +1357,8 @@ var POKEDEX_RBY = {
     },
     "w": 29.5
   },
-  "Persian": {
-    "t1": "Normal",
+  "페르시온": {
+    "t1": "노말",
     "bs": {
       "hp": 65,
       "at": 70,
@@ -1370,9 +1370,9 @@ var POKEDEX_RBY = {
     },
     "w": 32.0
   },
-  "Pidgeot": {
-    "t1": "Normal",
-    "t2": "Flying",
+  "피죤투": {
+    "t1": "노말",
+    "t2": "비행",
     "bs": {
       "hp": 83,
       "at": 80,
@@ -1384,9 +1384,9 @@ var POKEDEX_RBY = {
     },
     "w": 39.5
   },
-  "Pidgeotto": {
-    "t1": "Normal",
-    "t2": "Flying",
+  "피죤": {
+    "t1": "노말",
+    "t2": "비행",
     "bs": {
       "hp": 63,
       "at": 60,
@@ -1398,9 +1398,9 @@ var POKEDEX_RBY = {
     },
     "w": 30.0
   },
-  "Pidgey": {
-    "t1": "Normal",
-    "t2": "Flying",
+  "구구": {
+    "t1": "노말",
+    "t2": "비행",
     "bs": {
       "hp": 40,
       "at": 45,
@@ -1412,8 +1412,8 @@ var POKEDEX_RBY = {
     },
     "w": 1.8
   },
-  "Pikachu": {
-    "t1": "Electric",
+  "피카츄": {
+    "t1": "전기",
     "bs": {
       "hp": 35,
       "at": 55,
@@ -1425,8 +1425,8 @@ var POKEDEX_RBY = {
     },
     "w": 6.0
   },
-  "Pinsir": {
-    "t1": "Bug",
+  "쁘사이저": {
+    "t1": "벌레",
     "bs": {
       "hp": 65,
       "at": 125,
@@ -1437,10 +1437,10 @@ var POKEDEX_RBY = {
       "sl": 55
     },
     "w": 55.0,
-    "ab": "Hyper Cutter"
+    "ab": "괴력집게"
   },
-  "Poliwag": {
-    "t1": "Water",
+  "발챙이": {
+    "t1": "물",
     "bs": {
       "hp": 40,
       "at": 50,
@@ -1452,8 +1452,8 @@ var POKEDEX_RBY = {
     },
     "w": 12.4
   },
-  "Poliwhirl": {
-    "t1": "Water",
+  "슈륙챙이": {
+    "t1": "물",
     "bs": {
       "hp": 65,
       "at": 65,
@@ -1465,9 +1465,9 @@ var POKEDEX_RBY = {
     },
     "w": 20.0
   },
-  "Poliwrath": {
-    "t1": "Water",
-    "t2": "Fighting",
+  "강챙이": {
+    "t1": "물",
+    "t2": "격투",
     "bs": {
       "hp": 90,
       "at": 85,
@@ -1479,8 +1479,8 @@ var POKEDEX_RBY = {
     },
     "w": 54.0
   },
-  "Ponyta": {
-    "t1": "Fire",
+  "포니타": {
+    "t1": "불꽃",
     "bs": {
       "hp": 50,
       "at": 85,
@@ -1492,8 +1492,8 @@ var POKEDEX_RBY = {
     },
     "w": 30.0
   },
-  "Porygon": {
-    "t1": "Normal",
+  "폴리곤": {
+    "t1": "노말",
     "bs": {
       "hp": 65,
       "at": 60,
@@ -1505,8 +1505,8 @@ var POKEDEX_RBY = {
     },
     "w": 36.5
   },
-  "Primeape": {
-    "t1": "Fighting",
+  "성원숭": {
+    "t1": "격투",
     "bs": {
       "hp": 65,
       "at": 105,
@@ -1518,8 +1518,8 @@ var POKEDEX_RBY = {
     },
     "w": 32.0
   },
-  "Psyduck": {
-    "t1": "Water",
+  "고라파덕": {
+    "t1": "물",
     "bs": {
       "hp": 50,
       "at": 52,
@@ -1531,8 +1531,8 @@ var POKEDEX_RBY = {
     },
     "w": 19.6
   },
-  "Raichu": {
-    "t1": "Electric",
+  "라이츄": {
+    "t1": "전기",
     "bs": {
       "hp": 60,
       "at": 90,
@@ -1544,8 +1544,8 @@ var POKEDEX_RBY = {
     },
     "w": 30.0
   },
-  "Rapidash": {
-    "t1": "Fire",
+  "날쌩마": {
+    "t1": "불꽃",
     "bs": {
       "hp": 65,
       "at": 100,
@@ -1557,8 +1557,8 @@ var POKEDEX_RBY = {
     },
     "w": 95.0
   },
-  "Raticate": {
-    "t1": "Normal",
+  "레트라": {
+    "t1": "노말",
     "bs": {
       "hp": 55,
       "at": 81,
@@ -1570,8 +1570,8 @@ var POKEDEX_RBY = {
     },
     "w": 18.5
   },
-  "Rattata": {
-    "t1": "Normal",
+  "꼬렛": {
+    "t1": "노말",
     "bs": {
       "hp": 30,
       "at": 56,
@@ -1583,9 +1583,9 @@ var POKEDEX_RBY = {
     },
     "w": 3.5
   },
-  "Rhydon": {
-    "t1": "Ground",
-    "t2": "Rock",
+  "코뿌리": {
+    "t1": "땅",
+    "t2": "바위",
     "bs": {
       "hp": 105,
       "at": 130,
@@ -1597,9 +1597,9 @@ var POKEDEX_RBY = {
     },
     "w": 120.0
   },
-  "Rhyhorn": {
-    "t1": "Ground",
-    "t2": "Rock",
+  "뿔카노": {
+    "t1": "땅",
+    "t2": "바위",
     "bs": {
       "hp": 80,
       "at": 85,
@@ -1611,8 +1611,8 @@ var POKEDEX_RBY = {
     },
     "w": 115.0
   },
-  "Sandshrew": {
-    "t1": "Ground",
+  "모래두지": {
+    "t1": "땅",
     "bs": {
       "hp": 50,
       "at": 75,
@@ -1623,10 +1623,10 @@ var POKEDEX_RBY = {
       "sl": 30
     },
     "w": 12.0,
-    "ab": "Sand Veil"
+    "ab": "모래숨기"
   },
-  "Sandslash": {
-    "t1": "Ground",
+  "고지": {
+    "t1": "땅",
     "bs": {
       "hp": 75,
       "at": 100,
@@ -1637,11 +1637,11 @@ var POKEDEX_RBY = {
       "sl": 55
     },
     "w": 29.5,
-    "ab": "Sand Veil"
+    "ab": "모래숨기"
   },
-  "Scyther": {
-    "t1": "Bug",
-    "t2": "Flying",
+  "스라크": {
+    "t1": "벌레",
+    "t2": "비행",
     "bs": {
       "hp": 70,
       "at": 110,
@@ -1652,10 +1652,10 @@ var POKEDEX_RBY = {
       "sl": 55
     },
     "w": 56.0,
-    "ab": "Swarm"
+    "ab": "벌레의알림"
   },
-  "Seadra": {
-    "t1": "Water",
+  "시드라": {
+    "t1": "물",
     "bs": {
       "hp": 55,
       "at": 65,
@@ -1667,8 +1667,8 @@ var POKEDEX_RBY = {
     },
     "w": 25.0
   },
-  "Seaking": {
-    "t1": "Water",
+  "왕콘치": {
+    "t1": "물",
     "bs": {
       "hp": 80,
       "at": 92,
@@ -1680,8 +1680,8 @@ var POKEDEX_RBY = {
     },
     "w": 39.0
   },
-  "Seel": {
-    "t1": "Water",
+  "쥬쥬": {
+    "t1": "물",
     "bs": {
       "hp": 65,
       "at": 45,
@@ -1692,10 +1692,10 @@ var POKEDEX_RBY = {
       "sl": 70
     },
     "w": 90.0,
-    "ab": "Thick Fat"
+    "ab": "두꺼운지방"
   },
-  "Shellder": {
-    "t1": "Water",
+  "셀러": {
+    "t1": "물",
     "bs": {
       "hp": 30,
       "at": 65,
@@ -1706,11 +1706,11 @@ var POKEDEX_RBY = {
       "sl": 45
     },
     "w": 4.0,
-    "ab": "Shell Armor"
+    "ab": "조가비갑옷"
   },
-  "Slowbro": {
-    "t1": "Water",
-    "t2": "Psychic",
+  "야도란": {
+    "t1": "물",
+    "t2": "에스퍼",
     "bs": {
       "hp": 95,
       "at": 75,
@@ -1722,9 +1722,9 @@ var POKEDEX_RBY = {
     },
     "w": 78.5
   },
-  "Slowpoke": {
-    "t1": "Water",
-    "t2": "Psychic",
+  "야돈": {
+    "t1": "물",
+    "t2": "에스퍼",
     "bs": {
       "hp": 90,
       "at": 65,
@@ -1736,8 +1736,8 @@ var POKEDEX_RBY = {
     },
     "w": 36.0
   },
-  "Snorlax": {
-    "t1": "Normal",
+  "잠만보": {
+    "t1": "노말",
     "bs": {
       "hp": 160,
       "at": 110,
@@ -1749,9 +1749,9 @@ var POKEDEX_RBY = {
     },
     "w": 460.0
   },
-  "Spearow": {
-    "t1": "Normal",
-    "t2": "Flying",
+  "깨비참": {
+    "t1": "노말",
+    "t2": "비행",
     "bs": {
       "hp": 40,
       "at": 60,
@@ -1763,8 +1763,8 @@ var POKEDEX_RBY = {
     },
     "w": 2.0
   },
-  "Squirtle": {
-    "t1": "Water",
+  "꼬부기": {
+    "t1": "물",
     "bs": {
       "hp": 44,
       "at": 48,
@@ -1775,11 +1775,11 @@ var POKEDEX_RBY = {
       "sl": 50
     },
     "w": 9.0,
-    "ab": "Torrent"
+    "ab": "급류"
   },
-  "Starmie": {
-    "t1": "Water",
-    "t2": "Psychic",
+  "아쿠스타": {
+    "t1": "물",
+    "t2": "에스퍼",
     "bs": {
       "hp": 60,
       "at": 75,
@@ -1791,8 +1791,8 @@ var POKEDEX_RBY = {
     },
     "w": 80.0
   },
-  "Staryu": {
-    "t1": "Water",
+  "별가사리": {
+    "t1": "물",
     "bs": {
       "hp": 30,
       "at": 45,
@@ -1804,8 +1804,8 @@ var POKEDEX_RBY = {
     },
     "w": 34.5
   },
-  "Tangela": {
-    "t1": "Grass",
+  "덩쿠리": {
+    "t1": "풀",
     "bs": {
       "hp": 65,
       "at": 55,
@@ -1816,10 +1816,10 @@ var POKEDEX_RBY = {
       "sl": 100
     },
     "w": 35.0,
-    "ab": "Chlorophyll"
+    "ab": "엽록소"
   },
-  "Tauros": {
-    "t1": "Normal",
+  "켄타로스": {
+    "t1": "노말",
     "bs": {
       "hp": 75,
       "at": 100,
@@ -1830,11 +1830,11 @@ var POKEDEX_RBY = {
       "sl": 70
     },
     "w": 88.4,
-    "ab": "Intimidate"
+    "ab": "괴력집게"
   },
-  "Tentacool": {
-    "t1": "Water",
-    "t2": "Poison",
+  "왕눈해": {
+    "t1": "물",
+    "t2": "독",
     "bs": {
       "hp": 40,
       "at": 40,
@@ -1846,9 +1846,9 @@ var POKEDEX_RBY = {
     },
     "w": 45.5
   },
-  "Tentacruel": {
-    "t1": "Water",
-    "t2": "Poison",
+  "독파리": {
+    "t1": "물",
+    "t2": "독",
     "bs": {
       "hp": 80,
       "at": 70,
@@ -1860,8 +1860,8 @@ var POKEDEX_RBY = {
     },
     "w": 55.0
   },
-  "Vaporeon": {
-    "t1": "Water",
+  "샤미드": {
+    "t1": "물",
     "bs": {
       "hp": 130,
       "at": 65,
@@ -1872,11 +1872,11 @@ var POKEDEX_RBY = {
       "sl": 110
     },
     "w": 29.0,
-    "ab": "Water Absorb"
+    "ab": "축전"
   },
-  "Venomoth": {
-    "t1": "Bug",
-    "t2": "Poison",
+  "도나리": {
+    "t1": "벌레",
+    "t2": "독",
     "bs": {
       "hp": 70,
       "at": 65,
@@ -1888,9 +1888,9 @@ var POKEDEX_RBY = {
     },
     "w": 12.5
   },
-  "Venonat": {
-    "t1": "Bug",
-    "t2": "Poison",
+  "콘팡": {
+    "t1": "벌레",
+    "t2": "독",
     "bs": {
       "hp": 60,
       "at": 55,
@@ -1902,9 +1902,9 @@ var POKEDEX_RBY = {
     },
     "w": 30.0
   },
-  "Venusaur": {
-    "t1": "Grass",
-    "t2": "Poison",
+  "이상해꽃": {
+    "t1": "풀",
+    "t2": "독",
     "bs": {
       "hp": 80,
       "at": 82,
@@ -1915,11 +1915,11 @@ var POKEDEX_RBY = {
       "sl": 100
     },
     "w": 100.0,
-    "ab": "Overgrow"
+    "ab": "심록"
   },
-  "Victreebel": {
-    "t1": "Grass",
-    "t2": "Poison",
+  "우츠보트": {
+    "t1": "풀",
+    "t2": "독",
     "bs": {
       "hp": 80,
       "at": 105,
@@ -1930,11 +1930,11 @@ var POKEDEX_RBY = {
       "sl": 100
     },
     "w": 15.5,
-    "ab": "Chlorophyll"
+    "ab": "엽록소"
   },
-  "Vileplume": {
-    "t1": "Grass",
-    "t2": "Poison",
+  "라플레시아": {
+    "t1": "풀",
+    "t2": "독",
     "bs": {
       "hp": 75,
       "at": 80,
@@ -1945,10 +1945,10 @@ var POKEDEX_RBY = {
       "sl": 100
     },
     "w": 18.6,
-    "ab": "Chlorophyll"
+    "ab": "엽록소"
   },
-  "Voltorb": {
-    "t1": "Electric",
+  "찌리리공": {
+    "t1": "전기",
     "bs": {
       "hp": 40,
       "at": 30,
@@ -1960,8 +1960,8 @@ var POKEDEX_RBY = {
     },
     "w": 10.4
   },
-  "Vulpix": {
-    "t1": "Fire",
+  "식스테일": {
+    "t1": "불꽃",
     "bs": {
       "hp": 38,
       "at": 41,
@@ -1972,10 +1972,10 @@ var POKEDEX_RBY = {
       "sl": 65
     },
     "w": 9.9,
-    "ab": "Flash Fire"
+    "ab": "타오르는불꽃"
   },
-  "Wartortle": {
-    "t1": "Water",
+  "어니부기": {
+    "t1": "물",
     "bs": {
       "hp": 59,
       "at": 63,
@@ -1986,11 +1986,11 @@ var POKEDEX_RBY = {
       "sl": 65
     },
     "w": 22.5,
-    "ab": "Torrent"
+    "ab": "급류"
   },
-  "Weedle": {
-    "t1": "Bug",
-    "t2": "Poison",
+  "뿔충이": {
+    "t1": "벌레",
+    "t2": "독",
     "bs": {
       "hp": 40,
       "at": 35,
@@ -2002,9 +2002,9 @@ var POKEDEX_RBY = {
     },
     "w": 3.2
   },
-  "Weepinbell": {
-    "t1": "Grass",
-    "t2": "Poison",
+  "우츠동": {
+    "t1": "풀",
+    "t2": "독",
     "bs": {
       "hp": 65,
       "at": 90,
@@ -2015,10 +2015,10 @@ var POKEDEX_RBY = {
       "sl": 85
     },
     "w": 6.4,
-    "ab": "Chlorophyll"
+    "ab": "엽록소"
   },
-  "Weezing": {
-    "t1": "Poison",
+  "또도가스": {
+    "t1": "독",
     "bs": {
       "hp": 65,
       "at": 90,
@@ -2029,10 +2029,10 @@ var POKEDEX_RBY = {
       "sl": 85
     },
     "w": 9.5,
-    "ab": "Levitate"
+    "ab": "부유"
   },
-  "Wigglytuff": {
-    "t1": "Normal",
+  "푸크린": {
+    "t1": "노말",
     "bs": {
       "hp": 140,
       "at": 70,
@@ -2044,9 +2044,9 @@ var POKEDEX_RBY = {
     },
     "w": 12.0
   },
-  "Zapdos": {
-    "t1": "Electric",
-    "t2": "Flying",
+  "썬더": {
+    "t1": "전기",
+    "t2": "비행",
     "bs": {
       "hp": 90,
       "at": 90,
@@ -2058,9 +2058,9 @@ var POKEDEX_RBY = {
     },
     "w": 52.6
   },
-  "Zubat": {
-    "t1": "Poison",
-    "t2": "Flying",
+  "주뱃": {
+    "t1": "독",
+    "t2": "비행",
     "bs": {
       "hp": 40,
       "at": 45,
@@ -2075,10 +2075,10 @@ var POKEDEX_RBY = {
 };
 
 var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
-  "Magnemite": { "t2": "Steel" },
-  "Magneton": { "t2": "Steel" },
-  "Aipom": {
-    "t1": "Normal",
+  "코일": { "t2": "강철" },
+  "레어코일": { "t2": "강철" },
+  "에이팜": {
+    "t1": "노말",
     "bs": {
       "hp": 55,
       "at": 70,
@@ -2089,8 +2089,8 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 11.5
   },
-  "Ampharos": {
-    "t1": "Electric",
+  "전룡": {
+    "t1": "전기",
     "bs": {
       "hp": 90,
       "at": 75,
@@ -2101,9 +2101,9 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 61.5
   },
-  "Ariados": {
-    "t1": "Bug",
-    "t2": "Poison",
+  "아리아도스": {
+    "t1": "벌레",
+    "t2": "독",
     "bs": {
       "hp": 70,
       "at": 90,
@@ -2114,8 +2114,8 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 33.5
   },
-  "Azumarill": {
-    "t1": "Water",
+  "마릴리": {
+    "t1": "물",
     "bs": {
       "hp": 100,
       "at": 50,
@@ -2126,8 +2126,8 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 28.5
   },
-  "Bayleef": {
-    "t1": "Grass",
+  "베이리프": {
+    "t1": "풀",
     "bs": {
       "hp": 60,
       "at": 62,
@@ -2137,10 +2137,10 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
       "sp": 60
     },
     "w": 15.8,
-    "ab": "Overgrow"
+    "ab": "심록"
   },
-  "Bellossom": {
-    "t1": "Grass",
+  "아르코": {
+    "t1": "풀",
     "bs": {
       "hp": 75,
       "at": 80,
@@ -2150,10 +2150,10 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
       "sp": 50
     },
     "w": 5.8,
-    "ab": "Chlorophyll"
+    "ab": "엽록소"
   },
-  "Blissey": {
-    "t1": "Normal",
+  "해피너스": {
+    "t1": "노말",
     "bs": {
       "hp": 255,
       "at": 10,
@@ -2164,9 +2164,9 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 46.8
   },
-  "Celebi": {
-    "t1": "Psychic",
-    "t2": "Grass",
+  "세레비": {
+    "t1": "에스퍼",
+    "t2": "풀",
     "bs": {
       "hp": 100,
       "at": 100,
@@ -2176,10 +2176,10 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
       "sp": 100
     },
     "w": 5.0,
-    "ab": "Natural Cure"
+    "ab": "자연회복"
   },
-  "Chikorita": {
-    "t1": "Grass",
+  "치코리타": {
+    "t1": "풀",
     "bs": {
       "hp": 45,
       "at": 49,
@@ -2189,11 +2189,11 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
       "sp": 45
     },
     "w": 6.4,
-    "ab": "Overgrow"
+    "ab": "심록"
   },
-  "Chinchou": {
-    "t1": "Water",
-    "t2": "Electric",
+  "초라기": {
+    "t1": "물",
+    "t2": "전기",
     "bs": {
       "hp": 75,
       "at": 38,
@@ -2204,8 +2204,8 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 12.0
   },
-  "Cleffa": {
-    "t1": "Normal",
+  "삐": {
+    "t1": "노말",
     "bs": {
       "hp": 50,
       "at": 25,
@@ -2216,9 +2216,9 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 3.0
   },
-  "Corsola": {
-    "t1": "Water",
-    "t2": "Rock",
+  "코산호": {
+    "t1": "물",
+    "t2": "바위",
     "bs": {
       "hp": 55,
       "at": 55,
@@ -2229,9 +2229,9 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 5.0
   },
-  "Crobat": {
-    "t1": "Poison",
-    "t2": "Flying",
+  "크로뱃": {
+    "t1": "독",
+    "t2": "비행",
     "bs": {
       "hp": 85,
       "at": 90,
@@ -2242,8 +2242,8 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 75.0
   },
-  "Croconaw": {
-    "t1": "Water",
+  "엘리게이": {
+    "t1": "물",
     "bs": {
       "hp": 65,
       "at": 80,
@@ -2253,10 +2253,10 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
       "sp": 58
     },
     "w": 25.0,
-    "ab": "Torrent"
+    "ab": "급류"
   },
-  "Cyndaquil": {
-    "t1": "Fire",
+  "브케인": {
+    "t1": "불꽃",
     "bs": {
       "hp": 39,
       "at": 52,
@@ -2266,11 +2266,11 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
       "sp": 65
     },
     "w": 7.9,
-    "ab": "Blaze"
+    "ab": "맹화"
   },
-  "Delibird": {
-    "t1": "Ice",
-    "t2": "Flying",
+  "딜리버드": {
+    "t1": "얼음",
+    "t2": "비행",
     "bs": {
       "hp": 45,
       "at": 55,
@@ -2281,8 +2281,8 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 16.0
   },
-  "Donphan": {
-    "t1": "Ground",
+  "코리갑": {
+    "t1": "땅",
     "bs": {
       "hp": 90,
       "at": 120,
@@ -2293,8 +2293,8 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 120.0
   },
-  "Dunsparce": {
-    "t1": "Normal",
+  "노고치": {
+    "t1": "노말",
     "bs": {
       "hp": 100,
       "at": 70,
@@ -2305,8 +2305,8 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 14.0
   },
-  "Elekid": {
-    "t1": "Electric",
+  "에레키드": {
+    "t1": "전기",
     "bs": {
       "hp": 45,
       "at": 63,
@@ -2317,8 +2317,8 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 23.5
   },
-  "Entei": {
-    "t1": "Fire",
+  "앤테이": {
+    "t1": "불꽃",
     "bs": {
       "hp": 115,
       "at": 115,
@@ -2329,8 +2329,8 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 198.0
   },
-  "Espeon": {
-    "t1": "Psychic",
+  "에브이": {
+    "t1": "에스퍼",
     "bs": {
       "hp": 65,
       "at": 65,
@@ -2341,8 +2341,8 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 26.5
   },
-  "Feraligatr": {
-    "t1": "Water",
+  "장크로다일": {
+    "t1": "물",
     "bs": {
       "hp": 85,
       "at": 105,
@@ -2352,10 +2352,10 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
       "sp": 78
     },
     "w": 88.8,
-    "ab": "Torrent"
+    "ab": "급류"
   },
-  "Flaaffy": {
-    "t1": "Electric",
+  "보송송": {
+    "t1": "전기",
     "bs": {
       "hp": 70,
       "at": 55,
@@ -2366,9 +2366,9 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 13.3
   },
-  "Forretress": {
-    "t1": "Bug",
-    "t2": "Steel",
+  "쏘콘": {
+    "t1": "벌레",
+    "t2": "강철",
     "bs": {
       "hp": 75,
       "at": 90,
@@ -2379,8 +2379,8 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 125.8
   },
-  "Furret": {
-    "t1": "Normal",
+  "다꼬리": {
+    "t1": "노말",
     "bs": {
       "hp": 85,
       "at": 76,
@@ -2391,9 +2391,9 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 32.5
   },
-  "Girafarig": {
-    "t1": "Normal",
-    "t2": "Psychic",
+  "키링키": {
+    "t1": "노말",
+    "t2": "에스퍼",
     "bs": {
       "hp": 70,
       "at": 80,
@@ -2404,9 +2404,9 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 41.5
   },
-  "Gligar": {
-    "t1": "Ground",
-    "t2": "Flying",
+  "글라이거": {
+    "t1": "땅",
+    "t2": "비행",
     "bs": {
       "hp": 65,
       "at": 75,
@@ -2417,8 +2417,8 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 64.8
   },
-  "Granbull": {
-    "t1": "Normal",
+  "그랑블루": {
+    "t1": "노말",
     "bs": {
       "hp": 90,
       "at": 120,
@@ -2428,11 +2428,11 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
       "sp": 45
     },
     "w": 48.7,
-    "ab": "Intimidate"
+    "ab": "괴력집게"
   },
-  "Heracross": {
-    "t1": "Bug",
-    "t2": "Fighting",
+  "헤라크로스": {
+    "t1": "벌레",
+    "t2": "격투",
     "bs": {
       "hp": 80,
       "at": 125,
@@ -2443,8 +2443,8 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 54.0
   },
-  "Hitmontop": {
-    "t1": "Fighting",
+  "카포에라": {
+    "t1": "격투",
     "bs": {
       "hp": 50,
       "at": 95,
@@ -2454,11 +2454,11 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
       "sp": 70
     },
     "w": 48.0,
-    "ab": "Intimidate"
+    "ab": "괴력집게"
   },
-  "Ho-Oh": {
-    "t1": "Fire",
-    "t2": "Flying",
+  "칠색조": {
+    "t1": "불꽃",
+    "t2": "비행",
     "bs": {
       "hp": 106,
       "at": 130,
@@ -2469,9 +2469,9 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 199.0
   },
-  "Hoothoot": {
-    "t1": "Normal",
-    "t2": "Flying",
+  "부우부": {
+    "t1": "노말",
+    "t2": "비행",
     "bs": {
       "hp": 60,
       "at": 30,
@@ -2482,9 +2482,9 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 21.2
   },
-  "Hoppip": {
-    "t1": "Grass",
-    "t2": "Flying",
+  "통통코": {
+    "t1": "풀",
+    "t2": "비행",
     "bs": {
       "hp": 35,
       "at": 35,
@@ -2494,11 +2494,11 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
       "sp": 50
     },
     "w": 0.5,
-    "ab": "Chlorophyll"
+    "ab": "엽록소"
   },
-  "Houndoom": {
-    "t1": "Dark",
-    "t2": "Fire",
+  "헬가": {
+    "t1": "악",
+    "t2": "불꽃",
     "bs": {
       "hp": 75,
       "at": 90,
@@ -2509,9 +2509,9 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 35.0
   },
-  "Houndour": {
-    "t1": "Dark",
-    "t2": "Fire",
+  "델빌": {
+    "t1": "악",
+    "t2": "불꽃",
     "bs": {
       "hp": 45,
       "at": 60,
@@ -2522,8 +2522,8 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 10.8
   },
-  "Igglybuff": {
-    "t1": "Normal",
+  "푸푸린": {
+    "t1": "노말",
     "bs": {
       "hp": 90,
       "at": 30,
@@ -2534,9 +2534,9 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 1.0
   },
-  "Jumpluff": {
-    "t1": "Grass",
-    "t2": "Flying",
+  "솜솜코": {
+    "t1": "풀",
+    "t2": "비행",
     "bs": {
       "hp": 75,
       "at": 55,
@@ -2546,11 +2546,11 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
       "sp": 110
     },
     "w": 3.0,
-    "ab": "Chlorophyll"
+    "ab": "엽록소"
   },
-  "Kingdra": {
-    "t1": "Water",
-    "t2": "Dragon",
+  "킹드라": {
+    "t1": "물",
+    "t2": "드래곤",
     "bs": {
       "hp": 75,
       "at": 95,
@@ -2560,11 +2560,11 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
       "sp": 85
     },
     "w": 152.0,
-    "ab": "Swift Swim"
+    "ab": "쓱쓱"
   },
-  "Lanturn": {
-    "t1": "Water",
-    "t2": "Electric",
+  "랜턴": {
+    "t1": "물",
+    "t2": "전기",
     "bs": {
       "hp": 125,
       "at": 58,
@@ -2575,9 +2575,9 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 22.5
   },
-  "Larvitar": {
-    "t1": "Rock",
-    "t2": "Ground",
+  "애버라스": {
+    "t1": "바위",
+    "t2": "땅",
     "bs": {
       "hp": 50,
       "at": 64,
@@ -2587,11 +2587,11 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
       "sp": 41
     },
     "w": 72.0,
-    "ab": "Guts"
+    "ab": "근성"
   },
-  "Ledian": {
-    "t1": "Bug",
-    "t2": "Flying",
+  "레디안": {
+    "t1": "벌레",
+    "t2": "비행",
     "bs": {
       "hp": 55,
       "at": 35,
@@ -2602,9 +2602,9 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 35.6
   },
-  "Ledyba": {
-    "t1": "Bug",
-    "t2": "Flying",
+  "레디바": {
+    "t1": "벌레",
+    "t2": "비행",
     "bs": {
       "hp": 40,
       "at": 20,
@@ -2615,9 +2615,9 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 10.8
   },
-  "Lugia": {
-    "t1": "Psychic",
-    "t2": "Flying",
+  "루기아": {
+    "t1": "에스퍼",
+    "t2": "비행",
     "bs": {
       "hp": 106,
       "at": 90,
@@ -2628,8 +2628,8 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 216.0
   },
-  "Magby": {
-    "t1": "Fire",
+  "마그비": {
+    "t1": "불꽃",
     "bs": {
       "hp": 45,
       "at": 75,
@@ -2640,9 +2640,9 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 21.4
   },
-  "Magcargo": {
-    "t1": "Fire",
-    "t2": "Rock",
+  "마그카르고": {
+    "t1": "불꽃",
+    "t2": "바위",
     "bs": {
       "hp": 50,
       "at": 50,
@@ -2653,9 +2653,9 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 55.0
   },
-  "Mantine": {
-    "t1": "Water",
-    "t2": "Flying",
+  "만타인": {
+    "t1": "물",
+    "t2": "비행",
     "bs": {
       "hp": 65,
       "at": 40,
@@ -2666,8 +2666,8 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 220.0
   },
-  "Mareep": {
-    "t1": "Electric",
+  "메리프": {
+    "t1": "전기",
     "bs": {
       "hp": 55,
       "at": 40,
@@ -2678,8 +2678,8 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 7.8
   },
-  "Marill": {
-    "t1": "Water",
+  "마릴": {
+    "t1": "물",
     "bs": {
       "hp": 70,
       "at": 20,
@@ -2690,8 +2690,8 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 8.5
   },
-  "Meganium": {
-    "t1": "Grass",
+  "메가니움": {
+    "t1": "풀",
     "bs": {
       "hp": 80,
       "at": 82,
@@ -2701,10 +2701,10 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
       "sp": 80
     },
     "w": 100.5,
-    "ab": "Overgrow"
+    "ab": "심록"
   },
-  "Miltank": {
-    "t1": "Normal",
+  "밀탱크": {
+    "t1": "노말",
     "bs": {
       "hp": 95,
       "at": 80,
@@ -2714,10 +2714,10 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
       "sp": 100
     },
     "w": 75.5,
-    "ab": "Thick Fat"
+    "ab": "두꺼운지방"
   },
-  "Misdreavus": {
-    "t1": "Ghost",
+  "무우마": {
+    "t1": "고스트",
     "bs": {
       "hp": 60,
       "at": 60,
@@ -2727,11 +2727,11 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
       "sp": 85
     },
     "w": 1.0,
-    "ab": "Levitate"
+    "ab": "부유"
   },
-  "Murkrow": {
-    "t1": "Dark",
-    "t2": "Flying",
+  "니로우": {
+    "t1": "악",
+    "t2": "비행",
     "bs": {
       "hp": 60,
       "at": 85,
@@ -2742,9 +2742,9 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 2.1
   },
-  "Natu": {
-    "t1": "Psychic",
-    "t2": "Flying",
+  "네이티": {
+    "t1": "에스퍼",
+    "t2": "비행",
     "bs": {
       "hp": 40,
       "at": 50,
@@ -2755,9 +2755,9 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 2.0
   },
-  "Noctowl": {
-    "t1": "Normal",
-    "t2": "Flying",
+  "야부엉": {
+    "t1": "노말",
+    "t2": "비행",
     "bs": {
       "hp": 100,
       "at": 50,
@@ -2768,8 +2768,8 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 40.8
   },
-  "Octillery": {
-    "t1": "Water",
+  "대포무노": {
+    "t1": "물",
     "bs": {
       "hp": 75,
       "at": 105,
@@ -2780,8 +2780,8 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 28.5
   },
-  "Phanpy": {
-    "t1": "Ground",
+  "코코리": {
+    "t1": "땅",
     "bs": {
       "hp": 90,
       "at": 60,
@@ -2792,8 +2792,8 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 33.5
   },
-  "Pichu": {
-    "t1": "Electric",
+  "피츄": {
+    "t1": "전기",
     "bs": {
       "hp": 20,
       "at": 40,
@@ -2804,9 +2804,9 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 2.0
   },
-  "Piloswine": {
-    "t1": "Ice",
-    "t2": "Ground",
+  "메꾸리": {
+    "t1": "얼음",
+    "t2": "땅",
     "bs": {
       "hp": 100,
       "at": 100,
@@ -2817,8 +2817,8 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 55.8
   },
-  "Pineco": {
-    "t1": "Bug",
+  "피콘": {
+    "t1": "벌레",
     "bs": {
       "hp": 50,
       "at": 65,
@@ -2829,8 +2829,8 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 7.2
   },
-  "Politoed": {
-    "t1": "Water",
+  "왕구리": {
+    "t1": "물",
     "bs": {
       "hp": 90,
       "at": 75,
@@ -2841,8 +2841,8 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 33.9
   },
-  "Porygon2": {
-    "t1": "Normal",
+  "폴리곤2": {
+    "t1": "노말",
     "bs": {
       "hp": 85,
       "at": 80,
@@ -2853,9 +2853,9 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 32.5
   },
-  "Pupitar": {
-    "t1": "Rock",
-    "t2": "Ground",
+  "데기라스": {
+    "t1": "바위",
+    "t2": "땅",
     "bs": {
       "hp": 70,
       "at": 84,
@@ -2865,11 +2865,11 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
       "sp": 51
     },
     "w": 152.0,
-    "ab": "Shed Skin"
+    "ab": "탈피"
   },
-  "Quagsire": {
-    "t1": "Water",
-    "t2": "Ground",
+  "누오": {
+    "t1": "물",
+    "t2": "땅",
     "bs": {
       "hp": 95,
       "at": 85,
@@ -2880,8 +2880,8 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 75.0
   },
-  "Quilava": {
-    "t1": "Fire",
+  "마그케인": {
+    "t1": "불꽃",
     "bs": {
       "hp": 58,
       "at": 64,
@@ -2891,11 +2891,11 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
       "sp": 80
     },
     "w": 19.0,
-    "ab": "Blaze"
+    "ab": "맹화"
   },
-  "Qwilfish": {
-    "t1": "Water",
-    "t2": "Poison",
+  "침바루": {
+    "t1": "물",
+    "t2": "독",
     "bs": {
       "hp": 65,
       "at": 95,
@@ -2906,8 +2906,8 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 3.9
   },
-  "Raikou": {
-    "t1": "Electric",
+  "라이코": {
+    "t1": "전기",
     "bs": {
       "hp": 90,
       "at": 85,
@@ -2918,8 +2918,8 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 178.0
   },
-  "Remoraid": {
-    "t1": "Water",
+  "총어": {
+    "t1": "물",
     "bs": {
       "hp": 35,
       "at": 65,
@@ -2930,9 +2930,9 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 12.0
   },
-  "Scizor": {
-    "t1": "Bug",
-    "t2": "Steel",
+  "핫삼": {
+    "t1": "벌레",
+    "t2": "강철",
     "bs": {
       "hp": 70,
       "at": 130,
@@ -2942,10 +2942,10 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
       "sp": 65
     },
     "w": 118.0,
-    "ab": "Swarm"
+    "ab": "벌레의알림"
   },
-  "Sentret": {
-    "t1": "Normal",
+  "꼬리선": {
+    "t1": "노말",
     "bs": {
       "hp": 35,
       "at": 46,
@@ -2956,9 +2956,9 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 6.0
   },
-  "Shuckle": {
-    "t1": "Bug",
-    "t2": "Rock",
+  "단단지": {
+    "t1": "벌레",
+    "t2": "바위",
     "bs": {
       "hp": 20,
       "at": 10,
@@ -2969,9 +2969,9 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 20.5
   },
-  "Skarmory": {
-    "t1": "Steel",
-    "t2": "Flying",
+  "무장조": {
+    "t1": "강철",
+    "t2": "비행",
     "bs": {
       "hp": 65,
       "at": 80,
@@ -2982,9 +2982,9 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 50.5
   },
-  "Skiploom": {
-    "t1": "Grass",
-    "t2": "Flying",
+  "두코": {
+    "t1": "풀",
+    "t2": "비행",
     "bs": {
       "hp": 55,
       "at": 45,
@@ -2994,11 +2994,11 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
       "sp": 80
     },
     "w": 1.0,
-    "ab": "Chlorophyll"
+    "ab": "엽록소"
   },
-  "Slowking": {
-    "t1": "Water",
-    "t2": "Psychic",
+  "야도킹": {
+    "t1": "물",
+    "t2": "에스퍼",
     "bs": {
       "hp": 95,
       "at": 75,
@@ -3009,8 +3009,8 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 79.5
   },
-  "Slugma": {
-    "t1": "Fire",
+  "마그마그": {
+    "t1": "불꽃",
     "bs": {
       "hp": 40,
       "at": 40,
@@ -3021,8 +3021,8 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 35.0
   },
-  "Smeargle": {
-    "t1": "Normal",
+  "루브도": {
+    "t1": "노말",
     "bs": {
       "hp": 55,
       "at": 20,
@@ -3033,9 +3033,9 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 58.0
   },
-  "Smoochum": {
-    "t1": "Ice",
-    "t2": "Psychic",
+  "뽀뽀라": {
+    "t1": "얼음",
+    "t2": "에스퍼",
     "bs": {
       "hp": 45,
       "at": 30,
@@ -3046,9 +3046,9 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 6.0
   },
-  "Sneasel": {
-    "t1": "Dark",
-    "t2": "Ice",
+  "포푸니": {
+    "t1": "악",
+    "t2": "얼음",
     "bs": {
       "hp": 55,
       "at": 95,
@@ -3059,8 +3059,8 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 28.0
   },
-  "Snubbull": {
-    "t1": "Normal",
+  "블루": {
+    "t1": "노말",
     "bs": {
       "hp": 60,
       "at": 80,
@@ -3071,9 +3071,9 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 7.8
   },
-  "Spinarak": {
-    "t1": "Bug",
-    "t2": "Poison",
+  "페이검": {
+    "t1": "벌레",
+    "t2": "독",
     "bs": {
       "hp": 40,
       "at": 60,
@@ -3084,8 +3084,8 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 8.5
   },
-  "Stantler": {
-    "t1": "Normal",
+  "노라키": {
+    "t1": "노말",
     "bs": {
       "hp": 73,
       "at": 95,
@@ -3095,11 +3095,11 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
       "sp": 85
     },
     "w": 71.2,
-    "ab": "Intimidate"
+    "ab": "괴력집게"
   },
-  "Steelix": {
-    "t1": "Steel",
-    "t2": "Ground",
+  "강철톤": {
+    "t1": "강철",
+    "t2": "땅",
     "bs": {
       "hp": 75,
       "at": 85,
@@ -3110,8 +3110,8 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 400.0
   },
-  "Sudowoodo": {
-    "t1": "Rock",
+  "꼬지모": {
+    "t1": "바위",
     "bs": {
       "hp": 70,
       "at": 100,
@@ -3122,8 +3122,8 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 38.0
   },
-  "Suicune": {
-    "t1": "Water",
+  "스이쿤": {
+    "t1": "물",
     "bs": {
       "hp": 100,
       "at": 75,
@@ -3134,8 +3134,8 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 187.0
   },
-  "Sunflora": {
-    "t1": "Grass",
+  "해루미": {
+    "t1": "풀",
     "bs": {
       "hp": 75,
       "at": 75,
@@ -3145,10 +3145,10 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
       "sp": 30
     },
     "w": 8.5,
-    "ab": "Chlorophyll"
+    "ab": "엽록소"
   },
-  "Sunkern": {
-    "t1": "Grass",
+  "해너츠": {
+    "t1": "풀",
     "bs": {
       "hp": 30,
       "at": 30,
@@ -3158,11 +3158,11 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
       "sp": 30
     },
     "w": 1.8,
-    "ab": "Chlorophyll"
+    "ab": "엽록소"
   },
-  "Swinub": {
-    "t1": "Ice",
-    "t2": "Ground",
+  "꾸꾸리": {
+    "t1": "얼음",
+    "t2": "땅",
     "bs": {
       "hp": 50,
       "at": 50,
@@ -3173,8 +3173,8 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 6.5
   },
-  "Teddiursa": {
-    "t1": "Normal",
+  "깜지곰": {
+    "t1": "노말",
     "bs": {
       "hp": 60,
       "at": 80,
@@ -3185,8 +3185,8 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 8.8
   },
-  "Togepi": {
-    "t1": "Normal",
+  "토게피": {
+    "t1": "노말",
     "bs": {
       "hp": 35,
       "at": 20,
@@ -3197,9 +3197,9 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 1.5
   },
-  "Togetic": {
-    "t1": "Normal",
-    "t2": "Flying",
+  "토게틱": {
+    "t1": "노말",
+    "t2": "비행",
     "bs": {
       "hp": 55,
       "at": 40,
@@ -3210,8 +3210,8 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 3.2
   },
-  "Totodile": {
-    "t1": "Water",
+  "리아코": {
+    "t1": "물",
     "bs": {
       "hp": 50,
       "at": 65,
@@ -3221,10 +3221,10 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
       "sp": 43
     },
     "w": 9.5,
-    "ab": "Torrent"
+    "ab": "급류"
   },
-  "Typhlosion": {
-    "t1": "Fire",
+  "블레이범": {
+    "t1": "불꽃",
     "bs": {
       "hp": 78,
       "at": 84,
@@ -3234,11 +3234,11 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
       "sp": 100
     },
     "w": 79.5,
-    "ab": "Blaze"
+    "ab": "맹화"
   },
-  "Tyranitar": {
-    "t1": "Rock",
-    "t2": "Dark",
+  "마기라스": {
+    "t1": "바위",
+    "t2": "악",
     "bs": {
       "hp": 100,
       "at": 134,
@@ -3248,10 +3248,10 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
       "sp": 61
     },
     "w": 202.0,
-    "ab": "Sand Stream"
+    "ab": "모래날림"
   },
-  "Tyrogue": {
-    "t1": "Fighting",
+  "배루키": {
+    "t1": "격투",
     "bs": {
       "hp": 35,
       "at": 35,
@@ -3261,10 +3261,10 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
       "sp": 35
     },
     "w": 21.0,
-    "ab": "Guts"
+    "ab": "근성"
   },
-  "Umbreon": {
-    "t1": "Dark",
+  "블래키": {
+    "t1": "악",
     "bs": {
       "hp": 95,
       "at": 65,
@@ -3275,8 +3275,8 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 27.0
   },
-  "Unown": {
-    "t1": "Psychic",
+  "안농": {
+    "t1": "에스퍼",
     "bs": {
       "hp": 48,
       "at": 72,
@@ -3286,10 +3286,10 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
       "sp": 48
     },
     "w": 5.0,
-    "ab": "Levitate"
+    "ab": "부유"
   },
-  "Ursaring": {
-    "t1": "Normal",
+  "링곰": {
+    "t1": "노말",
     "bs": {
       "hp": 90,
       "at": 130,
@@ -3299,10 +3299,10 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
       "sp": 55
     },
     "w": 125.8,
-    "ab": "Guts"
+    "ab": "근성"
   },
-  "Wobbuffet": {
-    "t1": "Psychic",
+  "마자용": {
+    "t1": "에스퍼",
     "bs": {
       "hp": 190,
       "at": 33,
@@ -3313,9 +3313,9 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 28.5
   },
-  "Wooper": {
-    "t1": "Water",
-    "t2": "Ground",
+  "우파": {
+    "t1": "물",
+    "t2": "땅",
     "bs": {
       "hp": 55,
       "at": 45,
@@ -3326,9 +3326,9 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 8.5
   },
-  "Xatu": {
-    "t1": "Psychic",
-    "t2": "Flying",
+  "네이티오": {
+    "t1": "에스퍼",
+    "t2": "비행",
     "bs": {
       "hp": 65,
       "at": 75,
@@ -3339,9 +3339,9 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
     },
     "w": 15.0
   },
-  "Yanma": {
-    "t1": "Bug",
-    "t2": "Flying",
+  "왕자리": {
+    "t1": "벌레",
+    "t2": "비행",
     "bs": {
       "hp": 65,
       "at": 65,
@@ -3355,8 +3355,8 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
 });
 
 var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
-  "Absol": {
-    "t1": "Dark",
+  "앱솔": {
+    "t1": "악",
     "bs": {
       "hp": 65,
       "at": 130,
@@ -3367,9 +3367,9 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 47.0
   },
-  "Aggron": {
-    "t1": "Steel",
-    "t2": "Rock",
+  "보스로라": {
+    "t1": "강철",
+    "t2": "바위",
     "bs": {
       "hp": 70,
       "at": 110,
@@ -3380,9 +3380,9 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 360.0
   },
-  "Altaria": {
-    "t1": "Dragon",
-    "t2": "Flying",
+  "파비코리": {
+    "t1": "드래곤",
+    "t2": "비행",
     "bs": {
       "hp": 75,
       "at": 70,
@@ -3393,9 +3393,9 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 20.6
   },
-  "Anorith": {
-    "t1": "Rock",
-    "t2": "Bug",
+  "아노딥스": {
+    "t1": "바위",
+    "t2": "벌레",
     "bs": {
       "hp": 45,
       "at": 95,
@@ -3405,11 +3405,11 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 75
     },
     "w": 12.5,
-    "ab": "Battle Armor"
+    "ab": "전투무장"
   },
-  "Armaldo": {
-    "t1": "Rock",
-    "t2": "Bug",
+  "아말도": {
+    "t1": "바위",
+    "t2": "벌레",
     "bs": {
       "hp": 75,
       "at": 125,
@@ -3419,11 +3419,11 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 45
     },
     "w": 68.2,
-    "ab": "Battle Armor"
+    "ab": "전투무장"
   },
-  "Aron": {
-    "t1": "Steel",
-    "t2": "Rock",
+  "가보리": {
+    "t1": "강철",
+    "t2": "바위",
     "bs": {
       "hp": 50,
       "at": 70,
@@ -3434,8 +3434,8 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 60.0
   },
-  "Azurill": {
-    "t1": "Normal",
+  "루리리": {
+    "t1": "노말",
     "bs": {
       "hp": 50,
       "at": 20,
@@ -3446,8 +3446,8 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 2.0
   },
-  "Bagon": {
-    "t1": "Dragon",
+  "아공이": {
+    "t1": "드래곤",
     "bs": {
       "hp": 45,
       "at": 75,
@@ -3458,9 +3458,9 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 42.1
   },
-  "Baltoy": {
-    "t1": "Ground",
-    "t2": "Psychic",
+  "오뚝군": {
+    "t1": "땅",
+    "t2": "에스퍼",
     "bs": {
       "hp": 40,
       "at": 40,
@@ -3470,10 +3470,10 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 55
     },
     "w": 21.5,
-    "ab": "Levitate"
+    "ab": "부유"
   },
-  "Banette": {
-    "t1": "Ghost",
+  "다크펫": {
+    "t1": "고스트",
     "bs": {
       "hp": 64,
       "at": 115,
@@ -3484,9 +3484,9 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 12.5
   },
-  "Barboach": {
-    "t1": "Water",
-    "t2": "Ground",
+  "미꾸리": {
+    "t1": "물",
+    "t2": "땅",
     "bs": {
       "hp": 50,
       "at": 48,
@@ -3497,9 +3497,9 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 1.9
   },
-  "Beautifly": {
-    "t1": "Bug",
-    "t2": "Flying",
+  "뷰티플라이": {
+    "t1": "벌레",
+    "t2": "비행",
     "bs": {
       "hp": 60,
       "at": 70,
@@ -3509,11 +3509,11 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 65
     },
     "w": 28.4,
-    "ab": "Swarm"
+    "ab": "벌레의알림"
   },
-  "Beldum": {
-    "t1": "Steel",
-    "t2": "Psychic",
+  "메탕": {
+    "t1": "강철",
+    "t2": "에스퍼",
     "bs": {
       "hp": 40,
       "at": 55,
@@ -3523,11 +3523,11 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 30
     },
     "w": 95.2,
-    "ab": "Clear Body"
+    "ab": "클리어바디"
   },
-  "Blaziken": {
-    "t1": "Fire",
-    "t2": "Fighting",
+  "번치코": {
+    "t1": "불꽃",
+    "t2": "격투",
     "bs": {
       "hp": 80,
       "at": 120,
@@ -3537,11 +3537,11 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 80
     },
     "w": 52.0,
-    "ab": "Blaze"
+    "ab": "맹화"
   },
-  "Breloom": {
-    "t1": "Grass",
-    "t2": "Fighting",
+  "버섯모": {
+    "t1": "풀",
+    "t2": "격투",
     "bs": {
       "hp": 60,
       "at": 130,
@@ -3552,8 +3552,8 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 39.2
   },
-  "Cacnea": {
-    "t1": "Grass",
+  "선인왕": {
+    "t1": "풀",
     "bs": {
       "hp": 50,
       "at": 85,
@@ -3563,11 +3563,11 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 35
     },
     "w": 51.3,
-    "ab": "Sand Veil"
+    "ab": "모래숨기"
   },
-  "Cacturne": {
-    "t1": "Grass",
-    "t2": "Dark",
+  "밤선인": {
+    "t1": "풀",
+    "t2": "악",
     "bs": {
       "hp": 70,
       "at": 115,
@@ -3577,11 +3577,11 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 55
     },
     "w": 77.4,
-    "ab": "Sand Veil"
+    "ab": "모래숨기"
   },
-  "Camerupt": {
-    "t1": "Fire",
-    "t2": "Ground",
+  "폭타": {
+    "t1": "불꽃",
+    "t2": "땅",
     "bs": {
       "hp": 70,
       "at": 100,
@@ -3592,9 +3592,9 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 220.0
   },
-  "Carvanha": {
-    "t1": "Water",
-    "t2": "Dark",
+  "샤프니아": {
+    "t1": "물",
+    "t2": "악",
     "bs": {
       "hp": 45,
       "at": 90,
@@ -3605,8 +3605,8 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 20.8
   },
-  "Cascoon": {
-    "t1": "Bug",
+  "카스쿤": {
+    "t1": "벌레",
     "bs": {
       "hp": 50,
       "at": 35,
@@ -3616,10 +3616,10 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 15
     },
     "w": 11.5,
-    "ab": "Shed Skin"
+    "ab": "탈피"
   },
-  "Castform": {
-    "t1": "Normal",
+  "캐스퐁": {
+    "t1": "노말",
     "bs": {
       "hp": 70,
       "at": 70,
@@ -3629,10 +3629,10 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 70
     },
     "w": 0.8,
-    "ab": "Forecast"
+    "ab": "기분파"
   },
-  "Chimecho": {
-    "t1": "Psychic",
+  "치렁": {
+    "t1": "에스퍼",
     "bs": {
       "hp": 65,
       "at": 50,
@@ -3642,10 +3642,10 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 65
     },
     "w": 1.0,
-    "ab": "Levitate"
+    "ab": "부유"
   },
-  "Clamperl": {
-    "t1": "Water",
+  "진주몽": {
+    "t1": "물",
     "bs": {
       "hp": 35,
       "at": 64,
@@ -3655,11 +3655,11 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 32
     },
     "w": 52.5,
-    "ab": "Shell Armor"
+    "ab": "조가비갑옷"
   },
-  "Claydol": {
-    "t1": "Ground",
-    "t2": "Psychic",
+  "점토도리": {
+    "t1": "땅",
+    "t2": "에스퍼",
     "bs": {
       "hp": 60,
       "at": 70,
@@ -3669,11 +3669,11 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 75
     },
     "w": 108.0,
-    "ab": "Levitate"
+    "ab": "부유"
   },
-  "Combusken": {
-    "t1": "Fire",
-    "t2": "Fighting",
+  "영치코": {
+    "t1": "불꽃",
+    "t2": "격투",
     "bs": {
       "hp": 60,
       "at": 85,
@@ -3683,10 +3683,10 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 55
     },
     "w": 19.5,
-    "ab": "Blaze"
+    "ab": "맹화"
   },
-  "Corphish": {
-    "t1": "Water",
+  "가재군": {
+    "t1": "물",
     "bs": {
       "hp": 43,
       "at": 80,
@@ -3697,9 +3697,9 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 11.5
   },
-  "Cradily": {
-    "t1": "Rock",
-    "t2": "Grass",
+  "릴리요": {
+    "t1": "바위",
+    "t2": "풀",
     "bs": {
       "hp": 86,
       "at": 81,
@@ -3710,9 +3710,9 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 60.4
   },
-  "Crawdaunt": {
-    "t1": "Water",
-    "t2": "Dark",
+  "가재장군": {
+    "t1": "물",
+    "t2": "악",
     "bs": {
       "hp": 63,
       "at": 120,
@@ -3723,8 +3723,8 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 32.8
   },
-  "Delcatty": {
-    "t1": "Normal",
+  "델케티": {
+    "t1": "노말",
     "bs": {
       "hp": 70,
       "at": 65,
@@ -3735,8 +3735,8 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 32.6
   },
-  "Deoxys": {
-    "t1": "Psychic",
+  "테오키스": {
+    "t1": "에스퍼",
     "bs": {
       "hp": 50,
       "at": 150,
@@ -3746,10 +3746,10 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 150
     },
     "w": 60.8,
-    "ab": "Pressure"
+    "ab": "프레셔"
   },
-  "Deoxys-A": {
-    "t1": "Psychic",
+  "테오키스-어택": {
+    "t1": "에스퍼",
     "bs": {
       "hp": 50,
       "at": 180,
@@ -3759,10 +3759,10 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 150
     },
     "w": 60.8,
-    "ab": "Pressure"
+    "ab": "프레셔"
   },
-  "Deoxys-D": {
-    "t1": "Psychic",
+  "테오키스-디펜스": {
+    "t1": "에스퍼",
     "bs": {
       "hp": 50,
       "at": 70,
@@ -3772,10 +3772,10 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 90
     },
     "w": 60.8,
-    "ab": "Pressure"
+    "ab": "프레셔"
   },
-  "Deoxys-S": {
-    "t1": "Psychic",
+  "테오키스-스피드": {
+    "t1": "에스퍼",
     "bs": {
       "hp": 50,
       "at": 95,
@@ -3785,10 +3785,10 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 180
     },
     "w": 60.8,
-    "ab": "Pressure"
+    "ab": "프레셔"
   },
-  "Dusclops": {
-    "t1": "Ghost",
+  "미라몽": {
+    "t1": "고스트",
     "bs": {
       "hp": 40,
       "at": 70,
@@ -3799,8 +3799,8 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 30.6
   },
-  "Duskull": {
-    "t1": "Ghost",
+  "해골몽": {
+    "t1": "고스트",
     "bs": {
       "hp": 20,
       "at": 40,
@@ -3810,11 +3810,11 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 25
     },
     "w": 15.0,
-    "ab": "Levitate"
+    "ab": "부유"
   },
-  "Dustox": {
-    "t1": "Bug",
-    "t2": "Poison",
+  "독케일": {
+    "t1": "벌레",
+    "t2": "독",
     "bs": {
       "hp": 60,
       "at": 50,
@@ -3825,8 +3825,8 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 31.6
   },
-  "Electrike": {
-    "t1": "Electric",
+  "썬더라이": {
+    "t1": "전기",
     "bs": {
       "hp": 40,
       "at": 45,
@@ -3837,8 +3837,8 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 15.2
   },
-  "Exploud": {
-    "t1": "Normal",
+  "폭음룡": {
+    "t1": "노말",
     "bs": {
       "hp": 104,
       "at": 91,
@@ -3848,10 +3848,10 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 68
     },
     "w": 84.0,
-    "ab": "Soundproof"
+    "ab": "방음"
   },
-  "Feebas": {
-    "t1": "Water",
+  "빈티나": {
+    "t1": "물",
     "bs": {
       "hp": 20,
       "at": 15,
@@ -3861,11 +3861,11 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 80
     },
     "w": 7.4,
-    "ab": "Swift Swim"
+    "ab": "쓱쓱"
   },
-  "Flygon": {
-    "t1": "Ground",
-    "t2": "Dragon",
+  "플라이곤": {
+    "t1": "땅",
+    "t2": "드래곤",
     "bs": {
       "hp": 80,
       "at": 100,
@@ -3875,10 +3875,10 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 100
     },
     "w": 82.0,
-    "ab": "Levitate"
+    "ab": "부유"
   },
-  "Gardevoir": {
-    "t1": "Psychic",
+  "가디안": {
+    "t1": "에스퍼",
     "bs": {
       "hp": 68,
       "at": 65,
@@ -3889,8 +3889,8 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 48.4
   },
-  "Glalie": {
-    "t1": "Ice",
+  "얼음귀신": {
+    "t1": "얼음",
     "bs": {
       "hp": 80,
       "at": 80,
@@ -3901,8 +3901,8 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 256.5
   },
-  "Gorebyss": {
-    "t1": "Water",
+  "분홍장이": {
+    "t1": "물",
     "bs": {
       "hp": 55,
       "at": 84,
@@ -3912,10 +3912,10 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 52
     },
     "w": 22.6,
-    "ab": "Swift Swim"
+    "ab": "쓱쓱"
   },
-  "Groudon": {
-    "t1": "Ground",
+  "그란돈": {
+    "t1": "땅",
     "bs": {
       "hp": 100,
       "at": 150,
@@ -3925,10 +3925,10 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 90
     },
     "w": 950.0,
-    "ab": "Drought"
+    "ab": "가뭄"
   },
-  "Grovyle": {
-    "t1": "Grass",
+  "나무돌이": {
+    "t1": "풀",
     "bs": {
       "hp": 50,
       "at": 65,
@@ -3938,10 +3938,10 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 95
     },
     "w": 21.6,
-    "ab": "Overgrow"
+    "ab": "심록"
   },
-  "Grumpig": {
-    "t1": "Psychic",
+  "피그킹": {
+    "t1": "에스퍼",
     "bs": {
       "hp": 80,
       "at": 45,
@@ -3952,8 +3952,8 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 71.5
   },
-  "Gulpin": {
-    "t1": "Poison",
+  "꼴깍몬": {
+    "t1": "독",
     "bs": {
       "hp": 70,
       "at": 43,
@@ -3964,8 +3964,8 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 10.3
   },
-  "Hariyama": {
-    "t1": "Fighting",
+  "하리뭉": {
+    "t1": "격투",
     "bs": {
       "hp": 144,
       "at": 120,
@@ -3976,8 +3976,8 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 253.8
   },
-  "Huntail": {
-    "t1": "Water",
+  "헌테일": {
+    "t1": "물",
     "bs": {
       "hp": 55,
       "at": 104,
@@ -3987,10 +3987,10 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 52
     },
     "w": 27.0,
-    "ab": "Swift Swim"
+    "ab": "쓱쓱"
   },
-  "Illumise": {
-    "t1": "Bug",
+  "네오비트": {
+    "t1": "벌레",
     "bs": {
       "hp": 65,
       "at": 47,
@@ -4001,9 +4001,9 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 17.7
   },
-  "Jirachi": {
-    "t1": "Steel",
-    "t2": "Psychic",
+  "지라치": {
+    "t1": "강철",
+    "t2": "에스퍼",
     "bs": {
       "hp": 100,
       "at": 100,
@@ -4013,10 +4013,10 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 100
     },
     "w": 1.1,
-    "ab": "Serene Grace"
+    "ab": "하늘의은총"
   },
-  "Kecleon": {
-    "t1": "Normal",
+  "켈리몬": {
+    "t1": "노말",
     "bs": {
       "hp": 60,
       "at": 90,
@@ -4027,8 +4027,8 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 22.0
   },
-  "Kirlia": {
-    "t1": "Psychic",
+  "킬리아": {
+    "t1": "에스퍼",
     "bs": {
       "hp": 38,
       "at": 35,
@@ -4039,8 +4039,8 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 20.2
   },
-  "Kyogre": {
-    "t1": "Water",
+  "가이오가": {
+    "t1": "물",
     "bs": {
       "hp": 100,
       "at": 100,
@@ -4050,11 +4050,11 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 90
     },
     "w": 352.0,
-    "ab": "Drizzle"
+    "ab": "잔비"
   },
-  "Lairon": {
-    "t1": "Steel",
-    "t2": "Rock",
+  "갱도라": {
+    "t1": "강철",
+    "t2": "바위",
     "bs": {
       "hp": 60,
       "at": 90,
@@ -4065,9 +4065,9 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 120.0
   },
-  "Latias": {
-    "t1": "Dragon",
-    "t2": "Psychic",
+  "라티아스": {
+    "t1": "드래곤",
+    "t2": "에스퍼",
     "bs": {
       "hp": 80,
       "at": 80,
@@ -4077,11 +4077,11 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 110
     },
     "w": 40.0,
-    "ab": "Levitate"
+    "ab": "부유"
   },
-  "Latios": {
-    "t1": "Dragon",
-    "t2": "Psychic",
+  "라티오스": {
+    "t1": "드래곤",
+    "t2": "에스퍼",
     "bs": {
       "hp": 80,
       "at": 90,
@@ -4091,11 +4091,11 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 110
     },
     "w": 60.0,
-    "ab": "Levitate"
+    "ab": "부유"
   },
-  "Lileep": {
-    "t1": "Rock",
-    "t2": "Grass",
+  "릴링": {
+    "t1": "바위",
+    "t2": "풀",
     "bs": {
       "hp": 66,
       "at": 41,
@@ -4106,8 +4106,8 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 23.8
   },
-  "Linoone": {
-    "t1": "Normal",
+  "직구리": {
+    "t1": "노말",
     "bs": {
       "hp": 78,
       "at": 70,
@@ -4118,9 +4118,9 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 32.5
   },
-  "Lombre": {
-    "t1": "Water",
-    "t2": "Grass",
+  "로토스": {
+    "t1": "물",
+    "t2": "풀",
     "bs": {
       "hp": 60,
       "at": 50,
@@ -4131,9 +4131,9 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 32.5
   },
-  "Lotad": {
-    "t1": "Water",
-    "t2": "Grass",
+  "연꽃몬": {
+    "t1": "물",
+    "t2": "풀",
     "bs": {
       "hp": 40,
       "at": 30,
@@ -4144,8 +4144,8 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 2.6
   },
-  "Loudred": {
-    "t1": "Normal",
+  "노공룡": {
+    "t1": "노말",
     "bs": {
       "hp": 84,
       "at": 71,
@@ -4155,11 +4155,11 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 48
     },
     "w": 40.5,
-    "ab": "Soundproof"
+    "ab": "방음"
   },
-  "Ludicolo": {
-    "t1": "Water",
-    "t2": "Grass",
+  "로파파": {
+    "t1": "물",
+    "t2": "풀",
     "bs": {
       "hp": 80,
       "at": 70,
@@ -4170,9 +4170,9 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 55.0
   },
-  "Lunatone": {
-    "t1": "Rock",
-    "t2": "Psychic",
+  "루나톤": {
+    "t1": "바위",
+    "t2": "에스퍼",
     "bs": {
       "hp": 70,
       "at": 55,
@@ -4182,10 +4182,10 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 70
     },
     "w": 168.0,
-    "ab": "Levitate"
+    "ab": "부유"
   },
-  "Luvdisc": {
-    "t1": "Water",
+  "사랑동이": {
+    "t1": "물",
     "bs": {
       "hp": 43,
       "at": 30,
@@ -4195,10 +4195,10 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 97
     },
     "w": 8.7,
-    "ab": "Swift Swim"
+    "ab": "쓱쓱"
   },
-  "Makuhita": {
-    "t1": "Fighting",
+  "마크탕": {
+    "t1": "격투",
     "bs": {
       "hp": 72,
       "at": 60,
@@ -4209,8 +4209,8 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 86.4
   },
-  "Manectric": {
-    "t1": "Electric",
+  "썬더볼트": {
+    "t1": "전기",
     "bs": {
       "hp": 70,
       "at": 75,
@@ -4221,9 +4221,9 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 40.2
   },
-  "Marshtomp": {
-    "t1": "Water",
-    "t2": "Ground",
+  "늪짱이": {
+    "t1": "물",
+    "t2": "땅",
     "bs": {
       "hp": 70,
       "at": 85,
@@ -4233,11 +4233,11 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 50
     },
     "w": 28.0,
-    "ab": "Torrent"
+    "ab": "급류"
   },
-  "Masquerain": {
-    "t1": "Bug",
-    "t2": "Flying",
+  "비나방": {
+    "t1": "벌레",
+    "t2": "비행",
     "bs": {
       "hp": 70,
       "at": 60,
@@ -4247,10 +4247,10 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 60
     },
     "w": 3.6,
-    "ab": "Intimidate"
+    "ab": "괴력집게"
   },
-  "Mawile": {
-    "t1": "Steel",
+  "입치트": {
+    "t1": "강철",
     "bs": {
       "hp": 50,
       "at": 85,
@@ -4261,9 +4261,9 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 11.5
   },
-  "Medicham": {
-    "t1": "Fighting",
-    "t2": "Psychic",
+  "요가램": {
+    "t1": "격투",
+    "t2": "에스퍼",
     "bs": {
       "hp": 60,
       "at": 60,
@@ -4273,11 +4273,11 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 80
     },
     "w": 31.5,
-    "ab": "Pure Power"
+    "ab": "순수한힘"
   },
-  "Meditite": {
-    "t1": "Fighting",
-    "t2": "Psychic",
+  "요가랑": {
+    "t1": "격투",
+    "t2": "에스퍼",
     "bs": {
       "hp": 30,
       "at": 40,
@@ -4287,11 +4287,11 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 60
     },
     "w": 11.2,
-    "ab": "Pure Power"
+    "ab": "순수한힘"
   },
-  "Metagross": {
-    "t1": "Steel",
-    "t2": "Psychic",
+  "메타그로스": {
+    "t1": "강철",
+    "t2": "에스퍼",
     "bs": {
       "hp": 80,
       "at": 135,
@@ -4301,11 +4301,11 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 70
     },
     "w": 550.0,
-    "ab": "Clear Body"
+    "ab": "클리어바디"
   },
-  "Metang": {
-    "t1": "Steel",
-    "t2": "Psychic",
+  "메탕구": {
+    "t1": "강철",
+    "t2": "에스퍼",
     "bs": {
       "hp": 60,
       "at": 75,
@@ -4315,10 +4315,10 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 50
     },
     "w": 202.5,
-    "ab": "Clear Body"
+    "ab": "클리어바디"
   },
-  "Mightyena": {
-    "t1": "Dark",
+  "그라에나": {
+    "t1": "악",
     "bs": {
       "hp": 70,
       "at": 90,
@@ -4328,10 +4328,10 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 70
     },
     "w": 37.0,
-    "ab": "Intimidate"
+    "ab": "괴력집게"
   },
-  "Milotic": {
-    "t1": "Water",
+  "밀로틱": {
+    "t1": "물",
     "bs": {
       "hp": 95,
       "at": 60,
@@ -4341,10 +4341,10 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 81
     },
     "w": 162.0,
-    "ab": "Marvel Scale"
+    "ab": "이상한비늘"
   },
-  "Minun": {
-    "t1": "Electric",
+  "마이농": {
+    "t1": "전기",
     "bs": {
       "hp": 60,
       "at": 40,
@@ -4355,8 +4355,8 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 4.2
   },
-  "Mudkip": {
-    "t1": "Water",
+  "물짱이": {
+    "t1": "물",
     "bs": {
       "hp": 50,
       "at": 70,
@@ -4366,11 +4366,11 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 40
     },
     "w": 7.6,
-    "ab": "Torrent"
+    "ab": "급류"
   },
-  "Nincada": {
-    "t1": "Bug",
-    "t2": "Ground",
+  "토중몬": {
+    "t1": "벌레",
+    "t2": "땅",
     "bs": {
       "hp": 31,
       "at": 45,
@@ -4381,9 +4381,9 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 5.5
   },
-  "Ninjask": {
-    "t1": "Bug",
-    "t2": "Flying",
+  "아이스크": {
+    "t1": "벌레",
+    "t2": "비행",
     "bs": {
       "hp": 61,
       "at": 90,
@@ -4394,8 +4394,8 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 12.0
   },
-  "Nosepass": {
-    "t1": "Rock",
+  "코코파스": {
+    "t1": "바위",
     "bs": {
       "hp": 30,
       "at": 45,
@@ -4406,9 +4406,9 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 97.0
   },
-  "Numel": {
-    "t1": "Fire",
-    "t2": "Ground",
+  "둔타": {
+    "t1": "불꽃",
+    "t2": "땅",
     "bs": {
       "hp": 60,
       "at": 60,
@@ -4419,9 +4419,9 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 24.0
   },
-  "Nuzleaf": {
-    "t1": "Grass",
-    "t2": "Dark",
+  "잎새코": {
+    "t1": "풀",
+    "t2": "악",
     "bs": {
       "hp": 70,
       "at": 70,
@@ -4432,9 +4432,9 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 28.0
   },
-  "Pelipper": {
-    "t1": "Water",
-    "t2": "Flying",
+  "패리퍼": {
+    "t1": "물",
+    "t2": "비행",
     "bs": {
       "hp": 60,
       "at": 50,
@@ -4445,8 +4445,8 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 28.0
   },
-  "Plusle": {
-    "t1": "Electric",
+  "플러시": {
+    "t1": "전기",
     "bs": {
       "hp": 60,
       "at": 50,
@@ -4457,8 +4457,8 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 4.2
   },
-  "Poochyena": {
-    "t1": "Dark",
+  "포챠나": {
+    "t1": "악",
     "bs": {
       "hp": 35,
       "at": 55,
@@ -4469,8 +4469,8 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 13.6
   },
-  "Ralts": {
-    "t1": "Psychic",
+  "랄토스": {
+    "t1": "에스퍼",
     "bs": {
       "hp": 28,
       "at": 25,
@@ -4481,9 +4481,9 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 6.6
   },
-  "Rayquaza": {
-    "t1": "Dragon",
-    "t2": "Flying",
+  "레쿠쟈": {
+    "t1": "드래곤",
+    "t2": "비행",
     "bs": {
       "hp": 105,
       "at": 150,
@@ -4493,10 +4493,10 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 95
     },
     "w": 206.5,
-    "ab": "Air Lock"
+    "ab": "에어록"
   },
-  "Regice": {
-    "t1": "Ice",
+  "레지아이스": {
+    "t1": "얼음",
     "bs": {
       "hp": 80,
       "at": 50,
@@ -4506,10 +4506,10 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 50
     },
     "w": 175.0,
-    "ab": "Clear Body"
+    "ab": "클리어바디"
   },
-  "Regirock": {
-    "t1": "Rock",
+  "레지락": {
+    "t1": "바위",
     "bs": {
       "hp": 80,
       "at": 100,
@@ -4519,10 +4519,10 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 50
     },
     "w": 230.0,
-    "ab": "Clear Body"
+    "ab": "클리어바디"
   },
-  "Registeel": {
-    "t1": "Steel",
+  "레지스틸": {
+    "t1": "강철",
     "bs": {
       "hp": 80,
       "at": 75,
@@ -4532,11 +4532,11 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 50
     },
     "w": 205.0,
-    "ab": "Clear Body"
+    "ab": "클리어바디"
   },
-  "Relicanth": {
-    "t1": "Water",
-    "t2": "Rock",
+  "시라칸": {
+    "t1": "물",
+    "t2": "바위",
     "bs": {
       "hp": 100,
       "at": 90,
@@ -4547,9 +4547,9 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 23.4
   },
-  "Roselia": {
-    "t1": "Grass",
-    "t2": "Poison",
+  "로젤리아": {
+    "t1": "풀",
+    "t2": "독",
     "bs": {
       "hp": 50,
       "at": 60,
@@ -4560,9 +4560,9 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 2.0
   },
-  "Sableye": {
-    "t1": "Dark",
-    "t2": "Ghost",
+  "깜까미": {
+    "t1": "악",
+    "t2": "고스트",
     "bs": {
       "hp": 50,
       "at": 75,
@@ -4573,9 +4573,9 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 11.0
   },
-  "Salamence": {
-    "t1": "Dragon",
-    "t2": "Flying",
+  "보만다": {
+    "t1": "드래곤",
+    "t2": "비행",
     "bs": {
       "hp": 95,
       "at": 135,
@@ -4585,10 +4585,10 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 100
     },
     "w": 102.6,
-    "ab": "Intimidate"
+    "ab": "괴력집게"
   },
-  "Sceptile": {
-    "t1": "Grass",
+  "나무킹": {
+    "t1": "풀",
     "bs": {
       "hp": 70,
       "at": 85,
@@ -4598,11 +4598,11 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 120
     },
     "w": 52.2,
-    "ab": "Overgrow"
+    "ab": "심록"
   },
-  "Sealeo": {
-    "t1": "Ice",
-    "t2": "Water",
+  "씨레오": {
+    "t1": "얼음",
+    "t2": "물",
     "bs": {
       "hp": 90,
       "at": 60,
@@ -4612,10 +4612,10 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 45
     },
     "w": 87.6,
-    "ab": "Thick Fat"
+    "ab": "두꺼운지방"
   },
-  "Seedot": {
-    "t1": "Grass",
+  "도토링": {
+    "t1": "풀",
     "bs": {
       "hp": 40,
       "at": 40,
@@ -4626,8 +4626,8 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 4.0
   },
-  "Seviper": {
-    "t1": "Poison",
+  "세비퍼": {
+    "t1": "독",
     "bs": {
       "hp": 73,
       "at": 100,
@@ -4638,9 +4638,9 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 52.5
   },
-  "Sharpedo": {
-    "t1": "Water",
-    "t2": "Dark",
+  "샤크니아": {
+    "t1": "물",
+    "t2": "악",
     "bs": {
       "hp": 70,
       "at": 120,
@@ -4651,9 +4651,9 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 88.8
   },
-  "Shedinja": {
-    "t1": "Bug",
-    "t2": "Ghost",
+  "껍질몬": {
+    "t1": "벌레",
+    "t2": "고스트",
     "bs": {
       "hp": 1,
       "at": 90,
@@ -4663,10 +4663,10 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 40
     },
     "w": 1.2,
-    "ab": "Wonder Guard"
+    "ab": "불가사의부적"
   },
-  "Shelgon": {
-    "t1": "Dragon",
+  "쉘곤": {
+    "t1": "드래곤",
     "bs": {
       "hp": 65,
       "at": 95,
@@ -4677,9 +4677,9 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 110.5
   },
-  "Shiftry": {
-    "t1": "Grass",
-    "t2": "Dark",
+  "다탱구": {
+    "t1": "풀",
+    "t2": "악",
     "bs": {
       "hp": 90,
       "at": 100,
@@ -4690,8 +4690,8 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 59.6
   },
-  "Shroomish": {
-    "t1": "Grass",
+  "버섯꼬": {
+    "t1": "풀",
     "bs": {
       "hp": 60,
       "at": 40,
@@ -4702,8 +4702,8 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 4.5
   },
-  "Shuppet": {
-    "t1": "Ghost",
+  "어둠대신": {
+    "t1": "고스트",
     "bs": {
       "hp": 44,
       "at": 75,
@@ -4714,8 +4714,8 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 2.3
   },
-  "Silcoon": {
-    "t1": "Bug",
+  "실쿤": {
+    "t1": "벌레",
     "bs": {
       "hp": 50,
       "at": 35,
@@ -4725,10 +4725,10 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 15
     },
     "w": 10.0,
-    "ab": "Shed Skin"
+    "ab": "탈피"
   },
-  "Skitty": {
-    "t1": "Normal",
+  "에나비": {
+    "t1": "노말",
     "bs": {
       "hp": 50,
       "at": 45,
@@ -4739,8 +4739,8 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 11.0
   },
-  "Slaking": {
-    "t1": "Normal",
+  "게을킹": {
+    "t1": "노말",
     "bs": {
       "hp": 150,
       "at": 160,
@@ -4750,10 +4750,10 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 100
     },
     "w": 130.5,
-    "ab": "Truant"
+    "ab": "게으름"
   },
-  "Slakoth": {
-    "t1": "Normal",
+  "게을로": {
+    "t1": "노말",
     "bs": {
       "hp": 60,
       "at": 60,
@@ -4763,10 +4763,10 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 30
     },
     "w": 24.0,
-    "ab": "Truant"
+    "ab": "게으름"
   },
-  "Snorunt": {
-    "t1": "Ice",
+  "눈꼬마": {
+    "t1": "얼음",
     "bs": {
       "hp": 50,
       "at": 50,
@@ -4777,9 +4777,9 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 16.8
   },
-  "Solrock": {
-    "t1": "Rock",
-    "t2": "Psychic",
+  "솔록": {
+    "t1": "바위",
+    "t2": "에스퍼",
     "bs": {
       "hp": 70,
       "at": 95,
@@ -4789,11 +4789,11 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 70
     },
     "w": 154.0,
-    "ab": "Levitate"
+    "ab": "부유"
   },
-  "Spheal": {
-    "t1": "Ice",
-    "t2": "Water",
+  "대굴레오": {
+    "t1": "얼음",
+    "t2": "물",
     "bs": {
       "hp": 70,
       "at": 40,
@@ -4803,10 +4803,10 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 25
     },
     "w": 39.5,
-    "ab": "Thick Fat"
+    "ab": "두꺼운지방"
   },
-  "Spinda": {
-    "t1": "Normal",
+  "얼루기": {
+    "t1": "노말",
     "bs": {
       "hp": 60,
       "at": 60,
@@ -4817,8 +4817,8 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 5.0
   },
-  "Spoink": {
-    "t1": "Psychic",
+  "피르점프": {
+    "t1": "에스퍼",
     "bs": {
       "hp": 60,
       "at": 25,
@@ -4829,9 +4829,9 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 30.6
   },
-  "Surskit": {
-    "t1": "Bug",
-    "t2": "Water",
+  "비구술": {
+    "t1": "벌레",
+    "t2": "물",
     "bs": {
       "hp": 40,
       "at": 30,
@@ -4841,11 +4841,11 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 65
     },
     "w": 1.7,
-    "ab": "Swift Swim"
+    "ab": "쓱쓱"
   },
-  "Swablu": {
-    "t1": "Normal",
-    "t2": "Flying",
+  "파비코": {
+    "t1": "노말",
+    "t2": "비행",
     "bs": {
       "hp": 45,
       "at": 40,
@@ -4856,8 +4856,8 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 1.2
   },
-  "Swalot": {
-    "t1": "Poison",
+  "꿀꺽몬": {
+    "t1": "독",
     "bs": {
       "hp": 100,
       "at": 73,
@@ -4868,9 +4868,9 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 80.0
   },
-  "Swampert": {
-    "t1": "Water",
-    "t2": "Ground",
+  "대짱이": {
+    "t1": "물",
+    "t2": "땅",
     "bs": {
       "hp": 100,
       "at": 110,
@@ -4880,11 +4880,11 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 60
     },
     "w": 81.9,
-    "ab": "Torrent"
+    "ab": "급류"
   },
-  "Swellow": {
-    "t1": "Normal",
-    "t2": "Flying",
+  "스왈로": {
+    "t1": "노말",
+    "t2": "비행",
     "bs": {
       "hp": 60,
       "at": 85,
@@ -4894,11 +4894,11 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 125
     },
     "w": 19.8,
-    "ab": "Guts"
+    "ab": "근성"
   },
-  "Taillow": {
-    "t1": "Normal",
-    "t2": "Flying",
+  "테일로": {
+    "t1": "노말",
+    "t2": "비행",
     "bs": {
       "hp": 40,
       "at": 55,
@@ -4908,10 +4908,10 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 85
     },
     "w": 2.3,
-    "ab": "Guts"
+    "ab": "근성"
   },
-  "Torchic": {
-    "t1": "Fire",
+  "아차모": {
+    "t1": "불꽃",
     "bs": {
       "hp": 45,
       "at": 60,
@@ -4921,10 +4921,10 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 45
     },
     "w": 2.5,
-    "ab": "Blaze"
+    "ab": "맹화"
   },
-  "Torkoal": {
-    "t1": "Fire",
+  "코터스": {
+    "t1": "불꽃",
     "bs": {
       "hp": 70,
       "at": 85,
@@ -4934,10 +4934,10 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 20
     },
     "w": 80.4,
-    "ab": "White Smoke"
+    "ab": "하얀연기"
   },
-  "Trapinch": {
-    "t1": "Ground",
+  "톱치": {
+    "t1": "땅",
     "bs": {
       "hp": 45,
       "at": 100,
@@ -4948,8 +4948,8 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 15.0
   },
-  "Treecko": {
-    "t1": "Grass",
+  "나무지기": {
+    "t1": "풀",
     "bs": {
       "hp": 40,
       "at": 45,
@@ -4959,11 +4959,11 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 70
     },
     "w": 5.0,
-    "ab": "Overgrow"
+    "ab": "심록"
   },
-  "Tropius": {
-    "t1": "Grass",
-    "t2": "Flying",
+  "트로피우스": {
+    "t1": "풀",
+    "t2": "비행",
     "bs": {
       "hp": 99,
       "at": 68,
@@ -4973,11 +4973,11 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 51
     },
     "w": 100.0,
-    "ab": "Chlorophyll"
+    "ab": "엽록소"
   },
-  "Vibrava": {
-    "t1": "Ground",
-    "t2": "Dragon",
+  "비브라바": {
+    "t1": "땅",
+    "t2": "드래곤",
     "bs": {
       "hp": 50,
       "at": 70,
@@ -4987,10 +4987,10 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 70
     },
     "w": 15.3,
-    "ab": "Levitate"
+    "ab": "부유"
   },
-  "Vigoroth": {
-    "t1": "Normal",
+  "발바로": {
+    "t1": "노말",
     "bs": {
       "hp": 80,
       "at": 80,
@@ -5000,10 +5000,10 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 90
     },
     "w": 46.5,
-    "ab": "Vital Spirit"
+    "ab": "의기양양"
   },
-  "Volbeat": {
-    "t1": "Bug",
+  "볼비트": {
+    "t1": "벌레",
     "bs": {
       "hp": 65,
       "at": 73,
@@ -5014,8 +5014,8 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 17.7
   },
-  "Wailmer": {
-    "t1": "Water",
+  "고래왕자": {
+    "t1": "물",
     "bs": {
       "hp": 130,
       "at": 70,
@@ -5026,8 +5026,8 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 130.0
   },
-  "Wailord": {
-    "t1": "Water",
+  "고래왕": {
+    "t1": "물",
     "bs": {
       "hp": 170,
       "at": 90,
@@ -5038,9 +5038,9 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 398.0
   },
-  "Walrein": {
-    "t1": "Ice",
-    "t2": "Water",
+  "씨카이저": {
+    "t1": "얼음",
+    "t2": "물",
     "bs": {
       "hp": 110,
       "at": 80,
@@ -5050,11 +5050,11 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 65
     },
     "w": 150.6,
-    "ab": "Thick Fat"
+    "ab": "두꺼운지방"
   },
-  "Whiscash": {
-    "t1": "Water",
-    "t2": "Ground",
+  "메깅": {
+    "t1": "물",
+    "t2": "땅",
     "bs": {
       "hp": 110,
       "at": 78,
@@ -5065,8 +5065,8 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 23.6
   },
-  "Whismur": {
-    "t1": "Normal",
+  "소곤룡": {
+    "t1": "노말",
     "bs": {
       "hp": 64,
       "at": 51,
@@ -5076,11 +5076,11 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 28
     },
     "w": 16.3,
-    "ab": "Soundproof"
+    "ab": "방음"
   },
-  "Wingull": {
-    "t1": "Water",
-    "t2": "Flying",
+  "갈모매": {
+    "t1": "물",
+    "t2": "비행",
     "bs": {
       "hp": 40,
       "at": 30,
@@ -5091,8 +5091,8 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 9.5
   },
-  "Wurmple": {
-    "t1": "Bug",
+  "개무소": {
+    "t1": "벌레",
     "bs": {
       "hp": 45,
       "at": 45,
@@ -5103,8 +5103,8 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 3.6
   },
-  "Wynaut": {
-    "t1": "Psychic",
+  "마자": {
+    "t1": "에스퍼",
     "bs": {
       "hp": 95,
       "at": 23,
@@ -5115,8 +5115,8 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 14.0
   },
-  "Zangoose": {
-    "t1": "Normal",
+  "쟝고": {
+    "t1": "노말",
     "bs": {
       "hp": 73,
       "at": 115,
@@ -5127,8 +5127,8 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
     },
     "w": 40.3
   },
-  "Zigzagoon": {
-    "t1": "Normal",
+  "지그제구리": {
+    "t1": "노말",
     "bs": {
       "hp": 38,
       "at": 30,
@@ -5142,9 +5142,9 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
 });
 
 var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
-  "Abomasnow": {
-    "t1": "Grass",
-    "t2": "Ice",
+  "눈설왕": {
+    "t1": "풀",
+    "t2": "얼음",
     "bs": {
       "hp": 90,
       "at": 92,
@@ -5154,10 +5154,10 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
       "sp": 60
     },
     "w": 135.5,
-    "ab": "Snow Warning"
+    "ab": "눈퍼뜨리기"
   },
-  "Ambipom": {
-    "t1": "Normal",
+  "겟핸보숭": {
+    "t1": "노말",
     "bs": {
       "hp": 75,
       "at": 100,
@@ -5168,8 +5168,8 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     },
     "w": 20.3
   },
-  "Arceus": {
-    "t1": "Normal",
+  "아르세우스": {
+    "t1": "노말",
     "bs": {
       "hp": 120,
       "at": 120,
@@ -5179,10 +5179,10 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
       "sp": 120
     },
     "w": 320.0,
-    "ab": "Multitype"
+    "ab": "멀티타입"
   },
-  "Arceus-Bug": {
-    "t1": "Bug",
+  "아르세우스-벌레": {
+    "t1": "벌레",
     "bs": {
       "hp": 120,
       "at": 120,
@@ -5192,10 +5192,10 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
       "sp": 120
     },
     "w": 320.0,
-    "ab": "Multitype"
+    "ab": "멀티타입"
   },
-  "Arceus-Dark": {
-    "t1": "Dark",
+  "아르세우스-악": {
+    "t1": "악",
     "bs": {
       "hp": 120,
       "at": 120,
@@ -5205,10 +5205,10 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
       "sp": 120
     },
     "w": 320.0,
-    "ab": "Multitype"
+    "ab": "멀티타입"
   },
-  "Arceus-Dragon": {
-    "t1": "Dragon",
+  "아르세우스-드래곤": {
+    "t1": "드래곤",
     "bs": {
       "hp": 120,
       "at": 120,
@@ -5218,10 +5218,10 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
       "sp": 120
     },
     "w": 320.0,
-    "ab": "Multitype"
+    "ab": "멀티타입"
   },
-  "Arceus-Electric": {
-    "t1": "Electric",
+  "아르세우스-전기": {
+    "t1": "전기",
     "bs": {
       "hp": 120,
       "at": 120,
@@ -5231,10 +5231,10 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
       "sp": 120
     },
     "w": 320.0,
-    "ab": "Multitype"
+    "ab": "멀티타입"
   },
-  "Arceus-Fighting": {
-    "t1": "Fighting",
+  "아르세우스-격투": {
+    "t1": "격투",
     "bs": {
       "hp": 120,
       "at": 120,
@@ -5244,10 +5244,10 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
       "sp": 120
     },
     "w": 320.0,
-    "ab": "Multitype"
+    "ab": "멀티타입"
   },
-  "Arceus-Fire": {
-    "t1": "Fire",
+  "아르세우스-불꽃": {
+    "t1": "불꽃",
     "bs": {
       "hp": 120,
       "at": 120,
@@ -5257,10 +5257,10 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
       "sp": 120
     },
     "w": 320.0,
-    "ab": "Multitype"
+    "ab": "멀티타입"
   },
-  "Arceus-Flying": {
-    "t1": "Flying",
+  "아르세우스-비행": {
+    "t1": "비행",
     "bs": {
       "hp": 120,
       "at": 120,
@@ -5270,10 +5270,10 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
       "sp": 120
     },
     "w": 320.0,
-    "ab": "Multitype"
+    "ab": "멀티타입"
   },
-  "Arceus-Ghost": {
-    "t1": "Ghost",
+  "아르세우스-고스트": {
+    "t1": "고스트",
     "bs": {
       "hp": 120,
       "at": 120,
@@ -5283,10 +5283,10 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
       "sp": 120
     },
     "w": 320.0,
-    "ab": "Multitype"
+    "ab": "멀티타입"
   },
-  "Arceus-Grass": {
-    "t1": "Grass",
+  "아르세우스-풀": {
+    "t1": "풀",
     "bs": {
       "hp": 120,
       "at": 120,
@@ -5296,10 +5296,10 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
       "sp": 120
     },
     "w": 320.0,
-    "ab": "Multitype"
+    "ab": "멀티타입"
   },
-  "Arceus-Ground": {
-    "t1": "Ground",
+  "아르세우스-땅": {
+    "t1": "땅",
     "bs": {
       "hp": 120,
       "at": 120,
@@ -5309,10 +5309,10 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
       "sp": 120
     },
     "w": 320.0,
-    "ab": "Multitype"
+    "ab": "멀티타입"
   },
-  "Arceus-Ice": {
-    "t1": "Ice",
+  "아르세우스-얼음": {
+    "t1": "얼음",
     "bs": {
       "hp": 120,
       "at": 120,
@@ -5322,10 +5322,10 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
       "sp": 120
     },
     "w": 320.0,
-    "ab": "Multitype"
+    "ab": "멀티타입"
   },
-  "Arceus-Poison": {
-    "t1": "Poison",
+  "아르세우스-독": {
+    "t1": "독",
     "bs": {
       "hp": 120,
       "at": 120,
@@ -5335,10 +5335,10 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
       "sp": 120
     },
     "w": 320.0,
-    "ab": "Multitype"
+    "ab": "멀티타입"
   },
-  "Arceus-Psychic": {
-    "t1": "Psychic",
+  "아르세우스-에스퍼": {
+    "t1": "에스퍼",
     "bs": {
       "hp": 120,
       "at": 120,
@@ -5348,10 +5348,10 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
       "sp": 120
     },
     "w": 320.0,
-    "ab": "Multitype"
+    "ab": "멀티타입"
   },
-  "Arceus-Rock": {
-    "t1": "Rock",
+  "아르세우스-바위": {
+    "t1": "바위",
     "bs": {
       "hp": 120,
       "at": 120,
@@ -5361,10 +5361,10 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
       "sp": 120
     },
     "w": 320.0,
-    "ab": "Multitype"
+    "ab": "멀티타입"
   },
-  "Arceus-Steel": {
-    "t1": "Steel",
+  "아르세우스-강철": {
+    "t1": "강철",
     "bs": {
       "hp": 120,
       "at": 120,
@@ -5374,10 +5374,10 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
       "sp": 120
     },
     "w": 320.0,
-    "ab": "Multitype"
+    "ab": "멀티타입"
   },
-  "Arceus-Water": {
-    "t1": "Water",
+  "아르세우스-물": {
+    "t1": "물",
     "bs": {
       "hp": 120,
       "at": 120,
@@ -5387,10 +5387,10 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
       "sp": 120
     },
     "w": 320.0,
-    "ab": "Multitype"
+    "ab": "멀티타입"
   },
-  "Azelf": {
-    "t1": "Psychic",
+  "아그놈": {
+    "t1": "에스퍼",
     "bs": {
       "hp": 75,
       "at": 125,
@@ -5400,11 +5400,11 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
       "sp": 115
     },
     "w": 0.3,
-    "ab": "Levitate"
+    "ab": "부유"
   },
-  "Bastiodon": {
-    "t1": "Rock",
-    "t2": "Steel",
+  "바리톱스": {
+    "t1": "바위",
+    "t2": "강철",
     "bs": {
       "hp": 60,
       "at": 52,
@@ -5415,9 +5415,9 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     },
     "w": 149.5
   },
-  "Bibarel": {
-    "t1": "Normal",
-    "t2": "Water",
+  "비버통": {
+    "t1": "노말",
+    "t2": "물",
     "bs": {
       "hp": 79,
       "at": 85,
@@ -5428,8 +5428,8 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     },
     "w": 31.5
   },
-  "Bidoof": {
-    "t1": "Normal",
+  "비버니": {
+    "t1": "노말",
     "bs": {
       "hp": 59,
       "at": 45,
@@ -5440,8 +5440,8 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     },
     "w": 20.0
   },
-  "Bonsly": {
-    "t1": "Rock",
+  "꼬지지": {
+    "t1": "바위",
     "bs": {
       "hp": 50,
       "at": 80,
@@ -5452,9 +5452,9 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     },
     "w": 15.0
   },
-  "Bronzong": {
-    "t1": "Steel",
-    "t2": "Psychic",
+  "동탁군": {
+    "t1": "강철",
+    "t2": "에스퍼",
     "bs": {
       "hp": 67,
       "at": 89,
@@ -5465,9 +5465,9 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     },
     "w": 187.0
   },
-  "Bronzor": {
-    "t1": "Steel",
-    "t2": "Psychic",
+  "동미러": {
+    "t1": "강철",
+    "t2": "에스퍼",
     "bs": {
       "hp": 57,
       "at": 24,
@@ -5478,9 +5478,9 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     },
     "w": 60.5
   },
-  "Budew": {
-    "t1": "Grass",
-    "t2": "Poison",
+  "꼬몽울": {
+    "t1": "풀",
+    "t2": "독",
     "bs": {
       "hp": 40,
       "at": 30,
@@ -5491,8 +5491,8 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     },
     "w": 1.2
   },
-  "Buizel": {
-    "t1": "Water",
+  "브이젤": {
+    "t1": "물",
     "bs": {
       "hp": 55,
       "at": 65,
@@ -5502,10 +5502,10 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
       "sp": 85
     },
     "w": 29.5,
-    "ab": "Swift Swim"
+    "ab": "쓱쓱"
   },
-  "Buneary": {
-    "t1": "Normal",
+  "이어롤": {
+    "t1": "노말",
     "bs": {
       "hp": 55,
       "at": 66,
@@ -5516,8 +5516,8 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     },
     "w": 5.5
   },
-  "Burmy": {
-    "t1": "Bug",
+  "도롱충이": {
+    "t1": "벌레",
     "bs": {
       "hp": 40,
       "at": 29,
@@ -5528,8 +5528,8 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     },
     "w": 3.4
   },
-  "Carnivine": {
-    "t1": "Grass",
+  "무스틈니": {
+    "t1": "풀",
     "bs": {
       "hp": 74,
       "at": 100,
@@ -5539,11 +5539,11 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
       "sp": 46
     },
     "w": 27.0,
-    "ab": "Levitate"
+    "ab": "부유"
   },
-  "Chatot": {
-    "t1": "Normal",
-    "t2": "Flying",
+  "페라페": {
+    "t1": "노말",
+    "t2": "비행",
     "bs": {
       "hp": 76,
       "at": 65,
@@ -5554,8 +5554,8 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     },
     "w": 1.9
   },
-  "Cherrim": {
-    "t1": "Grass",
+  "체리꼬": {
+    "t1": "풀",
     "bs": {
       "hp": 70,
       "at": 60,
@@ -5565,10 +5565,10 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
       "sp": 85
     },
     "w": 9.3,
-    "ab": "Flower Gift"
+    "ab": "플라워기프트"
   },
-  "Cherubi": {
-    "t1": "Grass",
+  "체리버": {
+    "t1": "풀",
     "bs": {
       "hp": 45,
       "at": 35,
@@ -5578,10 +5578,10 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
       "sp": 35
     },
     "w": 3.3,
-    "ab": "Chlorophyll"
+    "ab": "엽록소"
   },
-  "Chimchar": {
-    "t1": "Fire",
+  "불꽃숭이": {
+    "t1": "불꽃",
     "bs": {
       "hp": 44,
       "at": 58,
@@ -5591,10 +5591,10 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
       "sp": 61
     },
     "w": 6.2,
-    "ab": "Blaze"
+    "ab": "맹화"
   },
-  "Chingling": {
-    "t1": "Psychic",
+  "랑딸랑": {
+    "t1": "에스퍼",
     "bs": {
       "hp": 45,
       "at": 30,
@@ -5604,11 +5604,11 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
       "sp": 45
     },
     "w": 0.6,
-    "ab": "Levitate"
+    "ab": "부유"
   },
-  "Combee": {
-    "t1": "Bug",
-    "t2": "Flying",
+  "세꿀버리": {
+    "t1": "벌레",
+    "t2": "비행",
     "bs": {
       "hp": 30,
       "at": 30,
@@ -5619,8 +5619,8 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     },
     "w": 5.5
   },
-  "Cranidos": {
-    "t1": "Rock",
+  "두개도스": {
+    "t1": "바위",
     "bs": {
       "hp": 67,
       "at": 125,
@@ -5631,8 +5631,8 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     },
     "w": 31.5
   },
-  "Cresselia": {
-    "t1": "Psychic",
+  "크레세리아": {
+    "t1": "에스퍼",
     "bs": {
       "hp": 120,
       "at": 70,
@@ -5642,11 +5642,11 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
       "sp": 85
     },
     "w": 85.6,
-    "ab": "Levitate"
+    "ab": "부유"
   },
-  "Croagunk": {
-    "t1": "Poison",
-    "t2": "Fighting",
+  "삐딱구리": {
+    "t1": "독",
+    "t2": "격투",
     "bs": {
       "hp": 48,
       "at": 61,
@@ -5657,8 +5657,8 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     },
     "w": 23.0
   },
-  "Darkrai": {
-    "t1": "Dark",
+  "다크라이": {
+    "t1": "악",
     "bs": {
       "hp": 70,
       "at": 90,
@@ -5668,11 +5668,11 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
       "sp": 125
     },
     "w": 50.5,
-    "ab": "Bad Dreams"
+    "ab": "나이트메어"
   },
-  "Dialga": {
-    "t1": "Steel",
-    "t2": "Dragon",
+  "디아루가": {
+    "t1": "강철",
+    "t2": "드래곤",
     "bs": {
       "hp": 100,
       "at": 120,
@@ -5683,9 +5683,9 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     },
     "w": 683.0
   },
-  "Drapion": {
-    "t1": "Poison",
-    "t2": "Dark",
+  "드래피온": {
+    "t1": "독",
+    "t2": "악",
     "bs": {
       "hp": 70,
       "at": 90,
@@ -5696,9 +5696,9 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     },
     "w": 61.5
   },
-  "Drifblim": {
-    "t1": "Ghost",
-    "t2": "Flying",
+  "둥실라이드": {
+    "t1": "고스트",
+    "t2": "비행",
     "bs": {
       "hp": 150,
       "at": 80,
@@ -5709,9 +5709,9 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     },
     "w": 15.0
   },
-  "Drifloon": {
-    "t1": "Ghost",
-    "t2": "Flying",
+  "흔들풍손": {
+    "t1": "고스트",
+    "t2": "비행",
     "bs": {
       "hp": 90,
       "at": 50,
@@ -5722,8 +5722,8 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     },
     "w": 1.2
   },
-  "Dusknoir": {
-    "t1": "Ghost",
+  "야느와르몽": {
+    "t1": "고스트",
     "bs": {
       "hp": 45,
       "at": 100,
@@ -5734,8 +5734,8 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     },
     "w": 106.6
   },
-  "Electivire": {
-    "t1": "Electric",
+  "에레키블": {
+    "t1": "전기",
     "bs": {
       "hp": 75,
       "at": 123,
@@ -5745,11 +5745,11 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
       "sp": 95
     },
     "w": 138.6,
-    "ab": "Motor Drive"
+    "ab": "전기엔진"
   },
-  "Empoleon": {
-    "t1": "Water",
-    "t2": "Steel",
+  "엠페르트": {
+    "t1": "물",
+    "t2": "강철",
     "bs": {
       "hp": 84,
       "at": 86,
@@ -5759,10 +5759,10 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
       "sp": 60
     },
     "w": 84.5,
-    "ab": "Torrent"
+    "ab": "급류"
   },
-  "Finneon": {
-    "t1": "Water",
+  "형광어": {
+    "t1": "물",
     "bs": {
       "hp": 49,
       "at": 49,
@@ -5773,8 +5773,8 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     },
     "w": 7.0
   },
-  "Floatzel": {
-    "t1": "Water",
+  "플로젤": {
+    "t1": "물",
     "bs": {
       "hp": 85,
       "at": 105,
@@ -5784,11 +5784,11 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
       "sp": 115
     },
     "w": 33.5,
-    "ab": "Swift Swim"
+    "ab": "쓱쓱"
   },
-  "Froslass": {
-    "t1": "Ice",
-    "t2": "Ghost",
+  "눈여아": {
+    "t1": "얼음",
+    "t2": "고스트",
     "bs": {
       "hp": 70,
       "at": 80,
@@ -5798,11 +5798,11 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
       "sp": 110
     },
     "w": 26.6,
-    "ab": "Snow Cloak"
+    "ab": "눈숨기"
   },
-  "Gabite": {
-    "t1": "Dragon",
-    "t2": "Ground",
+  "한바이트": {
+    "t1": "드래곤",
+    "t2": "땅",
     "bs": {
       "hp": 68,
       "at": 90,
@@ -5812,11 +5812,11 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
       "sp": 82
     },
     "w": 56.0,
-    "ab": "Sand Veil"
+    "ab": "모래숨기"
   },
-  "Gallade": {
-    "t1": "Psychic",
-    "t2": "Fighting",
+  "엘레이드": {
+    "t1": "에스퍼",
+    "t2": "격투",
     "bs": {
       "hp": 68,
       "at": 125,
@@ -5827,9 +5827,9 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     },
     "w": 52.0
   },
-  "Garchomp": {
-    "t1": "Dragon",
-    "t2": "Ground",
+  "한카리아스": {
+    "t1": "드래곤",
+    "t2": "땅",
     "bs": {
       "hp": 108,
       "at": 130,
@@ -5839,11 +5839,11 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
       "sp": 102
     },
     "w": 95.0,
-    "ab": "Sand Veil"
+    "ab": "모래숨기"
   },
-  "Gastrodon": {
-    "t1": "Water",
-    "t2": "Ground",
+  "트리토돈": {
+    "t1": "물",
+    "t2": "땅",
     "bs": {
       "hp": 111,
       "at": 83,
@@ -5854,9 +5854,9 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     },
     "w": 29.9
   },
-  "Gible": {
-    "t1": "Dragon",
-    "t2": "Ground",
+  "딥상어돔": {
+    "t1": "드래곤",
+    "t2": "땅",
     "bs": {
       "hp": 58,
       "at": 70,
@@ -5866,11 +5866,11 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
       "sp": 42
     },
     "w": 20.5,
-    "ab": "Sand Veil"
+    "ab": "모래숨기"
   },
-  "Giratina": {
-    "t1": "Ghost",
-    "t2": "Dragon",
+  "기라티나": {
+    "t1": "고스트",
+    "t2": "드래곤",
     "bs": {
       "hp": 150,
       "at": 100,
@@ -5881,9 +5881,9 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     },
     "w": 750.0
   },
-  "Giratina-O": {
-    "t1": "Ghost",
-    "t2": "Dragon",
+  "기라티나-오리진": {
+    "t1": "고스트",
+    "t2": "드래곤",
     "bs": {
       "hp": 150,
       "at": 120,
@@ -5893,10 +5893,10 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
       "sp": 90
     },
     "w": 650.0,
-    "ab": "Levitate"
+    "ab": "부유"
   },
-  "Glaceon": {
-    "t1": "Ice",
+  "글레이시아": {
+    "t1": "얼음",
     "bs": {
       "hp": 65,
       "at": 60,
@@ -5906,10 +5906,10 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
       "sp": 65
     },
     "w": 25.9,
-    "ab": "Snow Cloak"
+    "ab": "눈숨기"
   },
-  "Glameow": {
-    "t1": "Normal",
+  "나옹마": {
+    "t1": "노말",
     "bs": {
       "hp": 49,
       "at": 55,
@@ -5920,9 +5920,9 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     },
     "w": 3.9
   },
-  "Gliscor": {
-    "t1": "Ground",
-    "t2": "Flying",
+  "글라이온": {
+    "t1": "땅",
+    "t2": "비행",
     "bs": {
       "hp": 75,
       "at": 95,
@@ -5933,8 +5933,8 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     },
     "w": 42.5
   },
-  "Grotle": {
-    "t1": "Grass",
+  "수풀부기": {
+    "t1": "풀",
     "bs": {
       "hp": 75,
       "at": 89,
@@ -5944,10 +5944,10 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
       "sp": 36
     },
     "w": 97.0,
-    "ab": "Overgrow"
+    "ab": "심록"
   },
-  "Happiny": {
-    "t1": "Normal",
+  "핑복": {
+    "t1": "노말",
     "bs": {
       "hp": 100,
       "at": 5,
@@ -5958,9 +5958,9 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     },
     "w": 24.4
   },
-  "Heatran": {
-    "t1": "Fire",
-    "t2": "Steel",
+  "히드런": {
+    "t1": "불꽃",
+    "t2": "강철",
     "bs": {
       "hp": 91,
       "at": 90,
@@ -5970,10 +5970,10 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
       "sp": 77
     },
     "w": 430.0,
-    "ab": "Flash Fire"
+    "ab": "타오르는불꽃"
   },
-  "Hippopotas": {
-    "t1": "Ground",
+  "히포포타스": {
+    "t1": "땅",
     "bs": {
       "hp": 68,
       "at": 72,
@@ -5983,10 +5983,10 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
       "sp": 32
     },
     "w": 49.5,
-    "ab": "Sand Stream"
+    "ab": "모래날림"
   },
-  "Hippowdon": {
-    "t1": "Ground",
+  "하마돈": {
+    "t1": "땅",
     "bs": {
       "hp": 108,
       "at": 112,
@@ -5996,11 +5996,11 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
       "sp": 47
     },
     "w": 300.0,
-    "ab": "Sand Stream"
+    "ab": "모래날림"
   },
-  "Honchkrow": {
-    "t1": "Dark",
-    "t2": "Flying",
+  "돈크로우": {
+    "t1": "악",
+    "t2": "비행",
     "bs": {
       "hp": 100,
       "at": 125,
@@ -6011,9 +6011,9 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     },
     "w": 27.3
   },
-  "Infernape": {
-    "t1": "Fire",
-    "t2": "Fighting",
+  "초염몽": {
+    "t1": "불꽃",
+    "t2": "격투",
     "bs": {
       "hp": 76,
       "at": 104,
@@ -6023,10 +6023,10 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
       "sp": 108
     },
     "w": 55.0,
-    "ab": "Blaze"
+    "ab": "맹화"
   },
-  "Kricketot": {
-    "t1": "Bug",
+  "귀뚤뚜기": {
+    "t1": "벌레",
     "bs": {
       "hp": 37,
       "at": 25,
@@ -6037,8 +6037,8 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     },
     "w": 2.2
   },
-  "Kricketune": {
-    "t1": "Bug",
+  "귀뚤톡크": {
+    "t1": "벌레",
     "bs": {
       "hp": 77,
       "at": 85,
@@ -6048,10 +6048,10 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
       "sp": 65
     },
     "w": 25.5,
-    "ab": "Swarm"
+    "ab": "벌레의알림"
   },
-  "Leafeon": {
-    "t1": "Grass",
+  "리피아": {
+    "t1": "풀",
     "bs": {
       "hp": 65,
       "at": 110,
@@ -6062,8 +6062,8 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     },
     "w": 25.5
   },
-  "Lickilicky": {
-    "t1": "Normal",
+  "내룸벨트": {
+    "t1": "노말",
     "bs": {
       "hp": 110,
       "at": 85,
@@ -6074,8 +6074,8 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     },
     "w": 140.0
   },
-  "Lopunny": {
-    "t1": "Normal",
+  "이어롭": {
+    "t1": "노말",
     "bs": {
       "hp": 65,
       "at": 76,
@@ -6086,9 +6086,9 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     },
     "w": 33.3
   },
-  "Lucario": {
-    "t1": "Fighting",
-    "t2": "Steel",
+  "루카리오": {
+    "t1": "격투",
+    "t2": "강철",
     "bs": {
       "hp": 70,
       "at": 110,
@@ -6099,8 +6099,8 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     },
     "w": 54.0
   },
-  "Lumineon": {
-    "t1": "Water",
+  "네오라이트": {
+    "t1": "물",
     "bs": {
       "hp": 69,
       "at": 69,
@@ -6111,8 +6111,8 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     },
     "w": 24.0
   },
-  "Luxio": {
-    "t1": "Electric",
+  "럭시오": {
+    "t1": "전기",
     "bs": {
       "hp": 60,
       "at": 85,
@@ -6123,8 +6123,8 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     },
     "w": 30.5
   },
-  "Luxray": {
-    "t1": "Electric",
+  "렌트라": {
+    "t1": "전기",
     "bs": {
       "hp": 80,
       "at": 120,
@@ -6135,8 +6135,8 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     },
     "w": 42.0
   },
-  "Magmortar": {
-    "t1": "Fire",
+  "마그마번": {
+    "t1": "불꽃",
     "bs": {
       "hp": 75,
       "at": 95,
@@ -6147,9 +6147,9 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     },
     "w": 68.0
   },
-  "Magnezone": {
-    "t1": "Electric",
-    "t2": "Steel",
+  "자포코일": {
+    "t1": "전기",
+    "t2": "강철",
     "bs": {
       "hp": 70,
       "at": 70,
@@ -6160,9 +6160,9 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     },
     "w": 180.0
   },
-  "Mamoswine": {
-    "t1": "Ice",
-    "t2": "Ground",
+  "맘모꾸리": {
+    "t1": "얼음",
+    "t2": "땅",
     "bs": {
       "hp": 110,
       "at": 130,
@@ -6173,8 +6173,8 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     },
     "w": 291.0
   },
-  "Manaphy": {
-    "t1": "Water",
+  "마나피": {
+    "t1": "물",
     "bs": {
       "hp": 100,
       "at": 100,
@@ -6184,11 +6184,11 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
       "sp": 100
     },
     "w": 1.4,
-    "ab": "Hydration"
+    "ab": "촉촉바디"
   },
-  "Mantyke": {
-    "t1": "Water",
-    "t2": "Flying",
+  "타만타": {
+    "t1": "물",
+    "t2": "비행",
     "bs": {
       "hp": 45,
       "at": 20,
@@ -6199,8 +6199,8 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     },
     "w": 65.0
   },
-  "Mesprit": {
-    "t1": "Psychic",
+  "엠라이트": {
+    "t1": "에스퍼",
     "bs": {
       "hp": 80,
       "at": 105,
@@ -6210,10 +6210,10 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
       "sp": 80
     },
     "w": 0.3,
-    "ab": "Levitate"
+    "ab": "부유"
   },
-  "Mime Jr.": {
-    "t1": "Psychic",
+  "흉내내": {
+    "t1": "에스퍼",
     "bs": {
       "hp": 20,
       "at": 25,
@@ -6224,8 +6224,8 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     },
     "w": 13.0
   },
-  "Mismagius": {
-    "t1": "Ghost",
+  "무우마직": {
+    "t1": "고스트",
     "bs": {
       "hp": 60,
       "at": 60,
@@ -6235,11 +6235,11 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
       "sp": 105
     },
     "w": 4.4,
-    "ab": "Levitate"
+    "ab": "부유"
   },
-  "Monferno": {
-    "t1": "Fire",
-    "t2": "Fighting",
+  "파이숭이": {
+    "t1": "불꽃",
+    "t2": "격투",
     "bs": {
       "hp": 64,
       "at": 78,
@@ -6249,11 +6249,11 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
       "sp": 81
     },
     "w": 22.0,
-    "ab": "Blaze"
+    "ab": "맹화"
   },
-  "Mothim": {
-    "t1": "Bug",
-    "t2": "Flying",
+  "나메일": {
+    "t1": "벌레",
+    "t2": "비행",
     "bs": {
       "hp": 70,
       "at": 94,
@@ -6263,10 +6263,10 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
       "sp": 66
     },
     "w": 23.3,
-    "ab": "Swarm"
+    "ab": "벌레의알림"
   },
-  "Munchlax": {
-    "t1": "Normal",
+  "먹고자": {
+    "t1": "노말",
     "bs": {
       "hp": 135,
       "at": 85,
@@ -6277,8 +6277,8 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     },
     "w": 105.0
   },
-  "Pachirisu": {
-    "t1": "Electric",
+  "파치리스": {
+    "t1": "전기",
     "bs": {
       "hp": 60,
       "at": 45,
@@ -6289,9 +6289,9 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     },
     "w": 3.9
   },
-  "Palkia": {
-    "t1": "Water",
-    "t2": "Dragon",
+  "펄기아": {
+    "t1": "물",
+    "t2": "드래곤",
     "bs": {
       "hp": 90,
       "at": 120,
@@ -6302,8 +6302,8 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     },
     "w": 336.0
   },
-  "Phione": {
-    "t1": "Water",
+  "피오네": {
+    "t1": "물",
     "bs": {
       "hp": 80,
       "at": 80,
@@ -6313,10 +6313,10 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
       "sp": 80
     },
     "w": 3.1,
-    "ab": "Hydration"
+    "ab": "촉촉바디"
   },
-  "Piplup": {
-    "t1": "Water",
+  "팽도리": {
+    "t1": "물",
     "bs": {
       "hp": 53,
       "at": 51,
@@ -6326,10 +6326,10 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
       "sp": 40
     },
     "w": 5.2,
-    "ab": "Torrent"
+    "ab": "급류"
   },
-  "Porygon-Z": {
-    "t1": "Normal",
+  "폴리곤Z": {
+    "t1": "노말",
     "bs": {
       "hp": 85,
       "at": 80,
@@ -6340,8 +6340,8 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     },
     "w": 34.0
   },
-  "Prinplup": {
-    "t1": "Water",
+  "팽태자": {
+    "t1": "물",
     "bs": {
       "hp": 64,
       "at": 66,
@@ -6351,11 +6351,11 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
       "sp": 50
     },
     "w": 23.0,
-    "ab": "Torrent"
+    "ab": "급류"
   },
-  "Probopass": {
-    "t1": "Rock",
-    "t2": "Steel",
+  "대코파스": {
+    "t1": "바위",
+    "t2": "강철",
     "bs": {
       "hp": 60,
       "at": 55,
@@ -6366,8 +6366,8 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     },
     "w": 340.0
   },
-  "Purugly": {
-    "t1": "Normal",
+  "몬냥이": {
+    "t1": "노말",
     "bs": {
       "hp": 71,
       "at": 82,
@@ -6378,8 +6378,8 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     },
     "w": 43.8
   },
-  "Rampardos": {
-    "t1": "Rock",
+  "램펄드": {
+    "t1": "바위",
     "bs": {
       "hp": 97,
       "at": 165,
@@ -6390,8 +6390,8 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     },
     "w": 102.5
   },
-  "Regigigas": {
-    "t1": "Normal",
+  "레지기가스": {
+    "t1": "노말",
     "bs": {
       "hp": 110,
       "at": 160,
@@ -6401,11 +6401,11 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
       "sp": 100
     },
     "w": 420.0,
-    "ab": "Slow Start"
+    "ab": "슬로스타트"
   },
-  "Rhyperior": {
-    "t1": "Ground",
-    "t2": "Rock",
+  "거대코뿌리": {
+    "t1": "땅",
+    "t2": "바위",
     "bs": {
       "hp": 115,
       "at": 140,
@@ -6416,8 +6416,8 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     },
     "w": 282.8
   },
-  "Riolu": {
-    "t1": "Fighting",
+  "리오르": {
+    "t1": "격투",
     "bs": {
       "hp": 40,
       "at": 70,
@@ -6428,9 +6428,9 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     },
     "w": 20.2
   },
-  "Roserade": {
-    "t1": "Grass",
-    "t2": "Poison",
+  "로즈레이드": {
+    "t1": "풀",
+    "t2": "독",
     "bs": {
       "hp": 60,
       "at": 70,
@@ -6441,9 +6441,9 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     },
     "w": 14.5
   },
-  "Rotom": {
-    "t1": "Electric",
-    "t2": "Ghost",
+  "로토무": {
+    "t1": "전기",
+    "t2": "고스트",
     "bs": {
       "hp": 50,
       "at": 50,
@@ -6453,11 +6453,11 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
       "sp": 91
     },
     "w": 0.3,
-    "ab": "Levitate"
+    "ab": "부유"
   },
-  "Rotom-C": {
-    "t1": "Electric",
-    "t2": "Ghost",
+  "커트로토무": {
+    "t1": "전기",
+    "t2": "고스트",
     "bs": {
       "hp": 50,
       "at": 65,
@@ -6467,11 +6467,11 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
       "sp": 86
     },
     "w": 0.3,
-    "ab": "Levitate"
+    "ab": "부유"
   },
-  "Rotom-F": {
-    "t1": "Electric",
-    "t2": "Ghost",
+  "프로스트로토무": {
+    "t1": "전기",
+    "t2": "고스트",
     "bs": {
       "hp": 50,
       "at": 65,
@@ -6481,11 +6481,11 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
       "sp": 86
     },
     "w": 0.3,
-    "ab": "Levitate"
+    "ab": "부유"
   },
-  "Rotom-H": {
-    "t1": "Electric",
-    "t2": "Ghost",
+  "히트로토무": {
+    "t1": "전기",
+    "t2": "고스트",
     "bs": {
       "hp": 50,
       "at": 65,
@@ -6495,11 +6495,11 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
       "sp": 86
     },
     "w": 0.3,
-    "ab": "Levitate"
+    "ab": "부유"
   },
-  "Rotom-S": {
-    "t1": "Electric",
-    "t2": "Ghost",
+  "스핀로토무": {
+    "t1": "전기",
+    "t2": "고스트",
     "bs": {
       "hp": 50,
       "at": 65,
@@ -6509,11 +6509,11 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
       "sp": 86
     },
     "w": 0.3,
-    "ab": "Levitate"
+    "ab": "부유"
   },
-  "Rotom-W": {
-    "t1": "Electric",
-    "t2": "Ghost",
+  "워시로토무": {
+    "t1": "전기",
+    "t2": "고스트",
     "bs": {
       "hp": 50,
       "at": 65,
@@ -6523,10 +6523,10 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
       "sp": 86
     },
     "w": 0.3,
-    "ab": "Levitate"
+    "ab": "부유"
   },
-  "Shaymin": {
-    "t1": "Grass",
+  "쉐이미": {
+    "t1": "풀",
     "bs": {
       "hp": 100,
       "at": 100,
@@ -6536,11 +6536,11 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
       "sp": 100
     },
     "w": 2.1,
-    "ab": "Natural Cure"
+    "ab": "자연회복"
   },
-  "Shaymin-S": {
-    "t1": "Grass",
-    "t2": "Flying",
+  "쉐이미-스카이": {
+    "t1": "풀",
+    "t2": "비행",
     "bs": {
       "hp": 100,
       "at": 103,
@@ -6550,10 +6550,10 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
       "sp": 127
     },
     "w": 5.2,
-    "ab": "Serene Grace"
+    "ab": "하늘의은총"
   },
-  "Shellos": {
-    "t1": "Water",
+  "깝질무": {
+    "t1": "물",
     "bs": {
       "hp": 76,
       "at": 48,
@@ -6564,9 +6564,9 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     },
     "w": 6.3
   },
-  "Shieldon": {
-    "t1": "Rock",
-    "t2": "Steel",
+  "방패톱스": {
+    "t1": "바위",
+    "t2": "강철",
     "bs": {
       "hp": 30,
       "at": 42,
@@ -6577,8 +6577,8 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     },
     "w": 57.0
   },
-  "Shinx": {
-    "t1": "Electric",
+  "꼬링크": {
+    "t1": "전기",
     "bs": {
       "hp": 45,
       "at": 65,
@@ -6589,9 +6589,9 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     },
     "w": 9.5
   },
-  "Skorupi": {
-    "t1": "Poison",
-    "t2": "Bug",
+  "스콜피": {
+    "t1": "독",
+    "t2": "벌레",
     "bs": {
       "hp": 40,
       "at": 50,
@@ -6602,9 +6602,9 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     },
     "w": 12.0
   },
-  "Skuntank": {
-    "t1": "Poison",
-    "t2": "Dark",
+  "스컹탱크": {
+    "t1": "독",
+    "t2": "악",
     "bs": {
       "hp": 103,
       "at": 93,
@@ -6615,9 +6615,9 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     },
     "w": 38.0
   },
-  "Snover": {
-    "t1": "Grass",
-    "t2": "Ice",
+  "눈쓰개": {
+    "t1": "풀",
+    "t2": "얼음",
     "bs": {
       "hp": 60,
       "at": 62,
@@ -6627,11 +6627,11 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
       "sp": 40
     },
     "w": 50.5,
-    "ab": "Snow Warning"
+    "ab": "눈퍼뜨리기"
   },
-  "Spiritomb": {
-    "t1": "Ghost",
-    "t2": "Dark",
+  "화강돌": {
+    "t1": "고스트",
+    "t2": "악",
     "bs": {
       "hp": 50,
       "at": 92,
@@ -6642,9 +6642,9 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     },
     "w": 108.0
   },
-  "Staraptor": {
-    "t1": "Normal",
-    "t2": "Flying",
+  "찌르호크": {
+    "t1": "노말",
+    "t2": "비행",
     "bs": {
       "hp": 85,
       "at": 120,
@@ -6654,11 +6654,11 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
       "sp": 100
     },
     "w": 24.9,
-    "ab": "Intimidate"
+    "ab": "괴력집게"
   },
-  "Staravia": {
-    "t1": "Normal",
-    "t2": "Flying",
+  "찌르버드": {
+    "t1": "노말",
+    "t2": "비행",
     "bs": {
       "hp": 55,
       "at": 75,
@@ -6668,11 +6668,11 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
       "sp": 80
     },
     "w": 15.5,
-    "ab": "Intimidate"
+    "ab": "괴력집게"
   },
-  "Starly": {
-    "t1": "Normal",
-    "t2": "Flying",
+  "찌르꼬": {
+    "t1": "노말",
+    "t2": "비행",
     "bs": {
       "hp": 40,
       "at": 55,
@@ -6683,9 +6683,9 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     },
     "w": 2.0
   },
-  "Stunky": {
-    "t1": "Poison",
-    "t2": "Dark",
+  "스컹뿡": {
+    "t1": "독",
+    "t2": "악",
     "bs": {
       "hp": 63,
       "at": 63,
@@ -6696,8 +6696,8 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     },
     "w": 19.2
   },
-  "Tangrowth": {
-    "t1": "Grass",
+  "덩쿠림보": {
+    "t1": "풀",
     "bs": {
       "hp": 100,
       "at": 100,
@@ -6708,9 +6708,9 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     },
     "w": 128.6
   },
-  "Togekiss": {
-    "t1": "Normal",
-    "t2": "Flying",
+  "토게키스": {
+    "t1": "노말",
+    "t2": "비행",
     "bs": {
       "hp": 85,
       "at": 50,
@@ -6721,9 +6721,9 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     },
     "w": 38.0
   },
-  "Torterra": {
-    "t1": "Grass",
-    "t2": "Ground",
+  "토대부기": {
+    "t1": "풀",
+    "t2": "땅",
     "bs": {
       "hp": 95,
       "at": 109,
@@ -6733,11 +6733,11 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
       "sp": 56
     },
     "w": 310.0,
-    "ab": "Overgrow"
+    "ab": "심록"
   },
-  "Toxicroak": {
-    "t1": "Poison",
-    "t2": "Fighting",
+  "독개굴": {
+    "t1": "독",
+    "t2": "격투",
     "bs": {
       "hp": 83,
       "at": 106,
@@ -6748,8 +6748,8 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     },
     "w": 44.4
   },
-  "Turtwig": {
-    "t1": "Grass",
+  "모부기": {
+    "t1": "풀",
     "bs": {
       "hp": 55,
       "at": 68,
@@ -6759,10 +6759,10 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
       "sp": 31
     },
     "w": 10.2,
-    "ab": "Overgrow"
+    "ab": "심록"
   },
-  "Uxie": {
-    "t1": "Psychic",
+  "유크시": {
+    "t1": "에스퍼",
     "bs": {
       "hp": 75,
       "at": 75,
@@ -6772,11 +6772,11 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
       "sp": 95
     },
     "w": 0.3,
-    "ab": "Levitate"
+    "ab": "부유"
   },
-  "Vespiquen": {
-    "t1": "Bug",
-    "t2": "Flying",
+  "비퀸": {
+    "t1": "벌레",
+    "t2": "비행",
     "bs": {
       "hp": 70,
       "at": 80,
@@ -6787,9 +6787,9 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     },
     "w": 38.5
   },
-  "Weavile": {
-    "t1": "Dark",
-    "t2": "Ice",
+  "포푸니라": {
+    "t1": "악",
+    "t2": "얼음",
     "bs": {
       "hp": 70,
       "at": 120,
@@ -6800,9 +6800,9 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     },
     "w": 34.0
   },
-  "Wormadam": {
-    "t1": "Bug",
-    "t2": "Grass",
+  "도롱마담": {
+    "t1": "벌레",
+    "t2": "풀",
     "bs": {
       "hp": 60,
       "at": 59,
@@ -6813,9 +6813,9 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     },
     "w": 6.5
   },
-  "Wormadam-G": {
-    "t1": "Bug",
-    "t2": "Ground",
+  "도롱마담-모래땅": {
+    "t1": "벌레",
+    "t2": "땅",
     "bs": {
       "hp": 60,
       "at": 79,
@@ -6826,9 +6826,9 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     },
     "w": 6.5
   },
-  "Wormadam-S": {
-    "t1": "Bug",
-    "t2": "Steel",
+  "도롱마담-슈레": {
+    "t1": "벌레",
+    "t2": "강철",
     "bs": {
       "hp": 60,
       "at": 69,
@@ -6839,9 +6839,9 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
     },
     "w": 6.5
   },
-  "Yanmega": {
-    "t1": "Bug",
-    "t2": "Flying",
+  "메가자리": {
+    "t1": "벌레",
+    "t2": "비행",
     "bs": {
       "hp": 86,
       "at": 76,
@@ -6854,46 +6854,46 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
   }
 });
 
-delete POKEDEX_DPP['Machop'].ab;
-delete POKEDEX_DPP['Machoke'].ab;
-delete POKEDEX_DPP['Machamp'].ab;
-delete POKEDEX_DPP['Seel'].ab;
-delete POKEDEX_DPP['Dewgong'].ab;
-delete POKEDEX_DPP['Shellder'].ab;
-delete POKEDEX_DPP['Cloyster'].ab;
-delete POKEDEX_DPP['Tangela'].ab;
-delete POKEDEX_DPP['Horsea'].ab;
-delete POKEDEX_DPP['Mr. Mime'].ab;
-delete POKEDEX_DPP['Scyther'].ab;
-delete POKEDEX_DPP['Pinsir'].ab;
-delete POKEDEX_DPP['Tauros'].ab;
-delete POKEDEX_DPP['Hoppip'].ab;
-delete POKEDEX_DPP['Skiploom'].ab;
-delete POKEDEX_DPP['Jumpluff'].ab;
-delete POKEDEX_DPP['Sunkern'].ab;
-delete POKEDEX_DPP['Sunflora'].ab;
-delete POKEDEX_DPP['Granbull'].ab;
-delete POKEDEX_DPP['Scizor'].ab;
-delete POKEDEX_DPP['Ursaring'].ab;
-delete POKEDEX_DPP['Kingdra'].ab;
-delete POKEDEX_DPP['Stantler'].ab;
-delete POKEDEX_DPP['Tyrogue'].ab;
-delete POKEDEX_DPP['Hitmontop'].ab;
-delete POKEDEX_DPP['Miltank'].ab;
-delete POKEDEX_DPP['Mightyena'].ab;
-delete POKEDEX_DPP['Tropius'].ab;
-delete POKEDEX_DPP['Spheal'].ab;
-delete POKEDEX_DPP['Sealeo'].ab;
-delete POKEDEX_DPP['Walrein'].ab;
+delete POKEDEX_DPP['알통몬'].ab;
+delete POKEDEX_DPP['근육몬'].ab;
+delete POKEDEX_DPP['괴력몬'].ab;
+delete POKEDEX_DPP['쥬쥬'].ab;
+delete POKEDEX_DPP['쥬레곤'].ab;
+delete POKEDEX_DPP['셀러'].ab;
+delete POKEDEX_DPP['파르셀'].ab;
+delete POKEDEX_DPP['덩쿠리'].ab;
+delete POKEDEX_DPP['쏘드라'].ab;
+delete POKEDEX_DPP['마임맨'].ab;
+delete POKEDEX_DPP['스라크'].ab;
+delete POKEDEX_DPP['쁘사이저'].ab;
+delete POKEDEX_DPP['켄타로스'].ab;
+delete POKEDEX_DPP['통통코'].ab;
+delete POKEDEX_DPP['두코'].ab;
+delete POKEDEX_DPP['솜솜코'].ab;
+delete POKEDEX_DPP['해너츠'].ab;
+delete POKEDEX_DPP['해루미'].ab;
+delete POKEDEX_DPP['그랑블루'].ab;
+delete POKEDEX_DPP['핫삼'].ab;
+delete POKEDEX_DPP['링곰'].ab;
+delete POKEDEX_DPP['킹드라'].ab;
+delete POKEDEX_DPP['노라키'].ab;
+delete POKEDEX_DPP['배루키'].ab;
+delete POKEDEX_DPP['카포에라'].ab;
+delete POKEDEX_DPP['밀탱크'].ab;
+delete POKEDEX_DPP['그라에나'].ab;
+delete POKEDEX_DPP['트로피우스'].ab;
+delete POKEDEX_DPP['대굴레오'].ab;
+delete POKEDEX_DPP['씨레오'].ab;
+delete POKEDEX_DPP['씨카이저'].ab;
 
 var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
-  "Rotom-C": { "t2": "Grass" },
-  "Rotom-F": { "t2": "Ice" },
-  "Rotom-H": { "t2": "Fire" },
-  "Rotom-S": { "t2": "Flying" },
-  "Rotom-W": { "t2": "Water" },
-  "Accelgor": {
-    "t1": "Bug",
+  "커트로토무": { "t2": "풀" },
+  "프로스트로토무": { "t2": "얼음" },
+  "히트로토무": { "t2": "불꽃" },
+  "스핀로토무": { "t2": "비행" },
+  "워시로토무": { "t2": "물" },
+  "어지리더": {
+    "t1": "벌레",
     "bs": {
       "hp": 80,
       "at": 70,
@@ -6904,8 +6904,8 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 25.3
   },
-  "Alomomola": {
-    "t1": "Water",
+  "맘복치": {
+    "t1": "물",
     "bs": {
       "hp": 165,
       "at": 75,
@@ -6916,9 +6916,9 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 31.6
   },
-  "Amoonguss": {
-    "t1": "Grass",
-    "t2": "Poison",
+  "뽀록나": {
+    "t1": "풀",
+    "t2": "독",
     "bs": {
       "hp": 114,
       "at": 85,
@@ -6929,9 +6929,9 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 10.5
   },
-  "Archen": {
-    "t1": "Rock",
-    "t2": "Flying",
+  "아켄": {
+    "t1": "바위",
+    "t2": "비행",
     "bs": {
       "hp": 55,
       "at": 112,
@@ -6941,11 +6941,11 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
       "sp": 70
     },
     "w": 9.5,
-    "ab": "Defeatist"
+    "ab": "무기력"
   },
-  "Archeops": {
-    "t1": "Rock",
-    "t2": "Flying",
+  "아케오스": {
+    "t1": "바위",
+    "t2": "비행",
     "bs": {
       "hp": 75,
       "at": 140,
@@ -6955,10 +6955,10 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
       "sp": 110
     },
     "w": 32.0,
-    "ab": "Defeatist"
+    "ab": "무기력"
   },
-  "Audino": {
-    "t1": "Normal",
+  "다부니": {
+    "t1": "노말",
     "bs": {
       "hp": 103,
       "at": 60,
@@ -6969,8 +6969,8 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 31.0
   },
-  "Axew": {
-    "t1": "Dragon",
+  "터검니": {
+    "t1": "드래곤",
     "bs": {
       "hp": 46,
       "at": 87,
@@ -6981,8 +6981,8 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 18.0
   },
-  "Basculin": {
-    "t1": "Water",
+  "배쓰나이": {
+    "t1": "물",
     "bs": {
       "hp": 70,
       "at": 92,
@@ -6993,8 +6993,8 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 18.0
   },
-  "Beartic": {
-    "t1": "Ice",
+  "툰베어": {
+    "t1": "얼음",
     "bs": {
       "hp": 95,
       "at": 110,
@@ -7005,8 +7005,8 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 260.0
   },
-  "Beheeyem": {
-    "t1": "Psychic",
+  "벰크": {
+    "t1": "에스퍼",
     "bs": {
       "hp": 75,
       "at": 75,
@@ -7017,9 +7017,9 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 34.5
   },
-  "Bisharp": {
-    "t1": "Dark",
-    "t2": "Steel",
+  "절각참": {
+    "t1": "악",
+    "t2": "강철",
     "bs": {
       "hp": 65,
       "at": 125,
@@ -7030,8 +7030,8 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 70.0
   },
-  "Blitzle": {
-    "t1": "Electric",
+  "줄뮤마": {
+    "t1": "전기",
     "bs": {
       "hp": 45,
       "at": 60,
@@ -7042,8 +7042,8 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 29.8
   },
-  "Boldore": {
-    "t1": "Rock",
+  "암트르": {
+    "t1": "바위",
     "bs": {
       "hp": 70,
       "at": 105,
@@ -7054,8 +7054,8 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 102.0
   },
-  "Bouffalant": {
-    "t1": "Normal",
+  "버프론": {
+    "t1": "노말",
     "bs": {
       "hp": 95,
       "at": 110,
@@ -7066,9 +7066,9 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 94.6
   },
-  "Braviary": {
-    "t1": "Normal",
-    "t2": "Flying",
+  "워글": {
+    "t1": "노말",
+    "t2": "비행",
     "bs": {
       "hp": 100,
       "at": 123,
@@ -7079,9 +7079,9 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 41.0
   },
-  "Carracosta": {
-    "t1": "Water",
-    "t2": "Rock",
+  "늑골라": {
+    "t1": "물",
+    "t2": "바위",
     "bs": {
       "hp": 74,
       "at": 108,
@@ -7092,9 +7092,9 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 81.0
   },
-  "Chandelure": {
-    "t1": "Ghost",
-    "t2": "Fire",
+  "샹델라": {
+    "t1": "고스트",
+    "t2": "불꽃",
     "bs": {
       "hp": 60,
       "at": 55,
@@ -7105,8 +7105,8 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 34.3
   },
-  "Cinccino": {
-    "t1": "Normal",
+  "치라치노": {
+    "t1": "노말",
     "bs": {
       "hp": 75,
       "at": 95,
@@ -7117,9 +7117,9 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 7.5
   },
-  "Cobalion": {
-    "t1": "Steel",
-    "t2": "Fighting",
+  "코바르온": {
+    "t1": "강철",
+    "t2": "격투",
     "bs": {
       "hp": 91,
       "at": 90,
@@ -7129,10 +7129,10 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
       "sp": 108
     },
     "w": 250.0,
-    "ab": "Justified"
+    "ab": "정의의마음"
   },
-  "Cofagrigus": {
-    "t1": "Ghost",
+  "데스니칸": {
+    "t1": "고스트",
     "bs": {
       "hp": 58,
       "at": 50,
@@ -7142,10 +7142,10 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
       "sp": 30
     },
     "w": 76.5,
-    "ab": "Mummy"
+    "ab": "미라"
   },
-  "Conkeldurr": {
-    "t1": "Fighting",
+  "노보청": {
+    "t1": "격투",
     "bs": {
       "hp": 105,
       "at": 140,
@@ -7156,8 +7156,8 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 87.0
   },
-  "Cottonee": {
-    "t1": "Grass",
+  "소미안": {
+    "t1": "풀",
     "bs": {
       "hp": 40,
       "at": 27,
@@ -7168,9 +7168,9 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 0.6
   },
-  "Crustle": {
-    "t1": "Bug",
-    "t2": "Rock",
+  "암팰리스": {
+    "t1": "벌레",
+    "t2": "바위",
     "bs": {
       "hp": 70,
       "at": 95,
@@ -7181,8 +7181,8 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 200.0
   },
-  "Cryogonal": {
-    "t1": "Ice",
+  "프리지오": {
+    "t1": "얼음",
     "bs": {
       "hp": 70,
       "at": 50,
@@ -7192,10 +7192,10 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
       "sp": 105
     },
     "w": 148.0,
-    "ab": "Levitate"
+    "ab": "부유"
   },
-  "Cubchoo": {
-    "t1": "Ice",
+  "코고미": {
+    "t1": "얼음",
     "bs": {
       "hp": 55,
       "at": 70,
@@ -7206,8 +7206,8 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 8.5
   },
-  "Darmanitan": {
-    "t1": "Fire",
+  "불비달마": {
+    "t1": "불꽃",
     "bs": {
       "hp": 105,
       "at": 140,
@@ -7218,13 +7218,13 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 92.9,
     "formes": [
-      "Darmanitan",
-      "Darmanitan-Z"
+      "불비달마",
+      "불비달마-달마"
     ]
   },
-  "Darmanitan-Z": {
-    "t1": "Fire",
-    "t2": "Psychic",
+  "불비달마-달마": {
+    "t1": "불꽃",
+    "t2": "에스퍼",
     "bs": {
       "hp": 105,
       "at": 30,
@@ -7234,11 +7234,11 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
       "sp": 55
     },
     "w": 92.9,
-    "ab": "Zen Mode",
+    "ab": "달마모드",
     "isAlternateForme": true
   },
-  "Darumaka": {
-    "t1": "Fire",
+  "달막화": {
+    "t1": "불꽃",
     "bs": {
       "hp": 70,
       "at": 90,
@@ -7249,9 +7249,9 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 37.5
   },
-  "Deerling": {
-    "t1": "Normal",
-    "t2": "Grass",
+  "사철록": {
+    "t1": "노말",
+    "t2": "풀",
     "bs": {
       "hp": 60,
       "at": 60,
@@ -7262,9 +7262,9 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 19.5
   },
-  "Deino": {
-    "t1": "Dark",
-    "t2": "Dragon",
+  "모노두": {
+    "t1": "악",
+    "t2": "드래곤",
     "bs": {
       "hp": 52,
       "at": 65,
@@ -7274,10 +7274,10 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
       "sp": 38
     },
     "w": 17.3,
-    "ab": "Hustle"
+    "ab": "의욕"
   },
-  "Dewott": {
-    "t1": "Water",
+  "쌍검자비": {
+    "t1": "물",
     "bs": {
       "hp": 75,
       "at": 75,
@@ -7287,10 +7287,10 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
       "sp": 60
     },
     "w": 24.5,
-    "ab": "Torrent"
+    "ab": "급류"
   },
-  "Drilbur": {
-    "t1": "Ground",
+  "두더류": {
+    "t1": "땅",
     "bs": {
       "hp": 60,
       "at": 85,
@@ -7301,8 +7301,8 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 8.5
   },
-  "Druddigon": {
-    "t1": "Dragon",
+  "크리만": {
+    "t1": "드래곤",
     "bs": {
       "hp": 77,
       "at": 120,
@@ -7313,9 +7313,9 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 139.0
   },
-  "Ducklett": {
-    "t1": "Water",
-    "t2": "Flying",
+  "꼬지보리": {
+    "t1": "물",
+    "t2": "비행",
     "bs": {
       "hp": 62,
       "at": 44,
@@ -7326,8 +7326,8 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 5.5
   },
-  "Duosion": {
-    "t1": "Psychic",
+  "듀란": {
+    "t1": "에스퍼",
     "bs": {
       "hp": 65,
       "at": 40,
@@ -7338,9 +7338,9 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 8.0
   },
-  "Durant": {
-    "t1": "Bug",
-    "t2": "Steel",
+  "아이앤트": {
+    "t1": "벌레",
+    "t2": "강철",
     "bs": {
       "hp": 58,
       "at": 109,
@@ -7351,9 +7351,9 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 33.0
   },
-  "Dwebble": {
-    "t1": "Bug",
-    "t2": "Rock",
+  "돌살이": {
+    "t1": "벌레",
+    "t2": "바위",
     "bs": {
       "hp": 50,
       "at": 65,
@@ -7364,8 +7364,8 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 14.5
   },
-  "Eelektrik": {
-    "t1": "Electric",
+  "저리릴": {
+    "t1": "전기",
     "bs": {
       "hp": 65,
       "at": 85,
@@ -7375,10 +7375,10 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
       "sp": 40
     },
     "w": 22.0,
-    "ab": "Levitate"
+    "ab": "부유"
   },
-  "Eelektross": {
-    "t1": "Electric",
+  "저리더프": {
+    "t1": "전기",
     "bs": {
       "hp": 85,
       "at": 115,
@@ -7388,10 +7388,10 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
       "sp": 50
     },
     "w": 80.5,
-    "ab": "Levitate"
+    "ab": "부유"
   },
-  "Elgyem": {
-    "t1": "Psychic",
+  "리그레": {
+    "t1": "에스퍼",
     "bs": {
       "hp": 55,
       "at": 55,
@@ -7402,9 +7402,9 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 9.0
   },
-  "Emboar": {
-    "t1": "Fire",
-    "t2": "Fighting",
+  "염무왕": {
+    "t1": "불꽃",
+    "t2": "격투",
     "bs": {
       "hp": 110,
       "at": 123,
@@ -7414,11 +7414,11 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
       "sp": 65
     },
     "w": 150.0,
-    "ab": "Blaze"
+    "ab": "맹화"
   },
-  "Emolga": {
-    "t1": "Electric",
-    "t2": "Flying",
+  "에몽가": {
+    "t1": "전기",
+    "t2": "비행",
     "bs": {
       "hp": 55,
       "at": 75,
@@ -7429,9 +7429,9 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 5.0
   },
-  "Escavalier": {
-    "t1": "Bug",
-    "t2": "Steel",
+  "슈바르고": {
+    "t1": "벌레",
+    "t2": "강철",
     "bs": {
       "hp": 70,
       "at": 135,
@@ -7442,9 +7442,9 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 33.0
   },
-  "Excadrill": {
-    "t1": "Ground",
-    "t2": "Steel",
+  "몰드류": {
+    "t1": "땅",
+    "t2": "강철",
     "bs": {
       "hp": 110,
       "at": 135,
@@ -7455,9 +7455,9 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 40.4
   },
-  "Ferroseed": {
-    "t1": "Grass",
-    "t2": "Steel",
+  "철시드": {
+    "t1": "풀",
+    "t2": "강철",
     "bs": {
       "hp": 44,
       "at": 50,
@@ -7468,9 +7468,9 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 18.8
   },
-  "Ferrothorn": {
-    "t1": "Grass",
-    "t2": "Steel",
+  "너트령": {
+    "t1": "풀",
+    "t2": "강철",
     "bs": {
       "hp": 74,
       "at": 94,
@@ -7481,9 +7481,9 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 110.0
   },
-  "Foongus": {
-    "t1": "Grass",
-    "t2": "Poison",
+  "깜놀버슬": {
+    "t1": "풀",
+    "t2": "독",
     "bs": {
       "hp": 69,
       "at": 55,
@@ -7494,8 +7494,8 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 1.0
   },
-  "Fraxure": {
-    "t1": "Dragon",
+  "액슨도": {
+    "t1": "드래곤",
     "bs": {
       "hp": 66,
       "at": 117,
@@ -7506,9 +7506,9 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 36.0
   },
-  "Frillish": {
-    "t1": "Water",
-    "t2": "Ghost",
+  "탱그릴": {
+    "t1": "물",
+    "t2": "고스트",
     "bs": {
       "hp": 55,
       "at": 40,
@@ -7519,9 +7519,9 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 33.0
   },
-  "Galvantula": {
-    "t1": "Bug",
-    "t2": "Electric",
+  "전툴라": {
+    "t1": "벌레",
+    "t2": "전기",
     "bs": {
       "hp": 70,
       "at": 77,
@@ -7532,8 +7532,8 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 14.3
   },
-  "Garbodor": {
-    "t1": "Poison",
+  "더스트나": {
+    "t1": "독",
     "bs": {
       "hp": 80,
       "at": 95,
@@ -7544,9 +7544,9 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 107.3
   },
-  "Genesect": {
-    "t1": "Bug",
-    "t2": "Steel",
+  "게노세크트": {
+    "t1": "벌레",
+    "t2": "강철",
     "bs": {
       "hp": 71,
       "at": 120,
@@ -7556,10 +7556,10 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
       "sp": 99
     },
     "w": 82.5,
-    "ab": "Download"
+    "ab": "다운로드"
   },
-  "Gigalith": {
-    "t1": "Rock",
+  "기가이어스": {
+    "t1": "바위",
     "bs": {
       "hp": 85,
       "at": 135,
@@ -7570,9 +7570,9 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 260.0
   },
-  "Golett": {
-    "t1": "Ground",
-    "t2": "Ghost",
+  "골비람": {
+    "t1": "땅",
+    "t2": "고스트",
     "bs": {
       "hp": 59,
       "at": 74,
@@ -7583,9 +7583,9 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 92.0
   },
-  "Golurk": {
-    "t1": "Ground",
-    "t2": "Ghost",
+  "골루그": {
+    "t1": "땅",
+    "t2": "고스트",
     "bs": {
       "hp": 89,
       "at": 124,
@@ -7596,8 +7596,8 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 330.0
   },
-  "Gothita": {
-    "t1": "Psychic",
+  "고디탱": {
+    "t1": "에스퍼",
     "bs": {
       "hp": 45,
       "at": 30,
@@ -7608,8 +7608,8 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 5.8
   },
-  "Gothitelle": {
-    "t1": "Psychic",
+  "고디모아젤": {
+    "t1": "에스퍼",
     "bs": {
       "hp": 70,
       "at": 55,
@@ -7620,8 +7620,8 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 44.0
   },
-  "Gothorita": {
-    "t1": "Psychic",
+  "고디보미": {
+    "t1": "에스퍼",
     "bs": {
       "hp": 60,
       "at": 45,
@@ -7632,8 +7632,8 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 18.0
   },
-  "Gurdurr": {
-    "t1": "Fighting",
+  "토쇠골": {
+    "t1": "격투",
     "bs": {
       "hp": 85,
       "at": 105,
@@ -7644,8 +7644,8 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 40.0
   },
-  "Haxorus": {
-    "t1": "Dragon",
+  "액스라이즈": {
+    "t1": "드래곤",
     "bs": {
       "hp": 76,
       "at": 147,
@@ -7656,8 +7656,8 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 105.5
   },
-  "Heatmor": {
-    "t1": "Fire",
+  "앤티골": {
+    "t1": "불꽃",
     "bs": {
       "hp": 85,
       "at": 97,
@@ -7668,8 +7668,8 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 58.0
   },
-  "Herdier": {
-    "t1": "Normal",
+  "하데리어": {
+    "t1": "노말",
     "bs": {
       "hp": 65,
       "at": 80,
@@ -7680,9 +7680,9 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 14.7
   },
-  "Hydreigon": {
-    "t1": "Dark",
-    "t2": "Dragon",
+  "삼삼드래": {
+    "t1": "악",
+    "t2": "드래곤",
     "bs": {
       "hp": 92,
       "at": 105,
@@ -7692,11 +7692,11 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
       "sp": 98
     },
     "w": 160.0,
-    "ab": "Levitate"
+    "ab": "부유"
   },
-  "Jellicent": {
-    "t1": "Water",
-    "t2": "Ghost",
+  "탱탱겔": {
+    "t1": "물",
+    "t2": "고스트",
     "bs": {
       "hp": 100,
       "at": 60,
@@ -7707,9 +7707,9 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 135.0
   },
-  "Joltik": {
-    "t1": "Bug",
-    "t2": "Electric",
+  "파쪼옥": {
+    "t1": "벌레",
+    "t2": "전기",
     "bs": {
       "hp": 50,
       "at": 47,
@@ -7720,8 +7720,8 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 0.6
   },
-  "Karrablast": {
-    "t1": "Bug",
+  "딱정곤": {
+    "t1": "벌레",
     "bs": {
       "hp": 50,
       "at": 75,
@@ -7732,9 +7732,9 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 5.9
   },
-  "Keldeo": {
-    "t1": "Water",
-    "t2": "Fighting",
+  "케르디오": {
+    "t1": "물",
+    "t2": "격투",
     "bs": {
       "hp": 91,
       "at": 72,
@@ -7744,10 +7744,10 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
       "sp": 108
     },
     "w": 48.5,
-    "ab": "Justified"
+    "ab": "정의의마음"
   },
-  "Klang": {
-    "t1": "Steel",
+  "기기어르": {
+    "t1": "강철",
     "bs": {
       "hp": 60,
       "at": 80,
@@ -7758,8 +7758,8 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 51.0
   },
-  "Klink": {
-    "t1": "Steel",
+  "기어르": {
+    "t1": "강철",
     "bs": {
       "hp": 40,
       "at": 55,
@@ -7770,8 +7770,8 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 21.0
   },
-  "Klinklang": {
-    "t1": "Steel",
+  "기기기어르": {
+    "t1": "강철",
     "bs": {
       "hp": 60,
       "at": 100,
@@ -7782,9 +7782,9 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 81.0
   },
-  "Krokorok": {
-    "t1": "Ground",
-    "t2": "Dark",
+  "악비르": {
+    "t1": "땅",
+    "t2": "악",
     "bs": {
       "hp": 60,
       "at": 82,
@@ -7795,9 +7795,9 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 33.4
   },
-  "Krookodile": {
-    "t1": "Ground",
-    "t2": "Dark",
+  "악비아르": {
+    "t1": "땅",
+    "t2": "악",
     "bs": {
       "hp": 95,
       "at": 117,
@@ -7808,9 +7808,9 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 96.3
   },
-  "Kyurem": {
-    "t1": "Dragon",
-    "t2": "Ice",
+  "큐레무": {
+    "t1": "드래곤",
+    "t2": "얼음",
     "bs": {
       "hp": 125,
       "at": 130,
@@ -7820,11 +7820,11 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
       "sp": 95
     },
     "w": 325.0,
-    "ab": "Pressure"
+    "ab": "프레셔"
   },
-  "Kyurem-B": {
-    "t1": "Dragon",
-    "t2": "Ice",
+  "블랙큐레무": {
+    "t1": "드래곤",
+    "t2": "얼음",
     "bs": {
       "hp": 125,
       "at": 170,
@@ -7834,11 +7834,11 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
       "sp": 95
     },
     "w": 325.0,
-    "ab": "Teravolt"
+    "ab": "테라볼티지"
   },
-  "Kyurem-W": {
-    "t1": "Dragon",
-    "t2": "Ice",
+  "화이트큐레무": {
+    "t1": "드래곤",
+    "t2": "얼음",
     "bs": {
       "hp": 125,
       "at": 120,
@@ -7848,11 +7848,11 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
       "sp": 95
     },
     "w": 325.0,
-    "ab": "Turboblaze"
+    "ab": "터보블레이즈"
   },
-  "Lampent": {
-    "t1": "Ghost",
-    "t2": "Fire",
+  "램프라": {
+    "t1": "고스트",
+    "t2": "불꽃",
     "bs": {
       "hp": 60,
       "at": 40,
@@ -7863,9 +7863,9 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 13.0
   },
-  "Landorus": {
-    "t1": "Ground",
-    "t2": "Flying",
+  "랜드로스": {
+    "t1": "땅",
+    "t2": "비행",
     "bs": {
       "hp": 89,
       "at": 125,
@@ -7876,9 +7876,9 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 68.0
   },
-  "Landorus-T": {
-    "t1": "Ground",
-    "t2": "Flying",
+  "랜드로스-영물": {
+    "t1": "땅",
+    "t2": "비행",
     "bs": {
       "hp": 89,
       "at": 145,
@@ -7888,11 +7888,11 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
       "sp": 91
     },
     "w": 68.0,
-    "ab": "Intimidate"
+    "ab": "괴력집게"
   },
-  "Larvesta": {
-    "t1": "Bug",
-    "t2": "Fire",
+  "활화르바": {
+    "t1": "벌레",
+    "t2": "불꽃",
     "bs": {
       "hp": 55,
       "at": 85,
@@ -7903,9 +7903,9 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 28.8
   },
-  "Leavanny": {
-    "t1": "Bug",
-    "t2": "Grass",
+  "모아머": {
+    "t1": "벌레",
+    "t2": "풀",
     "bs": {
       "hp": 75,
       "at": 103,
@@ -7916,8 +7916,8 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 20.5
   },
-  "Liepard": {
-    "t1": "Dark",
+  "레파르다스": {
+    "t1": "악",
     "bs": {
       "hp": 64,
       "at": 88,
@@ -7928,8 +7928,8 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 37.5
   },
-  "Lilligant": {
-    "t1": "Grass",
+  "드레디어": {
+    "t1": "풀",
     "bs": {
       "hp": 70,
       "at": 60,
@@ -7940,8 +7940,8 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 16.3
   },
-  "Lillipup": {
-    "t1": "Normal",
+  "요테리": {
+    "t1": "노말",
     "bs": {
       "hp": 45,
       "at": 60,
@@ -7952,9 +7952,9 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 4.1
   },
-  "Litwick": {
-    "t1": "Ghost",
-    "t2": "Fire",
+  "불켜미": {
+    "t1": "고스트",
+    "t2": "불꽃",
     "bs": {
       "hp": 50,
       "at": 30,
@@ -7965,9 +7965,9 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 3.1
   },
-  "Mandibuzz": {
-    "t1": "Dark",
-    "t2": "Flying",
+  "버랜지나": {
+    "t1": "악",
+    "t2": "비행",
     "bs": {
       "hp": 110,
       "at": 65,
@@ -7978,8 +7978,8 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 39.5
   },
-  "Maractus": {
-    "t1": "Grass",
+  "마라카치": {
+    "t1": "풀",
     "bs": {
       "hp": 75,
       "at": 86,
@@ -7990,9 +7990,9 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 28.0
   },
-  "Meloetta": {
-    "t1": "Normal",
-    "t2": "Psychic",
+  "메로엣타": {
+    "t1": "노말",
+    "t2": "에스퍼",
     "bs": {
       "hp": 100,
       "at": 77,
@@ -8002,15 +8002,15 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
       "sp": 90
     },
     "w": 6.5,
-    "ab": "Serene Grace",
+    "ab": "하늘의은총",
     "formes": [
-      "Meloetta",
-      "Meloetta-P"
+      "메로엣타",
+      "메로엣타-스텝"
     ]
   },
-  "Meloetta-P": {
-    "t1": "Normal",
-    "t2": "Fighting",
+  "메로엣타-스텝": {
+    "t1": "노말",
+    "t2": "격투",
     "bs": {
       "hp": 100,
       "at": 128,
@@ -8020,11 +8020,11 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
       "sp": 128
     },
     "w": 6.5,
-    "ab": "Serene Grace",
+    "ab": "하늘의은총",
     "isAlternateForme": true
   },
-  "Mienfoo": {
-    "t1": "Fighting",
+  "비조푸": {
+    "t1": "격투",
     "bs": {
       "hp": 45,
       "at": 85,
@@ -8035,8 +8035,8 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 20.0
   },
-  "Mienshao": {
-    "t1": "Fighting",
+  "비조도": {
+    "t1": "격투",
     "bs": {
       "hp": 65,
       "at": 125,
@@ -8047,8 +8047,8 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 35.5
   },
-  "Minccino": {
-    "t1": "Normal",
+  "치라미": {
+    "t1": "노말",
     "bs": {
       "hp": 55,
       "at": 50,
@@ -8059,8 +8059,8 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 5.8
   },
-  "Munna": {
-    "t1": "Psychic",
+  "몽나": {
+    "t1": "에스퍼",
     "bs": {
       "hp": 76,
       "at": 25,
@@ -8071,8 +8071,8 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 23.3
   },
-  "Musharna": {
-    "t1": "Psychic",
+  "몽얌나": {
+    "t1": "에스퍼",
     "bs": {
       "hp": 116,
       "at": 55,
@@ -8083,8 +8083,8 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 60.5
   },
-  "Oshawott": {
-    "t1": "Water",
+  "수댕이": {
+    "t1": "물",
     "bs": {
       "hp": 55,
       "at": 55,
@@ -8094,11 +8094,11 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
       "sp": 45
     },
     "w": 5.9,
-    "ab": "Torrent"
+    "ab": "급류"
   },
-  "Palpitoad": {
-    "t1": "Water",
-    "t2": "Ground",
+  "두까비": {
+    "t1": "물",
+    "t2": "땅",
     "bs": {
       "hp": 75,
       "at": 65,
@@ -8109,8 +8109,8 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 17.0
   },
-  "Panpour": {
-    "t1": "Water",
+  "앗차프": {
+    "t1": "물",
     "bs": {
       "hp": 50,
       "at": 53,
@@ -8121,8 +8121,8 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 13.5
   },
-  "Pansage": {
-    "t1": "Grass",
+  "야나프": {
+    "t1": "풀",
     "bs": {
       "hp": 50,
       "at": 53,
@@ -8133,8 +8133,8 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 10.5
   },
-  "Pansear": {
-    "t1": "Fire",
+  "바오프": {
+    "t1": "불꽃",
     "bs": {
       "hp": 50,
       "at": 53,
@@ -8145,8 +8145,8 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 11.0
   },
-  "Patrat": {
-    "t1": "Normal",
+  "보르쥐": {
+    "t1": "노말",
     "bs": {
       "hp": 45,
       "at": 55,
@@ -8157,9 +8157,9 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 11.6
   },
-  "Pawniard": {
-    "t1": "Dark",
-    "t2": "Steel",
+  "자망칼": {
+    "t1": "악",
+    "t2": "강철",
     "bs": {
       "hp": 45,
       "at": 85,
@@ -8170,8 +8170,8 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 10.2
   },
-  "Petilil": {
-    "t1": "Grass",
+  "치릴리": {
+    "t1": "풀",
     "bs": {
       "hp": 45,
       "at": 35,
@@ -8182,9 +8182,9 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 6.6
   },
-  "Pidove": {
-    "t1": "Normal",
-    "t2": "Flying",
+  "콩둘기": {
+    "t1": "노말",
+    "t2": "비행",
     "bs": {
       "hp": 50,
       "at": 55,
@@ -8195,9 +8195,9 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 2.1
   },
-  "Pignite": {
-    "t1": "Fire",
-    "t2": "Fighting",
+  "차오꿀": {
+    "t1": "불꽃",
+    "t2": "격투",
     "bs": {
       "hp": 90,
       "at": 93,
@@ -8207,10 +8207,10 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
       "sp": 55
     },
     "w": 55.5,
-    "ab": "Blaze"
+    "ab": "맹화"
   },
-  "Purrloin": {
-    "t1": "Dark",
+  "쌔비냥": {
+    "t1": "악",
     "bs": {
       "hp": 41,
       "at": 50,
@@ -8221,9 +8221,9 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 10.1
   },
-  "Reshiram": {
-    "t1": "Dragon",
-    "t2": "Fire",
+  "레시라무": {
+    "t1": "드래곤",
+    "t2": "불꽃",
     "bs": {
       "hp": 100,
       "at": 120,
@@ -8233,10 +8233,10 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
       "sp": 90
     },
     "w": 330.0,
-    "ab": "Turboblaze"
+    "ab": "터보블레이즈"
   },
-  "Reuniclus": {
-    "t1": "Psychic",
+  "란쿨루스": {
+    "t1": "에스퍼",
     "bs": {
       "hp": 110,
       "at": 65,
@@ -8247,8 +8247,8 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 20.1
   },
-  "Roggenrola": {
-    "t1": "Rock",
+  "단굴": {
+    "t1": "바위",
     "bs": {
       "hp": 55,
       "at": 75,
@@ -8259,9 +8259,9 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 18.0
   },
-  "Rufflet": {
-    "t1": "Normal",
-    "t2": "Flying",
+  "수리둥보": {
+    "t1": "노말",
+    "t2": "비행",
     "bs": {
       "hp": 70,
       "at": 83,
@@ -8272,8 +8272,8 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 10.5
   },
-  "Samurott": {
-    "t1": "Water",
+  "대검귀": {
+    "t1": "물",
     "bs": {
       "hp": 95,
       "at": 100,
@@ -8283,11 +8283,11 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
       "sp": 70
     },
     "w": 94.6,
-    "ab": "Torrent"
+    "ab": "급류"
   },
-  "Sandile": {
-    "t1": "Ground",
-    "t2": "Dark",
+  "깜눈크": {
+    "t1": "땅",
+    "t2": "악",
     "bs": {
       "hp": 50,
       "at": 72,
@@ -8298,8 +8298,8 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 15.2
   },
-  "Sawk": {
-    "t1": "Fighting",
+  "타격귀": {
+    "t1": "격투",
     "bs": {
       "hp": 75,
       "at": 125,
@@ -8310,9 +8310,9 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 51.0
   },
-  "Sawsbuck": {
-    "t1": "Normal",
-    "t2": "Grass",
+  "바라철록": {
+    "t1": "노말",
+    "t2": "풀",
     "bs": {
       "hp": 80,
       "at": 100,
@@ -8323,9 +8323,9 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 92.5
   },
-  "Scolipede": {
-    "t1": "Bug",
-    "t2": "Poison",
+  "펜드라": {
+    "t1": "벌레",
+    "t2": "독",
     "bs": {
       "hp": 60,
       "at": 90,
@@ -8336,9 +8336,9 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 200.5
   },
-  "Scrafty": {
-    "t1": "Dark",
-    "t2": "Fighting",
+  "곤율거니": {
+    "t1": "악",
+    "t2": "격투",
     "bs": {
       "hp": 65,
       "at": 90,
@@ -8349,9 +8349,9 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 30.0
   },
-  "Scraggy": {
-    "t1": "Dark",
-    "t2": "Fighting",
+  "곤율랭": {
+    "t1": "악",
+    "t2": "격투",
     "bs": {
       "hp": 50,
       "at": 75,
@@ -8362,9 +8362,9 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 11.8
   },
-  "Seismitoad": {
-    "t1": "Water",
-    "t2": "Ground",
+  "두빅굴": {
+    "t1": "물",
+    "t2": "땅",
     "bs": {
       "hp": 105,
       "at": 85,
@@ -8375,8 +8375,8 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 62.0
   },
-  "Serperior": {
-    "t1": "Grass",
+  "샤로다": {
+    "t1": "풀",
     "bs": {
       "hp": 75,
       "at": 75,
@@ -8386,10 +8386,10 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
       "sp": 113
     },
     "w": 63.0,
-    "ab": "Overgrow"
+    "ab": "심록"
   },
-  "Servine": {
-    "t1": "Grass",
+  "샤비": {
+    "t1": "풀",
     "bs": {
       "hp": 60,
       "at": 60,
@@ -8399,11 +8399,11 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
       "sp": 83
     },
     "w": 16.0,
-    "ab": "Overgrow"
+    "ab": "심록"
   },
-  "Sewaddle": {
-    "t1": "Bug",
-    "t2": "Grass",
+  "두르보": {
+    "t1": "벌레",
+    "t2": "풀",
     "bs": {
       "hp": 45,
       "at": 53,
@@ -8414,8 +8414,8 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 2.5
   },
-  "Shelmet": {
-    "t1": "Bug",
+  "쪼마리": {
+    "t1": "벌레",
     "bs": {
       "hp": 50,
       "at": 40,
@@ -8426,9 +8426,9 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 7.7
   },
-  "Sigilyph": {
-    "t1": "Psychic",
-    "t2": "Flying",
+  "심보러": {
+    "t1": "에스퍼",
+    "t2": "비행",
     "bs": {
       "hp": 72,
       "at": 58,
@@ -8439,8 +8439,8 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 14.0
   },
-  "Simipour": {
-    "t1": "Water",
+  "앗차키": {
+    "t1": "물",
     "bs": {
       "hp": 75,
       "at": 98,
@@ -8451,8 +8451,8 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 29.0
   },
-  "Simisage": {
-    "t1": "Grass",
+  "야나키": {
+    "t1": "풀",
     "bs": {
       "hp": 75,
       "at": 98,
@@ -8463,8 +8463,8 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 30.5
   },
-  "Simisear": {
-    "t1": "Fire",
+  "바오키": {
+    "t1": "불꽃",
     "bs": {
       "hp": 75,
       "at": 98,
@@ -8475,8 +8475,8 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 28.0
   },
-  "Snivy": {
-    "t1": "Grass",
+  "주리비얀": {
+    "t1": "풀",
     "bs": {
       "hp": 45,
       "at": 45,
@@ -8486,10 +8486,10 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
       "sp": 63
     },
     "w": 8.1,
-    "ab": "Overgrow"
+    "ab": "심록"
   },
-  "Solosis": {
-    "t1": "Psychic",
+  "유니란": {
+    "t1": "에스퍼",
     "bs": {
       "hp": 45,
       "at": 30,
@@ -8500,8 +8500,8 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 1.0
   },
-  "Stoutland": {
-    "t1": "Normal",
+  "바랜드": {
+    "t1": "노말",
     "bs": {
       "hp": 85,
       "at": 100,
@@ -8512,9 +8512,9 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 61.0
   },
-  "Stunfisk": {
-    "t1": "Ground",
-    "t2": "Electric",
+  "메더": {
+    "t1": "땅",
+    "t2": "전기",
     "bs": {
       "hp": 109,
       "at": 66,
@@ -8525,9 +8525,9 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 11.0
   },
-  "Swadloon": {
-    "t1": "Bug",
-    "t2": "Grass",
+  "두르쿤": {
+    "t1": "벌레",
+    "t2": "풀",
     "bs": {
       "hp": 55,
       "at": 63,
@@ -8538,9 +8538,9 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 7.3
   },
-  "Swanna": {
-    "t1": "Water",
-    "t2": "Flying",
+  "스완나": {
+    "t1": "물",
+    "t2": "비행",
     "bs": {
       "hp": 75,
       "at": 87,
@@ -8551,9 +8551,9 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 24.2
   },
-  "Swoobat": {
-    "t1": "Psychic",
-    "t2": "Flying",
+  "맘박쥐": {
+    "t1": "에스퍼",
+    "t2": "비행",
     "bs": {
       "hp": 67,
       "at": 57,
@@ -8564,8 +8564,8 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 10.5
   },
-  "Tepig": {
-    "t1": "Fire",
+  "뚜꾸리": {
+    "t1": "불꽃",
     "bs": {
       "hp": 65,
       "at": 63,
@@ -8575,11 +8575,11 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
       "sp": 45
     },
     "w": 9.9,
-    "ab": "Blaze"
+    "ab": "맹화"
   },
-  "Terrakion": {
-    "t1": "Rock",
-    "t2": "Fighting",
+  "테라키온": {
+    "t1": "바위",
+    "t2": "격투",
     "bs": {
       "hp": 91,
       "at": 129,
@@ -8589,10 +8589,10 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
       "sp": 108
     },
     "w": 260.0,
-    "ab": "Justified"
+    "ab": "정의의마음"
   },
-  "Throh": {
-    "t1": "Fighting",
+  "던지미": {
+    "t1": "격투",
     "bs": {
       "hp": 120,
       "at": 100,
@@ -8603,9 +8603,9 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 55.5
   },
-  "Thundurus": {
-    "t1": "Electric",
-    "t2": "Flying",
+  "볼트로스": {
+    "t1": "전기",
+    "t2": "비행",
     "bs": {
       "hp": 79,
       "at": 115,
@@ -8616,9 +8616,9 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 61.0
   },
-  "Thundurus-T": {
-    "t1": "Electric",
-    "t2": "Flying",
+  "볼트로스-영물": {
+    "t1": "전기",
+    "t2": "비행",
     "bs": {
       "hp": 79,
       "at": 105,
@@ -8628,10 +8628,10 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
       "sp": 101
     },
     "w": 61.0,
-    "ab": "Volt Absorb"
+    "ab": "축전"
   },
-  "Timburr": {
-    "t1": "Fighting",
+  "으랏차": {
+    "t1": "격투",
     "bs": {
       "hp": 75,
       "at": 80,
@@ -8642,9 +8642,9 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 12.5
   },
-  "Tirtouga": {
-    "t1": "Water",
-    "t2": "Rock",
+  "프로토가": {
+    "t1": "물",
+    "t2": "바위",
     "bs": {
       "hp": 54,
       "at": 78,
@@ -8655,8 +8655,8 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 16.5
   },
-  "Tornadus": {
-    "t1": "Flying",
+  "토네로스": {
+    "t1": "비행",
     "bs": {
       "hp": 79,
       "at": 115,
@@ -8667,8 +8667,8 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 63.0
   },
-  "Tornadus-T": {
-    "t1": "Flying",
+  "토네로스-영물": {
+    "t1": "비행",
     "bs": {
       "hp": 79,
       "at": 100,
@@ -8678,11 +8678,11 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
       "sp": 121
     },
     "w": 63.0,
-    "ab": "Regenerator"
+    "ab": "재생력"
   },
-  "Tranquill": {
-    "t1": "Normal",
-    "t2": "Flying",
+  "유토브": {
+    "t1": "노말",
+    "t2": "비행",
     "bs": {
       "hp": 62,
       "at": 77,
@@ -8693,8 +8693,8 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 15.0
   },
-  "Trubbish": {
-    "t1": "Poison",
+  "깨봉이": {
+    "t1": "독",
     "bs": {
       "hp": 50,
       "at": 50,
@@ -8705,8 +8705,8 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 31.0
   },
-  "Tympole": {
-    "t1": "Water",
+  "동챙이": {
+    "t1": "물",
     "bs": {
       "hp": 50,
       "at": 50,
@@ -8717,8 +8717,8 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 4.5
   },
-  "Tynamo": {
-    "t1": "Electric",
+  "저리어": {
+    "t1": "전기",
     "bs": {
       "hp": 35,
       "at": 55,
@@ -8728,11 +8728,11 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
       "sp": 60
     },
     "w": 0.3,
-    "ab": "Levitate"
+    "ab": "부유"
   },
-  "Unfezant": {
-    "t1": "Normal",
-    "t2": "Flying",
+  "켄호로우": {
+    "t1": "노말",
+    "t2": "비행",
     "bs": {
       "hp": 80,
       "at": 105,
@@ -8743,8 +8743,8 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 29.0
   },
-  "Vanillish": {
-    "t1": "Ice",
+  "바닐리치": {
+    "t1": "얼음",
     "bs": {
       "hp": 51,
       "at": 65,
@@ -8755,8 +8755,8 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 41.0
   },
-  "Vanillite": {
-    "t1": "Ice",
+  "바닐프티": {
+    "t1": "얼음",
     "bs": {
       "hp": 36,
       "at": 50,
@@ -8767,8 +8767,8 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 5.7
   },
-  "Vanilluxe": {
-    "t1": "Ice",
+  "배바닐라": {
+    "t1": "얼음",
     "bs": {
       "hp": 71,
       "at": 95,
@@ -8779,9 +8779,9 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 57.5
   },
-  "Venipede": {
-    "t1": "Bug",
-    "t2": "Poison",
+  "마디네": {
+    "t1": "벌레",
+    "t2": "독",
     "bs": {
       "hp": 30,
       "at": 45,
@@ -8792,9 +8792,9 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 5.3
   },
-  "Victini": {
-    "t1": "Psychic",
-    "t2": "Fire",
+  "비크티니": {
+    "t1": "에스퍼",
+    "t2": "불꽃",
     "bs": {
       "hp": 100,
       "at": 100,
@@ -8804,11 +8804,11 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
       "sp": 100
     },
     "w": 4.0,
-    "ab": "Victory Star"
+    "ab": "승리의별"
   },
-  "Virizion": {
-    "t1": "Grass",
-    "t2": "Fighting",
+  "비리디온": {
+    "t1": "풀",
+    "t2": "격투",
     "bs": {
       "hp": 91,
       "at": 90,
@@ -8818,11 +8818,11 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
       "sp": 108
     },
     "w": 200.0,
-    "ab": "Justified"
+    "ab": "정의의마음"
   },
-  "Volcarona": {
-    "t1": "Bug",
-    "t2": "Fire",
+  "불카모스": {
+    "t1": "벌레",
+    "t2": "불꽃",
     "bs": {
       "hp": 85,
       "at": 60,
@@ -8833,9 +8833,9 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 46.0
   },
-  "Vullaby": {
-    "t1": "Dark",
-    "t2": "Flying",
+  "벌차이": {
+    "t1": "악",
+    "t2": "비행",
     "bs": {
       "hp": 70,
       "at": 55,
@@ -8846,8 +8846,8 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 9.0
   },
-  "Watchog": {
-    "t1": "Normal",
+  "보르그": {
+    "t1": "노말",
     "bs": {
       "hp": 60,
       "at": 85,
@@ -8858,8 +8858,8 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 27.0
   },
-  "Whimsicott": {
-    "t1": "Grass",
+  "엘풍": {
+    "t1": "풀",
     "bs": {
       "hp": 60,
       "at": 67,
@@ -8870,9 +8870,9 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 6.6
   },
-  "Whirlipede": {
-    "t1": "Bug",
-    "t2": "Poison",
+  "휠구": {
+    "t1": "벌레",
+    "t2": "독",
     "bs": {
       "hp": 40,
       "at": 55,
@@ -8883,9 +8883,9 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 58.5
   },
-  "Woobat": {
-    "t1": "Psychic",
-    "t2": "Flying",
+  "또르박쥐": {
+    "t1": "에스퍼",
+    "t2": "비행",
     "bs": {
       "hp": 55,
       "at": 45,
@@ -8896,8 +8896,8 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 2.1
   },
-  "Yamask": {
-    "t1": "Ghost",
+  "데스마스": {
+    "t1": "고스트",
     "bs": {
       "hp": 38,
       "at": 30,
@@ -8907,10 +8907,10 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
       "sp": 30
     },
     "w": 1.5,
-    "ab": "Mummy"
+    "ab": "미라"
   },
-  "Zebstrika": {
-    "t1": "Electric",
+  "제브라이카": {
+    "t1": "전기",
     "bs": {
       "hp": 75,
       "at": 100,
@@ -8921,9 +8921,9 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     },
     "w": 79.5
   },
-  "Zekrom": {
-    "t1": "Dragon",
-    "t2": "Electric",
+  "제크로무": {
+    "t1": "드래곤",
+    "t2": "전기",
     "bs": {
       "hp": 100,
       "at": 150,
@@ -8933,10 +8933,10 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
       "sp": 90
     },
     "w": 345.0,
-    "ab": "Teravolt"
+    "ab": "테라볼티지"
   },
-  "Zoroark": {
-    "t1": "Dark",
+  "조로아크": {
+    "t1": "악",
     "bs": {
       "hp": 60,
       "at": 105,
@@ -8946,10 +8946,10 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
       "sp": 105
     },
     "w": 81.1,
-    "ab": "Illusion"
+    "ab": "일루전"
   },
-  "Zorua": {
-    "t1": "Dark",
+  "조로아": {
+    "t1": "악",
     "bs": {
       "hp": 40,
       "at": 65,
@@ -8959,11 +8959,11 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
       "sp": 65
     },
     "w": 12.5,
-    "ab": "Illusion"
+    "ab": "일루전"
   },
-  "Zweilous": {
-    "t1": "Dark",
-    "t2": "Dragon",
+  "디헤드": {
+    "t1": "악",
+    "t2": "드래곤",
     "bs": {
       "hp": 72,
       "at": 85,
@@ -8973,103 +8973,103 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
       "sp": 58
     },
     "w": 50.0,
-    "ab": "Hustle"
+    "ab": "의욕"
   }
 });
 
 var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
-  "Venusaur": { "formes": ["Venusaur", "Mega Venusaur"] },
-  "Charizard": { "formes": ["Charizard", "Mega Charizard X", "Mega Charizard Y"] },
-  "Blastoise": { "formes": ["Blastoise", "Mega Blastoise"] },
-  "Butterfree": { "bs": { "sa": 90 } },
-  "Beedrill": { "bs": { "at": 90 }, "formes": ["Beedrill", "Mega Beedrill"] },
-  "Pidgeot": { "bs": { "sp": 101 }, "formes": ["Pidgeot", "Mega Pidgeot"] },
-  "Pikachu": { "bs": { "df": 40, "sd": 50 } },
-  "Raichu": { "bs": { "sp": 110 } },
-  "Nidoqueen": { "bs": { "at": 92 } },
-  "Nidoking": { "bs": { "at": 102 } },
-  "Clefairy": { "t1": "Fairy" },
-  "Clefable": { "t1": "Fairy", "bs": { "sa": 95 } },
-  "Jigglypuff": { "t2": "Fairy" },
-  "Wigglytuff": { "t2": "Fairy", "bs": { "sa": 85 } },
-  "Vileplume": { "bs": { "sa": 110 } },
-  "Poliwrath": { "bs": { "at": 95 } },
-  "Alakazam": { "bs": { "sd": 95 }, "formes": ["Alakazam", "Mega Alakazam"] },
-  "Victreebel": { "bs": { "sd": 70 } },
-  "Golem": { "bs": { "at": 120 } },
-  "Slowbro": { "formes": ["Slowbro", "Mega Slowbro"] },
-  "Gengar": { "formes": ["Gengar", "Mega Gengar"] },
-  "Kangaskhan": { "formes": ["Kangaskhan", "Mega Kangaskhan"] },
-  "Mr. Mime": { "t2": "Fairy" },
-  "Pinsir": { "formes": ["Pinsir", "Mega Pinsir"] },
-  "Gyarados": { "formes": ["Gyarados", "Mega Gyarados"] },
-  "Aerodactyl": { "formes": ["Aerodactyl", "Mega Aerodactyl"] },
-  "Mewtwo": { "formes": ["Mewtwo", "Mega Mewtwo X", "Mega Mewtwo Y"] },
-  "Cleffa": { "t1": "Fairy" },
-  "Igglybuff": { "t2": "Fairy" },
-  "Togepi": { "t1": "Fairy" },
-  "Togetic": { "t1": "Fairy" },
-  "Ampharos": { "bs": { "df": 85 }, "formes": ["Ampharos", "Mega Ampharos"] },
-  "Bellossom": { "bs": { "df": 95 } },
-  "Marill": { "t2": "Fairy" },
-  "Azumarill": { "t2": "Fairy", "bs": { "sa": 60 } },
-  "Jumpluff": { "bs": { "sd": 95 } },
-  "Steelix": { "formes": ["Steelix", "Mega Steelix"] },
-  "Snubbull": { "t1": "Fairy" },
-  "Granbull": { "t1": "Fairy" },
-  "Scizor": { "formes": ["Scizor", "Mega Scizor"] },
-  "Heracross": { "formes": ["Heracross", "Mega Heracross"] },
-  "Houndoom": { "formes": ["Houndoom", "Mega Houndoom"] },
-  "Tyranitar": { "formes": ["Tyranitar", "Mega Tyranitar"] },
-  "Sceptile": { "formes": ["Sceptile", "Mega Sceptile"] },
-  "Blaziken": { "formes": ["Blaziken", "Mega Blaziken"] },
-  "Swampert": { "formes": ["Swampert", "Mega Swampert"] },
-  "Beautifly": { "bs": { "sa": 100 } },
-  "Ralts": { "t2": "Fairy" },
-  "Kirlia": { "t2": "Fairy" },
-  "Gardevoir": { "t2": "Fairy", "formes": ["Gardevoir", "Mega Gardevoir"] },
-  "Exploud": { "bs": { "sd": 73 } },
-  "Azurill": { "t2": "Fairy" },
-  "Sableye": { "formes": ["Sableye", "Mega Sableye"] },
-  "Mawile": { "t2": "Fairy", "formes": ["Mawile", "Mega Mawile"] },
-  "Aggron": { "formes": ["Aggron", "Mega Aggron"] },
-  "Medicham": { "formes": ["Medicham", "Mega Medicham"] },
-  "Manectric": { "formes": ["Manectric", "Mega Manectric"] },
-  "Sharpedo": { "formes": ["Sharpedo", "Mega Sharpedo"] },
-  "Camerupt": { "formes": ["Camerupt", "Mega Camerupt"] },
-  "Altaria": { "formes": ["Altaria", "Mega Altaria"] },
-  "Banette": { "formes": ["Banette", "Mega Banette"] },
-  "Absol": { "formes": ["Absol", "Mega Absol"] },
-  "Glalie": { "formes": ["Glalie", "Mega Glalie"] },
-  "Salamence": { "formes": ["Salamence", "Mega Salamence"] },
-  "Metagross": { "formes": ["Metagross", "Mega Metagross"] },
-  "Latias": { "formes": ["Latias", "Mega Latias"] },
-  "Latios": { "formes": ["Latios", "Mega Latios"] },
-  "Kyogre": { "formes": ["Kyogre", "Primal Kyogre"] },
-  "Groudon": { "formes": ["Groudon", "Primal Groudon"] },
-  "Rayquaza": { "formes": ["Rayquaza", "Mega Rayquaza"] },
-  "Staraptor": { "bs": { "sd": 60 } },
-  "Roserade": { "bs": { "df": 65 } },
-  "Lopunny": { "formes": ["Lopunny", "Mega Lopunny"] },
-  "Mime Jr.": { "t2": "Fairy" },
-  "Garchomp": { "formes": ["Garchomp", "Mega Garchomp"] },
-  "Lucario": { "formes": ["Lucario", "Mega Lucario"] },
-  "Abomasnow": { "formes": ["Abomasnow", "Mega Abomasnow"] },
-  "Togekiss": { "t1": "Fairy" },
-  "Gallade": { "formes": ["Gallade", "Mega Gallade"] },
-  "Stoutland": { "bs": { "at": 110 } },
-  "Unfezant": { "bs": { "at": 115 } },
-  "Gigalith": { "bs": { "sd": 80 } },
-  "Audino": { "formes": ["Audino", "Mega Audino"] },
-  "Seismitoad": { "bs": { "at": 95 } },
-  "Leavanny": { "bs": { "sd": 80 } },
-  "Scolipede": { "bs": { "at": 100 } },
-  "Cottonee": { "t2": "Fairy" },
-  "Whimsicott": { "t2": "Fairy" },
-  "Krookodile": { "bs": { "df": 80 } },
-  "Aegislash": {
-    "t1": "Steel",
-    "t2": "Ghost",
+  "이상해꽃": { "formes": ["이상해꽃", "메가이상해꽃"] },
+  "리자몽": { "formes": ["리자몽", "메가리자몽X", "메가리자몽Y"] },
+  "거북왕": { "formes": ["거북왕", "메가거북왕"] },
+  "버터플": { "bs": { "sa": 90 } },
+  "독침붕": { "bs": { "at": 90 }, "formes": ["독침붕", "메가독침붕"] },
+  "피죤투": { "bs": { "sp": 101 }, "formes": ["피죤투", "메가피죤투"] },
+  "피카츄": { "bs": { "df": 40, "sd": 50 } },
+  "라이츄": { "bs": { "sp": 110 } },
+  "니드퀸": { "bs": { "at": 92 } },
+  "니드킹": { "bs": { "at": 102 } },
+  "삐삐": { "t1": "페어리" },
+  "픽시": { "t1": "페어리", "bs": { "sa": 95 } },
+  "푸린": { "t2": "페어리" },
+  "푸크린": { "t2": "페어리", "bs": { "sa": 85 } },
+  "라플레시아": { "bs": { "sa": 110 } },
+  "강챙이": { "bs": { "at": 95 } },
+  "후딘": { "bs": { "sd": 95 }, "formes": ["후딘", "메가후딘"] },
+  "우츠보트": { "bs": { "sd": 70 } },
+  "딱구리": { "bs": { "at": 120 } },
+  "야도란": { "formes": ["야도란", "메가야도란"] },
+  "팬텀": { "formes": ["팬텀", "메가팬텀"] },
+  "캥카": { "formes": ["캥카", "메가캥카"] },
+  "마임맨": { "t2": "페어리" },
+  "쁘사이저": { "formes": ["쁘사이저", "메가쁘사이저"] },
+  "갸라도스": { "formes": ["갸라도스", "메가갸라도스"] },
+  "프테라": { "formes": ["프테라", "메가프테라"] },
+  "뮤츠": { "formes": ["뮤츠", "메가뮤츠X", "메가뮤츠Y"] },
+  "삐": { "t1": "페어리" },
+  "푸푸린": { "t2": "페어리" },
+  "토게피": { "t1": "페어리" },
+  "토게틱": { "t1": "페어리" },
+  "전룡": { "bs": { "df": 85 }, "formes": ["전룡", "메가전룡"] },
+  "아르코": { "bs": { "df": 95 } },
+  "마릴": { "t2": "페어리" },
+  "마릴리": { "t2": "페어리", "bs": { "sa": 60 } },
+  "솜솜코": { "bs": { "sd": 95 } },
+  "강철톤": { "formes": ["강철톤", "메가강철톤"] },
+  "블루": { "t1": "페어리" },
+  "그랑블루": { "t1": "페어리" },
+  "핫삼": { "formes": ["핫삼", "메가핫삼"] },
+  "헤라크로스": { "formes": ["헤라크로스", "메가헤라크로스"] },
+  "헬가": { "formes": ["헬가", "메가헬가"] },
+  "마기라스": { "formes": ["마기라스", "메가마기라스"] },
+  "나무킹": { "formes": ["나무킹", "메가나무킹"] },
+  "번치코": { "formes": ["번치코", "메가번치코"] },
+  "대짱이": { "formes": ["대짱이", "메가대짱이"] },
+  "뷰티플라이": { "bs": { "sa": 100 } },
+  "랄토스": { "t2": "페어리" },
+  "킬리아": { "t2": "페어리" },
+  "가디안": { "t2": "페어리", "formes": ["가디안", "메가가디안"] },
+  "폭음룡": { "bs": { "sd": 73 } },
+  "루리리": { "t2": "페어리" },
+  "깜까미": { "formes": ["깜까미", "메가깜까미"] },
+  "입치트": { "t2": "페어리", "formes": ["입치트", "메가입치트"] },
+  "보스로라": { "formes": ["보스로라", "메가보스로라"] },
+  "요가램": { "formes": ["요가램", "메가요가램"] },
+  "썬더볼트": { "formes": ["썬더볼트", "메가썬더볼트"] },
+  "샤크니아": { "formes": ["샤크니아", "메가샤크니아"] },
+  "폭타": { "formes": ["폭타", "메가폭타"] },
+  "파비코리": { "formes": ["파비코리", "메가파비코리"] },
+  "다크펫": { "formes": ["다크펫", "메가다크펫"] },
+  "앱솔": { "formes": ["앱솔", "메가앱솔"] },
+  "얼음귀신": { "formes": ["얼음귀신", "메가얼음귀신"] },
+  "보만다": { "formes": ["보만다", "메가보만다"] },
+  "메타그로스": { "formes": ["메타그로스", "메가메타그로스"] },
+  "라티아스": { "formes": ["라티아스", "메가라티아스"] },
+  "라티오스": { "formes": ["라티오스", "메가라티오스"] },
+  "가이오가": { "formes": ["가이오가", "원시가이오가"] },
+  "그란돈": { "formes": ["그란돈", "원시그란돈"] },
+  "레쿠쟈": { "formes": ["레쿠쟈", "메가레쿠쟈"] },
+  "찌르호크": { "bs": { "sd": 60 } },
+  "로즈레이드": { "bs": { "df": 65 } },
+  "이어롭": { "formes": ["이어롭", "메가이어롭"] },
+  "흉내내": { "t2": "페어리" },
+  "한카리아스": { "formes": ["한카리아스", "메가한카리아스"] },
+  "루카리오": { "formes": ["루카리오", "메가루카리오"] },
+  "눈설왕": { "formes": ["눈설왕", "메가눈설왕"] },
+  "토게키스": { "t1": "페어리" },
+  "엘레이드": { "formes": ["엘레이드", "메가엘레이드"] },
+  "바랜드": { "bs": { "at": 110 } },
+  "켄호로우": { "bs": { "at": 115 } },
+  "기가이어스": { "bs": { "sd": 80 } },
+  "다부니": { "formes": ["다부니", "메가다부니"] },
+  "두빅굴": { "bs": { "at": 95 } },
+  "모아머": { "bs": { "sd": 80 } },
+  "펜드라": { "bs": { "at": 100 } },
+  "소미안": { "t2": "페어리" },
+  "엘풍": { "t2": "페어리" },
+  "악비아르": { "bs": { "df": 80 } },
+  "킬가르도": {
+    "t1": "강철",
+    "t2": "고스트",
     "bs": {
       "hp": 60,
       "at": 50,
@@ -9079,12 +9079,12 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 60
     },
     "w": 53.0,
-    "ab": "Stance Change",
-    "formes": ["Aegislash-Shield", "Aegislash-Blade"]
+    "ab": "배틀스위치",
+    "formes": ["킬가르도-실드", "킬가르도-블레이드"]
   },
-  "Aegislash-Blade": {
-    "t1": "Steel",
-    "t2": "Ghost",
+  "킬가르도-블레이드": {
+    "t1": "강철",
+    "t2": "고스트",
     "bs": {
       "hp": 60,
       "at": 150,
@@ -9094,12 +9094,12 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 60
     },
     "w": 53.0,
-    "ab": "Stance Change",
+    "ab": "배틀스위치",
     "isAlternateForme": true
   },
-  "Aegislash-Shield": {
-    "t1": "Steel",
-    "t2": "Ghost",
+  "킬가르도-실드": {
+    "t1": "강철",
+    "t2": "고스트",
     "bs": {
       "hp": 60,
       "at": 50,
@@ -9109,12 +9109,12 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 60
     },
     "w": 53.0,
-    "ab": "Stance Change",
+    "ab": "배틀스위치",
     "isAlternateForme": true
   },
-  "Amaura": {
-    "t1": "Rock",
-    "t2": "Ice",
+  "아마루스": {
+    "t1": "바위",
+    "t2": "얼음",
     "bs": {
       "hp": 77,
       "at": 59,
@@ -9124,10 +9124,10 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 46
     },
     "w": 25.2,
-    "ab": "Refrigerate"
+    "ab": "프리즈스킨"
   },
-  "Arceus-Fairy": {
-    "t1": "Fairy",
+  "아르세우스-페어리": {
+    "t1": "페어리",
     "bs": {
       "hp": 120,
       "at": 120,
@@ -9137,10 +9137,10 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 120
     },
     "w": 320.0,
-    "ab": "Multitype"
+    "ab": "멀티타입"
   },
-  "Aromatisse": {
-    "t1": "Fairy",
+  "프레프티르": {
+    "t1": "페어리",
     "bs": {
       "hp": 101,
       "at": 72,
@@ -9151,9 +9151,9 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
     },
     "w": 15.5
   },
-  "Aurorus": {
-    "t1": "Rock",
-    "t2": "Ice",
+  "아마루르가": {
+    "t1": "바위",
+    "t2": "얼음",
     "bs": {
       "hp": 123,
       "at": 77,
@@ -9163,10 +9163,10 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 58
     },
     "w": 225.0,
-    "ab": "Refrigerate"
+    "ab": "프리즈스킨"
   },
-  "Avalugg": {
-    "t1": "Ice",
+  "크레베이스": {
+    "t1": "얼음",
     "bs": {
       "hp": 95,
       "at": 117,
@@ -9177,9 +9177,9 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
     },
     "w": 505.0
   },
-  "Barbaracle": {
-    "t1": "Rock",
-    "t2": "Water",
+  "거북손데스": {
+    "t1": "바위",
+    "t2": "물",
     "bs": {
       "hp": 72,
       "at": 105,
@@ -9190,8 +9190,8 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
     },
     "w": 96.0
   },
-  "Bergmite": {
-    "t1": "Ice",
+  "꽁어름": {
+    "t1": "얼음",
     "bs": {
       "hp": 55,
       "at": 69,
@@ -9202,9 +9202,9 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
     },
     "w": 99.5
   },
-  "Binacle": {
-    "t1": "Rock",
-    "t2": "Water",
+  "거북손손": {
+    "t1": "바위",
+    "t2": "물",
     "bs": {
       "hp": 42,
       "at": 52,
@@ -9215,8 +9215,8 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
     },
     "w": 31.0
   },
-  "Braixen": {
-    "t1": "Fire",
+  "테르나": {
+    "t1": "불꽃",
     "bs": {
       "hp": 59,
       "at": 59,
@@ -9227,8 +9227,8 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
     },
     "w": 14.5
   },
-  "Bunnelby": {
-    "t1": "Normal",
+  "파르빗": {
+    "t1": "노말",
     "bs": {
       "hp": 38,
       "at": 36,
@@ -9239,9 +9239,9 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
     },
     "w": 5.0
   },
-  "Carbink": {
-    "t1": "Rock",
-    "t2": "Fairy",
+  "멜리시": {
+    "t1": "바위",
+    "t2": "페어리",
     "bs": {
       "hp": 50,
       "at": 50,
@@ -9252,9 +9252,9 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
     },
     "w": 5.7
   },
-  "Chesnaught": {
-    "t1": "Grass",
-    "t2": "Fighting",
+  "브리가론": {
+    "t1": "풀",
+    "t2": "격투",
     "bs": {
       "hp": 88,
       "at": 107,
@@ -9265,8 +9265,8 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
     },
     "w": 90.0
   },
-  "Chespin": {
-    "t1": "Grass",
+  "도치마론": {
+    "t1": "풀",
     "bs": {
       "hp": 56,
       "at": 61,
@@ -9277,8 +9277,8 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
     },
     "w": 9.0
   },
-  "Clauncher": {
-    "t1": "Water",
+  "완철포": {
+    "t1": "물",
     "bs": {
       "hp": 50,
       "at": 53,
@@ -9288,10 +9288,10 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 44
     },
     "w": 8.3,
-    "ab": "Mega Launcher"
+    "ab": "메가런처"
   },
-  "Clawitzer": {
-    "t1": "Water",
+  "블로스터": {
+    "t1": "물",
     "bs": {
       "hp": 71,
       "at": 73,
@@ -9301,11 +9301,11 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 59
     },
     "w": 35.3,
-    "ab": "Mega Launcher"
+    "ab": "메가런처"
   },
-  "Diancie": {
-    "t1": "Rock",
-    "t2": "Fairy",
+  "디안시": {
+    "t1": "바위",
+    "t2": "페어리",
     "bs": {
       "hp": 50,
       "at": 100,
@@ -9315,15 +9315,15 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 50
     },
     "w": 8.8,
-    "ab": "Clear Body",
+    "ab": "클리어바디",
     "formes": [
-      "Diancie",
-      "Mega Diancie"
+      "디안시",
+      "메가디안시"
     ]
   },
-  "Dedenne": {
-    "t1": "Electric",
-    "t2": "Fairy",
+  "데덴네": {
+    "t1": "전기",
+    "t2": "페어리",
     "bs": {
       "hp": 67,
       "at": 58,
@@ -9334,9 +9334,9 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
     },
     "w": 2.2
   },
-  "Delphox": {
-    "t1": "Fire",
-    "t2": "Psychic",
+  "마폭시": {
+    "t1": "불꽃",
+    "t2": "에스퍼",
     "bs": {
       "hp": 75,
       "at": 69,
@@ -9347,9 +9347,9 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
     },
     "w": 39.0
   },
-  "Diggersby": {
-    "t1": "Normal",
-    "t2": "Ground",
+  "파르토": {
+    "t1": "노말",
+    "t2": "땅",
     "bs": {
       "hp": 85,
       "at": 56,
@@ -9360,9 +9360,9 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
     },
     "w": 42.4
   },
-  "Doublade": {
-    "t1": "Steel",
-    "t2": "Ghost",
+  "쌍검킬": {
+    "t1": "강철",
+    "t2": "고스트",
     "bs": {
       "hp": 59,
       "at": 110,
@@ -9372,11 +9372,11 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 35
     },
     "w": 4.5,
-    "ab": "No Guard"
+    "ab": "노가드"
   },
-  "Dragalge": {
-    "t1": "Poison",
-    "t2": "Dragon",
+  "드래캄": {
+    "t1": "독",
+    "t2": "드래곤",
     "bs": {
       "hp": 65,
       "at": 75,
@@ -9387,8 +9387,8 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
     },
     "w": 81.5
   },
-  "Espurr": {
-    "t1": "Psychic",
+  "냐스퍼": {
+    "t1": "에스퍼",
     "bs": {
       "hp": 62,
       "at": 48,
@@ -9399,8 +9399,8 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
     },
     "w": 3.5
   },
-  "Fennekin": {
-    "t1": "Fire",
+  "푸호꼬": {
+    "t1": "불꽃",
     "bs": {
       "hp": 40,
       "at": 45,
@@ -9411,8 +9411,8 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
     },
     "w": 9.4
   },
-  "Flabebe": {
-    "t1": "Fairy",
+  "플라베베": {
+    "t1": "페어리",
     "bs": {
       "hp": 44,
       "at": 38,
@@ -9423,9 +9423,9 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
     },
     "w": 0.1
   },
-  "Fletchinder": {
-    "t1": "Fire",
-    "t2": "Flying",
+  "불화살빈": {
+    "t1": "불꽃",
+    "t2": "비행",
     "bs": {
       "hp": 62,
       "at": 73,
@@ -9436,9 +9436,9 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
     },
     "w": 16.0
   },
-  "Fletchling": {
-    "t1": "Normal",
-    "t2": "Flying",
+  "화살꼬빈": {
+    "t1": "노말",
+    "t2": "비행",
     "bs": {
       "hp": 45,
       "at": 50,
@@ -9449,8 +9449,8 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
     },
     "w": 1.7
   },
-  "Floette": {
-    "t1": "Fairy",
+  "플라엣테": {
+    "t1": "페어리",
     "bs": {
       "hp": 54,
       "at": 45,
@@ -9461,8 +9461,8 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
     },
     "w": 0.9
   },
-  "Floette-E": {
-    "t1": "Fairy",
+  "플라엣테-영원": {
+    "t1": "페어리",
     "bs": {
       "hp": 74,
       "at": 65,
@@ -9472,10 +9472,10 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 92
     },
     "w": 0.9,
-    "ab": "Flower Veil"
+    "ab": "플라워베일"
   },
-  "Florges": {
-    "t1": "Fairy",
+  "플라제스": {
+    "t1": "페어리",
     "bs": {
       "hp": 78,
       "at": 65,
@@ -9486,8 +9486,8 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
     },
     "w": 10.0
   },
-  "Froakie": {
-    "t1": "Water",
+  "개구마르": {
+    "t1": "물",
     "bs": {
       "hp": 41,
       "at": 56,
@@ -9498,8 +9498,8 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
     },
     "w": 7.0
   },
-  "Frogadier": {
-    "t1": "Water",
+  "개굴반장": {
+    "t1": "물",
     "bs": {
       "hp": 54,
       "at": 63,
@@ -9510,8 +9510,8 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
     },
     "w": 10.9
   },
-  "Furfrou": {
-    "t1": "Normal",
+  "트리미앙": {
+    "t1": "노말",
     "bs": {
       "hp": 75,
       "at": 80,
@@ -9521,10 +9521,10 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 102
     },
     "w": 28.0,
-    "ab": "Fur Coat"
+    "ab": "퍼코트"
   },
-  "Gogoat": {
-    "t1": "Grass",
+  "고고트": {
+    "t1": "풀",
     "bs": {
       "hp": 123,
       "at": 100,
@@ -9535,8 +9535,8 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
     },
     "w": 91.0
   },
-  "Goodra": {
-    "t1": "Dragon",
+  "미끄래곤": {
+    "t1": "드래곤",
     "bs": {
       "hp": 90,
       "at": 100,
@@ -9547,8 +9547,8 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
     },
     "w": 150.5
   },
-  "Goomy": {
-    "t1": "Dragon",
+  "미끄메라": {
+    "t1": "드래곤",
     "bs": {
       "hp": 45,
       "at": 50,
@@ -9559,9 +9559,9 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
     },
     "w": 2.8
   },
-  "Gourgeist-Average": {
-    "t1": "Ghost",
-    "t2": "Grass",
+  "펌킨인-중": {
+    "t1": "고스트",
+    "t2": "풀",
     "bs": {
       "hp": 65,
       "at": 90,
@@ -9572,9 +9572,9 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
     },
     "w": 12.5
   },
-  "Gourgeist-Large": {
-    "t1": "Ghost",
-    "t2": "Grass",
+  "펌킨인-대": {
+    "t1": "고스트",
+    "t2": "풀",
     "bs": {
       "hp": 75,
       "at": 95,
@@ -9585,9 +9585,9 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
     },
     "w": 14.0
   },
-  "Gourgeist-Small": {
-    "t1": "Ghost",
-    "t2": "Grass",
+  "펌킨인-소": {
+    "t1": "고스트",
+    "t2": "풀",
     "bs": {
       "hp": 55,
       "at": 85,
@@ -9598,9 +9598,9 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
     },
     "w": 9.5
   },
-  "Gourgeist-Super": {
-    "t1": "Ghost",
-    "t2": "Grass",
+  "펌킨인-특대": {
+    "t1": "고스트",
+    "t2": "풀",
     "bs": {
       "hp": 85,
       "at": 100,
@@ -9611,9 +9611,9 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
     },
     "w": 39.0
   },
-  "Greninja": {
-    "t1": "Water",
-    "t2": "Dark",
+  "개굴닌자": {
+    "t1": "물",
+    "t2": "악",
     "bs": {
       "hp": 72,
       "at": 95,
@@ -9622,12 +9622,12 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sd": 71,
       "sp": 122
     },
-    "ab": "Protean",
+    "ab": "변환자재",
     "w": 40.0
   },
-  "Hawlucha": {
-    "t1": "Fighting",
-    "t2": "Flying",
+  "루차불": {
+    "t1": "격투",
+    "t2": "비행",
     "bs": {
       "hp": 78,
       "at": 92,
@@ -9638,9 +9638,9 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
     },
     "w": 21.5
   },
-  "Heliolisk": {
-    "t1": "Electric",
-    "t2": "Normal",
+  "일레도리자드": {
+    "t1": "전기",
+    "t2": "노말",
     "bs": {
       "hp": 62,
       "at": 55,
@@ -9651,9 +9651,9 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
     },
     "w": 21.0
   },
-  "Helioptile": {
-    "t1": "Electric",
-    "t2": "Normal",
+  "목도리키텔": {
+    "t1": "전기",
+    "t2": "노말",
     "bs": {
       "hp": 44,
       "at": 38,
@@ -9664,9 +9664,9 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
     },
     "w": 6.0
   },
-  "Honedge": {
-    "t1": "Steel",
-    "t2": "Ghost",
+  "단칼빙": {
+    "t1": "강철",
+    "t2": "고스트",
     "bs": {
       "hp": 45,
       "at": 80,
@@ -9676,11 +9676,11 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 28
     },
     "w": 2.0,
-    "ab": "No Guard"
+    "ab": "노가드"
   },
-  "Hoopa": {
-    "t1": "Psychic",
-    "t2": "Ghost",
+  "후파": {
+    "t1": "에스퍼",
+    "t2": "고스트",
     "bs": {
       "hp": 80,
       "at": 110,
@@ -9690,11 +9690,11 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 70
     },
     "w": 9.0,
-    "ab": "Magician"
+    "ab": "매지션"
   },
-  "Hoopa-Unbound": {
-    "t1": "Psychic",
-    "t2": "Dark",
+  "후파-벗어난": {
+    "t1": "에스퍼",
+    "t2": "악",
     "bs": {
       "hp": 80,
       "at": 160,
@@ -9704,11 +9704,11 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 80
     },
     "w": 490.0,
-    "ab": "Magician"
+    "ab": "매지션"
   },
-  "Inkay": {
-    "t1": "Dark",
-    "t2": "Psychic",
+  "오케이징": {
+    "t1": "악",
+    "t2": "에스퍼",
     "bs": {
       "hp": 53,
       "at": 54,
@@ -9719,9 +9719,9 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
     },
     "w": 3.5
   },
-  "Klefki": {
-    "t1": "Steel",
-    "t2": "Fairy",
+  "클레피": {
+    "t1": "강철",
+    "t2": "페어리",
     "bs": {
       "hp": 57,
       "at": 80,
@@ -9732,9 +9732,9 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
     },
     "w": 3.0
   },
-  "Litleo": {
-    "t1": "Fire",
-    "t2": "Normal",
+  "레오꼬": {
+    "t1": "불꽃",
+    "t2": "노말",
     "bs": {
       "hp": 62,
       "at": 50,
@@ -9745,9 +9745,9 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
     },
     "w": 13.5
   },
-  "Malamar": {
-    "t1": "Dark",
-    "t2": "Psychic",
+  "칼라마네로": {
+    "t1": "악",
+    "t2": "에스퍼",
     "bs": {
       "hp": 86,
       "at": 92,
@@ -9758,9 +9758,9 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
     },
     "w": 47.0
   },
-  "Mega Abomasnow": {
-    "t1": "Grass",
-    "t2": "Ice",
+  "메가눈설왕": {
+    "t1": "풀",
+    "t2": "얼음",
     "bs": {
       "hp": 90,
       "at": 132,
@@ -9770,11 +9770,11 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 30
     },
     "w": 185.0,
-    "ab": "Snow Warning",
+    "ab": "눈퍼뜨리기",
     "isAlternateForme": true
   },
-  "Mega Absol": {
-    "t1": "Dark",
+  "메가앱솔": {
+    "t1": "악",
     "bs": {
       "hp": 65,
       "at": 150,
@@ -9784,12 +9784,12 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 115
     },
     "w": 49.0,
-    "ab": "Magic Bounce",
+    "ab": "매직미러",
     "isAlternateForme": true
   },
-  "Mega Aerodactyl": {
-    "t1": "Rock",
-    "t2": "Flying",
+  "메가프테라": {
+    "t1": "바위",
+    "t2": "비행",
     "bs": {
       "hp": 80,
       "at": 135,
@@ -9799,11 +9799,11 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 150
     },
     "w": 79.0,
-    "ab": "Tough Claws",
+    "ab": "단단한발톱",
     "isAlternateForme": true
   },
-  "Mega Aggron": {
-    "t1": "Steel",
+  "메가보스로라": {
+    "t1": "강철",
     "bs": {
       "hp": 70,
       "at": 140,
@@ -9813,11 +9813,11 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 50
     },
     "w": 395.0,
-    "ab": "Filter",
+    "ab": "필터",
     "isAlternateForme": true
   },
-  "Mega Alakazam": {
-    "t1": "Psychic",
+  "메가후딘": {
+    "t1": "에스퍼",
     "bs": {
       "hp": 55,
       "at": 50,
@@ -9827,12 +9827,12 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 150
     },
     "w": 48.0,
-    "ab": "Trace",
+    "ab": "트레이스",
     "isAlternateForme": true
   },
-  "Mega Altaria": {
-    "t1": "Dragon",
-    "t2": "Fairy",
+  "메가파비코리": {
+    "t1": "드래곤",
+    "t2": "페어리",
     "bs": {
       "hp": 75,
       "at": 110,
@@ -9842,12 +9842,12 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 80
     },
     "w": 20.6,
-    "ab": "Pixilate",
+    "ab": "페어리스킨",
     "isAlternateForme": true
   },
-  "Mega Ampharos": {
-    "t1": "Electric",
-    "t2": "Dragon",
+  "메가전룡": {
+    "t1": "전기",
+    "t2": "드래곤",
     "bs": {
       "hp": 90,
       "at": 95,
@@ -9857,12 +9857,12 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 45
     },
     "w": 61.5,
-    "ab": "Mold Breaker",
+    "ab": "틀깨기",
     "isAlternateForme": true
   },
-  "Mega Audino": {
-    "t1": "Normal",
-    "t2": "Fairy",
+  "메가다부니": {
+    "t1": "노말",
+    "t2": "페어리",
     "bs": {
       "hp": 103,
       "at": 60,
@@ -9872,11 +9872,11 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 50
     },
     "w": 32.0,
-    "ab": "Healer",
+    "ab": "치유의마음",
     "isAlternateForme": true
   },
-  "Mega Banette": {
-    "t1": "Ghost",
+  "메가다크펫": {
+    "t1": "고스트",
     "bs": {
       "hp": 64,
       "at": 165,
@@ -9886,12 +9886,12 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 75
     },
     "w": 13.0,
-    "ab": "Prankster",
+    "ab": "짓궂은마음",
     "isAlternateForme": true
   },
-  "Mega Beedrill": {
-    "t1": "Bug",
-    "t2": "Poison",
+  "메가독침붕": {
+    "t1": "벌레",
+    "t2": "독",
     "bs": {
       "hp": 65,
       "at": 150,
@@ -9901,11 +9901,11 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 145,
     },
     "w": 40.5,
-    "ab": "Adaptability",
+    "ab": "적응력",
     "isAlternateForme": true
   },
-  "Mega Blastoise": {
-    "t1": "Water",
+  "메가거북왕": {
+    "t1": "물",
     "bs": {
       "hp": 79,
       "at": 103,
@@ -9915,12 +9915,12 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 78
     },
     "w": 101.1,
-    "ab": "Mega Launcher",
+    "ab": "메가런처",
     "isAlternateForme": true
   },
-  "Mega Blaziken": {
-    "t1": "Fire",
-    "t2": "Fighting",
+  "메가번치코": {
+    "t1": "불꽃",
+    "t2": "격투",
     "bs": {
       "hp": 80,
       "at": 160,
@@ -9930,12 +9930,12 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 100
     },
     "w": 52.0,
-    "ab": "Speed Boost",
+    "ab": "가속",
     "isAlternateForme": true
   },
-  "Mega Camerupt": {
-    "t1": "Fire",
-    "t2": "Ground",
+  "메가폭타": {
+    "t1": "불꽃",
+    "t2": "땅",
     "bs": {
       "hp": 70,
       "at": 120,
@@ -9945,12 +9945,12 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 20
     },
     "w": 320.5,
-    "ab": "Sheer Force",
+    "ab": "우격다짐",
     "isAlternateForme": true
   },
-  "Mega Charizard X": {
-    "t1": "Fire",
-    "t2": "Dragon",
+  "메가리자몽X": {
+    "t1": "불꽃",
+    "t2": "드래곤",
     "bs": {
       "hp": 78,
       "at": 130,
@@ -9960,12 +9960,12 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 100
     },
     "w": 110.5,
-    "ab": "Tough Claws",
+    "ab": "단단한발톱",
     "isAlternateForme": true
   },
-  "Mega Charizard Y": {
-    "t1": "Fire",
-    "t2": "Flying",
+  "메가리자몽Y": {
+    "t1": "불꽃",
+    "t2": "비행",
     "bs": {
       "hp": 78,
       "at": 104,
@@ -9975,12 +9975,12 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 100
     },
     "w": 100.5,
-    "ab": "Drought",
+    "ab": "가뭄",
     "isAlternateForme": true
   },
-  "Mega Diancie": {
-    "t1": "Rock",
-    "t2": "Fairy",
+  "메가디안시": {
+    "t1": "바위",
+    "t2": "페어리",
     "bs": {
       "hp": 50,
       "at": 160,
@@ -9990,12 +9990,12 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 110
     },
     "w": 27.8,
-    "ab": "Magic Bounce",
+    "ab": "매직미러",
     "isAlternateForme": true
   },
-  "Mega Gallade": {
-    "t1": "Psychic",
-    "t2": "Fighting",
+  "메가엘레이드": {
+    "t1": "에스퍼",
+    "t2": "격투",
     "bs": {
       "hp": 68,
       "at": 165,
@@ -10005,12 +10005,12 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 110
     },
     "w": 56.4,
-    "ab": "Inner Focus",
+    "ab": "정신력",
     "isAlternateForme": true
   },
-  "Mega Garchomp": {
-    "t1": "Dragon",
-    "t2": "Ground",
+  "메가한카리아스": {
+    "t1": "드래곤",
+    "t2": "땅",
     "bs": {
       "hp": 108,
       "at": 170,
@@ -10020,12 +10020,12 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 92
     },
     "w": 95.0,
-    "ab": "Sand Force",
+    "ab": "모래의힘",
     "isAlternateForme": true
   },
-  "Mega Gardevoir": {
-    "t1": "Psychic",
-    "t2": "Fairy",
+  "메가가디안": {
+    "t1": "에스퍼",
+    "t2": "페어리",
     "bs": {
       "hp": 68,
       "at": 85,
@@ -10035,12 +10035,12 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 100
     },
     "w": 48.4,
-    "ab": "Pixilate",
+    "ab": "페어리스킨",
     "isAlternateForme": true
   },
-  "Mega Gengar": {
-    "t1": "Ghost",
-    "t2": "Poison",
+  "메가팬텀": {
+    "t1": "고스트",
+    "t2": "독",
     "bs": {
       "hp": 60,
       "at": 65,
@@ -10050,11 +10050,11 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 130
     },
     "w": 40.5,
-    "ab": "Shadow Tag",
+    "ab": "그림자밟기",
     "isAlternateForme": true
   },
-  "Mega Glalie": {
-    "t1": "Ice",
+  "메가얼음귀신": {
+    "t1": "얼음",
     "bs": {
       "hp": 80,
       "at": 120,
@@ -10064,12 +10064,12 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 100
     },
     "w": 350.2,
-    "ab": "Refrigerate",
+    "ab": "프리즈스킨",
     "isAlternateForme": true
   },
-  "Mega Gyarados": {
-    "t1": "Water",
-    "t2": "Dark",
+  "메가갸라도스": {
+    "t1": "물",
+    "t2": "악",
     "bs": {
       "hp": 95,
       "at": 155,
@@ -10079,12 +10079,12 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 81
     },
     "w": 305.0,
-    "ab": "Mold Breaker",
+    "ab": "틀깨기",
     "isAlternateForme": true
   },
-  "Mega Heracross": {
-    "t1": "Bug",
-    "t2": "Fighting",
+  "메가헤라크로스": {
+    "t1": "벌레",
+    "t2": "격투",
     "bs": {
       "hp": 80,
       "at": 185,
@@ -10094,12 +10094,12 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 75
     },
     "w": 62.5,
-    "ab": "Skill Link",
+    "ab": "스킬링크",
     "isAlternateForme": true
   },
-  "Mega Houndoom": {
-    "t1": "Dark",
-    "t2": "Fire",
+  "메가헬가": {
+    "t1": "악",
+    "t2": "불꽃",
     "bs": {
       "hp": 75,
       "at": 90,
@@ -10109,11 +10109,11 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 115
     },
     "w": 49.5,
-    "ab": "Solar Power",
+    "ab": "선파워",
     "isAlternateForme": true
   },
-  "Mega Kangaskhan": {
-    "t1": "Normal",
+  "메가캥카": {
+    "t1": "노말",
     "bs": {
       "hp": 105,
       "at": 125,
@@ -10123,12 +10123,12 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 100
     },
     "w": 100.0,
-    "ab": "Parental Bond",
+    "ab": "부자유친",
     "isAlternateForme": true
   },
-  "Mega Latias": {
-    "t1": "Dragon",
-    "t2": "Psychic",
+  "메가라티아스": {
+    "t1": "드래곤",
+    "t2": "에스퍼",
     "bs": {
       "hp": 80,
       "at": 100,
@@ -10138,12 +10138,12 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 110
     },
     "w": 52.0,
-    "ab": "Levitate",
+    "ab": "부유",
     "isAlternateForme": true
   },
-  "Mega Latios": {
-    "t1": "Dragon",
-    "t2": "Psychic",
+  "메가라티오스": {
+    "t1": "드래곤",
+    "t2": "에스퍼",
     "bs": {
       "hp": 80,
       "at": 130,
@@ -10153,12 +10153,12 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 110
     },
     "w": 70.0,
-    "ab": "Levitate",
+    "ab": "부유",
     "isAlternateForme": true
   },
-  "Mega Lopunny": {
-    "t1": "Normal",
-    "t2": "Fighting",
+  "메가이어롭": {
+    "t1": "노말",
+    "t2": "격투",
     "bs": {
       "hp": 65,
       "at": 136,
@@ -10168,12 +10168,12 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 135
     },
     "w": 28.3,
-    "ab": "Scrappy",
+    "ab": "배짱",
     "isAlternateForme": true
   },
-  "Mega Lucario": {
-    "t1": "Fighting",
-    "t2": "Steel",
+  "메가루카리오": {
+    "t1": "격투",
+    "t2": "강철",
     "bs": {
       "hp": 70,
       "at": 145,
@@ -10183,11 +10183,11 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 112
     },
     "w": 57.5,
-    "ab": "Adaptability",
+    "ab": "적응력",
     "isAlternateForme": true
   },
-  "Mega Manectric": {
-    "t1": "Electric",
+  "메가썬더볼트": {
+    "t1": "전기",
     "bs": {
       "hp": 70,
       "at": 75,
@@ -10197,12 +10197,12 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 135
     },
     "w": 44.0,
-    "ab": "Intimidate",
+    "ab": "괴력집게",
     "isAlternateForme": true
   },
-  "Mega Mawile": {
-    "t1": "Steel",
-    "t2": "Fairy",
+  "메가입치트": {
+    "t1": "강철",
+    "t2": "페어리",
     "bs": {
       "hp": 50,
       "at": 105,
@@ -10212,12 +10212,12 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 50
     },
     "w": 23.5,
-    "ab": "Huge Power",
+    "ab": "천하장사",
     "isAlternateForme": true
   },
-  "Mega Medicham": {
-    "t1": "Fighting",
-    "t2": "Psychic",
+  "메가요가램": {
+    "t1": "격투",
+    "t2": "에스퍼",
     "bs": {
       "hp": 60,
       "at": 100,
@@ -10227,12 +10227,12 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 100
     },
     "w": 31.5,
-    "ab": "Pure Power",
+    "ab": "순수한힘",
     "isAlternateForme": true
   },
-  "Mega Metagross": {
-    "t1": "Steel",
-    "t2": "Psychic",
+  "메가메타그로스": {
+    "t1": "강철",
+    "t2": "에스퍼",
     "bs": {
       "hp": 80,
       "at": 145,
@@ -10242,12 +10242,12 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 110
     },
     "w": 942.9,
-    "ab": "Tough Claws",
+    "ab": "단단한발톱",
     "isAlternateForme": true
   },
-  "Mega Mewtwo X": {
-    "t1": "Psychic",
-    "t2": "Fighting",
+  "메가뮤츠X": {
+    "t1": "에스퍼",
+    "t2": "격투",
     "bs": {
       "hp": 106,
       "at": 190,
@@ -10257,11 +10257,11 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 130
     },
     "w": 127.0,
-    "ab": "Steadfast",
+    "ab": "불굴의마음",
     "isAlternateForme": true
   },
-  "Mega Mewtwo Y": {
-    "t1": "Psychic",
+  "메가뮤츠Y": {
+    "t1": "에스퍼",
     "bs": {
       "hp": 106,
       "at": 150,
@@ -10271,12 +10271,12 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 140
     },
     "w": 33.0,
-    "ab": "Insomnia",
+    "ab": "불면",
     "isAlternateForme": true
   },
-  "Mega Pidgeot": {
-    "t1": "Normal",
-    "t2": "Flying",
+  "메가피죤투": {
+    "t1": "노말",
+    "t2": "비행",
     "bs": {
       "hp": 83,
       "at": 80,
@@ -10286,12 +10286,12 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 121
     },
     "w": 50.5,
-    "ab": "No Guard",
+    "ab": "노가드",
     "isAlternateForme": true
   },
-  "Mega Pinsir": {
-    "t1": "Bug",
-    "t2": "Flying",
+  "메가쁘사이저": {
+    "t1": "벌레",
+    "t2": "비행",
     "bs": {
       "hp": 65,
       "at": 155,
@@ -10301,12 +10301,12 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 105
     },
     "w": 59.0,
-    "ab": "Aerilate",
+    "ab": "스카이스킨",
     "isAlternateForme": true
   },
-  "Mega Rayquaza": {
-    "t1": "Dragon",
-    "t2": "Flying",
+  "메가레쿠쟈": {
+    "t1": "드래곤",
+    "t2": "비행",
     "bs": {
       "hp": 105,
       "at": 180,
@@ -10316,12 +10316,12 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 115
     },
     "w": 392.0,
-    "ab": "Delta Stream",
+    "ab": "델타스트림",
     "isAlternateForme": true
   },
-  "Mega Sableye": {
-    "t1": "Dark",
-    "t2": "Ghost",
+  "메가깜까미": {
+    "t1": "악",
+    "t2": "고스트",
     "bs": {
       "hp": 50,
       "at": 85,
@@ -10331,12 +10331,12 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 20
     },
     "w": 161.0,
-    "ab": "Magic Bounce",
+    "ab": "매직미러",
     "isAlternateForme": true
   },
-  "Mega Salamence": {
-    "t1": "Dragon",
-    "t2": "Flying",
+  "메가보만다": {
+    "t1": "드래곤",
+    "t2": "비행",
     "bs": {
       "hp": 95,
       "at": 145,
@@ -10346,12 +10346,12 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 120
     },
     "w": 112.6,
-    "ab": "Aerilate",
+    "ab": "스카이스킨",
     "isAlternateForme": true
   },
-  "Mega Sceptile": {
-    "t1": "Grass",
-    "t2": "Dragon",
+  "메가나무킹": {
+    "t1": "풀",
+    "t2": "드래곤",
     "bs": {
       "hp": 70,
       "at": 110,
@@ -10361,12 +10361,12 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 145
     },
     "w": 55.2,
-    "ab": "Lightningrod",
+    "ab": "피뢰침",
     "isAlternateForme": true
   },
-  "Mega Scizor": {
-    "t1": "Bug",
-    "t2": "Steel",
+  "메가핫삼": {
+    "t1": "벌레",
+    "t2": "강철",
     "bs": {
       "hp": 70,
       "at": 150,
@@ -10376,12 +10376,12 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 75
     },
     "w": 125.0,
-    "ab": "Technician",
+    "ab": "테크니션",
     "isAlternateForme": true
   },
-  "Mega Sharpedo": {
-    "t1": "Water",
-    "t2": "Dark",
+  "메가샤크니아": {
+    "t1": "물",
+    "t2": "악",
     "bs": {
       "hp": 70,
       "at": 140,
@@ -10391,12 +10391,12 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 105
     },
     "w": 130.3,
-    "ab": "Strong Jaw",
+    "ab": "옹골찬턱",
     "isAlternateForme": true
   },
-  "Mega Slowbro": {
-    "t1": "Water",
-    "t2": "Psychic",
+  "메가야도란": {
+    "t1": "물",
+    "t2": "에스퍼",
     "bs": {
       "hp": 95,
       "at": 75,
@@ -10406,12 +10406,12 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 30
     },
     "w": 120.0,
-    "ab": "Shell Armor",
+    "ab": "조가비갑옷",
     "isAlternateForme": true
   },
-  "Mega Steelix": {
-    "t1": "Steel",
-    "t2": "Ground",
+  "메가강철톤": {
+    "t1": "강철",
+    "t2": "땅",
     "bs": {
       "hp": 75,
       "at": 125,
@@ -10421,12 +10421,12 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 30
     },
     "w": 740.0,
-    "ab": "Sand Force",
+    "ab": "모래의힘",
     "isAlternateForme": true
   },
-  "Mega Swampert": {
-    "t1": "Water",
-    "t2": "Ground",
+  "메가대짱이": {
+    "t1": "물",
+    "t2": "땅",
     "bs": {
       "hp": 100,
       "at": 150,
@@ -10436,12 +10436,12 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 70
     },
     "w": 102.0,
-    "ab": "Swift Swim",
+    "ab": "쓱쓱",
     "isAlternateForme": true
   },
-  "Mega Tyranitar": {
-    "t1": "Rock",
-    "t2": "Dark",
+  "메가마기라스": {
+    "t1": "바위",
+    "t2": "악",
     "bs": {
       "hp": 100,
       "at": 164,
@@ -10451,12 +10451,12 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 71
     },
     "w": 255.0,
-    "ab": "Sand Stream",
+    "ab": "모래날림",
     "isAlternateForme": true
   },
-  "Mega Venusaur": {
-    "t1": "Grass",
-    "t2": "Poison",
+  "메가이상해꽃": {
+    "t1": "풀",
+    "t2": "독",
     "bs": {
       "hp": 80,
       "at": 100,
@@ -10466,11 +10466,11 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 80
     },
     "w": 155.5,
-    "ab": "Thick Fat",
+    "ab": "두꺼운지방",
     "isAlternateForme": true
   },
-  "Meowstic": {
-    "t1": "Psychic",
+  "냐오닉스": {
+    "t1": "에스퍼",
     "bs": {
       "hp": 74,
       "at": 48,
@@ -10481,9 +10481,9 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
     },
     "w": 8.5
   },
-  "Noibat": {
-    "t1": "Flying",
-    "t2": "Dragon",
+  "음뱃": {
+    "t1": "비행",
+    "t2": "드래곤",
     "bs": {
       "hp": 40,
       "at": 30,
@@ -10494,9 +10494,9 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
     },
     "w": 8.0
   },
-  "Noivern": {
-    "t1": "Flying",
-    "t2": "Dragon",
+  "음번": {
+    "t1": "비행",
+    "t2": "드래곤",
     "bs": {
       "hp": 85,
       "at": 70,
@@ -10507,8 +10507,8 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
     },
     "w": 85.0
   },
-  "Pancham": {
-    "t1": "Fighting",
+  "판짱": {
+    "t1": "격투",
     "bs": {
       "hp": 67,
       "at": 82,
@@ -10519,9 +10519,9 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
     },
     "w": 8.0
   },
-  "Pangoro": {
-    "t1": "Fighting",
-    "t2": "Dark",
+  "부란다": {
+    "t1": "격투",
+    "t2": "악",
     "bs": {
       "hp": 95,
       "at": 124,
@@ -10532,9 +10532,9 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
     },
     "w": 136.0
   },
-  "Phantump": {
-    "t1": "Ghost",
-    "t2": "Grass",
+  "나목령": {
+    "t1": "고스트",
+    "t2": "풀",
     "bs": {
       "hp": 43,
       "at": 70,
@@ -10545,9 +10545,9 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
     },
     "w": 7.0
   },
-  "Primal Groudon": {
-    "t1": "Ground",
-    "t2": "Fire",
+  "원시그란돈": {
+    "t1": "땅",
+    "t2": "불꽃",
     "bs": {
       "hp": 100,
       "at": 180,
@@ -10557,10 +10557,10 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 90
     },
     "w": 999.7,
-    "ab": "Desolate Land"
+    "ab": "끝의대지"
   },
-  "Primal Kyogre": {
-    "t1": "Water",
+  "원시가이오가": {
+    "t1": "물",
     "bs": {
       "hp": 100,
       "at": 150,
@@ -10570,11 +10570,11 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 90
     },
     "w": 430.0,
-    "ab": "Primordial Sea"
+    "ab": "시작의바다"
   },
-  "Pumpkaboo-Average": {
-    "t1": "Ghost",
-    "t2": "Grass",
+  "호바귀-중": {
+    "t1": "고스트",
+    "t2": "풀",
     "bs": {
       "hp": 49,
       "at": 66,
@@ -10585,9 +10585,9 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
     },
     "w": 5.0
   },
-  "Pumpkaboo-Large": {
-    "t1": "Ghost",
-    "t2": "Grass",
+  "호바귀-대": {
+    "t1": "고스트",
+    "t2": "풀",
     "bs": {
       "hp": 54,
       "at": 66,
@@ -10598,9 +10598,9 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
     },
     "w": 7.5
   },
-  "Pumpkaboo-Small": {
-    "t1": "Ghost",
-    "t2": "Grass",
+  "호바귀-소": {
+    "t1": "고스트",
+    "t2": "풀",
     "bs": {
       "hp": 44,
       "at": 66,
@@ -10611,9 +10611,9 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
     },
     "w": 3.5
   },
-  "Pumpkaboo-Super": {
-    "t1": "Ghost",
-    "t2": "Grass",
+  "호바귀-특대": {
+    "t1": "고스트",
+    "t2": "풀",
     "bs": {
       "hp": 59,
       "at": 66,
@@ -10624,9 +10624,9 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
     },
     "w": 15.0
   },
-  "Pyroar": {
-    "t1": "Fire",
-    "t2": "Normal",
+  "화염레오": {
+    "t1": "불꽃",
+    "t2": "노말",
     "bs": {
       "hp": 86,
       "at": 68,
@@ -10637,8 +10637,8 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
     },
     "w": 81.5
   },
-  "Quilladin": {
-    "t1": "Grass",
+  "도치보구": {
+    "t1": "풀",
     "bs": {
       "hp": 61,
       "at": 78,
@@ -10649,8 +10649,8 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
     },
     "w": 29.0
   },
-  "Scatterbug": {
-    "t1": "Bug",
+  "분이벌레": {
+    "t1": "벌레",
     "bs": {
       "hp": 38,
       "at": 35,
@@ -10661,8 +10661,8 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
     },
     "w": 2.5
   },
-  "Skiddo": {
-    "t1": "Grass",
+  "메이클": {
+    "t1": "풀",
     "bs": {
       "hp": 66,
       "at": 65,
@@ -10673,9 +10673,9 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
     },
     "w": 31.0
   },
-  "Skrelp": {
-    "t1": "Poison",
-    "t2": "Water",
+  "수레기": {
+    "t1": "독",
+    "t2": "물",
     "bs": {
       "hp": 50,
       "at": 60,
@@ -10686,8 +10686,8 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
     },
     "w": 7.3
   },
-  "Sliggoo": {
-    "t1": "Dragon",
+  "미끄네일": {
+    "t1": "드래곤",
     "bs": {
       "hp": 68,
       "at": 75,
@@ -10698,8 +10698,8 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
     },
     "w": 17.5
   },
-  "Slurpuff": {
-    "t1": "Fairy",
+  "나루림": {
+    "t1": "페어리",
     "bs": {
       "hp": 82,
       "at": 80,
@@ -10710,8 +10710,8 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
     },
     "w": 5.0
   },
-  "Spewpa": {
-    "t1": "Bug",
+  "분떠도리": {
+    "t1": "벌레",
     "bs": {
       "hp": 45,
       "at": 22,
@@ -10722,8 +10722,8 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
     },
     "w": 8.4
   },
-  "Spritzee": {
-    "t1": "Fairy",
+  "슈쁘": {
+    "t1": "페어리",
     "bs": {
       "hp": 78,
       "at": 52,
@@ -10734,8 +10734,8 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
     },
     "w": 0.5
   },
-  "Swirlix": {
-    "t1": "Fairy",
+  "나룸퍼프": {
+    "t1": "페어리",
     "bs": {
       "hp": 62,
       "at": 48,
@@ -10746,8 +10746,8 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
     },
     "w": 3.5
   },
-  "Sylveon": {
-    "t1": "Fairy",
+  "님피아": {
+    "t1": "페어리",
     "bs": {
       "hp": 95,
       "at": 65,
@@ -10758,9 +10758,9 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
     },
     "w": 23.5
   },
-  "Talonflame": {
-    "t1": "Fire",
-    "t2": "Flying",
+  "파이어로": {
+    "t1": "불꽃",
+    "t2": "비행",
     "bs": {
       "hp": 78,
       "at": 81,
@@ -10771,9 +10771,9 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
     },
     "w": 24.5
   },
-  "Trevenant": {
-    "t1": "Ghost",
-    "t2": "Grass",
+  "대로트": {
+    "t1": "고스트",
+    "t2": "풀",
     "bs": {
       "hp": 85,
       "at": 110,
@@ -10784,9 +10784,9 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
     },
     "w": 71.0
   },
-  "Tyrantrum": {
-    "t1": "Rock",
-    "t2": "Dragon",
+  "견고라스": {
+    "t1": "바위",
+    "t2": "드래곤",
     "bs": {
       "hp": 82,
       "at": 121,
@@ -10796,11 +10796,11 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 71
     },
     "w": 270.0,
-    "ab": "Strong Jaw"
+    "ab": "옹골찬턱"
   },
-  "Tyrunt": {
-    "t1": "Rock",
-    "t2": "Dragon",
+  "티고라스": {
+    "t1": "바위",
+    "t2": "드래곤",
     "bs": {
       "hp": 58,
       "at": 89,
@@ -10810,11 +10810,11 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 48
     },
     "w": 26.0,
-    "ab": "Strong Jaw"
+    "ab": "옹골찬턱"
   },
-  "Vivillon": {
-    "t1": "Bug",
-    "t2": "Flying",
+  "비비용": {
+    "t1": "벌레",
+    "t2": "비행",
     "bs": {
       "hp": 80,
       "at": 52,
@@ -10825,9 +10825,9 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
     },
     "w": 17.0
   },
-  "Volcanion": {
-    "t1": "Fire",
-    "t2": "Water",
+  "볼케니온": {
+    "t1": "불꽃",
+    "t2": "물",
     "bs": {
       "hp": 80,
       "at": 110,
@@ -10837,10 +10837,10 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 70
     },
     "w": 195.0,
-    "ab": "Water Absorb"
+    "ab": "축전"
   },
-  "Xerneas": {
-    "t1": "Fairy",
+  "제르네아스": {
+    "t1": "페어리",
     "bs": {
       "hp": 126,
       "at": 131,
@@ -10850,11 +10850,11 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 99
     },
     "w": 215.0,
-    "ab": "Fairy Aura"
+    "ab": "페어리오라"
   },
-  "Yveltal": {
-    "t1": "Dark",
-    "t2": "Flying",
+  "이벨타르": {
+    "t1": "악",
+    "t2": "비행",
     "bs": {
       "hp": 126,
       "at": 131,
@@ -10864,11 +10864,11 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 99
     },
     "w": 203.0,
-    "ab": "Dark Aura"
+    "ab": "다크오라"
   },
-  "Zygarde": {
-    "t1": "Dragon",
-    "t2": "Ground",
+  "지가르데": {
+    "t1": "드래곤",
+    "t2": "땅",
     "bs": {
       "hp": 108,
       "at": 100,
@@ -10878,91 +10878,91 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 95
     },
     "w": 305.0,
-    "ab": "Aura Break"
+    "ab": "오라브레이크"
   }
 });
 
-delete POKEDEX_XY['Duskull'].ab;
-delete POKEDEX_XY['Snivy'].ab;
-delete POKEDEX_XY['Servine'].ab;
-delete POKEDEX_XY['Serperior'].ab;
-delete POKEDEX_XY['Tepig'].ab;
-delete POKEDEX_XY['Pignite'].ab;
-delete POKEDEX_XY['Emboar'].ab;
-delete POKEDEX_XY['Oshawott'].ab;
-delete POKEDEX_XY['Dewott'].ab;
-delete POKEDEX_XY['Samurott'].ab;
+delete POKEDEX_XY['해골몽'].ab;
+delete POKEDEX_XY['주리비얀'].ab;
+delete POKEDEX_XY['샤비'].ab;
+delete POKEDEX_XY['샤로다'].ab;
+delete POKEDEX_XY['뚜꾸리'].ab;
+delete POKEDEX_XY['차오꿀'].ab;
+delete POKEDEX_XY['염무왕'].ab;
+delete POKEDEX_XY['수댕이'].ab;
+delete POKEDEX_XY['쌍검자비'].ab;
+delete POKEDEX_XY['대검귀'].ab;
 
 var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
 
 
 
   //alolan forms
-  "Rattata": { "formes": ["Rattata", "Alolan Rattata"] },
-  "Raticate": { "formes": ["Raticate", "Alolan Raticate"] },
-  "Meowth": { "formes": ["Meowth", "Alolan Meowth"] },
-  "Persian": { "formes": ["Persian", "Alolan Persian"] },
-  "Raichu": { "formes": ["Raichu", "Alolan Raichu"] },
-  "Marowak": { "formes": ["Marowak", "Alolan Marowak"] },
-  "Geodude": { "formes": ["Geodude", "Alolan Geodude"] },
-  "Graveler": { "formes": ["Graveler", "Alolan Graveler"] },
-  "Golem": { "formes": ["Golem", "Alolan Golem"] },
-  "Exeggutor": { "bs": { "sd": 75 }, "formes": ["Exeggutor", "Alolan Exeggutor"] },
-  "Diglett": { "formes": ["Diglett", "Alolan Diglett"] },
-  "Dugtrio": { "bs": { "at": 100 }, "formes": ["Dugtrio", "Alolan Dugtrio"] },
-  "Vulpix": { "formes": ["Vulpix", "Alolan Vulpix"] },
-  "Ninetales": { "formes": ["Ninetales", "Alolan Ninetales"] },
-  "Sandshrew": { "formes": ["Sandshrew", "Alolan Sandshrew"] },
-  "Sandslash": { "formes": ["Sandslash", "Alolan Sandslash"] },
-  "Grimer": { "formes": ["Grimer", "Alolan Grimer"] },
-  "Muk": { "formes": ["Muk", "Alolan Muk"] }, 
-  "Greninja": { "formes": ["Greninja", "Ash-Greninja"] },
+  "꼬렛": { "formes": ["꼬렛", "알로라 꼬렛"] },
+  "레트라": { "formes": ["레트라", "알로라 레트라"] },
+  "나옹": { "formes": ["나옹", "알로라 나옹"] },
+  "페르시온": { "formes": ["페르시온", "알로라 페르시온"] },
+  "라이츄": { "formes": ["라이츄", "알로라 라이츄"] },
+  "텅구리": { "formes": ["텅구리", "알로라 텅구리"] },
+  "꼬마돌": { "formes": ["꼬마돌", "알로라 꼬마돌"] },
+  "딱구리": { "formes": ["딱구리", "알로라 딱구리"] },
+  "딱구리": { "formes": ["딱구리", "알로라 딱구리"] },
+  "나시": { "bs": { "sd": 75 }, "formes": ["나시", "알로라 나시"] },
+  "디그다": { "formes": ["디그다", "알로라 디그다"] },
+  "닥트리오": { "bs": { "at": 100 }, "formes": ["닥트리오", "알로라 닥트리오"] },
+  "식스테일": { "formes": ["식스테일", "알로라 식스테일"] },
+  "나인테일": { "formes": ["나인테일", "알로라 나인테일"] },
+  "모래두지": { "formes": ["모래두지", "알로라 모래두지"] },
+  "고지": { "formes": ["고지", "알로라 고지"] },
+  "질퍽이": { "formes": ["질퍽이", "알로라 질퍽이"] },
+  "질뻐기": { "formes": ["질뻐기", "알로라 질뻐기"] }, 
+  "개굴닌자": { "formes": ["개굴닌자", "지우개굴닌자"] },
 
   //abilities
-  "Pelipper": { "bs": { "sa": 95 }, "ab": "Drizzle"},
-  "Torkoal": {"ab": "Drought"},
+  "패리퍼": { "bs": { "sa": 95 }, "ab": "잔비"},
+  "코터스": {"ab": "가뭄"},
 
   //hp buffs
-  "Magcargo": { "bs": { "hp": 60, "sa": 90 } },
-  "Corsola": { "bs": { "hp": 65, "df": 95, "sd": 95 } },  
-  "Mantine": { "bs": { "hp": 85 } },
-  "Lunatone": { "bs": { "hp": 90 } },
-  "Solrock": { "bs": { "hp": 90 } },
-  "Chimecho": { "bs": { "hp": 75, "df": 80, "sd": 90 } },
-  "Woobat": { "bs": { "hp": 65 } },
-  "Cryogonal": { "bs": { "hp": 80, "df": 50 } },
+  "마그카르고": { "bs": { "hp": 60, "sa": 90 } },
+  "코산호": { "bs": { "hp": 65, "df": 95, "sd": 95 } },  
+  "만타인": { "bs": { "hp": 85 } },
+  "루나톤": { "bs": { "hp": 90 } },
+  "솔록": { "bs": { "hp": 90 } },
+  "치렁": { "bs": { "hp": 75, "df": 80, "sd": 90 } },
+  "또르박쥐": { "bs": { "hp": 65 } },
+  "프리지오": { "bs": { "hp": 80, "df": 50 } },
 
   //attack buffs
-  "Arbok": { "bs": { "at": 95 } },
-  "Farfetch\u0027d": { "bs": { "at": 90 } },
-  "Crustle": { "bs": { "at": 105 } },
-  "Beartic": { "bs": { "at": 130 } },
+  "아보크": { "bs": { "at": 95 } },
+  "파오리": { "bs": { "at": 90 } },
+  "암팰리스": { "bs": { "at": 105 } },
+  "툰베어": { "bs": { "at": 130 } },
 
   //defense buffs  
-  "Qwilfish": { "bs": { "df": 85 } },
-  "Volbeat": { "bs": { "df": 75, "sd": 85 } },
-  "Illumise": { "bs": { "df": 75, "sd": 85 } },
+  "침바루": { "bs": { "df": 85 } },
+  "볼비트": { "bs": { "df": 75, "sd": 85 } },
+  "네오비트": { "bs": { "df": 75, "sd": 85 } },
 
   //special attack buffs  
-  "Noctowl": { "bs": { "sa": 86 } },
-  "Swellow": { "bs": { "sa": 75 } },
+  "야부엉": { "bs": { "sa": 86 } },
+  "스왈로": { "bs": { "sa": 75 } },
 
   //special defense buffs
-  "Ariados": { "bs": { "sd": 70 } },
+  "아리아도스": { "bs": { "sd": 70 } },
 
   //speed buffs
-  "Dodrio": { "bs": { "sp": 110 } },
-  "Electrode": { "bs": { "sp": 150 } },
-  "Delcatty": { "bs": { "sp": 90 } },
-  "Masquerain": { "bs": { "sp": 80, "sa": 100 } }, 
+  "두트리오": { "bs": { "sp": 110 } },
+  "붐볼": { "bs": { "sp": 150 } },
+  "델케티": { "bs": { "sp": 90 } },
+  "비나방": { "bs": { "sp": 80, "sa": 100 } }, 
 
   //alakazam buff because he's a special snowflake
-  "Mega Alakazam": { "bs": { "sd": 105} },
+  "메가후딘": { "bs": { "sd": 105} },
 
   //and here's the dex!
-  "Ash-Greninja": {
-    "t1": "Water",
-    "t2": "Dark",
+  "지우개굴닌자": {
+    "t1": "물",
+    "t2": "악",
     "bs": {
       "hp": 72,
       "at": 145,
@@ -10972,12 +10972,12 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sp": 132
     },
     "w": 40.0,
-    "ab": "Battle Bond",
+    "ab": "유대변화",
     "isAlternateForme": true
   },
-  "Alolan Rattata": {
-    "t1": "Dark",
-    "t2": "Normal",
+  "알로라 꼬렛": {
+    "t1": "악",
+    "t2": "노말",
     "bs": {
       "hp": 30,
       "at": 56,
@@ -10989,9 +10989,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 3.8,
     "isAlternateForme": true
   },
-  "Alolan Raticate": {
-    "t1": "Dark",
-    "t2": "Normal",
+  "알로라 레트라": {
+    "t1": "악",
+    "t2": "노말",
     "bs": {
       "hp": 75,
       "at": 71,
@@ -11003,8 +11003,8 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 25.5,
     "isAlternateForme": true
   },
-  "Alolan Meowth": {
-    "t1": "Dark",
+  "알로라 나옹": {
+    "t1": "악",
     "bs": {
       "hp": 40,
       "at": 35,
@@ -11016,8 +11016,8 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 4.2,
     "isAlternateForme": true
   },
-  "Alolan Persian": {
-    "t1": "Dark",
+  "알로라 페르시온": {
+    "t1": "악",
     "bs": {
       "hp": 65,
       "at": 60,
@@ -11029,9 +11029,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 33.0,
     "isAlternateForme": true
   },
-  "Alolan Raichu": {
-    "t1": "Electric",
-    "t2": "Psychic",
+  "알로라 라이츄": {
+    "t1": "전기",
+    "t2": "에스퍼",
     "bs": {
       "hp": 60,
       "at": 85,
@@ -11043,9 +11043,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 21.0,
     "isAlternateForme": true
   },
-  "Alolan Marowak": {
-    "t1": "Fire",
-    "t2": "Ghost",
+  "알로라 텅구리": {
+    "t1": "불꽃",
+    "t2": "고스트",
     "bs": {
       "hp": 60,
       "at": 80,
@@ -11057,9 +11057,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 34.0,
     "isAlternateForme": true
   },
-  "Alolan Geodude": {
-    "t1": "Rock",
-    "t2": "Electric",
+  "알로라 꼬마돌": {
+    "t1": "바위",
+    "t2": "전기",
     "bs": {
       "hp": 40,
       "at": 80,
@@ -11071,9 +11071,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 20.3,
     "isAlternateForme": true
   },
-  "Alolan Graveler": {
-    "t1": "Rock",
-    "t2": "Electric",
+  "알로라 딱구리": {
+    "t1": "바위",
+    "t2": "전기",
     "bs": {
       "hp": 55,
       "at": 95,
@@ -11085,9 +11085,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 110.0,
     "isAlternateForme": true
   },
-  "Alolan Golem": {
-    "t1": "Rock",
-    "t2": "Electric",
+  "알로라 딱구리": {
+    "t1": "바위",
+    "t2": "전기",
     "bs": {
       "hp": 80,
       "at": 120,
@@ -11096,13 +11096,13 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sd": 65,
       "sp": 45
     },
-    "ab": "Galvanize",
+    "ab": "일렉트릭스킨",
     "w": 316.0,
     "isAlternateForme": true
   },
-  "Alolan Exeggutor": {
-    "t1": "Grass",
-    "t2": "Dragon",
+  "알로라 나시": {
+    "t1": "풀",
+    "t2": "드래곤",
     "bs": {
       "hp": 95,
       "at": 105,
@@ -11114,9 +11114,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 415.6,
     "isAlternateForme": true
   },
-  "Alolan Diglett": {
-    "t1": "Ground",
-    "t2": "Steel",
+  "알로라 디그다": {
+    "t1": "땅",
+    "t2": "강철",
     "bs": {
       "hp": 10,
       "at": 55,
@@ -11128,9 +11128,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 1.0,
     "isAlternateForme": true
   },
-  "Alolan Dugtrio": {
-    "t1": "Ground",
-    "t2": "Steel",
+  "알로라 닥트리오": {
+    "t1": "땅",
+    "t2": "강철",
     "bs": {
       "hp": 35,
       "at": 100,
@@ -11142,8 +11142,8 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 66.6,
     "isAlternateForme": true
   },
-  "Alolan Vulpix": {
-    "t1": "Ice",
+  "알로라 식스테일": {
+    "t1": "얼음",
     "bs": {
       "hp": 38,
       "at": 41,
@@ -11155,9 +11155,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 9.9,
     "isAlternateForme": true
   },
-  "Alolan Ninetales": {
-    "t1": "Ice",
-    "t2": "Fairy",
+  "알로라 나인테일": {
+    "t1": "얼음",
+    "t2": "페어리",
     "bs": {
       "hp": 73,
       "at": 67,
@@ -11167,12 +11167,12 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sp": 109
     },
     "w": 19.9,
-    "ab": "Snow Warning",
+    "ab": "눈퍼뜨리기",
     "isAlternateForme": true
   },
-  "Alolan Sandshrew": {
-    "t1": "Ice",
-    "t2": "Steel",
+  "알로라 모래두지": {
+    "t1": "얼음",
+    "t2": "강철",
     "bs": {
       "hp": 50,
       "at": 75,
@@ -11184,9 +11184,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 40.0,
     "isAlternateForme": true
   },
-  "Alolan Sandslash": {
-    "t1": "Ice",
-    "t2": "Steel",
+  "알로라 고지": {
+    "t1": "얼음",
+    "t2": "강철",
     "bs": {
       "hp": 75,
       "at": 100,
@@ -11198,9 +11198,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 55.0,
     "isAlternateForme": true
   },
-  "Alolan Grimer": {
-    "t1": "Poison",
-    "t2": "Dark",
+  "알로라 질퍽이": {
+    "t1": "독",
+    "t2": "악",
     "bs": {
       "hp": 80,
       "at": 80,
@@ -11212,9 +11212,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 42.0,
     "isAlternateForme": true
   },
-  "Alolan Muk": {
-    "t1": "Poison",
-    "t2": "Dark",
+  "알로라 질뻐기": {
+    "t1": "독",
+    "t2": "악",
     "bs": {
       "hp": 105,
       "at": 105,
@@ -11226,9 +11226,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 52.0,
     "isAlternateForme": true
   },
-  "Rowlet": {
-    "t1": "Grass",
-    "t2": "Flying",
+  "나몰빼미": {
+    "t1": "풀",
+    "t2": "비행",
     "bs": {
       "hp": 68,
       "at": 55,
@@ -11239,9 +11239,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 1.5
   },
-  "Dartrix": {
-    "t1": "Grass",
-    "t2": "Flying",
+  "빼미스로우": {
+    "t1": "풀",
+    "t2": "비행",
     "bs": {
       "hp": 78,
       "at": 75,
@@ -11252,9 +11252,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 16.0
   },
-  "Decidueye": {
-    "t1": "Grass",
-    "t2": "Ghost",
+  "모크나이퍼": {
+    "t1": "풀",
+    "t2": "고스트",
     "bs": {
       "hp": 78,
       "at": 107,
@@ -11265,8 +11265,8 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 36.6
   },
-  "Litten": {
-    "t1": "Fire",
+  "냐오불": {
+    "t1": "불꽃",
     "bs": {
       "hp": 45,
       "at": 65,
@@ -11277,8 +11277,8 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 4.3
   },
-  "Torracat": {
-    "t1": "Fire",
+  "냐오히트": {
+    "t1": "불꽃",
     "bs": {
       "hp": 65,
       "at": 85,
@@ -11289,9 +11289,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 25.0
   },
-  "Incineroar": {
-    "t1": "Fire",
-    "t2": "Dark",
+  "어흥염": {
+    "t1": "불꽃",
+    "t2": "악",
     "bs": {
       "hp": 95,
       "at": 115,
@@ -11302,8 +11302,8 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 83.0
   },
-  "Popplio": {
-    "t1": "Water",
+  "누리공": {
+    "t1": "물",
     "bs": {
       "hp": 50,
       "at": 54,
@@ -11314,8 +11314,8 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 7.5
   },
-  "Brionne": {
-    "t1": "Water",
+  "키요공": {
+    "t1": "물",
     "bs": {
       "hp": 60,
       "at": 69,
@@ -11326,9 +11326,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 17.5
   },
-  "Primarina": {
-    "t1": "Water",
-    "t2": "Fairy",
+  "누리레느": {
+    "t1": "물",
+    "t2": "페어리",
     "bs": {
       "hp": 80,
       "at": 74,
@@ -11339,9 +11339,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 44.0
   },
-  "Pikipek": {
-    "t1": "Normal",
-    "t2": "Flying",
+  "콕코구리": {
+    "t1": "노말",
+    "t2": "비행",
     "bs": {
       "hp": 35,
       "at": 75,
@@ -11352,9 +11352,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 1.2
   },
-  "Trumbeak": {
-    "t1": "Normal",
-    "t2": "Flying",
+  "크라파": {
+    "t1": "노말",
+    "t2": "비행",
     "bs": {
       "hp": 55,
       "at": 85,
@@ -11365,9 +11365,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 14.8
   },
-  "Toucannon": {
-    "t1": "Normal",
-    "t2": "Flying",
+  "왕큰부리": {
+    "t1": "노말",
+    "t2": "비행",
     "bs": {
       "hp": 80,
       "at": 120,
@@ -11378,8 +11378,8 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 26.0
   },
-  "Yungoos": {
-    "t1": "Normal",
+  "영구스": {
+    "t1": "노말",
     "bs": {
       "hp": 48,
       "at": 70,
@@ -11390,8 +11390,8 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 6.0
   },
-  "Gumshoos": {
-    "t1": "Normal",
+  "형사구스": {
+    "t1": "노말",
     "bs": {
       "hp": 88,
       "at": 110,
@@ -11402,8 +11402,8 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 14.2
   },
-  "Grubbin": {
-    "t1": "Bug",
+  "턱지충이": {
+    "t1": "벌레",
     "bs": {
       "hp": 47,
       "at": 62,
@@ -11414,9 +11414,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 4.4
   },
-  "Charjabug": {
-    "t1": "Bug",
-    "t2": "Electric",
+  "전지충이": {
+    "t1": "벌레",
+    "t2": "전기",
     "bs": {
       "hp": 57,
       "at": 82,
@@ -11427,9 +11427,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 10.5
   },
-  "Vikavolt": {
-    "t1": "Bug",
-    "t2": "Electric",
+  "투구뿌논": {
+    "t1": "벌레",
+    "t2": "전기",
     "bs": {
       "hp": 77,
       "at": 70,
@@ -11440,8 +11440,8 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 45.0
   },
-  "Crabrawler": {
-    "t1": "Fighting",
+  "오기지게": {
+    "t1": "격투",
     "bs": {
       "hp": 47,
       "at": 82,
@@ -11452,9 +11452,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 7.0
   },
-  "Crabominable": {
-    "t1": "Fighting",
-    "t2": "Ice",
+  "모단단게": {
+    "t1": "격투",
+    "t2": "얼음",
     "bs": {
       "hp": 97,
       "at": 132,
@@ -11465,9 +11465,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 180.0
   },
-  "Oricorio-Fire": {
-    "t1": "Fire",
-    "t2": "Flying",
+  "춤추새-이글이글": {
+    "t1": "불꽃",
+    "t2": "비행",
     "bs": {
       "hp": 75,
       "at": 70,
@@ -11478,9 +11478,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 3.4
   },
-  "Oricorio-Electric": {
-    "t1": "Electric",
-    "t2": "Flying",
+  "춤추새-파칙파칙": {
+    "t1": "전기",
+    "t2": "비행",
     "bs": {
       "hp": 75,
       "at": 70,
@@ -11491,9 +11491,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 3.4
   },
-  "Oricorio-Psychic": {
-    "t1": "Psychic",
-    "t2": "Flying",
+  "춤추새-훌라훌라": {
+    "t1": "에스퍼",
+    "t2": "비행",
     "bs": {
       "hp": 75,
       "at": 70,
@@ -11504,9 +11504,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 3.4
   },
-  "Oricorio-Ghost": {
-    "t1": "Ghost",
-    "t2": "Flying",
+  "춤추새-하늘하늘": {
+    "t1": "고스트",
+    "t2": "비행",
     "bs": {
       "hp": 75,
       "at": 70,
@@ -11517,9 +11517,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 3.4
   },
-  "Cutiefly": {
-    "t1": "Bug",
-    "t2": "Fairy",
+  "에블리": {
+    "t1": "벌레",
+    "t2": "페어리",
     "bs": {
       "hp": 40,
       "at": 45,
@@ -11530,9 +11530,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 0.2
   },
-  "Ribombee": {
-    "t1": "Bug",
-    "t2": "Fairy",
+  "에리본": {
+    "t1": "벌레",
+    "t2": "페어리",
     "bs": {
       "hp": 60,
       "at": 55,
@@ -11543,8 +11543,8 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 0.5
   },
-  "Rockruff": {
-    "t1": "Rock",
+  "암멍이": {
+    "t1": "바위",
     "bs": {
       "hp": 45,
       "at": 65,
@@ -11555,8 +11555,8 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 9.2
   },
-  "Lycanroc-Midday": {
-    "t1": "Rock",
+  "루가루암-한낮": {
+    "t1": "바위",
     "bs": {
       "hp": 75,
       "at": 115,
@@ -11567,8 +11567,8 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 25.0
   },
-  "Lycanroc-Midnight": {
-    "t1": "Rock",
+  "루가루암-한밤": {
+    "t1": "바위",
     "bs": {
       "hp": 85,
       "at": 115,
@@ -11579,8 +11579,8 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 25.0
   },
-  "Wishiwashi": {
-    "t1": "Water",
+  "약어리": {
+    "t1": "물",
     "bs": {
       "hp": 45,
       "at": 140,
@@ -11590,10 +11590,10 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sp": 30
     },
     "w": 78.6,
-    "formes": ["Wishiwashi-School", "Wishiwashi-Solo"]
+    "formes": ["약어리-군집", "약어리-단독"]
   },
-  "Wishiwashi-School": {
-    "t1": "Water",
+  "약어리-군집": {
+    "t1": "물",
     "bs": {
       "hp": 45,
       "at": 140,
@@ -11605,8 +11605,8 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 78.6,
     "isAlternateForme": true
   },
-  "Wishiwashi-Solo": {
-    "t1": "Water",
+  "약어리-단독": {
+    "t1": "물",
     "bs": {
       "hp": 45,
       "at": 20,
@@ -11618,9 +11618,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 0.3,
     "isAlternateForme": true
   },
-  "Mareanie": {
-    "t1": "Poison",
-    "t2": "Water",
+  "시마사리": {
+    "t1": "독",
+    "t2": "물",
     "bs": {
       "hp": 50,
       "at": 53,
@@ -11631,9 +11631,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 8.0,
   },
-  "Toxapex": {
-    "t1": "Poison",
-    "t2": "Water",
+  "더시마사리": {
+    "t1": "독",
+    "t2": "물",
     "bs": {
       "hp": 50,
       "at": 63,
@@ -11644,8 +11644,8 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 14.5,
   },
-  "Mudbray": {
-    "t1": "Ground",
+  "머드나기": {
+    "t1": "땅",
     "bs": {
       "hp": 70,
       "at": 100,
@@ -11656,8 +11656,8 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 110.0,
   },
-  "Mudsdale": {
-    "t1": "Ground",
+  "만마드": {
+    "t1": "땅",
     "bs": {
       "hp": 100,
       "at": 125,
@@ -11668,9 +11668,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 920.0,
   },
-  "Dewpider": {
-    "t1": "Water",
-    "t2": "Bug",
+  "물거미": {
+    "t1": "물",
+    "t2": "벌레",
     "bs": {
       "hp": 38,
       "at": 40,
@@ -11681,9 +11681,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 4.0,
   },
-  "Araquanid": {
-    "t1": "Water",
-    "t2": "Bug",
+  "깨비물거미": {
+    "t1": "물",
+    "t2": "벌레",
     "bs": {
       "hp": 68,
       "at": 70,
@@ -11692,11 +11692,11 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sd": 132,
       "sp": 42
     },
-    "ab": "Water Bubble",
+    "ab": "수포",
     "w": 82.0,
   },
-  "Fomantis": {
-    "t1": "Grass",
+  "짜랑랑": {
+    "t1": "풀",
     "bs": {
       "hp": 40,
       "at": 55,
@@ -11707,8 +11707,8 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 1.5,
   },
-  "Lurantis": {
-    "t1": "Grass",
+  "라란티스": {
+    "t1": "풀",
     "bs": {
       "hp": 70,
       "at": 105,
@@ -11719,9 +11719,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 19.5,
   },
-  "Morelull": {
-    "t1": "Grass",
-    "t2": "Fairy",
+  "자마슈": {
+    "t1": "풀",
+    "t2": "페어리",
     "bs": {
       "hp": 40,
       "at": 35,
@@ -11732,9 +11732,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 1.5,
   },
-  "Shiinotic": {
-    "t1": "Grass",
-    "t2": "Fairy",
+  "마셰이드": {
+    "t1": "풀",
+    "t2": "페어리",
     "bs": {
       "hp": 60,
       "at": 45,
@@ -11745,9 +11745,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 11.5,
   },
-  "Salandit": {
-    "t1": "Poison",
-    "t2": "Fire",
+  "야도뇽": {
+    "t1": "독",
+    "t2": "불꽃",
     "bs": {
       "hp": 48,
       "at": 44,
@@ -11758,9 +11758,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 4.8,
   },
-  "Salazzle": {
-    "t1": "Poison",
-    "t2": "Fire",
+  "염뉴트": {
+    "t1": "독",
+    "t2": "불꽃",
     "bs": {
       "hp": 68,
       "at": 64,
@@ -11771,9 +11771,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 22.2,
   },
-  "Stufful": {
-    "t1": "Normal",
-    "t2": "Fighting",
+  "포곰곰": {
+    "t1": "노말",
+    "t2": "격투",
     "bs": {
       "hp": 70,
       "at": 75,
@@ -11782,12 +11782,12 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sd": 50,
       "sp": 50
     },
-    "ab": "Fluffy",
+    "ab": "복슬복슬",
     "w": 6.8,
   },
-  "Bewear": {
-    "t1": "Normal",
-    "t2": "Fighting",
+  "이븐곰": {
+    "t1": "노말",
+    "t2": "격투",
     "bs": {
       "hp": 120,
       "at": 125,
@@ -11796,11 +11796,11 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sd": 60,
       "sp": 60
     },
-    "ab": "Fluffy",
+    "ab": "복슬복슬",
     "w": 135.0,
   },
-  "Bounsweet": {
-    "t1": "Grass",
+  "달콤아": {
+    "t1": "풀",
     "bs": {
       "hp": 42,
       "at": 30,
@@ -11811,8 +11811,8 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 3.2,
   },
-  "Steenee": {
-    "t1": "Grass",
+  "달무리나": {
+    "t1": "풀",
     "bs": {
       "hp": 52,
       "at": 40,
@@ -11823,8 +11823,8 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 8.2,
   },
-  "Tsareena": {
-    "t1": "Grass",
+  "달코퀸": {
+    "t1": "풀",
     "bs": {
       "hp": 72,
       "at": 120,
@@ -11835,8 +11835,8 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 21.4,
   },
-  "Comfey": {
-    "t1": "Fairy",
+  "큐아링": {
+    "t1": "페어리",
     "bs": {
       "hp": 51,
       "at": 52,
@@ -11847,9 +11847,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 0.3,
   },
-  "Oranguru": {
-    "t1": "Normal",
-    "t2": "Psychic",
+  "하랑우탄": {
+    "t1": "노말",
+    "t2": "에스퍼",
     "bs": {
       "hp": 90,
       "at": 60,
@@ -11860,8 +11860,8 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 76.0,
   },
-  "Passimian": {
-    "t1": "Fighting",
+  "내던숭이": {
+    "t1": "격투",
     "bs": {
       "hp": 100,
       "at": 120,
@@ -11872,9 +11872,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 82.8,
   },
-  "Wimpod": {
-    "t1": "Bug",
-    "t2": "Water",
+  "꼬시레": {
+    "t1": "벌레",
+    "t2": "물",
     "bs": {
       "hp": 25,
       "at": 35,
@@ -11885,9 +11885,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 12.0,
   },
-  "Golisopod": {
-    "t1": "Bug",
-    "t2": "Water",
+  "갑주무사": {
+    "t1": "벌레",
+    "t2": "물",
     "bs": {
       "hp": 75,
       "at": 125,
@@ -11898,9 +11898,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 108.0,
   },
-  "Sandygast": {
-    "t1": "Ghost",
-    "t2": "Ground",
+  "모래꿍": {
+    "t1": "고스트",
+    "t2": "땅",
     "bs": {
       "hp": 55,
       "at": 55,
@@ -11911,9 +11911,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 70.0,
   },
-  "Pallosand": {
-    "t1": "Ghost",
-    "t2": "Ground",
+  "모래성이당": {
+    "t1": "고스트",
+    "t2": "땅",
     "bs": {
       "hp": 85,
       "at": 75,
@@ -11924,8 +11924,8 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 250.0,
   },
-  "Pyukumuku": {
-    "t1": "Water",
+  "해무기": {
+    "t1": "물",
     "bs": {
       "hp": 55,
       "at": 60,
@@ -11936,8 +11936,8 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 1.2,
   },
-  "Type: Null": {
-    "t1": "Normal",
+  "타입:널": {
+    "t1": "노말",
     "bs": {
       "hp": 95,
       "at": 95,
@@ -11948,8 +11948,8 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 120.5,
   },
-  "Silvally": {
-    "t1": "Normal",
+  "실버디": {
+    "t1": "노말",
     "bs": {
       "hp": 95,
       "at": 95,
@@ -11960,9 +11960,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 100.5,
   },
-  "Minior": {
-    "t1": "Rock",
-    "t2": "Flying",
+  "메테노": {
+    "t1": "바위",
+    "t2": "비행",
     "bs": {
       "hp": 60,
       "at": 60,
@@ -11972,11 +11972,11 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sp": 60
     },
     "w": 40.0,    
-    "formes": ["Minior-Up", "Minior-Down"]
+    "formes": ["메테노-Up", "메테노-Down"]
   },
-  "Minior-Up": {
-    "t1": "Rock",
-    "t2": "Flying",
+  "메테노-Up": {
+    "t1": "바위",
+    "t2": "비행",
     "bs": {
       "hp": 60,
       "at": 60,
@@ -11988,9 +11988,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 40.0,    
     "isAlternateForme": true
   },
-  "Minior-Down": {
-    "t1": "Rock",
-    "t2": "Flying",
+  "메테노-Down": {
+    "t1": "바위",
+    "t2": "비행",
     "bs": {
       "hp": 60,
       "at": 100,
@@ -12002,8 +12002,8 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 0.3,    
     "isAlternateForme": true
   },
-  "Komala": {
-    "t1": "Normal",
+  "자말라": {
+    "t1": "노말",
     "bs": {
       "hp": 65,
       "at": 115,
@@ -12014,9 +12014,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 19.9,
   },
-  "Turtonator": {
-    "t1": "Fire",
-    "t2": "Dragon",
+  "폭거북스": {
+    "t1": "불꽃",
+    "t2": "드래곤",
     "bs": {
       "hp": 60,
       "at": 78,
@@ -12027,9 +12027,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 212.0,
   },
-  "Togedemaru": {
-    "t1": "Electric",
-    "t2": "Steel",
+  "토게데마루": {
+    "t1": "전기",
+    "t2": "강철",
     "bs": {
       "hp": 65,
       "at": 95,
@@ -12040,9 +12040,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 3.3,
   },
-  "Mimikyu": {
-    "t1": "Ghost",
-    "t2": "Fairy",
+  "따라큐": {
+    "t1": "고스트",
+    "t2": "페어리",
     "bs": {
       "hp": 55,
       "at": 90,
@@ -12053,9 +12053,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 0.7,
   },
-  "Mimikyu": {
-    "t1": "Ghost",
-    "t2": "Fairy",
+  "따라큐": {
+    "t1": "고스트",
+    "t2": "페어리",
     "bs": {
       "hp": 55,
       "at": 90,
@@ -12066,9 +12066,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 0.7,
   },
-  "Bruxish": {
-    "t1": "Water",
-    "t2": "Psychic",
+  "치갈기": {
+    "t1": "물",
+    "t2": "에스퍼",
     "bs": {
       "hp": 68,
       "at": 105,
@@ -12079,9 +12079,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 19.0,
   },
-  "Drampa": {
-    "t1": "Normal",
-    "t2": "Dragon",
+  "할비롱": {
+    "t1": "노말",
+    "t2": "드래곤",
     "bs": {
       "hp": 78,
       "at": 60,
@@ -12092,9 +12092,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 185.0,
   },
-  "Dhelmise": {
-    "t1": "Ghost",
-    "t2": "Grass",
+  "타타륜": {
+    "t1": "고스트",
+    "t2": "풀",
     "bs": {
       "hp": 70,
       "at": 131,
@@ -12105,8 +12105,8 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 210.0,
   },
-  "Jangmo-o": {
-    "t1": "Dragon",
+  "짜랑꼬": {
+    "t1": "드래곤",
     "bs": {
       "hp": 45,
       "at": 55,
@@ -12117,9 +12117,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 29.7,
   },
-  "Hakamo-o": {
-    "t1": "Dragon",
-    "t2": "Fighting",
+  "짜랑고우": {
+    "t1": "드래곤",
+    "t2": "격투",
     "bs": {
       "hp": 55,
       "at": 75,
@@ -12130,9 +12130,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 47.0,
   },
-  "Kommo-o": {
-    "t1": "Dragon",
-    "t2": "Fighting",
+  "짜랑고우거": {
+    "t1": "드래곤",
+    "t2": "격투",
     "bs": {
       "hp": 75,
       "at": 110,
@@ -12143,9 +12143,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 78.2,
   },
-  "Tapu Koko": {
-    "t1": "Electric",
-    "t2": "Fairy",
+  "카푸꼬꼬꼭": {
+    "t1": "전기",
+    "t2": "페어리",
     "bs": {
       "hp": 70,
       "at": 115,
@@ -12154,12 +12154,12 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sd": 75,
       "sp": 130
     },
-    "ab": "Electric Surge",
+    "ab": "일렉트릭메이커",
     "w": 20.5,
   },
-  "Tapu Lele": {
-    "t1": "Psychic",
-    "t2": "Fairy",
+  "카푸나비나": {
+    "t1": "에스퍼",
+    "t2": "페어리",
     "bs": {
       "hp": 70,
       "at": 85,
@@ -12168,12 +12168,12 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sd": 115,
       "sp": 95
     },
-    "ab": "Psychic Surge",
+    "ab": "사이코메이커",
     "w": 18.6,
   },
-  "Tapu Bulu": {
-    "t1": "Grass",
-    "t2": "Fairy",
+  "카푸브루루": {
+    "t1": "풀",
+    "t2": "페어리",
     "bs": {
       "hp": 70,
       "at": 130,
@@ -12182,12 +12182,12 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sd": 95,
       "sp": 75
     },
-    "ab": "Grassy Surge",
+    "ab": "그래스메이커",
     "w": 45.5,
   },
-  "Tapu Fini": {
-    "t1": "Water",
-    "t2": "Fairy",
+  "카푸느지느": {
+    "t1": "물",
+    "t2": "페어리",
     "bs": {
       "hp": 70,
       "at": 75,
@@ -12196,11 +12196,11 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sd": 130,
       "sp": 85
     },
-    "ab": "Misty Surge",
+    "ab": "미스트메이커",
     "w": 21.2,
   },
-  "Cosmog": {
-    "t1": "Psychic",
+  "코스모그": {
+    "t1": "에스퍼",
     "bs": {
       "hp": 43,
       "at": 29,
@@ -12211,8 +12211,8 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 0.1,
   },
-  "Cosmoem": {
-    "t1": "Psychic",
+  "코스모움": {
+    "t1": "에스퍼",
     "bs": {
       "hp": 43,
       "at": 29,
@@ -12223,9 +12223,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 999.9,
   },
-  "Solgaleo": {
-    "t1": "Psychic",
-    "t2": "Steel",
+  "솔가레오": {
+    "t1": "에스퍼",
+    "t2": "강철",
     "bs": {
       "hp": 137,
       "at": 137,
@@ -12234,12 +12234,12 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sd": 89,
       "sp": 97
     },
-    "ab": "Full Metal Body",
+    "ab": "메탈프로텍트",
     "w": 230.0,
   },
-  "Lunala": {
-    "t1": "Psychic",
-    "t2": "Ghost",
+  "루나아라": {
+    "t1": "에스퍼",
+    "t2": "고스트",
     "bs": {
       "hp": 137,
       "at": 113,
@@ -12248,12 +12248,12 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sd": 107,
       "sp": 97
     },
-    "ab": "Shadow Shield",
+    "ab": "스펙터가드",
     "w": 120.0,
   },
-  "Nihilego": {
-    "t1": "Rock",
-    "t2": "Poison",
+  "텅비드": {
+    "t1": "바위",
+    "t2": "독",
     "bs": {
       "hp": 109,
       "at": 53,
@@ -12264,9 +12264,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 55.5,
   },
-  "Buzzwole": {
-    "t1": "Bug",
-    "t2": "Fighting",
+  "매시붕": {
+    "t1": "벌레",
+    "t2": "격투",
     "bs": {
       "hp": 107,
       "at": 139,
@@ -12277,9 +12277,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 333.6,
   },
-  "Pheromosa": {
-    "t1": "Bug",
-    "t2": "Fighting",
+  "페로코체": {
+    "t1": "벌레",
+    "t2": "격투",
     "bs": {
       "hp": 71,
       "at": 137,
@@ -12290,8 +12290,8 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 25.0,
   },
-  "Xurkitree": {
-    "t1": "Electric",
+  "전수목": {
+    "t1": "전기",
     "bs": {
       "hp": 83,
       "at": 89,
@@ -12302,9 +12302,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 100.0,
   },
-  "Celesteela": {
-    "t1": "Steel",
-    "t2": "Flying",
+  "철화구야": {
+    "t1": "강철",
+    "t2": "비행",
     "bs": {
       "hp": 97,
       "at": 101,
@@ -12315,9 +12315,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 999.9,
   },
-  "Kartana": {
-    "t1": "Grass",
-    "t2": "Steel",
+  "종이신도": {
+    "t1": "풀",
+    "t2": "강철",
     "bs": {
       "hp": 59,
       "at": 181,
@@ -12328,9 +12328,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 0.1,
   },
-  "Guzzlord": {
-    "t1": "Dark",
-    "t2": "Dragon",
+  "악식킹": {
+    "t1": "악",
+    "t2": "드래곤",
     "bs": {
       "hp": 223,
       "at": 101,
@@ -12341,8 +12341,8 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 888.0,
   },
-  "Necrozma": {
-    "t1": "Psychic",
+  "네크로즈마": {
+    "t1": "에스퍼",
     "bs": {
       "hp": 97,
       "at": 107,
@@ -12353,9 +12353,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 230.0,
   },
-  "Magearna": {
-    "t1": "Steel",
-    "t2": "Fairy",
+  "마기아나": {
+    "t1": "강철",
+    "t2": "페어리",
     "bs": {
       "hp": 80,
       "at": 95,
@@ -12366,9 +12366,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 80.5,
   },
-  "Marshadow": {
-    "t1": "Fighting",
-    "t2": "Ghost",
+  "마샤도": {
+    "t1": "격투",
+    "t2": "고스트",
     "bs": {
       "hp": 90,
       "at": 125,
@@ -12382,7 +12382,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
 
 });
 
-delete POKEDEX_SM['Gengar'].ab;
-delete POKEDEX_SM['Raikou'].ab;
-delete POKEDEX_SM['Entei'].ab;
-delete POKEDEX_SM['Suicune'].ab;
+delete POKEDEX_SM['팬텀'].ab;
+delete POKEDEX_SM['라이코'].ab;
+delete POKEDEX_SM['앤테이'].ab;
+delete POKEDEX_SM['스이쿤'].ab;

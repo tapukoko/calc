@@ -1,4 +1,4 @@
-function CALCULATE_ALL_MOVES_BW(p1, p2, field) {
+﻿function CALCULATE_ALL_MOVES_BW(p1, p2, field) {
     checkAirLock(p1, field);
     checkAirLock(p2, field);
     checkForecast(p1, field.getWeather());
@@ -56,98 +56,98 @@ function getDamageResult(attacker, defender, move, field) {
     }
     
     var defAbility = defender.ability;
-    if (["Mold Breaker", "Teravolt", "Turboblaze"].indexOf(attacker.ability) !== -1) {
+    if (["틀깨기", "테라볼티지", "터보블레이즈"].indexOf(attacker.ability) !== -1) {
         defAbility = "";
         description.attackerAbility = attacker.ability;
     }
-    else if(move.name === "Moongeist Beam" || move.name === "Sunsteel Strike")
+    else if(move.name === "섀도레이" || move.name === "메테오드라이브")
         defAbility = ""; //works as a mold breaker
     
-    var isCritical = move.isCrit && ["Battle Armor", "Shell Armor"].indexOf(defAbility) === -1;
+    var isCritical = move.isCrit && ["전투무장", "조가비갑옷"].indexOf(defAbility) === -1;
     
-    if (move.name === "Weather Ball") {
-        move.type = field.weather.indexOf("Sun") > -1 ? "Fire"
-                : field.weather.indexOf("Rain") > -1 ? "Water"
-                : field.weather === "Sand" ? "Rock"
-                : field.weather === "Hail" ? "Ice"
-                : "Normal";
+    if (move.name === "웨더볼") {
+        move.type = field.weather.indexOf("쾌청") > -1 ? "불꽃"
+                : field.weather.indexOf("비") > -1 ? "물"
+                : field.weather === "모래바람" ? "바위"
+                : field.weather === "싸라기눈" ? "얼음"
+                : "노말";
         description.weather = field.weather;
         description.moveType = move.type;
-    } else if (move.name === "Judgment" && attacker.item.indexOf("Plate") !== -1) {
+    } else if (move.name === "심판의뭉치" && attacker.item.indexOf("플레이트") !== -1) {
         move.type = getItemBoostType(attacker.item);
-    } else if (move.name === "Natural Gift" && attacker.item.indexOf("Berry") !== -1) {
+    } else if (move.name === "자연의은혜" && attacker.item.indexOf("열매") !== -1) {
         var gift = getNaturalGift(attacker.item);
         move.type = gift.t;
         move.bp = gift.p;
         description.attackerItem = attacker.item;
         description.moveBP = move.bp;
         description.moveType = move.type;
-    } else if (move.name === "Nature Power") {
-        move.type = field.terrain === "Electric" ? "Electric" : field.terrain === "Grassy" ? "Grass" : field.terrain === "Misty" ? "Fairy" : "Normal";
+    } else if (move.name === "자연의힘") {
+        move.type = field.terrain === "일렉트릭" ? "전기" : field.terrain === "그래스" ? "풀" : field.terrain === "미스트" ? "페어리" : "노말";
     }
     
-    var isAerilate = attacker.ability === "Aerilate" && move.type === "Normal";
-    var isPixilate = attacker.ability === "Pixilate" && move.type === "Normal";
-    var isRefrigerate = attacker.ability === "Refrigerate" && move.type === "Normal";
-    var isGalvanize = attacker.ability === "Galvanize" && move.type === "Normal";
+    var isAerilate = attacker.ability === "스카이스킨" && move.type === "노말";
+    var isPixilate = attacker.ability === "페어리스킨" && move.type === "노말";
+    var isRefrigerate = attacker.ability === "프리즈스킨" && move.type === "노말";
+    var isGalvanize = attacker.ability === "일렉트릭스킨" && move.type === "노말";
     if(!move.isZ){ //Z-Moves don't receive -ate type changes
         if (isAerilate) {
-            move.type = "Flying";
+            move.type = "비행";
         } else if (isPixilate) {
-            move.type = "Fairy";
+            move.type = "페어리";
         } else if (isRefrigerate) {
-            move.type = "Ice";
+            move.type = "얼음";
         } else if(isGalvanize) {
-            move.type = "Electric";
-        } else if (attacker.ability === "Normalize") {
-            move.type = "Normal";
+            move.type = "전기";
+        } else if (attacker.ability === "노말스킨") {
+            move.type = "노말";
             description.attackerAbility = attacker.ability;
-        } else if(attacker.ability === "Liquid Voice" && move.isSound){
-            move.type = "Water"
+        } else if(attacker.ability === "촉촉보이스" && move.isSound){
+            move.type = "물"
             description.attackerAbility = attacker.ability;
         } 
     }
     
-    var typeEffect1 = getMoveEffectiveness(move, defender.type1, attacker.ability === "Scrappy" || field.isForesight, field.isGravity);
-    var typeEffect2 = defender.type2 ? getMoveEffectiveness(move, defender.type2, attacker.ability === "Scrappy" || field.isForesight, field.isGravity) : 1;
+    var typeEffect1 = getMoveEffectiveness(move, defender.type1, attacker.ability === "배짱" || field.isForesight, field.isGravity);
+    var typeEffect2 = defender.type2 ? getMoveEffectiveness(move, defender.type2, attacker.ability === "배짱" || field.isForesight, field.isGravity) : 1;
     var typeEffectiveness = typeEffect1 * typeEffect2;
     
     if (typeEffectiveness === 0) {
         return {"damage":[0], "description":buildDescription(description)};
     }
-    if ((defAbility === "Wonder Guard" && typeEffectiveness <= 1) ||
-            (move.type === "Grass" && defAbility === "Sap Sipper") ||
-            (move.type === "Fire" && defAbility.indexOf("Flash Fire") !== -1) ||
-            (move.type === "Water" && ["Dry Skin", "Storm Drain", "Water Absorb"].indexOf(defAbility) !== -1) ||
-            (move.type === "Electric" && ["Lightning Rod", "Lightningrod", "Motor Drive", "Volt Absorb"].indexOf(defAbility) !== -1) ||
-            (move.type === "Ground" && !field.isGravity && defAbility === "Levitate") ||
-            (move.isBullet && defAbility === "Bulletproof") ||
-            (move.isSound && defAbility === "Soundproof")) {
+    if ((defAbility === "불가사의부적" && typeEffectiveness <= 1) ||
+            (move.type === "풀" && defAbility === "초식") ||
+            (move.type === "불꽃" && defAbility.indexOf("타오르는불꽃") !== -1) ||
+            (move.type === "물" && ["건조피부", "마중물", "축전"].indexOf(defAbility) !== -1) ||
+            (move.type === "전기" && ["피뢰침", "피뢰침", "전기엔진", "축전"].indexOf(defAbility) !== -1) ||
+            (move.type === "땅" && !field.isGravity && defAbility === "부유") ||
+            (move.isBullet && defAbility === "방탄") ||
+            (move.isSound && defAbility === "방음")) {
         description.defenderAbility = defAbility;
         return {"damage":[0], "description":buildDescription(description)};
     }
-    if (move.type === "Ground" && !field.isGravity && defender.item === "Air Balloon") {
+    if (move.type === "땅" && !field.isGravity && defender.item === "풍선") {
         description.defenderItem = defender.item;
         return {"damage":[0], "description":buildDescription(description)};
     }
-    if ((field.weather === "Harsh Sun" && move.type === "Water") || (field.weather === "Heavy Rain" && move.type === "Fire")) {
+    if ((field.weather === "아주 강한 햇살" && move.type === "물") || (field.weather === "강한 비" && move.type === "불꽃")) {
         return {"damage":[0], "description":buildDescription(description)};
     }
-    if (move.name === "Sky Drop" &&
-        ([defender.type1, defender.type2].indexOf("Flying") !== -1 ||
+    if (move.name === "프리폴" &&
+        ([defender.type1, defender.type2].indexOf("비행") !== -1 ||
             defender.weight >= 200.0 || field.isGravity)) {
         return {"damage":[0], "description":buildDescription(description)};
     }
-    if (move.name === "Synchronoise" &&
+    if (move.name === "싱크로노이즈" &&
             [defender.type1, defender.type2].indexOf(attacker.type1) === -1 && [defender.type1, defender.type2].indexOf(attacker.type2) === -1) {
         return {"damage": [0], "description": buildDescription(description)};
     }
     
     description.HPEVs = defender.HPEVs + " HP";
     
-    if (move.name === "Seismic Toss" || move.name === "Night Shade") {
+    if (move.name === "지구던지기" || move.name === "나이트헤드") {
         var lv = attacker.level;
-        if (attacker.ability === "Parental Bond") {
+        if (attacker.ability === "부자유친") {
             lv *= 2;
         }
         return {"damage":[lv], "description":buildDescription(description)};
@@ -163,112 +163,112 @@ function getDamageResult(attacker, defender, move, field) {
     ////////////////////////////////
     var basePower;
     switch (move.name) {
-        case "Payback":
+        case "보복":
             basePower = turnOrder === "LAST" ? 100 : 50;
             description.moveBP = basePower;
             break;
-        case "Electro Ball":
+        case "일렉트릭볼":
             var r = Math.floor(attacker.stats[SP] / defender.stats[SP]);
             basePower = r >= 4 ? 150 : r >= 3 ? 120 : r >= 2 ? 80 : 60;
             description.moveBP = basePower;
             break;
-        case "Gyro Ball":
+        case "자이로볼":
             basePower = Math.min(150, Math.floor(25 * defender.stats[SP] / attacker.stats[SP]));
             description.moveBP = basePower;
             break;
-        case "Punishment":
+        case "혼내기":
             basePower = Math.min(200, 60 + 20 * countBoosts(defender.boosts));
             description.moveBP = basePower;
             break;
-        case "Low Kick":
-        case "Grass Knot":
+        case "안다리걸기":
+        case "풀묶기":
             var w = defender.weight;
             basePower = w >= 200 ? 120 : w >= 100 ? 100 : w >= 50 ? 80 : w >= 25 ? 60 : w >= 10 ? 40 : 20;
             description.moveBP = basePower;
             break;
-        case "Hex":
-            basePower = move.bp * (defender.status !== "Healthy" ? 2 : 1);
+        case "병상첨병":
+            basePower = move.bp * (defender.status !== "정상" ? 2 : 1);
             description.moveBP = basePower;
             break;
-        case "Heavy Slam":
-        case "Heat Crash":
+        case "헤비봄버":
+        case "히트스탬프":
             var wr = attacker.weight / defender.weight;
             basePower = wr >= 5 ? 120 : wr >= 4 ? 100 : wr >= 3 ? 80 : wr >= 2 ? 60 : 40;
             description.moveBP = basePower;
             break;
-        case "Stored Power":
+        case "어시스트파워":
             basePower = 20 + 20 * countBoosts(attacker.boosts);
             description.moveBP = basePower;
             break;
-        case "Acrobatics":
-            basePower = attacker.item === "Flying Gem" || attacker.item === "" ? 110 : 55;
+        case "애크러뱃":
+            basePower = attacker.item === "비행주얼" || attacker.item === "" ? 110 : 55;
             description.moveBP = basePower;
             break;
-        case "Wake-Up Slap":
-            basePower = move.bp * (defender.status === "Asleep" ? 2 : 1);
+        case "잠깨움뺨치기":
+            basePower = move.bp * (defender.status === "잠듦" ? 2 : 1);
             description.moveBP = basePower;
             break;
-        case "Weather Ball":
+        case "웨더볼":
             basePower = field.weather !== "" ? 100 : 50;
             description.moveBP = basePower;
             break;
-        case "Fling":
+        case "내던지기":
             basePower = getFlingPower(attacker.item);
             description.moveBP = basePower;
             description.attackerItem = attacker.item;
             break;
-        case "Eruption":
-        case "Water Spout":
+        case "분화":
+        case "해수스파우팅":
             basePower = Math.max(1, Math.floor(150 * attacker.curHP / attacker.maxHP));
             description.moveBP = basePower;
             break;
-        case "Flail":
-        case "Reversal":
+        case "바둥바둥":
+        case "기사회생":
             var p = Math.floor(48 * attacker.curHP / attacker.maxHP);
             basePower = p <= 1 ? 200 : p <= 4 ? 150 : p <= 9 ? 100 : p <= 16 ? 80 : p <= 32 ? 40 : 20;
             description.moveBP = basePower;
             break;
-        case "Bulldoze":
-        case "Earthquake":
-            basePower = (field.terrain === "Grassy") ? move.bp / 2 : move.bp;
+        case "땅고르기":
+        case "지진":
+            basePower = (field.terrain === "그래스") ? move.bp / 2 : move.bp;
             description.terrain = field.terrain;
             break;
-        case "Nature Power":
-            basePower = (field.terrain === "Electric" || field.terrain === "Grassy") ? 90 : (field.terrain === "Misty") ? 95 : 80;
+        case "자연의힘":
+            basePower = (field.terrain === "일렉트릭" || field.terrain === "그래스") ? 90 : (field.terrain === "미스트") ? 95 : 80;
             break;
         default:
             basePower = move.bp;
     }
     
     var bpMods = [];
-    if ((attacker.ability === "Technician" && basePower <= 60) ||
-            (attacker.ability === "Flare Boost" && attacker.status === "Burned" && move.category === "Special") ||
-            (attacker.ability === "Toxic Boost" && (attacker.status === "Poisoned" || attacker.status === "Badly Poisoned") &&
-                    move.category === "Physical")) {
+    if ((attacker.ability === "테크니션" && basePower <= 60) ||
+            (attacker.ability === "열폭주" && attacker.status === "화상" && move.category === "특수") ||
+            (attacker.ability === "독폭주" && (attacker.status === "독" || attacker.status === "맹독") &&
+                    move.category === "물리")) {
         bpMods.push(0x1800);
         description.attackerAbility = attacker.ability;
-    } else if (attacker.ability === "Analytic" && turnOrder !== "FIRST") {
+    } else if (attacker.ability === "애널라이즈" && turnOrder !== "FIRST") {
         bpMods.push(0x14CD);
         description.attackerAbility = attacker.ability;
-    } else if (attacker.ability === "Sand Force" && field.weather === "Sand" && ["Rock","Ground","Steel"].indexOf(move.type) !== -1) {
+    } else if (attacker.ability === "모래의힘" && field.weather === "모래바람" && ["바위","땅","강철"].indexOf(move.type) !== -1) {
         bpMods.push(0x14CD);
         description.attackerAbility = attacker.ability;
         description.weather = field.weather;
-    } else if ((attacker.ability === "Reckless" && move.hasRecoil) ||
-            (attacker.ability === "Iron Fist" && move.isPunch)) {
+    } else if ((attacker.ability === "이판사판" && move.hasRecoil) ||
+            (attacker.ability === "철주먹" && move.isPunch)) {
         bpMods.push(0x1333);
         description.attackerAbility = attacker.ability;
     }
     
-    if (defAbility === "Heatproof" && move.type === "Fire") {
+    if (defAbility === "내열" && move.type === "불꽃") {
         bpMods.push(0x800);
         description.defenderAbility = defAbility;
-    } else if (defAbility === "Dry Skin" && move.type === "Fire") {
+    } else if (defAbility === "건조피부" && move.type === "불꽃") {
         bpMods.push(0x1400);
         description.defenderAbility = defAbility;
     }
     
-    if (attacker.ability === "Sheer Force" && move.hasSecondaryEffect) {
+    if (attacker.ability === "우격다짐" && move.hasSecondaryEffect) {
         bpMods.push(0x14CD);
         description.attackerAbility = attacker.ability;
     }
@@ -276,33 +276,33 @@ function getDamageResult(attacker, defender, move, field) {
     if (getItemBoostType(attacker.item) === move.type) {
         bpMods.push(0x1333);
         description.attackerItem = attacker.item;
-    } else if ((attacker.item === "Muscle Band" && move.category === "Physical") ||
-            (attacker.item === "Wise Glasses" && move.category === "Special")) {
+    } else if ((attacker.item === "힘의머리띠" && move.category === "물리") ||
+            (attacker.item === "박식안경" && move.category === "특수")) {
         bpMods.push(0x1199);
         description.attackerItem = attacker.item;
-    } else if (((attacker.item === "Adamant Orb" && attacker.name === "Dialga") ||
-            (attacker.item === "Lustrous Orb" && attacker.name === "Palkia") ||
-            (attacker.item === "Griseous Orb" && attacker.name === "Giratina-O")) &&
+    } else if (((attacker.item === "금강옥" && attacker.name === "디아루가") ||
+            (attacker.item === "백옥" && attacker.name === "펄기아") ||
+            (attacker.item === "백금옥" && attacker.name === "기라티나-오리진")) &&
             (move.type === attacker.type1 || move.type === attacker.type2)) {
         bpMods.push(0x1333);
         description.attackerItem = attacker.item;
-    } else if (attacker.item === move.type + " Gem") {
+    } else if (attacker.item === move.type + "주얼") {
         bpMods.push(gen >= 6 ? 0x14CD : 0x1800);
         description.attackerItem = attacker.item;
     }
     
-    if ((move.name === "Facade" && ["Burned","Paralyzed","Poisoned","Badly Poisoned"].indexOf(attacker.status) !== -1) ||
-            (move.name === "Brine" && defender.curHP <= defender.maxHP / 2) ||
-            (move.name === "Venoshock" && (defender.status === "Poisoned" || defender.status === "Badly Poisoned"))) {
+    if ((move.name === "객기" && ["화상","마비","독","맹독"].indexOf(attacker.status) !== -1) ||
+            (move.name === "소금물" && defender.curHP <= defender.maxHP / 2) ||
+            (move.name === "베놈쇼크" && (defender.status === "독" || defender.status === "맹독"))) {
         bpMods.push(0x2000);
         description.moveBP = move.bp * 2;
-    } else if ((move.name === "Solar Beam" || move.name == "SolarBeam") && ["Rain","Sand","Hail","Heavy Rain"].indexOf(field.weather) !== -1) {
+    } else if ((move.name === "솔라빔" || move.name == "솔라빔") && ["비","모래바람","싸라기눈","강한 비"].indexOf(field.weather) !== -1) {
         bpMods.push(0x800);
         description.moveBP = move.bp / 2;
         description.weather = field.weather;
-    } else if (gen >= 6 && move.name === "Knock Off" && !(defender.item === "" ||
-            (defender.name === "Giratina-O" && defender.item === "Griseous Orb") ||
-            (defender.name.indexOf("Arceus") !== -1 && defender.item.indexOf("Plate") !== -1))) {
+    } else if (gen >= 6 && move.name === "탁쳐서떨구기" && !(defender.item === "" ||
+            (defender.name === "기라티나-오리진" && defender.item === "백금옥") ||
+            (defender.name.indexOf("아르세우스") !== -1 && defender.item.indexOf("플레이트") !== -1))) {
         bpMods.push(0x1800);
         description.moveBP = move.bp * 1.5;
     }
@@ -315,21 +315,21 @@ function getDamageResult(attacker, defender, move, field) {
     if (!move.isZ && (isAerilate || isPixilate || isRefrigerate || isGalvanize)) {
         bpMods.push(0x14CD);
         description.attackerAbility = attacker.ability;
-    } else if ((attacker.ability === "Mega Launcher" && move.isPulse) ||
-            (attacker.ability === "Strong Jaw" && move.isBite)) {
+    } else if ((attacker.ability === "메가런처" && move.isPulse) ||
+            (attacker.ability === "옹골찬턱" && move.isBite)) {
         bpMods.push(0x1800);
         description.attackerAbility = attacker.ability;
-    } else if (attacker.ability === "Tough Claws" && move.makesContact) {
+    } else if (attacker.ability === "단단한발톱" && move.makesContact) {
         bpMods.push(0x1547);
         description.attackerAbility = attacker.ability;
-    } else if(defender.ability === "Fluffy" && move.makesContact){
+    } else if(defender.ability === "복슬복슬" && move.makesContact){
         bpMods.push(0x800);
     }
     
 
-    var isAttackerAura = (attacker.ability === (move.type + " Aura"))
-    var isDefenderAura = defAbility === (move.type + " Aura");
-    var auraActive = ($("input:checkbox[id='" + move.type.toLowerCase() + "-aura']:checked").val() != undefined)
+    var isAttackerAura = (attacker.ability === (move.type + "오라")) //TODO: This makes "다크오라" into "악오라"
+    var isDefenderAura = defAbility === (move.type + "오라"); //TODO: This makes "다크오라" into "악오라"
+    var auraActive = ($("input:checkbox[id='" + move.type.toLowerCase() + "-aura']:checked").val() != undefined) //TODO: It has broken hence move.type was localized into Korean
     var auraBreak = ($("input:checkbox[id='aura-break']:checked").val() != undefined)
     if (auraActive) {
         if (auraBreak) {
@@ -347,7 +347,7 @@ function getDamageResult(attacker, defender, move, field) {
         }
     }
     
-    if(move.type === "Steel" && attacker.ability === "Steelworker"){
+    if(move.type === "강철" && attacker.ability === "강철술사"){
         bpMods.push(0x1555);
     }
     
@@ -358,14 +358,14 @@ function getDamageResult(attacker, defender, move, field) {
     ////////// (SP)ATTACK //////////
     ////////////////////////////////
     var attack;
-    var attackSource = move.name === "Foul Play" ? defender : attacker;
-    var attackStat = move.category === "Physical" ? AT : SA;
+    var attackSource = move.name === "속임수" ? defender : attacker;
+    var attackStat = move.category === "물리" ? AT : SA;
     description.attackEVs = attacker.evs[attackStat] +
             (NATURES[attacker.nature][0] === attackStat ? "+" : NATURES[attacker.nature][1] === attackStat ? "-" : "") + " " +
             toSmogonStat(attackStat);
     if (attackSource.boosts[attackStat] === 0 || (isCritical && attackSource.boosts[attackStat] < 0)) {
         attack = attackSource.rawStats[attackStat];
-    } else if (defAbility === "Unaware") {
+    } else if (defAbility === "천진") {
         attack = attackSource.rawStats[attackStat];
         description.defenderAbility = defAbility;
     } else {
@@ -373,56 +373,56 @@ function getDamageResult(attacker, defender, move, field) {
         description.attackBoost = attackSource.boosts[attackStat];
     }
     
-    // unlike all other attack modifiers, Hustle gets applied directly
-    if (attacker.ability === "Hustle" && move.category === "Physical") {
+    // unlike all other attack modifiers, 의욕 gets applied directly
+    if (attacker.ability === "의욕" && move.category === "물리") {
         attack = pokeRound(attack * 3/2);
         description.attackerAbility = attacker.ability;
     }
     
     var atMods = [];
-    if ((defAbility === "Thick Fat" && (move.type === "Fire" || move.type === "Ice")) || (defAbility === "Water Bubble" && move.type === "Fire")) {
+    if ((defAbility === "두꺼운지방" && (move.type === "불꽃" || move.type === "얼음")) || (defAbility === "수포" && move.type === "불꽃")) {
         atMods.push(0x800);
         description.defenderAbility = defAbility;
     }
-    if (defAbility === "Fluffy" && move.type === "Fire") {
+    if (defAbility === "복슬복슬" && move.type === "불꽃") {
         atMods.push(0x2000);
         description.defenderAbility = defAbility;
     }
 
     
-    if ((attacker.ability === "Guts" && attacker.status !== "Healthy" && move.category === "Physical") ||
-            (attacker.ability === "Overgrow" && attacker.curHP <= attacker.maxHP / 3 && move.type === "Grass") ||
-            (attacker.ability === "Blaze" && attacker.curHP <= attacker.maxHP / 3 && move.type === "Fire") ||
-            (attacker.ability === "Torrent" && attacker.curHP <= attacker.maxHP / 3 && move.type === "Water") ||
-            (attacker.ability === "Swarm" && attacker.curHP <= attacker.maxHP / 3 && move.type === "Bug")) {
+    if ((attacker.ability === "근성" && attacker.status !== "정상" && move.category === "물리") ||
+            (attacker.ability === "심록" && attacker.curHP <= attacker.maxHP / 3 && move.type === "풀") ||
+            (attacker.ability === "맹화" && attacker.curHP <= attacker.maxHP / 3 && move.type === "불꽃") ||
+            (attacker.ability === "급류" && attacker.curHP <= attacker.maxHP / 3 && move.type === "물") ||
+            (attacker.ability === "벌레의알림" && attacker.curHP <= attacker.maxHP / 3 && move.type === "벌레")) {
         atMods.push(0x1800);
         description.attackerAbility = attacker.ability;
-    } else if (attacker.ability === "Flash Fire (activated)" && move.type === "Fire") {
+    } else if (attacker.ability === "타오르는불꽃 (활성)" && move.type === "불꽃") {
         atMods.push(0x1800);
-        description.attackerAbility = "Flash Fire";
-    } else if ((attacker.ability === "Solar Power" && field.weather.indexOf("Sun") > -1 && move.category === "Special") ||
-            (attacker.ability === "Flower Gift" && field.weather.indexOf("Sun") > -1 && move.category === "Physical")) {
+        description.attackerAbility = "타오르는불꽃";
+    } else if ((attacker.ability === "선파워" && field.weather.indexOf("쾌청") > -1 && move.category === "특수") ||
+            (attacker.ability === "플라워기프트" && field.weather.indexOf("쾌청") > -1 && move.category === "물리")) {
         atMods.push(0x1800);
         description.attackerAbility = attacker.ability;
         description.weather = field.weather;
-    } else if ((attacker.ability === "Defeatist" && attacker.curHP <= attacker.maxHP / 2) ||
-            (attacker.ability === "Slow Start" && move.category === "Physical")) {
+    } else if ((attacker.ability === "무기력" && attacker.curHP <= attacker.maxHP / 2) ||
+            (attacker.ability === "슬로스타트" && move.category === "물리")) {
         atMods.push(0x800);
         description.attackerAbility = attacker.ability;
-    } else if ((attacker.ability === "Water Bubble" && move.type === "Water") ||
-        ((attacker.ability === "Huge Power" || attacker.ability === "Pure Power") && move.category === "Physical")) {
+    } else if ((attacker.ability === "수포" && move.type === "물") ||
+        ((attacker.ability === "천하장사" || attacker.ability === "순수한힘") && move.category === "물리")) {
         atMods.push(0x2000);
         description.attackerAbility = attacker.ability;
     }
     
-    if ((attacker.item === "Thick Club" && (attacker.name === "Cubone" || attacker.name === "Marowak" || attacker.name === "Alolan Marowak") && move.category === "Physical") ||
-            (attacker.item === "Deep Sea Tooth" && attacker.name === "Clamperl" && move.category === "Special") ||
-            (attacker.item === "Light Ball" && attacker.name === "Pikachu")) {
+    if ((attacker.item === "굵은뼈" && (attacker.name === "탕구리" || attacker.name === "텅구리" || attacker.name === "알로라 텅구리") && move.category === "물리") ||
+            (attacker.item === "심해의이빨" && attacker.name === "진주몽" && move.category === "특수") ||
+            (attacker.item === "전기구슬" && attacker.name === "피카츄")) {
         atMods.push(0x2000);
         description.attackerItem = attacker.item;
-    } else if ((attacker.item === "Soul Dew" && (attacker.name === "Latios" || attacker.name === "Latias") && move.category === "Special") ||
-            (attacker.item === "Choice Band" && move.category === "Physical") ||
-            (attacker.item === "Choice Specs" && move.category === "Special")) {
+    } else if ((attacker.item === "마음의물방울" && (attacker.name === "라티오스" || attacker.name === "라티아스") && move.category === "특수") ||
+            (attacker.item === "구애머리띠" && move.category === "물리") ||
+            (attacker.item === "구애안경" && move.category === "특수")) {
         atMods.push(0x1800);
         description.attackerItem = attacker.item;
     }
@@ -433,14 +433,14 @@ function getDamageResult(attacker, defender, move, field) {
     ///////// (SP)DEFENSE //////////
     ////////////////////////////////
     var defense;
-    var hitsPhysical = move.category === "Physical" || move.dealsPhysicalDamage;
+    var hitsPhysical = move.category === "물리" || move.dealsPhysicalDamage;
     var defenseStat = hitsPhysical ? DF : SD;
     description.defenseEVs = defender.evs[defenseStat] +
             (NATURES[defender.nature][0] === defenseStat ? "+" : NATURES[defender.nature][1] === defenseStat ? "-" : "") + " " +
             toSmogonStat(defenseStat);
     if (defender.boosts[defenseStat] === 0 || (isCritical && defender.boosts[defenseStat] > 0) || move.ignoresDefenseBoosts) {
         defense = defender.rawStats[defenseStat];
-    } else if (attacker.ability === "Unaware") {
+    } else if (attacker.ability === "천진") {
         defense = defender.rawStats[defenseStat];
         description.attackerAbility = attacker.ability;
     } else {
@@ -448,26 +448,26 @@ function getDamageResult(attacker, defender, move, field) {
         description.defenseBoost = defender.boosts[defenseStat];
     }
     
-    // unlike all other defense modifiers, Sandstorm SpD boost gets applied directly
-    if (field.weather === "Sand" && (defender.type1 === "Rock" || defender.type2 === "Rock") && !hitsPhysical) {
+    // unlike all other defense modifiers, Sandstorm 특방 boost gets applied directly
+    if (field.weather === "모래바람" && (defender.type1 === "바위" || defender.type2 === "바위") && !hitsPhysical) {
         defense = pokeRound(defense * 3/2);
         description.weather = field.weather;
     }
     
     var dfMods = [];
-    if (defAbility === "Marvel Scale" && defender.status !== "Healthy" && hitsPhysical) {
+    if (defAbility === "이상한비늘" && defender.status !== "정상" && hitsPhysical) {
         dfMods.push(0x1800);
         description.defenderAbility = defAbility;
-    } else if (defAbility === "Flower Gift" && field.weather.indexOf("Sun") > -1 && !hitsPhysical) {
+    } else if (defAbility === "플라워기프트" && field.weather.indexOf("쾌청") > -1 && !hitsPhysical) {
         dfMods.push(0x1800);
         description.defenderAbility = defAbility;
         description.weather = field.weather;
     }
     
-    if ((defender.item === "Deep Sea Scale" && defender.name === "Clamperl" && !hitsPhysical) ||
-            (defender.item === "Metal Powder" && defender.name === "Ditto") ||
-            (defender.item === "Soul Dew" && (defender.name === "Latios" || defender.name === "Latias") && !hitsPhysical) ||
-            (defender.item === "Assault Vest" && !hitsPhysical) || defender.item === "Eviolite") {
+    if ((defender.item === "심해의비늘" && defender.name === "진주몽" && !hitsPhysical) ||
+            (defender.item === "금속파우더" && defender.name === "메타몽") ||
+            (defender.item === "마음의물방울" && (defender.name === "라티오스" || defender.name === "라티아스") && !hitsPhysical) ||
+            (defender.item === "돌격조끼" && !hitsPhysical) || defender.item === "진화의휘석") {
         dfMods.push(0x1800);
         description.defenderItem = defender.item;
     }
@@ -478,34 +478,34 @@ function getDamageResult(attacker, defender, move, field) {
     //////////// DAMAGE ////////////
     ////////////////////////////////
     var baseDamage = Math.floor(Math.floor((Math.floor((2 * attacker.level) / 5 + 2) * basePower * attack) / defense) / 50 + 2);
-    if (field.format !== "Singles" && move.isSpread) {
+    if (field.format !== "싱글" && move.isSpread) {
         baseDamage = pokeRound(baseDamage * 0xC00 / 0x1000);
     }
-    if ((field.weather.indexOf("Sun") > -1 && move.type === "Fire") || (field.weather.indexOf("Rain") > -1 && move.type === "Water")) {
+    if ((field.weather.indexOf("쾌청") > -1 && move.type === "불꽃") || (field.weather.indexOf("비") > -1 && move.type === "물")) {
         baseDamage = pokeRound(baseDamage * 0x1800 / 0x1000);
         description.weather = field.weather;
-    } else if ((field.weather === "Sun" && move.type === "Water") || (field.weather === "Rain" && move.type === "Fire") ||
-               (field.weather === "Strong Winds" && (defender.type1 === "Flying" || defender.type2 === "Flying") &&
-               typeChart[move.type]["Flying"] > 1)) {
+    } else if ((field.weather === "쾌청" && move.type === "물") || (field.weather === "비" && move.type === "불꽃") ||
+               (field.weather === "난기류" && (defender.type1 === "비행" || defender.type2 === "비행") &&
+               typeChart[move.type]["비행"] > 1)) {
         baseDamage = pokeRound(baseDamage * 0x800 / 0x1000);
         description.weather = field.weather;
     }
-    if (field.isGravity || (attacker.type1 !== "Flying" && attacker.type2 !== "Flying" &&
-                attacker.item !== "Air Balloon" && attacker.ability !== "Levitate")) {
-        if (field.terrain === "Electric" && move.type === "Electric") {
+    if (field.isGravity || (attacker.type1 !== "비행" && attacker.type2 !== "비행" &&
+                attacker.item !== "풍선" && attacker.ability !== "부유")) {
+        if (field.terrain === "일렉트릭" && move.type === "전기") {
             baseDamage = pokeRound(baseDamage * 0x1800 / 0x1000);
             description.terrain = field.terrain;
-        } else if (field.terrain === "Grassy" && move.type == "Grass") {
+        } else if (field.terrain === "그래스" && move.type == "풀") {
             baseDamage = pokeRound(baseDamage * 0x1800 / 0x1000);
             description.terrain = field.terrain;
-        }else if (field.terrain === "Psychic" && move.type == "Psychic") {
+        }else if (field.terrain === "사이코" && move.type == "에스퍼") {
             baseDamage = pokeRound(baseDamage * 0x1800 / 0x1000);
             description.terrain = field.terrain;
         }
     }
-    if (field.isGravity || (defender.type1 !== "Flying" && defender.type2 !== "Flying" &&
-            defender.item !== "Air Balloon" && defender.ability !== "Levitate")) {
-        if (field.terrain === "Misty" && move.type === "Dragon") {
+    if (field.isGravity || (defender.type1 !== "비행" && defender.type2 !== "비행" &&
+            defender.item !== "풍선" && defender.ability !== "부유")) {
+        if (field.terrain === "미스트" && move.type === "드래곤") {
             baseDamage = pokeRound(baseDamage * 0x800 / 0x1000);
             description.terrain = field.terrain;
         }
@@ -517,31 +517,31 @@ function getDamageResult(attacker, defender, move, field) {
     // the random factor is applied between the crit mod and the stab mod, so don't apply anything below this until we're inside the loop
     var stabMod = 0x1000;
     if (move.type === attacker.type1 || move.type === attacker.type2) {
-        if (attacker.ability === "Adaptability") {
+        if (attacker.ability === "적응력") {
             stabMod = 0x2000;
             description.attackerAbility = attacker.ability;
         } else {
             stabMod = 0x1800;
         }
-    } else if (attacker.ability === "Protean") {
+    } else if (attacker.ability === "변환자재") {
         stabMod = 0x1800;
         description.attackerAbility = attacker.ability;
     }
-    var applyBurn = (attacker.status === "Burned" && move.category === "Physical" && attacker.ability !== "Guts" && !move.ignoresBurn);
+    var applyBurn = (attacker.status === "화상" && move.category === "물리" && attacker.ability !== "근성" && !move.ignoresBurn);
     description.isBurned = applyBurn;
     var finalMods = [];
-    if (field.isReflect && move.category === "Physical" && !isCritical) {
-        finalMods.push(field.format !== "Singles" ? 0xA8F : 0x800);
+    if (field.isReflect && move.category === "물리" && !isCritical) {
+        finalMods.push(field.format !== "싱글" ? 0xA8F : 0x800);
         description.isReflect = true;
-    } else if (field.isLightScreen && move.category === "Special" && !isCritical) {
-        finalMods.push(field.format !== "Singles" ? 0xA8F : 0x800);
+    } else if (field.isLightScreen && move.category === "특수" && !isCritical) {
+        finalMods.push(field.format !== "싱글" ? 0xA8F : 0x800);
         description.isLightScreen = true;
     }
-    if ((defAbility === "Multiscale" || defAbility == "Shadow Shield") && defender.curHP === defender.maxHP) {
+    if ((defAbility === "멀티스케일" || defAbility == "스펙터가드") && defender.curHP === defender.maxHP) {
         finalMods.push(0x800);
         description.defenderAbility = defAbility;
     }
-    if (attacker.ability === "Tinted Lens" && typeEffectiveness < 1) {
+    if (attacker.ability === "색안경" && typeEffectiveness < 1) {
         finalMods.push(0x2000);
         description.attackerAbility = attacker.ability;
     }
@@ -549,27 +549,27 @@ function getDamageResult(attacker, defender, move, field) {
         finalMods.push(0xC00);
         description.isFriendGuard = true;
     }
-    if (attacker.ability === "Sniper" && isCritical) {
+    if (attacker.ability === "스나이퍼" && isCritical) {
         finalMods.push(0x1800);
         description.attackerAbility = attacker.ability;
     }
-    if ((defAbility === "Solid Rock" || defAbility === "Filter") && typeEffectiveness > 1) {
+    if ((defAbility === "하드록" || defAbility === "필터") && typeEffectiveness > 1) {
         finalMods.push(0xC00);
         description.defenderAbility = defAbility;
     }
-    if (attacker.item === "Expert Belt" && typeEffectiveness > 1) {
+    if (attacker.item === "달인의띠" && typeEffectiveness > 1) {
         finalMods.push(0x1333);
         description.attackerItem = attacker.item;
-    } else if (attacker.item === "Life Orb") {
+    } else if (attacker.item === "생명의구슬") {
         finalMods.push(0x14CC);
         description.attackerItem = attacker.item;
     }
-    if (getBerryResistType(defender.item) === move.type && (typeEffectiveness > 1 || move.type === "Normal") &&
-            attacker.ability !== "Unnerve") {
+    if (getBerryResistType(defender.item) === move.type && (typeEffectiveness > 1 || move.type === "노말") &&
+            attacker.ability !== "긴장감") {
         finalMods.push(0x800);
         description.defenderItem = defender.item;
     }
-    if (defAbility === "Fur Coat" && hitsPhysical){
+    if (defAbility === "퍼코트" && hitsPhysical){
         finalMods.push(0x800);
         description.defenderAbility = defAbility;
     }
@@ -577,11 +577,11 @@ function getDamageResult(attacker, defender, move, field) {
     
     var damage = [], pbDamage = [];
     var child, childDamage, j;
-    if (attacker.ability === "Parental Bond" && move.hits === 1 && (field.format === "Singles" || !move.isSpread)) {
+    if (attacker.ability === "부자유친" && move.hits === 1 && (field.format === "싱글" || !move.isSpread)) {
         child = JSON.parse(JSON.stringify(attacker));
         child.ability = '';
         child.isChild = true;
-        if (move.name === 'Power-Up Punch') {
+        if (move.name === '그로우펀치') {
             child.boosts[AT]++;
             child.stats[AT] = getModifiedStat(child.rawStats[AT], child.boosts[AT]);
         }
@@ -597,13 +597,13 @@ function getDamageResult(attacker, defender, move, field) {
         }
         damage[i] = Math.max(1, damage[i]);
         damage[i] = pokeRound(damage[i] * finalMod / 0x1000);
-        if (attacker.ability === "Parental Bond" && move.hits === 1 && (field.format === "Singles" || !move.isSpread)) {
+        if (attacker.ability === "부자유친" && move.hits === 1 && (field.format === "싱글" || !move.isSpread)) {
             for (j = 0; j < 16; j++) {
                 pbDamage[(16 * i) + j] = damage[i] + childDamage[j];
             }
         }
     }
-    // REturn a bit more info if this is a Parental Bond usage.
+    // REturn a bit more info if this is a 부자유친 usage.
     if (pbDamage.length) {
         return {
             "damage": pbDamage.sort(numericSort),
@@ -631,11 +631,11 @@ function buildDescription(description) {
     output = appendIfSet(output, description.attackerItem);
     output = appendIfSet(output, description.attackerAbility);
     if (description.isBurned) {
-        output += "burned ";
+        output += "화상 "; //TODO: Improve readability
     }
     output += description.attackerName + " ";
     if (description.isHelpingHand) {
-        output += "Helping Hand ";
+        output += "도우미 "; //TODO: Improve readability
     }
     output += description.moveName + " ";
     if (description.moveBP && description.moveType) {
@@ -646,7 +646,7 @@ function buildDescription(description) {
         output += "(" + description.moveType + ") ";
     }
     if (description.hits) {
-        output += "(" + description.hits + " hits) ";
+        output += "(" + description.hits + "번 맞음) "; //TODO: Improve readability
     }
     output += "vs. ";
     if (description.defenseBoost) {
@@ -663,17 +663,17 @@ function buildDescription(description) {
     output = appendIfSet(output, description.defenderAbility);
     output += description.defenderName;
     if (description.weather) {
-        output += " in " + description.weather;
+        output += " in " + description.weather; //TODO: Improve readability
     } else if (description.terrain) {
-        output += " in " + description.terrain + " Terrain";
+        output += " in " + description.terrain + "필드"; //TODO: Improve readability
     }
     if (description.isReflect) {
-        output += " through Reflect";
+        output += " 리플렉터에 의한 데미지 감소"; //TODO: Improve readability
     } else if (description.isLightScreen) {
-        output += " through Light Screen";
+        output += " 빛의장막에 의한 데미지 감소"; //TODO: Improve readability
     }
     if (description.isCritical) {
-        output += " on a critical hit";
+        output += " 급소에 맞음"; //TODO: Improve readability
     }
     return output;
 }
@@ -686,11 +686,11 @@ function appendIfSet(str, toAppend) {
 }
 
 function toSmogonStat(stat) {
-    return stat === AT ? "Atk"
-            : stat === DF ? "Def"
-            : stat === SA ? "SpA"
-            : stat === SD ? "SpD"
-            : stat === SP ? "Spe"
+    return stat === AT ? "공격"
+            : stat === DF ? "방어"
+            : stat === SA ? "특공"
+            : stat === SD ? "특방"
+            : stat === SP ? "스핏"
             : "wtf";
 }
 
@@ -705,14 +705,14 @@ function chainMods(mods) {
 }
 
 function getMoveEffectiveness(move, type, isGhostRevealed, isGravity) {
-    if (isGhostRevealed && type === "Ghost" && (move.type === "Normal" || move.type === "Fighting")) {
+    if (isGhostRevealed && type === "고스트" && (move.type === "노말" || move.type === "격투")) {
         return 1;
-    } else if (isGravity && type === "Flying" && move.type === "Ground") {
+    } else if (isGravity && type === "비행" && move.type === "땅") {
         return 1;
-    } else if (move.name === "Freeze-Dry" && type === "Water") {
+    } else if (move.name === "프리즈드라이" && type === "물") {
         return 2;
-    } else if (move.name === "Flying Press") {
-        return typeChart["Fighting"][type] * typeChart["Flying"][type];
+    } else if (move.name === "플라잉프레스") {
+        return typeChart["격투"][type] * typeChart["비행"][type];
     } else {
         return typeChart[move.type][type];
     }
@@ -726,50 +726,50 @@ function getModifiedStat(stat, mod) {
 
 function getFinalSpeed(pokemon, weather) {
     var speed = getModifiedStat(pokemon.rawStats[SP], pokemon.boosts[SP]);
-    if (pokemon.item === "Choice Scarf") {
+    if (pokemon.item === "구애스카프") {
         speed = Math.floor(speed * 1.5);
-    } else if (pokemon.item === "Macho Brace" || pokemon.item === "Iron Ball") {
+    } else if (pokemon.item === "교정깁스" || pokemon.item === "검은철구") {
         speed = Math.floor(speed / 2);
     }
-    if ((pokemon.ability === "Chlorophyll" && weather.indexOf("Sun") > -1) ||
-            (pokemon.ability === "Sand Rush" && weather === "Sand") ||
-            (pokemon.ability === "Swift Swim" && weather.indexOf("Rain") > -1)) {
+    if ((pokemon.ability === "엽록소" && weather.indexOf("쾌청") > -1) ||
+            (pokemon.ability === "모래헤치기" && weather === "모래바람") ||
+            (pokemon.ability === "쓱쓱" && weather.indexOf("비") > -1)) {
         speed *= 2;
     }
     return speed;
 }
 
 function checkAirLock(pokemon, field) {
-    if (pokemon.ability === "Air Lock" || pokemon.ability === "Cloud Nine") {
+    if (pokemon.ability === "에어록" || pokemon.ability === "날씨부정") {
         field.clearWeather();
     }
 }
 function checkForecast(pokemon, weather) {
-    if (pokemon.ability === "Forecast" && pokemon.name === "Castform") {
-        if (weather.indexOf("Sun") > -1) {
-            pokemon.type1 = "Fire";
-        } else if (weather.indexOf("Rain") > -1) {
-            pokemon.type1 = "Water";
-        } else if (weather === "Hail") {
-            pokemon.type1 = "Ice";
+    if (pokemon.ability === "기분파" && pokemon.name === "캐스퐁") {
+        if (weather.indexOf("쾌청") > -1) {
+            pokemon.type1 = "불꽃";
+        } else if (weather.indexOf("비") > -1) {
+            pokemon.type1 = "물";
+        } else if (weather === "싸라기눈") {
+            pokemon.type1 = "얼음";
         } else {
-            pokemon.type1 = "Normal";
+            pokemon.type1 = "노말";
         }
         pokemon.type2 = "";
     }
 }
 function checkKlutz(pokemon) {
-    if (pokemon.ability === "Klutz") {
+    if (pokemon.ability === "서투름") {
         pokemon.item = "";
     }
 }
 function checkIntimidate(source, target) {
-    if (source.ability === "Intimidate") {
-        if (target.ability === "Contrary" || target.ability === "Defiant") {
+    if (source.ability === "괴력집게") {
+        if (target.ability === "심술꾸러기" || target.ability === "오기") {
             target.boosts[AT] = Math.min(6, target.boosts[AT] + 1);
-        } else if (["Clear Body", "White Smoke", "Hyper Cutter", "Full Metal Body"].indexOf(target.ability) !== -1) {
+        } else if (["클리어바디", "하얀연기", "괴력집게", "메탈프로텍트"].indexOf(target.ability) !== -1) {
             // no effect
-        } else if (target.ability === "Simple") {
+        } else if (target.ability === "단순") {
             target.boosts[AT] = Math.max(-6, target.boosts[AT] - 2);
         } else {
             target.boosts[AT] = Math.max(-6, target.boosts[AT] - 1);
@@ -777,7 +777,7 @@ function checkIntimidate(source, target) {
     }
 }
 function checkDownload(source, target) {
-    if (source.ability === "Download") {
+    if (source.ability === "다운로드") {
         if (target.stats[SD] <= target.stats[DF]) {
             source.boosts[SA] = Math.min(6, source.boosts[SA] + 1);
         } else {
@@ -786,7 +786,7 @@ function checkDownload(source, target) {
     }
 }
 function checkInfiltrator(attacker, affectedSide) {
-    if (attacker.ability === "Infiltrator") {
+    if (attacker.ability === "틈새포착") {
         affectedSide.isReflect = false;
         affectedSide.isLightScreen = false;
     }

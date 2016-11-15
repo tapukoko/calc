@@ -1,2895 +1,2895 @@
-var MOVES_RBY = {
-    '(No Move)': {
+﻿var MOVES_RBY = {
+    '(기술 없음)': {
         bp: 0,
-        type: 'Normal',
-        category: 'Physical'
+        type: '노말',
+        category: '물리'
     },
-    'Acid': {
+    '용해액': {
         bp: 40,
-        type: 'Poison'
+        type: '독'
     },
-    'Bind': {
+    '조이기': {
         bp: 15,
-        type: 'Normal'
+        type: '노말'
     },
-    'Blizzard': {
+    '눈보라': {
         bp: 120,
-        type: 'Ice',
-        category: 'Special',
+        type: '얼음',
+        category: '특수',
         hasSecondaryEffect: true,
         isSpread: true
     },
-    'Body Slam': {
+    '누르기': {
         bp: 85,
-        type: 'Normal',
-        category: 'Physical',
+        type: '노말',
+        category: '물리',
         makesContact: true,
         hasSecondaryEffect: true
     },
-    'BubbleBeam': {
+    '거품광선': {
         bp: 65,
-        type: 'Water'
+        type: '물'
     },
-    'Clamp': {
+    '껍질끼우기': {
         bp: 35,
-        type: 'Water'
+        type: '물'
     },
-    'Crabhammer': {
+    '찝게햄머': {
         bp: 90,
-        type: 'Water',
-        category: 'Physical',
+        type: '물',
+        category: '물리',
         makesContact: true,
         alwaysCrit: true
     },
-    'Dig': {
+    '구멍파기': {
         bp: 100,
-        type: 'Ground'
+        type: '땅'
     },
-    'Double Kick': {
+    '두번치기': {
         bp: 30,
-        type: 'Fighting',
-        category: 'Physical',
+        type: '격투',
+        category: '물리',
         makesContact: true,
         isTwoHit: true
     },
-    'Double-Edge': {
+    '이판사판태클': {
         bp: 100,
-        type: 'Normal',
-        category: 'Physical',
+        type: '노말',
+        category: '물리',
         makesContact: true,
         hasRecoil: true
     },
-    'Drill Peck': {
+    '회전부리': {
         bp: 80,
-        type: 'Flying',
-        category: 'Physical',
+        type: '비행',
+        category: '물리',
         makesContact: true
     },
-    'Earthquake': {
+    '지진': {
         bp: 100,
-        type: 'Ground',
-        category: 'Physical',
+        type: '땅',
+        category: '물리',
         isSpread: true
     },
-    'Explosion': {
+    '대폭발': {
         bp: 170,
-        type: 'Normal',
-        category: 'Physical',
+        type: '노말',
+        category: '물리',
         isSpread: true
     },
-    'Fire Blast': {
+    '불대문자': {
         bp: 120,
-        type: 'Fire',
-        category: 'Special',
+        type: '불꽃',
+        category: '특수',
         hasSecondaryEffect: true
     },
-    'Fire Punch': {
+    '불꽃펀치': {
         bp: 75,
-        type: 'Fire',
-        category: 'Physical',
+        type: '불꽃',
+        category: '물리',
         makesContact: true,
         hasSecondaryEffect: true,
         isPunch: true
     },
-    'Fire Spin': {
+    '회오리불꽃': {
         bp: 15,
-        type: 'Fire'
+        type: '불꽃'
     },
-    'Flamethrower': {
+    '화염방사': {
         bp: 95,
-        type: 'Fire',
-        category: 'Special',
+        type: '불꽃',
+        category: '특수',
         hasSecondaryEffect: true
     },
-    'Hi Jump Kick': {
+    '무릎차기': {
         bp: 85,
-        type: 'Fighting',
-        category: 'Physical',
+        type: '격투',
+        category: '물리',
         makesContact: true,
         hasRecoil: true
     },
-    'Hydro Pump': {
+    '하이드로펌프': {
         bp: 120,
-        type: 'Water',
-        category: 'Special'
+        type: '물',
+        category: '특수'
     },
-    'Hyper Beam': {
+    '파괴광선': {
         bp: 150,
-        type: 'Normal',
-        category: 'Special'
+        type: '노말',
+        category: '특수'
     },
-    'Ice Beam': {
+    '냉동빔': {
         bp: 95,
-        type: 'Ice',
-        category: 'Special',
+        type: '얼음',
+        category: '특수',
         hasSecondaryEffect: true
     },
-    'Ice Punch': {
+    '냉동펀치': {
         bp: 75,
-        type: 'Ice',
-        category: 'Physical',
+        type: '얼음',
+        category: '물리',
         makesContact: true,
         hasSecondaryEffect: true,
         isPunch: true
     },
-    'Mega Drain': {
+    '메가드레인': {
         bp: 40,
-        type: 'Grass'
+        type: '풀'
     },
-    'Night Shade': {
+    '나이트헤드': {
         bp: 100,
-        type: 'Ghost',
-        category: 'Special'
+        type: '고스트',
+        category: '특수'
     },
-    'Pin Missile': {
+    '바늘미사일': {
         bp: 14,
-        type: 'Bug',
-        category: 'Physical',
+        type: '벌레',
+        category: '물리',
         isMultiHit: true
     },
-    'Psychic': {
+    '사이코키네시스': {
         bp: 90,
-        type: 'Psychic',
-        category: 'Special',
+        type: '에스퍼',
+        category: '특수',
         hasSecondaryEffect: true
     },
-    'Quick Attack': {
+    '전광석화': {
         bp: 40,
-        type: 'Normal',
-        category: 'Physical',
+        type: '노말',
+        category: '물리',
         makesContact: true
     },
-    'Razor Leaf': {
+    '잎날가르기': {
         bp: 55,
-        type: 'Grass',
-        category: 'Special',
+        type: '풀',
+        category: '특수',
         alwaysCrit: true
     },
-    'Rock Slide': {
+    '스톤샤워': {
         bp: 75,
-        type: 'Rock',
-        category: 'Physical',
+        type: '바위',
+        category: '물리',
         hasSecondaryEffect: true,
         isSpread: true
     },
-    'Seismic Toss': {
+    '지구던지기': {
         bp: 100,
-        type: 'Fighting',
-        category: 'Physical',
+        type: '격투',
+        category: '물리',
         makesContact: true
     },
-    'Selfdestruct': {
+    '자폭': {
         bp: 130,
-        type: 'Normal',
-        category: 'Physical',
+        type: '노말',
+        category: '물리',
         isSpread: true
     },
-    'Sky Attack': {
+    '불새': {
         bp: 140,
-        type: 'Flying',
-        category: 'Physical',
+        type: '비행',
+        category: '물리',
         hasSecondaryEffect: true
     },
-    'Slash': {
+    '베어가르기': {
         bp: 70,
-        type: 'Normal',
+        type: '노말',
         alwaysCrit: true
     },
-    'Sludge': {
+    '오물공격': {
         bp: 65,
-        type: 'Poison'
+        type: '독'
     },
-    'Submission': {
+    '지옥의바퀴': {
         bp: 80,
-        type: 'Fighting'
+        type: '격투'
     },
-    'Surf': {
+    '파도타기': {
         bp: 95,
-        type: 'Water',
-        category: 'Special',
+        type: '물',
+        category: '특수',
         isSpread: true
     },
-    'Tackle': {
+    '몸통박치기': {
         bp: 35,
-        type: 'Normal',
-        category: 'Physical',
+        type: '노말',
+        category: '물리',
         makesContact: true
     },
-    'Thunder': {
+    '번개': {
         bp: 120,
-        type: 'Electric',
-        category: 'Special',
+        type: '전기',
+        category: '특수',
         hasSecondaryEffect: true
     },
-    'ThunderPunch': {
+    '번개펀치': {
         bp: 75,
-        type: 'Electric',
-        category: 'Physical',
+        type: '전기',
+        category: '물리',
         makesContact: true,
         hasSecondaryEffect: true,
         isPunch: true
     },
-    'Thunderbolt': {
+    '10만볼트': {
         bp: 95,
-        type: 'Electric',
-        category: 'Special',
+        type: '전기',
+        category: '특수',
         hasSecondaryEffect: true
     },
-    'Twineedle': {
+    '더블니들': {
         bp: 25,
-        type: 'Bug',
+        type: '벌레',
         isTwoHit: true
     },
-    'Wrap': {
+    '김밥말이': {
         bp: 15,
-        type: 'Normal'
+        type: '노말'
     }
 };
 
 var MOVES_GSC = $.extend(true, {}, MOVES_RBY, {
-    'Aeroblast': {
+    '에어로블라스트': {
         bp: 100,
-        type: 'Flying',
-        category: 'Special'
+        type: '비행',
+        category: '특수'
     },
-    'AncientPower': {
+    '원시의힘': {
         bp: 60,
-        type: 'Rock',
-        category: 'Special',
+        type: '바위',
+        category: '특수',
         hasSecondaryEffect: true
     },
-    'Bite': {
+    '물기': {
         bp: 60,
-        type: 'Dark',
-        category: 'Physical',
+        type: '악',
+        category: '물리',
         makesContact: true,
         hasSecondaryEffect: true,
         isBite: true
     },
-    'Crabhammer': { alwaysCrit: false },
-    'Cross Chop': {
+    '찝게햄머': { alwaysCrit: false },
+    '크로스촙': {
         bp: 100,
-        type: 'Fighting',
-        category: 'Physical',
+        type: '격투',
+        category: '물리',
         makesContact: true
     },
-    'Crunch': {
+    '깨물어부수기': {
         bp: 80,
-        type: 'Dark',
-        category: 'Physical',
+        type: '악',
+        category: '물리',
         makesContact: true,
         hasSecondaryEffect: true,
         isBite: true
     },
-    'Double-Edge': { bp: 120 },
-    'DynamicPunch': {
+    '이판사판태클': { bp: 120 },
+    '폭발펀치': {
         bp: 100,
-        type: 'Fighting',
-        category: 'Physical',
+        type: '격투',
+        category: '물리',
         makesContact: true,
         hasSecondaryEffect: true,
         isPunch: true
     },
-    'Explosion': { bp: 250 },
-    'ExtremeSpeed': {
+    '대폭발': { bp: 250 },
+    '신속': {
         bp: 80,
-        type: 'Normal',
-        category: 'Physical',
+        type: '노말',
+        category: '물리',
         makesContact: true
     },
-    'Faint Attack': {
+    '속여때리기': {
         bp: 60,
-        type: 'Dark',
-        category: 'Physical',
+        type: '악',
+        category: '물리',
         makesContact: true
     },
-    'Flail': {
+    '바둥바둥': {
         bp: 1,
-        type: 'Normal',
-        category: 'Physical',
+        type: '노말',
+        category: '물리',
         makesContact: true
     },
-    'Flame Wheel': {
+    '화염자동차': {
         bp: 60,
-        type: 'Fire',
-        category: 'Physical',
+        type: '불꽃',
+        category: '물리',
         makesContact: true,
         hasSecondaryEffect: true
     },
-    'Frustration': {
+    '화풀이': {
         bp: 102,
-        type: 'Normal',
-        category: 'Physical',
+        type: '노말',
+        category: '물리',
         makesContact: true
     },
-    'Giga Drain': {
+    '기가드레인': {
         bp: 60,
-        type: 'Grass',
-        category: 'Special'
+        type: '풀',
+        category: '특수'
     },
-    'Headbutt': {
+    '박치기': {
         bp: 70,
-        type: 'Normal',
-        category: 'Physical',
+        type: '노말',
+        category: '물리',
         makesContact: true,
         hasSecondaryEffect: true
     },
-    'Hidden Power Bug': {
+    '잠재파워-벌레': {
         bp: 70,
-        type: 'Bug',
-        category: 'Special'
+        type: '벌레',
+        category: '특수'
     },
-    'Hidden Power Dark': {
+    '잠재파워-악': {
         bp: 70,
-        type: 'Dark',
-        category: 'Special'
+        type: '악',
+        category: '특수'
     },
-    'Hidden Power Dragon': {
+    '잠재파워-드래곤': {
         bp: 70,
-        type: 'Dragon',
-        category: 'Special'
+        type: '드래곤',
+        category: '특수'
     },
-    'Hidden Power Electric': {
+    '잠재파워-전기': {
         bp: 70,
-        type: 'Electric',
-        category: 'Special'
+        type: '전기',
+        category: '특수'
     },
-    'Hidden Power Fighting': {
+    '잠재파워-격투': {
         bp: 70,
-        type: 'Fighting',
-        category: 'Special'
+        type: '격투',
+        category: '특수'
     },
-    'Hidden Power Fire': {
+    '잠재파워-불': {
         bp: 70,
-        type: 'Fire',
-        category: 'Special'
+        type: '불꽃',
+        category: '특수'
     },
-    'Hidden Power Flying': {
+    '잠재파워-비행': {
         bp: 70,
-        type: 'Flying',
-        category: 'Special'
+        type: '비행',
+        category: '특수'
     },
-    'Hidden Power Ghost': {
+    '잠재파워-고스트': {
         bp: 70,
-        type: 'Ghost',
-        category: 'Special'
+        type: '고스트',
+        category: '특수'
     },
-    'Hidden Power Grass': {
+    '잠재파워-풀': {
         bp: 70,
-        type: 'Grass',
-        category: 'Special'
+        type: '풀',
+        category: '특수'
     },
-    'Hidden Power Ground': {
+    '잠재파워-땅': {
         bp: 70,
-        type: 'Ground',
-        category: 'Special'
+        type: '땅',
+        category: '특수'
     },
-    'Hidden Power Ice': {
+    '잠재파워-얼음': {
         bp: 70,
-        type: 'Ice',
-        category: 'Special'
+        type: '얼음',
+        category: '특수'
     },
-    'Hidden Power Poison': {
+    '잠재파워-독': {
         bp: 70,
-        type: 'Poison',
-        category: 'Special'
+        type: '독',
+        category: '특수'
     },
-    'Hidden Power Psychic': {
+    '잠재파워-에스퍼': {
         bp: 70,
-        type: 'Psychic',
-        category: 'Special'
+        type: '에스퍼',
+        category: '특수'
     },
-    'Hidden Power Rock': {
+    '잠재파워-바위': {
         bp: 70,
-        type: 'Rock',
-        category: 'Special'
+        type: '바위',
+        category: '특수'
     },
-    'Hidden Power Steel': {
+    '잠재파워-강철': {
         bp: 70,
-        type: 'Steel',
-        category: 'Special'
+        type: '강철',
+        category: '특수'
     },
-    'Hidden Power Water': {
+    '잠재파워-물': {
         bp: 70,
-        type: 'Water',
-        category: 'Special'
+        type: '물',
+        category: '특수'
     },
-    'Icy Wind': {
+    '얼다바람': {
         bp: 55,
-        type: 'Ice',
-        category: 'Special',
+        type: '얼음',
+        category: '특수',
         hasSecondaryEffect: true,
         isSpread: true
     },
-    'Iron Tail': {
+    '아이언테일': {
         bp: 100,
-        type: 'Steel',
-        category: 'Physical',
+        type: '강철',
+        category: '물리',
         makesContact: true,
         hasSecondaryEffect: true
     },
-    'Mach Punch': {
+    '마하펀치': {
         bp: 40,
-        type: 'Fighting',
-        category: 'Physical',
+        type: '격투',
+        category: '물리',
         makesContact: true,
         isPunch: true
     },
-    'Megahorn': {
+    '메가폰': {
         bp: 120,
-        type: 'Bug',
-        category: 'Physical',
+        type: '벌레',
+        category: '물리',
         makesContact: true
     },
-    'Pursuit': {
+    '따라가때리기': {
         bp: 40,
-        type: 'Dark',
-        category: 'Physical',
+        type: '악',
+        category: '물리',
         makesContact: true
     },
-    'Rapid Spin': {
+    '고속스핀': {
         bp: 20,
-        type: 'Normal',
-        category: 'Physical',
+        type: '노말',
+        category: '물리',
         makesContact: true
     },
-    'Razor Leaf': { alwaysCrit: false },
-    'Return': {
+    '잎날가르기': { alwaysCrit: false },
+    '은혜갚기': {
         bp: 102,
-        type: 'Normal',
-        category: 'Physical',
+        type: '노말',
+        category: '물리',
         makesContact: true
     },
-    'Reversal': {
+    '기사회생': {
         bp: 1,
-        type: 'Fighting',
-        category: 'Physical',
+        type: '격투',
+        category: '물리',
         makesContact: true
     },
-    'Sacred Fire': {
+    '성스러운불꽃': {
         bp: 100,
-        type: 'Fire',
-        category: 'Physical',
+        type: '불꽃',
+        category: '물리',
         hasSecondaryEffect: true
     },
-    'Selfdestruct': { bp: 200 },
-    'Shadow Ball': {
+    '자폭': { bp: 200 },
+    '섀도볼': {
         bp: 80,
-        type: 'Ghost',
-        category: 'Special',
+        type: '고스트',
+        category: '특수',
         hasSecondaryEffect: true,
         isBullet: true
     },
-    'Sludge Bomb': {
+    '오물폭탄': {
         bp: 90,
-        type: 'Poison',
-        category: 'Special',
+        type: '독',
+        category: '특수',
         hasSecondaryEffect: true,
         isBullet: true
     },
-    'SolarBeam': {
+    '솔라빔': {
         bp: 120,
-        type: 'Grass',
-        category: 'Special'
+        type: '풀',
+        category: '특수'
     },
-    'Steel Wing': {
+    '강철날개': {
         bp: 70,
-        type: 'Steel',
-        category: 'Physical',
+        type: '강철',
+        category: '물리',
         makesContact: true,
         hasSecondaryEffect: true
     },
-    'Thief': {
+    '도둑질': {
         bp: 40,
-        type: 'Dark',
-        category: 'Physical',
+        type: '악',
+        category: '물리',
         makesContact: true
     },
-    'Zap Cannon': {
+    '전자포': {
         bp: 100,
-        type: 'Electric',
-        category: 'Special',
+        type: '전기',
+        category: '특수',
         hasSecondaryEffect: true
     }
 });
 
-delete MOVES_GSC['Acid'];
-delete MOVES_GSC['Bind'];
-delete MOVES_GSC['Clamp'];
-delete MOVES_GSC['Dig'];
-delete MOVES_GSC['Fire Spin'];
-delete MOVES_GSC['Mega Drain'];
-delete MOVES_GSC['Slash'];
-delete MOVES_GSC['Sludge'];
-delete MOVES_GSC['Wrap'];
+delete MOVES_GSC['용해액'];
+delete MOVES_GSC['조이기'];
+delete MOVES_GSC['껍질끼우기'];
+delete MOVES_GSC['구멍파기'];
+delete MOVES_GSC['회오리불꽃'];
+delete MOVES_GSC['메가드레인'];
+delete MOVES_GSC['베어가르기'];
+delete MOVES_GSC['오물공격'];
+delete MOVES_GSC['김밥말이'];
 
 var MOVES_ADV = $.extend(true, {}, MOVES_GSC, {
-    'Aerial Ace': {
+    '제비반환': {
         bp: 60,
-        type: 'Flying',
-        category: 'Physical',
+        type: '비행',
+        category: '물리',
         makesContact: true
     },
-    'Air Cutter': {
+    '에어컷터': {
         bp: 55,
-        type: 'Flying',
-        category: 'Special',
+        type: '비행',
+        category: '특수',
         isSpread: true
     },
-    'Blaze Kick': {
+    '브레이즈킥': {
         bp: 85,
-        type: 'Fire',
-        category: 'Physical',
+        type: '불꽃',
+        category: '물리',
         makesContact: true,
         hasSecondaryEffect: true
     },
-    'Bonemerang': {
+    '뻐다귀부메랑': {
         bp: 50,
-        type: 'Ground',
-        category: 'Physical',
+        type: '땅',
+        category: '물리',
         isTwoHit: true
     },
-    'Bounce': {
+    '뛰어오르다': {
         bp: 85,
-        type: 'Flying',
-        category: 'Physical',
+        type: '비행',
+        category: '물리',
         makesContact: true,
         hasSecondaryEffect: true
     },
-    'Brick Break': {
+    '깨뜨리다': {
         bp: 75,
-        type: 'Fighting',
-        category: 'Physical',
+        type: '격투',
+        category: '물리',
         makesContact: true
     },
-    'Doom Desire': {
+    '파멸의소원': {
         bp: 120,
-        type: 'Steel',
-        category: 'Special'
+        type: '강철',
+        category: '특수'
     },
-    'Dragon Claw': {
+    '드래곤크루': {
         bp: 80,
-        type: 'Dragon',
-        category: 'Physical',
+        type: '드래곤',
+        category: '물리',
         makesContact: true
     },
-    'Eruption': {
+    '분화': {
         bp: 150,
-        type: 'Fire',
-        category: 'Special',
+        type: '불꽃',
+        category: '특수',
         isSpread: true
     },
-    'Extrasensory': {
+    '신통력': {
         bp: 80,
-        type: 'Psychic',
-        category: 'Special',
+        type: '에스퍼',
+        category: '특수',
         hasSecondaryEffect: true
     },
-    'Facade': {
+    '객기': {
         bp: 70,
-        type: 'Normal',
-        category: 'Physical',
+        type: '노말',
+        category: '물리',
         makesContact: true
     },
-    'Fake Out': {
+    '속이다': {
         bp: 40,
-        type: 'Normal',
-        category: 'Physical',
+        type: '노말',
+        category: '물리',
         makesContact: true,
         hasSecondaryEffect: true
     },
-    'Focus Punch': {
+    '힘껏펀치': {
         bp: 150,
-        type: 'Fighting',
-        category: 'Physical',
+        type: '격투',
+        category: '물리',
         makesContact: true,
         isPunch: true
     },
-    'Heat Wave': {
+    '열풍': {
         bp: 100,
-        type: 'Fire',
-        category: 'Special',
+        type: '불꽃',
+        category: '특수',
         hasSecondaryEffect: true,
         isSpread: true
     },
-    'Knock Off': {
+    '탁쳐서떨구기': {
         bp: 20,
-        type: 'Dark',
-        category: 'Physical',
+        type: '악',
+        category: '물리',
         makesContact: true
     },
-    'Leaf Blade': {
+    '리프블레이드': {
         bp: 70,
-        type: 'Grass',
-        category: 'Physical',
+        type: '풀',
+        category: '물리',
         makesContact: true
     },
-    'Low Kick': {
+    '안다리걸기': {
         bp: 1,
-        type: 'Fighting',
-        category: 'Physical',
+        type: '격투',
+        category: '물리',
         makesContact: true
     },
-    'Luster Purge': {
+    '라스트버지': {
         bp: 70,
-        type: 'Psychic',
-        category: 'Special',
+        type: '에스퍼',
+        category: '특수',
         hasSecondaryEffect: true
     },
-    'Meteor Mash': {
+    '코멧펀치': {
         bp: 100,
-        type: 'Steel',
-        category: 'Physical',
+        type: '강철',
+        category: '물리',
         makesContact: true,
         hasSecondaryEffect: true,
         isPunch: true
     },
-    'Muddy Water': {
+    '탁류': {
         bp: 95,
-        type: 'Water',
-        category: 'Special',
+        type: '물',
+        category: '특수',
         hasSecondaryEffect: true,
         isSpread: true
     },
-    'Overheat': {
+    '오버히트': {
         bp: 140,
-        type: 'Fire',
-        category: 'Special'
+        type: '불꽃',
+        category: '특수'
     },
-    'Poison Fang': {
+    '독엄니': {
         bp: 50,
-        type: 'Poison',
-        category: 'Physical',
+        type: '독',
+        category: '물리',
         makesContact: true,
         hasSecondaryEffect: true,
         isBite: true
     },
-    'Psycho Boost': {
+    '사이코부스트': {
         bp: 140,
-        type: 'Psychic',
-        category: 'Special'
+        type: '에스퍼',
+        category: '특수'
     },
-    'Revenge': {
+    '리벤지': {
         bp: 120,
-        type: 'Fighting',
-        category: 'Physical',
+        type: '격투',
+        category: '물리',
         makesContact: true
     },
-    'Rock Blast': {
+    '락블레스트': {
         bp: 25,
-        type: 'Rock',
-        category: 'Physical',
+        type: '바위',
+        category: '물리',
         isMultiHit: true
     },
-    'Rock Tomb': {
+    '암석봉인': {
         bp: 50,
-        type: 'Rock',
-        category: 'Physical',
+        type: '바위',
+        category: '물리',
         hasSecondaryEffect: true
     },
-    'Shadow Punch': {
+    '섀도펀치': {
         bp: 60,
-        type: 'Ghost',
-        category: 'Physical',
+        type: '고스트',
+        category: '물리',
         makesContact: true,
         isPunch: true
     },
-    'Shock Wave': {
+    '전격파': {
         bp: 60,
-        type: 'Electric',
-        category: 'Special'
+        type: '전기',
+        category: '특수'
     },
-    'Signal Beam': {
+    '시그널빔': {
         bp: 75,
-        type: 'Bug',
-        category: 'Special',
+        type: '벌레',
+        category: '특수',
         hasSecondaryEffect: true
     },
-    'Sky Uppercut': {
+    '스카이업퍼': {
         bp: 85,
-        type: 'Fighting',
-        category: 'Physical',
+        type: '격투',
+        category: '물리',
         makesContact: true,
         isPunch: true
     },
-    'Spark': {
+    '스파크': {
         bp: 65,
-        type: 'Electric',
-        category: 'Physical',
+        type: '전기',
+        category: '물리',
         makesContact: true,
         hasSecondaryEffect: true
     },
-    'Superpower': {
+    '엄청난힘': {
         bp: 120,
-        type: 'Fighting',
-        category: 'Physical',
+        type: '격투',
+        category: '물리',
         makesContact: true
     },
-    'Volt Tackle': {
+    '볼트태클': {
         bp: 120,
-        type: 'Electric',
-        category: 'Physical',
+        type: '전기',
+        category: '물리',
         makesContact: true,
         hasSecondaryEffect: true,
         hasRecoil: true
     },
-    'Water Pulse': {
+    '물의파동': {
         bp: 60,
-        type: 'Water',
-        category: 'Special',
+        type: '물',
+        category: '특수',
         hasSecondaryEffect: true,
         isPulse: true
     },
-    'Water Spout': {
+    '해수스파우팅': {
         bp: 150,
-        type: 'Water',
-        category: 'Special',
+        type: '물',
+        category: '특수',
         isSpread: true
     },
-    'Weather Ball': {
+    '웨더볼': {
         bp: 50,
-        type: 'Normal',
-        category: 'Special',
+        type: '노말',
+        category: '특수',
         isBullet: true
     }
 });
 
-delete MOVES_ADV['BubbleBeam'];
-delete MOVES_ADV['Submission'];
+delete MOVES_ADV['거품광선'];
+delete MOVES_ADV['지옥의바퀴'];
 
 var MOVES_DPP = $.extend(true, {}, MOVES_ADV, {
-    'Air Slash': {
+    '에어슬래시': {
         bp: 75,
-        type: 'Flying',
-        category: 'Special',
+        type: '비행',
+        category: '특수',
         hasSecondaryEffect: true
     },
-    'Aqua Jet': {
+    '아쿠아제트': {
         bp: 40,
-        type: 'Water',
-        category: 'Physical',
+        type: '물',
+        category: '물리',
         makesContact: true
     },
-    'Aqua Tail': {
+    '아쿠아테일': {
         bp: 90,
-        type: 'Water',
-        category: 'Physical',
+        type: '물',
+        category: '물리',
         makesContact: true
     },
-    'Assurance': {
+    '승부굳히기': {
         bp: 50,
-        type: 'Dark',
-        category: 'Physical',
+        type: '악',
+        category: '물리',
         makesContact: true
     },
-    'Aura Sphere': {
+    '파동탄': {
         bp: 90,
-        type: 'Fighting',
-        category: 'Special',
+        type: '격투',
+        category: '특수',
         isBullet: true,
         isPulse: true
     },
-    'Avalanche': {
+    '눈사태': {
         bp: 120,
-        type: 'Ice',
-        category: 'Physical',
+        type: '얼음',
+        category: '물리',
         makesContact: true
     },
-    'Brave Bird': {
+    '브레이브버드': {
         bp: 120,
-        type: 'Flying',
-        category: 'Physical',
+        type: '비행',
+        category: '물리',
         makesContact: true,
         hasRecoil: true
     },
-    'Bug Bite': {
+    '벌레먹음': {
         bp: 60,
-        type: 'Bug',
-        category: 'Physical',
+        type: '벌레',
+        category: '물리',
         makesContact: true
     },
-    'Bug Buzz': {
+    '벌레의야단법석': {
         bp: 90,
-        type: 'Bug',
-        category: 'Special',
+        type: '벌레',
+        category: '특수',
         hasSecondaryEffect: true,
         isSound: true
     },
-    'Bullet Punch': {
+    '불릿펀치': {
         bp: 40,
-        type: 'Steel',
-        category: 'Physical',
+        type: '강철',
+        category: '물리',
         makesContact: true,
         isPunch: true
     },
-    'Charge Beam': {
+    '차지빔': {
         bp: 50,
-        type: 'Electric',
-        category: 'Special',
+        type: '전기',
+        category: '특수',
         hasSecondaryEffect: true
     },
-    'Chatter': {
+    '수다': {
         bp: 60,
-        type: 'Flying',
-        category: 'Special',
+        type: '비행',
+        category: '특수',
         hasSecondaryEffect: true,
         isSound: true
     },
-    'Close Combat': {
+    '인파이트': {
         bp: 120,
-        type: 'Fighting',
-        category: 'Physical',
+        type: '격투',
+        category: '물리',
         makesContact: true
     },
-    'Cross Poison': {
+    '크로스포이즌': {
         bp: 70,
-        type: 'Poison',
-        category: 'Physical',
+        type: '독',
+        category: '물리',
         makesContact: true,
         hasSecondaryEffect: true
     },
-    'Dark Pulse': {
+    '악의파동': {
         bp: 80,
-        type: 'Dark',
-        category: 'Special',
+        type: '악',
+        category: '특수',
         hasSecondaryEffect: true,
         isPulse: true
     },
-    'Discharge': {
+    '방전': {
         bp: 80,
-        type: 'Electric',
-        category: 'Special',
+        type: '전기',
+        category: '특수',
         hasSecondaryEffect: true,
         isSpread: true
     },
-    'Double Hit': {
+    '더블어택': {
         bp: 35,
-        type: 'Normal',
-        category: 'Physical',
+        type: '노말',
+        category: '물리',
         makesContact: true,
         isTwoHit: true
     },
-    'Draco Meteor': {
+    '용성군': {
         bp: 140,
-        type: 'Dragon',
-        category: 'Special'
+        type: '드래곤',
+        category: '특수'
     },
-    'Dragon Pulse': {
+    '용의파동': {
         bp: 90,
-        type: 'Dragon',
-        category: 'Special',
+        type: '드래곤',
+        category: '특수',
         isPulse: true
     },
-    'Dragon Rush': {
+    '드래곤다이브': {
         bp: 100,
-        type: 'Dragon',
-        category: 'Physical',
+        type: '드래곤',
+        category: '물리',
         makesContact: true,
         hasSecondaryEffect: true
     },
-    'Drain Punch': {
+    '드레인펀치': {
         bp: 60,
-        type: 'Fighting',
-        category: 'Physical',
+        type: '격투',
+        category: '물리',
         makesContact: true,
         isPunch: true
     },
-    'Earth Power': {
+    '대지의힘': {
         bp: 90,
-        type: 'Ground',
-        category: 'Special',
+        type: '땅',
+        category: '특수',
         hasSecondaryEffect: true
     },
-    'Energy Ball': {
+    '에너지볼': {
         bp: 80,
-        type: 'Grass',
-        category: 'Special',
+        type: '풀',
+        category: '특수',
         hasSecondaryEffect: true,
         isBullet: true
     },
-    'Fire Fang': {
+    '불꽃엄니': {
         bp: 65,
-        type: 'Fire',
-        category: 'Physical',
+        type: '불꽃',
+        category: '물리',
         makesContact: true,
         hasSecondaryEffect: true,
         isBite: true
     },
-    'Flare Blitz': {
+    '플레어드라이브': {
         bp: 120,
-        type: 'Fire',
-        category: 'Physical',
+        type: '불꽃',
+        category: '물리',
         makesContact: true,
         hasSecondaryEffect: true,
         hasRecoil: true
     },
-    'Flash Cannon': {
+    '러스터캐논': {
         bp: 80,
-        type: 'Steel',
-        category: 'Special',
+        type: '강철',
+        category: '특수',
         hasSecondaryEffect: true
     },
-    'Fling': {
+    '내던지기': {
         bp: 1,
-        type: 'Dark',
-        category: 'Physical'
+        type: '악',
+        category: '물리'
     },
-    'Focus Blast': {
+    '기합구슬': {
         bp: 120,
-        type: 'Fighting',
-        category: 'Special',
+        type: '격투',
+        category: '특수',
         hasSecondaryEffect: true,
         isBullet: true
     },
-    'Force Palm': {
+    '발경': {
         bp: 60,
-        type: 'Fighting',
-        category: 'Physical',
+        type: '격투',
+        category: '물리',
         makesContact: true,
         hasSecondaryEffect: true
     },
-    'Giga Impact': {
+    '기가임팩트': {
         bp: 150,
-        type: 'Normal',
-        category: 'Physical',
+        type: '노말',
+        category: '물리',
         makesContact: true
     },
-    'Grass Knot': {
+    '풀묶기': {
         bp: 1,
-        type: 'Grass',
-        category: 'Special',
+        type: '풀',
+        category: '특수',
         makesContact: true
     },
-    'Gunk Shot': {
+    '더스트슈트': {
         bp: 120,
-        type: 'Poison',
-        category: 'Physical',
+        type: '독',
+        category: '물리',
         hasSecondaryEffect: true
     },
-    'Gyro Ball': {
+    '자이로볼': {
         bp: 1,
-        type: 'Steel',
-        category: 'Physical',
+        type: '강철',
+        category: '물리',
         makesContact: true,
         isBullet: true
     },
-    'Hammer Arm': {
+    '암해머': {
         bp: 100,
-        type: 'Fighting',
-        category: 'Physical',
+        type: '격투',
+        category: '물리',
         makesContact: true,
         isPunch: true
     },
-    'Head Smash': {
+    '양날박치기': {
         bp: 150,
-        type: 'Rock',
-        category: 'Physical',
+        type: '바위',
+        category: '물리',
         makesContact: true,
         hasRecoil: true
     },
-    'Hi Jump Kick': { bp: 100 },
-    'Hyper Voice': {
+    '무릎차기': { bp: 100 },
+    '하이퍼보이스': {
         bp: 90,
-        type: 'Normal',
-        category: 'Special',
+        type: '노말',
+        category: '특수',
         isSound: true,
         isSpread: true
     },
-    'Ice Fang': {
+    '얼음엄니': {
         bp: 65,
-        type: 'Ice',
-        category: 'Physical',
+        type: '얼음',
+        category: '물리',
         makesContact: true,
         hasSecondaryEffect: true,
         isBite: true
     },
-    'Ice Shard': {
+    '얼음뭉치': {
         bp: 40,
-        type: 'Ice',
-        category: 'Physical'
+        type: '얼음',
+        category: '물리'
     },
-    'Iron Head': {
+    '아이언헤드': {
         bp: 80,
-        type: 'Steel',
-        category: 'Physical',
+        type: '강철',
+        category: '물리',
         makesContact: true,
         hasSecondaryEffect: true
     },
-    'Judgment': {
+    '심판의뭉치': {
         bp: 100,
-        type: 'Normal',
-        category: 'Special'
+        type: '노말',
+        category: '특수'
     },
-    'Jump Kick': {
+    '점프킥': {
         bp: 85,
-        type: 'Fighting',
-        category: 'Physical',
+        type: '격투',
+        category: '물리',
         makesContact: true,
         hasRecoil: true
     },
-    'Lava Plume': {
+    '분연': {
         bp: 80,
-        type: 'Fire',
-        category: 'Special',
+        type: '불꽃',
+        category: '특수',
         hasSecondaryEffect: true,
         isSpread: true
     },
-    'Leaf Blade': { bp: 90 },
-    'Leaf Storm': {
+    '리프블레이드': { bp: 90 },
+    '리프스톰': {
         bp: 140,
-        type: 'Grass',
-        category: 'Special'
+        type: '풀',
+        category: '특수'
     },
-    'Magma Storm': {
+    '마그마스톰': {
         bp: 120,
-        type: 'Fire',
-        category: 'Special'
+        type: '불꽃',
+        category: '특수'
     },
-    'Mud Bomb': {
+    '진흙폭탄': {
         bp: 65,
-        type: 'Ground',
-        category: 'Special',
+        type: '땅',
+        category: '특수',
         hasSecondaryEffect: true
     },
-    'Natural Gift': {
+    '자연의은혜': {
         bp: 1,
-        type: 'Normal',
-        category: 'Physical'
+        type: '노말',
+        category: '물리'
     },
-    'Nature Power': {
+    '자연의힘': {
         bp: 80,
-        type: 'Normal',
-        category: 'Special',
+        type: '노말',
+        category: '특수',
         hasSecondaryEffect: true
     },
-    'Night Slash': {
+    '깜짝베기': {
         bp: 70,
-        type: 'Dark',
-        category: 'Physical',
+        type: '악',
+        category: '물리',
         makesContact: true
     },
-    'Outrage': {
+    '역린': {
         bp: 120,
-        type: 'Dragon',
-        category: 'Physical',
+        type: '드래곤',
+        category: '물리',
         makesContact: true
     },
-    'Payback': {
+    '보복': {
         bp: 50,
-        type: 'Dark',
-        category: 'Physical',
+        type: '악',
+        category: '물리',
         makesContact: true
     },
-    'Pluck': {
+    '쪼아대기': {
         bp: 60,
-        type: 'Flying',
-        category: 'Physical',
+        type: '비행',
+        category: '물리',
         makesContact: true
     },
-    'Poison Jab': {
+    '독찌르기': {
         bp: 80,
-        type: 'Poison',
-        category: 'Physical',
+        type: '독',
+        category: '물리',
         makesContact: true,
         hasSecondaryEffect: true
     },
-    'Power Gem': {
+    '파워젬': {
         bp: 70,
-        type: 'Rock',
-        category: 'Special'
+        type: '바위',
+        category: '특수'
     },
-    'Power Whip': {
+    '파워휩': {
         bp: 120,
-        type: 'Grass',
-        category: 'Physical',
+        type: '풀',
+        category: '물리',
         makesContact: true
     },
-    'Psycho Cut': {
+    '사이코커터': {
         bp: 70,
-        type: 'Psychic',
-        category: 'Physical'
+        type: '에스퍼',
+        category: '물리'
     },
-    'Punishment': {
+    '혼내기': {
         bp: 60,
-        type: 'Dark',
-        category: 'Physical',
+        type: '악',
+        category: '물리',
         makesContact: true
     },
-    'Rock Climb': {
+    '락클라임': {
         bp: 90,
-        type: 'Normal',
-        category: 'Physical',
+        type: '노말',
+        category: '물리',
         makesContact: true,
         hasSecondaryEffect: true
     },
-    'Rock Smash': {
+    '바위깨기': {
         bp: 40,
-        type: 'Fighting',
-        category: 'Physical',
+        type: '격투',
+        category: '물리',
         makesContact: true,
         hasSecondaryEffect: true
     },
-    'Seed Bomb': {
+    '씨폭탄': {
         bp: 80,
-        type: 'Grass',
-        category: 'Physical',
+        type: '풀',
+        category: '물리',
         isBullet: true
     },
-    'Seed Flare': {
+    '시드플레어': {
         bp: 120,
-        type: 'Grass',
-        category: 'Special',
+        type: '풀',
+        category: '특수',
         hasSecondaryEffect: true
     },
-    'Shadow Claw': {
+    '섀도크루': {
         bp: 70,
-        type: 'Ghost',
-        category: 'Physical',
+        type: '고스트',
+        category: '물리',
         makesContact: true
     },
-    'Shadow Force': {
+    '섀도다이브': {
         bp: 120,
-        type: 'Ghost',
-        category: 'Physical',
+        type: '고스트',
+        category: '물리',
         makesContact: true
     },
-    'Shadow Sneak': {
+    '야습': {
         bp: 40,
-        type: 'Ghost',
-        category: 'Physical',
+        type: '고스트',
+        category: '물리',
         makesContact: true
     },
-    'Spacial Rend': {
+    '공간절단': {
         bp: 100,
-        type: 'Dragon',
-        category: 'Special'
+        type: '드래곤',
+        category: '특수'
     },
-    'Stone Edge': {
+    '스톤에지': {
         bp: 100,
-        type: 'Rock',
-        category: 'Physical'
+        type: '바위',
+        category: '물리'
     },
-    'Sucker Punch': {
+    '기습': {
         bp: 80,
-        type: 'Dark',
-        category: 'Physical',
+        type: '악',
+        category: '물리',
         makesContact: true
     },
-    'Swift': {
+    '스피드스타': {
         bp: 60,
-        type: 'Normal',
-        category: 'Special',
+        type: '노말',
+        category: '특수',
         isSpread: true
     },
-    'Thunder Fang': {
+    '번개엄니': {
         bp: 65,
-        type: 'Electric',
-        category: 'Physical',
+        type: '전기',
+        category: '물리',
         makesContact: true,
         hasSecondaryEffect: true,
         isBite: true
     },
-    'Tri Attack': {
+    '트라이어택': {
         bp: 80,
-        type: 'Normal',
-        category: 'Special',
+        type: '노말',
+        category: '특수',
         hasSecondaryEffect: true
     },
-    'U-turn': {
+    '유턴': {
         bp: 70,
-        type: 'Bug',
-        category: 'Physical',
+        type: '벌레',
+        category: '물리',
         makesContact: true
     },
-    'Vacuum Wave': {
+    '진공파': {
         bp: 40,
-        type: 'Fighting',
-        category: 'Special'
+        type: '격투',
+        category: '특수'
     },
-    'Wake-Up Slap': {
+    '잠깨움뺨치기': {
         bp: 60,
-        type: 'Fighting',
-        category: 'Physical',
+        type: '격투',
+        category: '물리',
         makesContact: true
     },
-    'Waterfall': {
+    '폭포오르기': {
         bp: 80,
-        type: 'Water',
-        category: 'Physical',
+        type: '물',
+        category: '물리',
         makesContact: true,
         hasSecondaryEffect: true
     },
-    'Wood Hammer': {
+    '우드해머': {
         bp: 120,
-        type: 'Grass',
-        category: 'Physical',
+        type: '풀',
+        category: '물리',
         makesContact: true,
         hasRecoil: true
     },
-    'X-Scissor': {
+    '시저크로스': {
         bp: 80,
-        type: 'Bug',
-        category: 'Physical',
+        type: '벌레',
+        category: '물리',
         makesContact: true
     },
-    'Zen Headbutt': {
+    '사념의박치기': {
         bp: 80,
-        type: 'Psychic',
-        category: 'Physical',
+        type: '에스퍼',
+        category: '물리',
         makesContact: true,
         hasSecondaryEffect: true
     }
 });
 
-delete MOVES_DPP['Razor Leaf'];
-delete MOVES_DPP['Twineedle'];
-delete MOVES_DPP['Zap Cannon'];
+delete MOVES_DPP['잎날가르기'];
+delete MOVES_DPP['더블니들'];
+delete MOVES_DPP['전자포'];
 
 var MOVES_BW = $.extend(true, {}, MOVES_DPP, {
-    'Acid Spray': {
+    '애시드봄': {
         bp: 40,
-        type: 'Poison',
-        category: 'Special',
+        type: '독',
+        category: '특수',
         hasSecondaryEffect: true,
         isBullet: true
     },
-    'Acrobatics': {
+    '애크러뱃': {
         bp: 55,
-        type: 'Flying',
-        category: 'Physical',
+        type: '비행',
+        category: '물리',
         makesContact: true
     },
-    'Attack Order': {
+    '공격지령': {
         bp: 90,
-        type: 'Bug',
-        category: 'Physical'
+        type: '벌레',
+        category: '물리'
     },
-    'Blue Flare': {
+    '푸른불꽃': {
         bp: 130,
-        type: 'Fire',
-        category: 'Special',
+        type: '불꽃',
+        category: '특수',
         hasSecondaryEffect: true
     },
-    'Bolt Strike': {
+    '뇌격': {
         bp: 130,
-        type: 'Electric',
-        category: 'Physical',
+        type: '전기',
+        category: '물리',
         makesContact: true,
         hasSecondaryEffect: true
     },
-    'Bulldoze': {
+    '땅고르기': {
         bp: 60,
-        type: 'Ground',
-        category: 'Physical',
+        type: '땅',
+        category: '물리',
         hasSecondaryEffect: true,
         isSpread: true
     },
-    'Bullet Seed': {
+    '기관총': {
         bp: 25,
-        type: 'Grass',
-        category: 'Physical',
+        type: '풀',
+        category: '물리',
         isMultiHit: true,
         isBullet: true
     },
-    'Circle Throw': {
+    '배대뒤치기': {
         bp: 60,
-        type: 'Fighting',
-        category: 'Physical',
+        type: '격투',
+        category: '물리',
         makesContact: true
     },
-    'Clear Smog': {
+    '클리어스모그': {
         bp: 50,
-        type: 'Poison',
-        category: 'Special'
+        type: '독',
+        category: '특수'
     },
-    'Doom Desire': { bp: 140 },
-    'Dragon Tail': {
+    '파멸의소원': { bp: 140 },
+    '드래곤테일': {
         bp: 60,
-        type: 'Dragon',
-        category: 'Physical',
+        type: '드래곤',
+        category: '물리',
         makesContact: true
     },
-    'Drain Punch': { bp: 75 },
-    'Drill Run': {
+    '드레인펀치': { bp: 75 },
+    '드릴라이너': {
         bp: 80,
-        type: 'Ground',
-        category: 'Physical',
+        type: '땅',
+        category: '물리',
         makesContact: true
     },
-    'Dual Chop': {
+    '더블촙': {
         bp: 40,
-        type: 'Dragon',
-        category: 'Physical',
+        type: '드래곤',
+        category: '물리',
         makesContact: true,
         isTwoHit: true
     },
-    'Electro Ball': {
+    '일렉트릭볼': {
         bp: 1,
-        type: 'Electric',
-        category: 'Special',
+        type: '전기',
+        category: '특수',
         isBullet: true
     },
-    'Feint': {
+    '페인트': {
         bp: 30,
-        type: 'Normal',
-        category: 'Physical'
+        type: '노말',
+        category: '물리'
     },
-    'Fiery Dance': {
+    '불꽃춤': {
         bp: 80,
-        type: 'Fire',
-        category: 'Special',
+        type: '불꽃',
+        category: '특수',
         hasSecondaryEffect: true
     },
-    'Flame Charge': {
+    '니트로차지': {
         bp: 50,
-        type: 'Fire',
-        category: 'Physical',
+        type: '불꽃',
+        category: '물리',
         makesContact: true,
         hasSecondaryEffect: true
     },
-    'Foul Play': {
+    '속임수': {
         bp: 95,
-        type: 'Dark',
-        category: 'Physical',
+        type: '악',
+        category: '물리',
         makesContact: true
     },
-    'Freeze Shock': {
+    '프리즈볼트': {
         bp: 140,
-        type: 'Ice',
-        category: 'Physical',
+        type: '얼음',
+        category: '물리',
         hasSecondaryEffect: true
     },
-    'Frost Breath': {
+    '얼음숨결': {
         bp: 40,
-        type: 'Ice',
-        category: 'Special',
+        type: '얼음',
+        category: '특수',
         alwaysCrit: true
     },
-    'Fusion Bolt': {
+    '크로스썬더': {
         bp: 100,
-        type: 'Electric',
-        category: 'Physical'
+        type: '전기',
+        category: '물리'
     },
-    'Fusion Flare': {
+    '크로스플레임': {
         bp: 100,
-        type: 'Fire',
-        category: 'Special'
+        type: '불꽃',
+        category: '특수'
     },
-    'Gear Grind': {
+    '기어소서': {
         bp: 50,
-        type: 'Steel',
-        category: 'Physical',
+        type: '강철',
+        category: '물리',
         isTwoHit: true
     },
-    'Giga Drain': { bp: 75 },
-    'Glaciate': {
+    '기가드레인': { bp: 75 },
+    '얼다세계': {
         bp: 65,
-        type: 'Ice',
-        category: 'Special',
+        type: '얼음',
+        category: '특수',
         hasSecondaryEffect: true,
         isSpread: true
     },
-    'Head Charge': {
+    '아프로브레이크': {
         bp: 120,
-        type: 'Normal',
-        category: 'Physical',
+        type: '노말',
+        category: '물리',
         makesContact: true,
         hasRecoil: true
     },
-    'Heavy Slam': {
+    '헤비봄버': {
         bp: 1,
-        type: 'Steel',
-        category: 'Physical',
+        type: '강철',
+        category: '물리',
         makesContact: true
     },
-    'Hex': {
+    '병상첨병': {
         bp: 50,
-        type: 'Ghost',
-        category: 'Special'
+        type: '고스트',
+        category: '특수'
     },
-    'Hi Jump Kick': { bp: 130 },
-    'Horn Leech': {
+    '무릎차기': { bp: 130 },
+    '우드호른': {
         bp: 75,
-        type: 'Grass',
-        category: 'Physical',
+        type: '풀',
+        category: '물리',
         makesContact: true
     },
-    'Hurricane': {
+    '폭풍': {
         bp: 120,
-        type: 'Flying',
-        category: 'Special',
+        type: '비행',
+        category: '특수',
         hasSecondaryEffect: true
     },
-    'Icicle Crash': {
+    '고드름떨구기': {
         bp: 85,
-        type: 'Ice',
-        category: 'Physical',
+        type: '얼음',
+        category: '물리',
         hasSecondaryEffect: true
     },
-    'Icicle Spear': {
+    '고드름침': {
         bp: 25,
-        type: 'Ice',
-        category: 'Physical',
+        type: '얼음',
+        category: '물리',
         isMultiHit: true
     },
-    'Incinerate': {
+    '불태우기': {
         bp: 30,
-        type: 'Fire',
-        category: 'Special',
+        type: '불꽃',
+        category: '특수',
         isSpread: true
     },
-    'Inferno': {
+    '연옥': {
         bp: 100,
-        type: 'Fire',
-        category: 'Special',
+        type: '불꽃',
+        category: '특수',
         hasSecondaryEffect: true
     },
-    'Jump Kick': { bp: 100 },
-    'Low Sweep': {
+    '점프킥': { bp: 100 },
+    '로킥': {
         bp: 60,
-        type: 'Fighting',
-        category: 'Physical',
+        type: '격투',
+        category: '물리',
         makesContact: true,
         hasSecondaryEffect: true
     },
-    'Nature Power': {
+    '자연의힘': {
         bp: 100,
-        type: 'Ground',
-        category: 'Physical',
+        type: '땅',
+        category: '물리',
         hasSecondaryEffect: false,
         isSpread: true
     },
-    'Night Daze': {
+    '나이트버스트': {
         bp: 85,
-        type: 'Dark',
-        category: 'Special',
+        type: '악',
+        category: '특수',
         hasSecondaryEffect: true
     },
-    'Petal Dance': {
+    '꽃잎댄스': {
         bp: 120,
-        type: 'Grass',
-        category: 'Special',
+        type: '풀',
+        category: '특수',
         makesContact: true
     },
-    'Psyshock': {
+    '사이코쇼크': {
         bp: 80,
-        type: 'Psychic',
-        category: 'Special',
+        type: '에스퍼',
+        category: '특수',
         dealsPhysicalDamage: true
     },
-    'Psystrike': {
+    '사이코브레이크': {
         bp: 100,
-        type: 'Psychic',
-        category: 'Special',
+        type: '에스퍼',
+        category: '특수',
         dealsPhysicalDamage: true
     },
-    'Razor Shell': {
+    '셸블레이드': {
         bp: 75,
-        type: 'Water',
-        category: 'Physical',
+        type: '물',
+        category: '물리',
         makesContact: true,
         hasSecondaryEffect: true
     },
-    'Relic Song': {
+    '옛노래': {
         bp: 75,
-        type: 'Normal',
-        category: 'Special',
+        type: '노말',
+        category: '특수',
         hasSecondaryEffect: true,
         isSound: true,
         isSpread: true
     },
-    'Retaliate': {
+    '원수갚기': {
         bp: 70,
-        type: 'Normal',
-        category: 'Physical',
+        type: '노말',
+        category: '물리',
         makesContact: true
     },
-    'Sacred Sword': {
+    '성스러운칼': {
         bp: 90,
-        type: 'Fighting',
-        category: 'Physical',
+        type: '격투',
+        category: '물리',
         makesContact: true,
         ignoresDefenseBoosts: true
     },
-    'Scald': {
+    '열탕': {
         bp: 80,
-        type: 'Water',
-        category: 'Special',
+        type: '물',
+        category: '특수',
         hasSecondaryEffect: true
     },
-    'Searing Shot': {
+    '화염탄': {
         bp: 100,
-        type: 'Fire',
-        category: 'Special',
+        type: '불꽃',
+        category: '특수',
         hasSecondaryEffect: true,
         isSpread: true
     },
-    'Secret Sword': {
+    '신비의칼': {
         bp: 85,
-        type: 'Fighting',
-        category: 'Special',
+        type: '격투',
+        category: '특수',
         dealsPhysicalDamage: true
     },
-    'Sky Drop': {
+    '프리폴': {
         bp: 60,
-        type: 'Flying',
-        category: 'Physical',
+        type: '비행',
+        category: '물리',
         makesContact: true,
     },
-    'Sludge Wave': {
+    '오물웨이브': {
         bp: 95,
-        type: 'Poison',
-        category: 'Special',
+        type: '독',
+        category: '특수',
         hasSecondaryEffect: true,
         isSpread: true
     },
-    'Smack Down': {
+    '떨어뜨리기': {
         bp: 50,
-        type: 'Rock',
-        category: 'Physical'
+        type: '바위',
+        category: '물리'
     },
-    'Snarl': {
+    '바크아웃': {
         bp: 55,
-        type: 'Dark',
-        category: 'Special',
+        type: '악',
+        category: '특수',
         hasSecondaryEffect: true,
         isSound: true,
         isSpread: true
     },
-    'Stored Power': {
+    '어시스트파워': {
         bp: 20,
-        type: 'Psychic',
-        category: 'Special'
+        type: '에스퍼',
+        category: '특수'
     },
-    'Storm Throw': {
+    '업어후리기': {
         bp: 40,
-        type: 'Fighting',
-        category: 'Physical',
+        type: '격투',
+        category: '물리',
         makesContact: true,
         alwaysCrit: true
     },
-    'Synchronoise': {
+    '싱크로노이즈': {
         bp: 70,
-        type: 'Psychic',
-        category: 'Special',
+        type: '에스퍼',
+        category: '특수',
         isSpread: true
     },
-    'Tackle': { bp: 50 },
-    'Tail Slap': {
+    '몸통박치기': { bp: 50 },
+    '스위프뺨치기': {
         bp: 25,
-        type: 'Normal',
-        category: 'Physical',
+        type: '노말',
+        category: '물리',
         makesContact: true,
         isMultiHit: true
     },
-    'Thrash': {
+    '난동부리기': {
         bp: 120,
-        type: 'Normal',
-        category: 'Physical',
+        type: '노말',
+        category: '물리',
         makesContact: true
     },
-    'V-create': {
+    'V제너레이트': {
         bp: 180,
-        type: 'Fire',
-        category: 'Physical',
+        type: '불꽃',
+        category: '물리',
         makesContact: true
     },
-    'Volt Switch': {
+    '볼트체인지': {
         bp: 70,
-        type: 'Electric',
-        category: 'Special'
+        type: '전기',
+        category: '특수'
     },
-    'Wild Charge': {
+    '와일드볼트': {
         bp: 90,
-        type: 'Electric',
-        category: 'Physical',
+        type: '전기',
+        category: '물리',
         makesContact: true,
         hasRecoil: true
     }
 });
 
 var MOVES_XY = $.extend(true, {}, MOVES_BW, {
-    'Air Cutter': { bp: 60 },
-    'Arm Thrust': {
+    '에어컷터': { bp: 60 },
+    '손바닥치기': {
         bp: 15,
-        type: 'Fighting',
-        category: 'Physical',
+        type: '격투',
+        category: '물리',
         makesContact: true,
         isMultiHit: true
     },
-    'Assurance': { bp: 60 },
-    'Aura Sphere': { bp: 80 },
-    'Blizzard': { bp: 110 },
-    'Boomburst': {
+    '승부굳히기': { bp: 60 },
+    '파동탄': { bp: 80 },
+    '눈보라': { bp: 110 },
+    '폭음파': {
         bp: 140,
-        type: 'Normal',
-        category: 'Special',
+        type: '노말',
+        category: '특수',
         isSound: true,
         isSpread: true
     },
-    'Chatter': { bp: 65 },
-    'Crabhammer': { bp: 100 },
-    'Dazzling Gleam': {
+    '수다': { bp: 65 },
+    '찝게햄머': { bp: 100 },
+    '매지컬샤인': {
         bp: 80,
-        type: 'Fairy',
-        category: 'Special',
+        type: '페어리',
+        category: '특수',
         isSpread: true
     },
-    'Diamond Storm': {
+    '다이아스톰': {
         bp: 100,
-        type: 'Rock',
-        category: 'Physical',
+        type: '바위',
+        category: '물리',
         hasSecondaryEffect: true,
         isSpread: true
     },
-    'Draco Meteor': { bp: 130 },
-    'Dragon Ascent': {
+    '용성군': { bp: 130 },
+    '화룡점정': {
         bp: 120,
-        type: 'Flying',
-        category: 'Physical',
+        type: '비행',
+        category: '물리',
         makesContact: true
     },
-    'Dragon Pulse': { bp: 85 },
-    'Draining Kiss': {
+    '용의파동': { bp: 85 },
+    '드레인키스': {
         bp: 50,
-        type: 'Fairy',
-        category: 'Special',
+        type: '페어리',
+        category: '특수',
         makesContact: true,
     },
-    'Energy Ball': { bp: 90 },
-    'Facade': { ignoresBurn: true },
-    'Fire Blast': { bp: 110 },
-    'Flamethrower': { bp: 90 },
-    'Flying Press': {
+    '에너지볼': { bp: 90 },
+    '객기': { ignoresBurn: true },
+    '불대문자': { bp: 110 },
+    '화염방사': { bp: 90 },
+    '플라잉프레스': {
         bp: 80,
-        type: 'Fighting',
-        category: 'Physical',
+        type: '격투',
+        category: '물리',
         makesContact: true
     },
-    'Freeze-Dry': {
+    '프리즈드라이': {
         bp: 70,
-        type: 'Ice',
-        category: 'Special',
+        type: '얼음',
+        category: '특수',
         hasSecondaryEffect: true
     },
-    'Frost Breath': { bp: 60 },
-    'Heat Wave': { bp: 95 },
-    'Hex': { bp: 65 },
-    'Hidden Power Bug': { bp: 60 },
-    'Hidden Power Dark': { bp: 60 },
-    'Hidden Power Dragon': { bp: 60 },
-    'Hidden Power Electric': { bp: 60 },
-    'Hidden Power Fighting': { bp: 60 },
-    'Hidden Power Fire': { bp: 60 },
-    'Hidden Power Flying': { bp: 60 },
-    'Hidden Power Ghost': { bp: 60 },
-    'Hidden Power Grass': { bp: 60 },
-    'Hidden Power Ground': { bp: 60 },
-    'Hidden Power Ice': { bp: 60 },
-    'Hidden Power Poison': { bp: 60 },
-    'Hidden Power Psychic': { bp: 60 },
-    'Hidden Power Rock': { bp: 60 },
-    'Hidden Power Steel': { bp: 60 },
-    'Hidden Power Water': { bp: 60 },
-    'Hurricane': { bp: 110 },
-    'Hydro Pump': { bp: 110 },
-    'Ice Beam': { bp: 90 },
-    'Incinerate': { bp: 60 },
-    'Knock Off': { bp: 65 },
-    'Land\'s Wrath': {
+    '얼음숨결': { bp: 60 },
+    '열풍': { bp: 95 },
+    '병상첨병': { bp: 65 },
+    '잠재파워-벌레': { bp: 60 },
+    '잠재파워-악': { bp: 60 },
+    '잠재파워-드래곤': { bp: 60 },
+    '잠재파워-전기': { bp: 60 },
+    '잠재파워-격투': { bp: 60 },
+    '잠재파워-불': { bp: 60 },
+    '잠재파워-비행': { bp: 60 },
+    '잠재파워-고스트': { bp: 60 },
+    '잠재파워-풀': { bp: 60 },
+    '잠재파워-땅': { bp: 60 },
+    '잠재파워-얼음': { bp: 60 },
+    '잠재파워-독': { bp: 60 },
+    '잠재파워-에스퍼': { bp: 60 },
+    '잠재파워-바위': { bp: 60 },
+    '잠재파워-강철': { bp: 60 },
+    '잠재파워-물': { bp: 60 },
+    '폭풍': { bp: 110 },
+    '하이드로펌프': { bp: 110 },
+    '냉동빔': { bp: 90 },
+    '불태우기': { bp: 60 },
+    '탁쳐서떨구기': { bp: 65 },
+    '그라운드포스': {
         bp: 90,
-        type: 'Ground',
-        category: 'Physical',
+        type: '땅',
+        category: '물리',
         isSpread: true
     },
-    'Leaf Storm': { bp: 130 },
-    'Light of Ruin': {
+    '리프스톰': { bp: 130 },
+    '파멸의빛': {
         bp: 140,
-        type: 'Fairy',
-        category: 'Special',
+        type: '페어리',
+        category: '특수',
         hasRecoil: true
     },
-    'Low Sweep': { bp: 65 },
-    'Magma Storm': { bp: 100 },
-    'Meteor Mash': { bp: 90 },
-    'Moonblast': {
+    '로킥': { bp: 65 },
+    '마그마스톰': { bp: 100 },
+    '코멧펀치': { bp: 90 },
+    '문포스': {
         bp: 95,
-        type: 'Fairy',
-        category: 'Special',
+        type: '페어리',
+        category: '특수',
         hasSecondaryEffect: true
     },
-    'Muddy Water': { bp: 90 },
-    'Nature Power': {
+    '탁류': { bp: 90 },
+    '자연의힘': {
         bp: 80,
-        type: 'Normal',
-        category: 'Special',
+        type: '노말',
+        category: '특수',
         hasSecondaryEffect: true,
         isSpread: false
     },
-    'Oblivion Wing': {
+    '데스윙': {
         bp: 80,
-        type: 'Flying',
-        category: 'Special'
+        type: '비행',
+        category: '특수'
     },
-    'Origin Pulse': {
+    '근원의파동': {
         bp: 110,
-        type: 'Water',
-        category: 'Special',
+        type: '물',
+        category: '특수',
         isSpread: true
     },
-    'Overheat': { bp: 130 },
-    'Phantom Force': {
+    '오버히트': { bp: 130 },
+    '고스트다이브': {
         bp: 90,
-        type: 'Ghost',
-        category: 'Physical',
+        type: '고스트',
+        category: '물리',
         makesContact: true
     },
-    'Pin Missile': { bp: 25 },
-    'Play Rough': {
+    '바늘미사일': { bp: 25 },
+    '치근거리기': {
         bp: 90,
-        type: 'Fairy',
-        category: 'Physical',
+        type: '페어리',
+        category: '물리',
         makesContact: true,
         hasSecondaryEffect: true
     },
-    'Power Gem': { bp: 80 },
-    'Power-Up Punch': {
+    '파워젬': { bp: 80 },
+    '그로우펀치': {
         bp: 40,
-        type: 'Fighting',
-        category: 'Physical',
+        type: '격투',
+        category: '물리',
         makesContact: true,
         hasSecondaryEffect: true,
         isPunch: true
     },
-    'Precipice Blades': {
+    '단애의칼': {
         bp: 120,
-        type: 'Ground',
-        category: 'Physical',
+        type: '땅',
+        category: '물리',
         isSpread: 'true'
     },
-    'Rock Tomb': { bp: 60 },
-    'Sheer Cold': {
+    '암석봉인': { bp: 60 },
+    '절대영도': {
         bp: 0,
-        type: 'Ice',
-        category: 'Special',
+        type: '얼음',
+        category: '특수',
         isSpread: 'false',
         isMLG: 'true'
     },
-    'Storm Throw': { bp: 60 },
-    'Surf': { bp: 90 },    
-    'Synchronoise': { bp: 120 },
-    'Thief': { bp: 60 },
-    'Thunder': { bp: 110 },
-    'Thunderbolt': { bp: 90 },
-    'Wake-Up Slap': { bp: 70 },
-    'Water Shuriken': {
+    '업어후리기': { bp: 60 },
+    '파도타기': { bp: 90 },    
+    '싱크로노이즈': { bp: 120 },
+    '도둑질': { bp: 60 },
+    '번개': { bp: 110 },
+    '10만볼트': { bp: 90 },
+    '잠깨움뺨치기': { bp: 70 },
+    '물수리검': {
         bp: 15,
-        type: 'Water',
-        category: 'Physical',
+        type: '물',
+        category: '물리',
         isMultiHit: true
     },
-    'Aurora Beam': {
+    '오로라빔': {
         bp: 65,
-        type: 'Ice', 
-        category: 'Special'
+        type: '얼음', 
+        category: '특수'
     }
 });
 
-MOVES_XY['Ancient Power'] = MOVES_XY['AncientPower'];
-MOVES_XY['Dynamic Punch'] = MOVES_XY['DynamicPunch'];
-MOVES_XY['Extreme Speed'] = MOVES_XY['ExtremeSpeed'];
-MOVES_XY['Feint Attack'] = MOVES_XY['Faint Attack'];
-MOVES_XY['High Jump Kick'] = MOVES_XY['Hi Jump Kick'];
-MOVES_XY['Self-Destruct'] = MOVES_XY['Selfdestruct'];
-MOVES_XY['Solar Beam'] = MOVES_XY['SolarBeam'];
-MOVES_XY['Thunder Punch'] = MOVES_XY['ThunderPunch'];
-delete MOVES_XY['AncientPower'];
-delete MOVES_XY['DynamicPunch'];
-delete MOVES_XY['ExtremeSpeed'];
-delete MOVES_XY['Faint Attack'];
-delete MOVES_XY['Hi Jump Kick'];
-delete MOVES_XY['Selfdestruct'];
-delete MOVES_XY['SolarBeam'];
-delete MOVES_XY['ThunderPunch'];
+MOVES_XY['원시의힘'] = MOVES_XY['원시의힘'];
+MOVES_XY['폭발펀치'] = MOVES_XY['폭발펀치'];
+MOVES_XY['신속'] = MOVES_XY['신속'];
+MOVES_XY['속여때리기'] = MOVES_XY['속여때리기'];
+MOVES_XY['무릎차기'] = MOVES_XY['무릎차기'];
+MOVES_XY['자폭'] = MOVES_XY['자폭'];
+MOVES_XY['솔라빔'] = MOVES_XY['솔라빔'];
+MOVES_XY['번개펀치'] = MOVES_XY['번개펀치'];
+delete MOVES_XY['원시의힘'];
+delete MOVES_XY['폭발펀치'];
+delete MOVES_XY['신속'];
+delete MOVES_XY['속여때리기'];
+delete MOVES_XY['무릎차기'];
+delete MOVES_XY['자폭'];
+delete MOVES_XY['솔라빔'];
+delete MOVES_XY['번개펀치'];
 
 var ZMOVES_LOOKUP = {
-    'Normal':'Breakneck Blitz','Fire':'Inferno Overdrive','Water':'Hydro Vortex',
-    'Electric':'Gigavolt Havoc','Grass':'Bloom Doom','Ghost':'Never-Ending Nightmare',
-    'Dark':'Black Hole Eclipse','Psychic':'Shattered Psyche','Fighting':'All-Out Pummeling',
-    'Steel':'Corkscrew Crash','Ice':'Subzero Slammer','Ground':'Tectonic Rage',
-    'Rock':'Continental Crush','Bug':'Savage Spin-Out','Fairy':'Twinkle Tackle',
-    'Flying':'Supersonic Skystrike','Dragon':'Devastating Drake','Poison':'Acid Downpour'};
+    '노말':'울트라대시어택','불꽃':'다이내믹풀플레임','물':'슈퍼아쿠아토네이도',
+    '전기':'스파킹기가볼트','풀':'블룸샤인엑스트라','고스트':'무한암야로의유인',
+    '악':'블랙홀이클립스','에스퍼':'맥시멈사이브레이커','격투':'전격무쌍격렬권',
+    '강철':'초월나선연격','얼음':'레이징지오프리즈','땅':'라이징랜드오버',
+    '바위':'월즈엔드폴','벌레':'절대포식회전참','페어리':'러블리스타임팩트',
+    '비행':'파이널다이브클래시','드래곤':'얼티메이트드래곤번','독':'애시드포이즌딜리트'};
 
 var MOVES_SM = $.extend(true, {}, MOVES_XY, {
-    'Water Shuriken': {
-        category: 'Special',
+    '물수리검': {
+        category: '특수',
         zp: 100
     },
-    'Leech Life': {
-        category: 'Physical',
-        type: 'Bug',
+    '흡혈': {
+        category: '물리',
+        type: '벌레',
         bp: 80,
         zp: 160
     },
-    'Zing Zap': {
-        category: 'Physical',
-        type: 'Electric',
+    '찌리리따끔따끔': {
+        category: '물리',
+        type: '전기',
         bp: 80,
         zp: 160
     },
-    'Moongeist Beam': {
-        category: 'Special',
-        type: 'Ghost',
+    '섀도레이': {
+        category: '특수',
+        type: '고스트',
         bp: 100,
         zp: 180
     },
-    'Sunsteel Strike': {
-        category: 'Physical',
-        type: 'Steel',
+    '메테오드라이브': {
+        category: '물리',
+        type: '강철',
         bp: 100,
         zp: 180
     },
-    'Spectral Thief': {
-        category: 'Physical',
-        type: 'Ghost',
+    '섀도스틸': {
+        category: '물리',
+        type: '고스트',
         bp: 90,
         zp: 175
     },
-    'Prismatic Laser': {
-        category: 'Special',
-        type: 'Psychic',
+    '프리즘레이저': {
+        category: '특수',
+        type: '에스퍼',
         bp: 160,
         zp: 200
     },
-    'Liquidation': {
-        category: 'Physical',
-        type: 'Water',
+    '아쿠아브레이크': {
+        category: '물리',
+        type: '물',
         bp: 85,
         zp: 160
     },
-    'Accelerock': {
-        category: 'Physical',
-        type: 'Rock',
+    '액셀록': {
+        category: '물리',
+        type: '바위',
         bp: 40,
         zp: 100
     },
-    'Shadow Bone': {
-        category: 'Physical',
-        type: 'Ghost',
+    '섀도본': {
+        category: '물리',
+        type: '고스트',
         bp: 85,
         zp: 160
     },
-    'Stomping Tantrum': {
-        category: 'Physical',
-        type: 'Ground',
+    '분함의발구르기': {
+        category: '물리',
+        type: '땅',
         bp: 75,
         zp: 140
     },
-    'Psychic Fangs': {
-        category: 'Physical',
-        type: 'Psychic',
+    '사이코팽': {
+        category: '물리',
+        type: '에스퍼',
         bp: 95,
         zp: 160
     },
-    'Fleur Cannon': {
-        category: 'Special',
-        type: 'Fairy',
+    '플뢰르캐논': {
+        category: '특수',
+        type: '페어리',
         bp: 130,
         zp: 195
     },
-    'Shell Trap': {
-        category: 'Special',
-        type: 'Fire',
+    '트랩셸': {
+        category: '특수',
+        type: '불꽃',
         bp: 150,
         zp: 200
     },
-    'Genesis Supernova': {
-        category: 'Special',
-        type: 'Psychic',
+    '오리진스슈퍼노바': {
+        category: '특수',
+        type: '에스퍼',
         bp: 185
     },
-    'Pulverizing Pancake': {
-        category: 'Physical',
-        type: 'Normal',
+    '진심의공격': {
+        category: '물리',
+        type: '노말',
         bp: 210
     },
-    'Stoked Sparksurfer': {
-        category: 'Special',
-        type: 'Electric',
+    '라이트닝서프라이드': {
+        category: '특수',
+        type: '전기',
         bp: 175
     },
-    'Soul-Stealing 7-Star Strike': {
-        category: 'Physical',
-        type: 'Ghost',
+    '칠성탈혼퇴': {
+        category: '물리',
+        type: '고스트',
         bp: 195
     },
-    'Oceanic Operetta': {
-        category: 'Special',
-        type: 'Water',
+    '바다의심포니': {
+        category: '특수',
+        type: '물',
         bp: 195
     },
-    'Malicious Moonsault': {
-        category: 'Physical',
-        type: 'Dark',
+    '하이퍼다크크러셔': {
+        category: '물리',
+        type: '악',
         bp: 180
     },
-    'Sinister Arrow Raid': {
-        category: 'Physical',
-        type: 'Ghost',
+    '섀도애로우즈스트라이크': {
+        category: '물리',
+        type: '고스트',
         bp: 180
     },
-    'Brutal Swing': {
-        category: 'Physical',
-        type: 'Dark',
+    '세차게휘두르기': {
+        category: '물리',
+        type: '악',
         bp: 60,
         isSpread: true,
         zp: 120
     },
-    'Dragon Hammer': {
-        category: 'Physical',
-        type: 'Dragon',
+    '드래곤해머': {
+        category: '물리',
+        type: '드래곤',
         bp: 90,
         zp: 175
     },
-    'Clanging Scales': {
-        category: 'Special',
-        type: 'Dragon',
+    '스케일노이즈': {
+        category: '특수',
+        type: '드래곤',
         bp: 110,
         zp: 185
     },
-    'Beak Blast': {
-        category: 'Physical',
-        type: 'Flying',
+    '부리캐논': {
+        category: '물리',
+        type: '비행',
         bp: 100,
         zp: 180
     },
-    'Trop Kick': {
-        category: 'Physical',
-        type: 'Grass',
+    '트로피컬킥': {
+        category: '물리',
+        type: '풀',
         bp: 70,
         zp: 140
     },
-    'Core Enforcer': {
-        category: 'Special',
-        type: 'Dragon',
+    '코어퍼니셔': {
+        category: '특수',
+        type: '드래곤',
         bp: 100,
         isSpread: true,
         zp: 140
     },
-    'Revelation Dance':{
-        category: 'Special',
-        type: 'Normal',
+    '잠재댄스':{
+        category: '특수',
+        type: '노말',
         bp: 90,
         zp: 175
     },
-    'Smart Strike':{
-        category: 'Physical',
-        type: 'Steel',
+    '스마트호른':{
+        category: '물리',
+        type: '강철',
         bp: 70,
         zp: 140
     },
-    'Multi-Attack': {
-        category: 'Physical',
-        type: 'Normal',
+    '멀티어택': {
+        category: '물리',
+        type: '노말',
         bp: 90,
         zp: 185
     },
-    'Burn Up': {
-        category: 'Special',
-        type: 'Fire',
+    '불사르기': {
+        category: '특수',
+        type: '불꽃',
         bp: 130,
         zp: 195
     },
-    'Power Trip': {
-        category: 'Physical',
-        type: 'Dark',
+    '기어오르기': {
+        category: '물리',
+        type: '악',
         bp: 20,
         zp: 160
     },
-    'Fire Lash': {
-        category: 'Physical',
-        type: 'Fire',
+    '불꽃채찍': {
+        category: '물리',
+        type: '불꽃',
         bp: 80,
         zp: 160
     },
-    'Lunge': {
-        category: 'Physical',
-        type: 'Bug',
+    '덤벼들기': {
+        category: '물리',
+        type: '벌레',
         bp: 80,
         zp: 160
     },
-    'Anchor Shot': {
-        category: 'Physical',
-        type: 'Steel',
+    '앵커숏': {
+        category: '물리',
+        type: '강철',
         bp: 80,
         zp: 160
     },
-    'Pollen Puff': {
-        category: 'Special',
-        type: 'Bug',
+    '꽃가루경단': {
+        category: '특수',
+        type: '벌레',
         bp: 90,
         zp: 175
     },
-    'Throat Chop': {
-        category: 'Physical',
-        type: 'Dark',
+    '지옥찌르기': {
+        category: '물리',
+        type: '악',
         bp: 80,
         zp: 160
     },
-    'Solar Blade': {
-        category: 'Physical',
-        type: 'Grass',
+    '솔라블레이드': {
+        category: '물리',
+        type: '풀',
         bp: 125,
         zp: 190
     },
-    'High Horsepower': {
-        category: 'Physical',
-        type: 'Ground',
+    '10만마력': {
+        category: '물리',
+        type: '땅',
         bp: 95,
         zp: 175
     },
-    'Ice Hammer': {
-        category: 'Physical',
-        type: 'Ice',
+    '아이스해머': {
+        category: '물리',
+        type: '얼음',
         bp: 100,
         zp: 180
     },
-    'First Impression': {
-        category: 'Physical',
-        type: 'Bug',
+    '만나자마자': {
+        category: '물리',
+        type: '벌레',
         bp: '90',
         zp: '175',
     },
-    'Sparkling Aria': {
-         category: 'Special',
-         type: 'Water',
+    '물거품아리아': {
+         category: '특수',
+         type: '물',
          bp: 90,
          isSpread: true,
          zp: 175
     },
-    'Darkest Lariat': {
-        category: 'Physical',
-        type: 'Dark',
+    'DD래리어트': {
+        category: '물리',
+        type: '악',
         bp: 85,
         zp:160,
         ignoresDefenseBoosts: true
     },
-    'Spirit Shackle': {
-        category: 'Physical',
-        type: 'Ghost',
+    '그림자꿰매기': {
+        category: '물리',
+        type: '고스트',
         bp: 80,
         zp: 160
     },
-    'Catastropika': {
-        category: 'Physical',
-        type: 'Electric',
+    '필살피카슛': {
+        category: '물리',
+        type: '전기',
         bp: 210
     },
-    'Breakneck Blitz': {
-        type: 'Normal'
+    '울트라대시어택': {
+        type: '노말'
     },
-    'Inferno Overdrive': {
-        type: 'Fire'
+    '다이내믹풀플레임': {
+        type: '불꽃'
     },
-    'Subzero Slammer': {
-        type: 'Ice'
+    '레이징지오프리즈': {
+        type: '얼음'
     },
-    'Hydro Vortex': {
-        type: 'Water'
+    '슈퍼아쿠아토네이도': {
+        type: '물'
     },
-    'Gigavolt Havoc': {
-        type: 'Electric'
+    '스파킹기가볼트': {
+        type: '전기'
     },
-    'All-Out Pummeling': {
-        type: 'Fighting'
+    '전격무쌍격렬권': {
+        type: '격투'
     },
-    'Bloom Doom': {
-        type: 'Grass'
+    '블룸샤인엑스트라': {
+        type: '풀'
     },
-    'Shattered Psyche': {
-        type: 'Psychic'
+    '맥시멈사이브레이커': {
+        type: '에스퍼'
     },
-    'Savage Spin-Out': {
-        type: 'Bug'
+    '절대포식회전참': {
+        type: '벌레'
     },
-    'Acid Downpour': {
-        type: 'Poison'
+    '애시드포이즌딜리트': {
+        type: '독'
     },
-    'Supersonic Skystrike': {
-        type: 'Flying'
+    '파이널다이브클래시': {
+        type: '비행'
     },
-    'Devastating Drake': {
-        type: 'Dragon'
+    '얼티메이트드래곤번': {
+        type: '드래곤'
     },
-    'Continental Crush': {
-        type: 'Rock'
+    '월즈엔드폴': {
+        type: '바위'
     },
-    'Tectonic Rage': {
-        type: 'Ground'
+    '라이징랜드오버': {
+        type: '땅'
     },
-    'Corkscrew Crash': {
-        type: 'Steel'
+    '초월나선연격': {
+        type: '강철'
     },
-    'Twinkle Tackle': {
-        type: 'Fairy'
+    '러블리스타임팩트': {
+        type: '페어리'
     },
-    'Never-Ending Nightmare': {
-        type: 'Ghost'
+    '무한암야로의유인': {
+        type: '고스트'
     },
-    'Black Hole Eclipse': {
-        type: 'Dark'
+    '블랙홀이클립스': {
+        type: '악'
     },
-    'Fire Punch':{
+    '불꽃펀치':{
         zp: 140
     },
-    'Ice Punch':{
+    '냉동펀치':{
         zp: 140
     },
-    'Thunder Punch':{
+    '번개펀치':{
         zp: 140
     },
-    'Double Kick':{
+    '두번치기':{
         zp: 100
     },
-    'Jump Kick':{
+    '점프킥':{
         zp: 180
     },
-    'Headbutt':{
+    '박치기':{
         zp: 140
     },
-    'Tackle':{
+    '몸통박치기':{
         bp: 40,
         zp: 100
     },
-    'Body Slam':{
+    '누르기':{
         zp: 160
     },
-    'Thrash':{
+    '난동부리기':{
         zp: 190
     },
-    'Double-Edge':{
+    '이판사판태클':{
         zp: 190
     },
-    'Pin Missile':{
+    '바늘미사일':{
         zp: 140
     },
-    'Bite':{
+    '물기':{
         zp: 120
     },
-    'Flamethrower':{
+    '화염방사':{
         zp: 175
     },
-    'Hydro Pump':{
+    '하이드로펌프':{
         zp: 185
     },
-    'Surf':{
+    '파도타기':{
         zp: 175
     },
-    'Ice Beam':{
+    '냉동빔':{
         zp: 175
     },
-    'Blizzard':{
+    '눈보라':{
         zp: 185
     },
-    'Aurora Beam':{
+    '오로라빔':{
         zp: 120
     },
-    'Hyper Beam':{
+    '파괴광선':{
         zp: 200
     },
-    'Drill Peck':{
+    '회전부리':{
         zp: 160
     },
-    'Low Kick':{
+    '안다리걸기':{
         zp: 160
     },
-    'Seismic Toss':{
+    '지구던지기':{
         zp: 100
     },
-    'Solar Beam':{
+    '솔라빔':{
         zp: 190
     },
-    'Petal Dance':{
+    '꽃잎댄스':{
         zp: 190
     },
-    'Thunderbolt':{
+    '10만볼트':{
         zp: 175
     },
-    'Thunder':{
+    '번개':{
         zp: 185
     },
-    'Earthquake':{
+    '지진':{
         zp: 180
     },
-    'Psychic':{
+    '사이코키네시스':{
         zp: 175
     },
-    'Quick Attack':{
+    '전광석화':{
         zp: 100
     },
-    'Night Shade':{
+    '나이트헤드':{
         zp: 100
     },
-    'Self-Destruct':{
+    '자폭':{
         zp: 200
     },
-    'Fire Blast':{
+    '불대문자':{
         zp: 185
     },
-    'Waterfall':{
+    '폭포오르기':{
         zp: 160
     },
-    'Swift':{
+    '스피드스타':{
         zp: 120
     },
-    'High Jump Kick':{
+    '무릎차기':{
         zp: 195
     },
-    'Sky Attack':{
+    '불새':{
         zp: 200
     },
-    'Crabhammer':{
+    '찝게햄머':{
         zp: 180
     },
-    'Explosion':{
+    '대폭발':{
         zp: 200
     },
-    'Bonemerang':{
+    '뻐다귀부메랑':{
         zp: 100
     },
-    'Rock Slide':{
+    '스톤샤워':{
         zp: 140
     },
-    'Tri Attack':{
+    '트라이어택':{
         zp: 160
     },
-    'Super Fang':{
-        type: "Normal",
-        category: "Physical",
+    '분노의앞니':{
+        type: "노말",
+        category: "물리",
         zp: 100
     },
-    'Thief':{
+    '도둑질':{
         zp: 120
     },
-    'Flame Wheel':{
+    '화염자동차':{
         zp: 120
     },
-    'Flail':{
+    '바둥바둥':{
         zp: 160
     },
-    'Aeroblast':{
+    '에어로블라스트':{
         zp: 180
     },
-    'Reversal':{
+    '기사회생':{
         zp: 160
     },
-    'Mach Punch':{
+    '마하펀치':{
         zp: 100
     },
-    'Feint Attack':{
+    '속여때리기':{
         zp: 120
     },
-    'Sludge Bomb':{
+    '오물폭탄':{
         zp: 175
     },
-    'Icy Wind':{
+    '얼다바람':{
         zp: 100
     },
-    'Outrage':{
+    '역린':{
         zp: 190
     },
-    'Giga Drain':{
+    '기가드레인':{
         zp: 140
     },
-    'Spark':{
+    '스파크':{
         zp: 120
     },
-    'Steel Wing':{
+    '강철날개':{
         zp: 140
     },
-    'Return':{
+    '은혜갚기':{
         zp: 160
     },
-    'Frustration':{
+    '화풀이':{
         zp: 160
     },
-    'Sacred Fire':{
+    '성스러운불꽃':{
         zp: 180
     },
-    'Dynamic Punch':{
+    '폭발펀치':{
         zp: 180
     },
-    'Megahorn':{
+    '메가폰':{
         zp: 190
     },
-    'Pursuit':{
+    '따라가때리기':{
         zp: 100
     },
-    'Rapid Spin':{
+    '고속스핀':{
         zp: 100
     },
-    'Iron Tail':{
+    '아이언테일':{
         zp: 180
     },
-    'Hidden Power':{
+    '잠재파워':{
         zp: 120
     },
-    'Cross Chop':{
+    '크로스촙':{
         zp: 180
     },
-    'Crunch':{
+    '깨물어부수기':{
         zp: 160
     },
-    'Extreme Speed':{
+    '신속':{
         zp: 160
     },
-    'Ancient Power':{
+    '원시의힘':{
         zp: 120
     },
-    'Shadow Ball':{
+    '섀도볼':{
         zp: 160
     },
-    'Rock Smash':{
+    '바위깨기':{
         zp: 100
     },
-    'Fake Out':{
+    '속이다':{
         zp: 100
     },
-    'Heat Wave':{
+    '열풍':{
         zp: 175
     },
-    'Facade':{
+    '객기':{
         zp: 140
     },
-    'Focus Punch':{
+    '힘껏펀치':{
         zp: 200
     },
-    'Superpower':{
+    '엄청난힘':{
         zp: 190
     },
-    'Revenge':{
+    '리벤지':{
         zp: 120
     },
-    'Brick Break':{
+    '깨뜨리다':{
         zp: 140
     },
-    'Knock Off':{
+    '탁쳐서떨구기':{
         zp: 120
     },
-    'Endeavor':{
-        type: 'Normal',
-        category: 'Physical',
+    '죽기살기':{
+        type: '노말',
+        category: '물리',
         zp: 160
     },
-    'Eruption':{
+    '분화':{
         zp: 200
     },
-    'Arm Thrust':{
+    '손바닥치기':{
         zp: 100
     },
-    'Luster Purge':{
+    '라스트버지':{
         zp: 140
     },
-    'Blaze Kick':{
+    '브레이즈킥':{
         zp: 160
     },
-    'Hyper Voice':{
+    '하이퍼보이스':{
         zp: 175
     },
-    'Poison Fang':{
+    '독엄니':{
         zp: 100
     },
-    'Meteor Mash':{
+    '코멧펀치':{
         zp: 175
     },
-    'Weather Ball':{
+    '웨더볼':{
         zp: 160
     },
-    'Air Cutter':{
+    '에어컷터':{
         zp: 120
     },
-    'Overheat':{
+    '오버히트':{
         zp: 195
     },
-    'Rock Tomb':{
+    '암석봉인':{
         zp: 120
     },
-    'Water Spout':{
+    '해수스파우팅':{
         zp: 200
     },
-    'Signal Beam':{
+    '시그널빔':{
         zp: 140
     },
-    'Shadow Punch':{
+    '섀도펀치':{
         zp: 120
     },
-    'Extrasensory':{
+    '신통력':{
         zp: 160
     },
-    'Sky Uppercut':{
+    '스카이업퍼':{
         zp: 160
     },
-    'Sheer Cold':{
+    '절대영도':{
         zp: 180
     },
-    'Muddy Water':{
+    '탁류':{
         zp: 175
     },
-    'Bullet Seed':{
+    '기관총':{
         zp: 140
     },
-    'Aerial Ace':{
+    '제비반환':{
         zp: 120
     },
-    'Icicle Spear':{
+    '고드름침':{
         zp: 140
     },
-    'Dragon Claw':{
+    '드래곤크루':{
         zp: 160
     },
-    'Bounce':{
+    '뛰어오르다':{
         zp: 160
     },
-    'Volt Tackle':{
+    '볼트태클':{
         zp: 190
     },
-    'Leaf Blade':{
+    '리프블레이드':{
         zp: 175
     },
-    'Rock Blast':{
+    '락블레스트':{
         zp: 140
     },
-    'Shock Wave':{
+    '전격파':{
         zp: 120
     },
-    'Water Pulse':{
+    '물의파동':{
         zp: 120
     },
-    'Doom Desire':{
+    '파멸의소원':{
         zp: 200
     },
-    'Psycho Boost':{
+    '사이코부스트':{
         zp: 200
     },
-    'Wake-Up Slap':{
+    '잠깨움뺨치기':{
         zp: 140
     },
-    'Hammer Arm':{
+    '암해머':{
         zp: 180
     },
-    'Gyro Ball':{
+    '자이로볼':{
         zp: 160
     },
-    'Natural Gift':{
+    '자연의은혜':{
         zp: 160
     },
-    'Feint':{
+    '페인트':{
         zp: 100
     },
-    'Pluck':{
+    '쪼아대기':{
         zp: 120
     },
-    'U-turn':{
+    '유턴':{
         zp: 140
     },
-    'Close Combat':{
+    '인파이트':{
         zp: 190
     },
-    'Payback':{
+    '보복':{
         zp: 100
     },
-    'Assurance':{
+    '승부굳히기':{
         zp: 120
     },
-    'Fling':{
+    '내던지기':{
         zp: 100
     },
-    'Punishment':{
+    '혼내기':{
         zp: 160
     },
-    'Sucker Punch':{
+    '기습':{
         bp: 70,
         zp: 140
     },
-    'Flare Blitz':{
+    '플레어드라이브':{
         zp: 190
     },
-    'Force Palm':{
+    '발경':{
         zp: 120
     },
-    'Aura Sphere':{
+    '파동탄':{
         zp: 160
     },
-    'Poison Jab':{
+    '독찌르기':{
         zp: 160
     },
-    'Dark Pulse':{
+    '악의파동':{
         zp: 160
     },
-    'Night Slash':{
+    '깜짝베기':{
         zp: 140
     },
-    'Aqua Tail':{
+    '아쿠아테일':{
         zp: 175
     },
-    'Seed Bomb':{
+    '씨폭탄':{
         zp: 160
     },
-    'Air Slash':{
+    '에어슬래시':{
         zp: 140
     },
-    'X-Scissor':{
+    '시저크로스':{
         zp: 160
     },
-    'Bug Buzz':{
+    '벌레의야단법석':{
         zp: 175
     },
-    'Dragon Pulse':{
+    '용의파동':{
         zp: 160
     },
-    'Dragon Rush':{
+    '드래곤다이브':{
         zp: 180
     },
-    'Power Gem':{
+    '파워젬':{
         zp: 160
     },
-    'Drain Punch':{
+    '드레인펀치':{
         zp: 140
     },
-    'Vacuum Wave':{
+    '진공파':{
         zp: 100
     },
-    'Focus Blast':{
+    '기합구슬':{
         zp: 190
     },
-    'Energy Ball':{
+    '에너지볼':{
         zp: 175
     },
-    'Brave Bird':{
+    '브레이브버드':{
         zp: 190
     },
-    'Earth Power':{
+    '대지의힘':{
         zp: 175
     },
-    'Giga Impact':{
+    '기가임팩트':{
         zp: 200
     },
-    'Bullet Punch':{
+    '불릿펀치':{
         zp: 100
     },
-    'Avalanche':{
+    '눈사태':{
         zp: 120
     },
-    'Ice Shard':{
+    '얼음뭉치':{
         zp: 100
     },
-    'Shadow Claw':{
+    '섀도크루':{
         zp: 140
     },
-    'Thunder Fang':{
+    '번개엄니':{
         zp: 120
     },
-    'Ice Fang':{
+    '얼음엄니':{
         zp: 120
     },
-    'Fire Fang':{
+    '불꽃엄니':{
         zp: 120
     },
-    'Shadow Sneak':{
+    '야습':{
         zp: 100
     },
-    'Mud Bomb':{
+    '진흙폭탄':{
         zp: 120
     },
-    'Psycho Cut':{
+    '사이코커터':{
         zp: 140
     },
-    'Zen Headbutt':{
+    '사념의박치기':{
         zp: 160
     },
-    'Flash Cannon':{
+    '러스터캐논':{
         zp: 160
     },
-    'Rock Climb':{
+    '락클라임':{
         zp: 175
     },
-    'Draco Meteor':{
+    '용성군':{
         zp: 195
     },
-    'Discharge':{
+    '방전':{
         zp: 160
     },
-    'Lava Plume':{
+    '분연':{
         zp: 160
     },
-    'Leaf Storm':{
+    '리프스톰':{
         zp: 195
     },
-    'Power Whip':{
+    '파워휩':{
         zp: 190
     },
-    'Cross Poison':{
+    '크로스포이즌':{
         zp: 140
     },
-    'Gunk Shot':{
+    '더스트슈트':{
         zp: 190
     },
-    'Iron Head':{
+    '아이언헤드':{
         zp: 160
     },
-    'Stone Edge':{
+    '스톤에지':{
         zp: 180
     },
-    'Grass Knot':{
+    '풀묶기':{
         zp: 160
     },
-    'Chatter':{
+    '수다':{
         zp: 120
     },
-    'Judgment':{
+    '심판의뭉치':{
         zp: 180
     },
-    'Bug Bite':{
+    '벌레먹음':{
         zp: 120
     },
-    'Charge Beam':{
+    '차지빔':{
         zp: 100
     },
-    'Wood Hammer':{
+    '우드해머':{
         zp: 190
     },
-    'Aqua Jet':{
+    '아쿠아제트':{
         zp: 100
     },
-    'Attack Order':{
+    '공격지령':{
         zp: 175
     },
-    'Head Smash':{
+    '양날박치기':{
         zp: 200
     },
-    'Double Hit':{
+    '더블어택':{
         zp: 140
     },
-    'Spacial Rend':{
+    '공간절단':{
         zp: 180
     },
-    'Magma Storm':{
+    '마그마스톰':{
         zp: 180
     },
-    'Seed Flare':{
+    '시드플레어':{
         zp: 190
     },
-    'Shadow Force':{
+    '섀도다이브':{
         zp: 190
     },
-    'Psyshock':{
+    '사이코쇼크':{
         zp: 160
     },
-    'Smack Down':{
+    '떨어뜨리기':{
         zp: 100
     },
-    'Sludge Wave':{
+    '오물웨이브':{
         zp: 175
     },
-    'Heavy Slam':{
+    '헤비봄버':{
         zp: 160
     },
-    'Synchronoise':{
+    '싱크로노이즈':{
         zp: 190
     },
-    'Electro Ball':{
+    '일렉트릭볼':{
         zp: 160
     },
-    'Flame Charge':{
+    '니트로차지':{
         zp: 100
     },
-    'Low Sweep':{
+    '로킥':{
         zp: 120
     },
-    'Acid Spray':{
+    '애시드봄':{
         zp: 100
     },
-    'Foul Play':{
+    '속임수':{
         zp: 175
     },
-    'Clear Smog':{
+    '클리어스모그':{
         zp: 100
     },
-    'Stored Power':{
+    '어시스트파워':{
         zp: 160
     },
-    'Scald':{
+    '열탕':{
         zp: 160
     },
-    'Hex':{
+    '병상첨병':{
         zp: 160
     },
-    'Sky Drop':{
+    '프리폴':{
         zp: 120
     },
-    'Circle Throw':{
+    '배대뒤치기':{
         zp: 120
     },
-    'Incinerate':{
+    '불태우기':{
         zp: 120
     },
-    'Acrobatics':{
+    '애크러뱃':{
         zp: 100
     },
-    'Retaliate':{
+    '원수갚기':{
         zp: 140
     },
-    'Inferno':{
+    '연옥':{
         zp: 180
     },
-    'Water Pledge':{
+    '물의맹세':{
         zp: 160
     },
-    'Fire Pledge':{
+    '불꽃의맹세':{
         zp: 160
     },
-    'Grass Pledge':{
+    '풀의맹세':{
         zp: 160
     },
-    'Volt Switch':{
+    '볼트체인지':{
         zp: 140
     },
-    'Bulldoze':{
+    '땅고르기':{
         zp: 120
     },
-    'Frost Breath':{
+    '얼음숨결':{
         zp: 120
     },
-    'Dragon Tail':{
+    '드래곤테일':{
         zp: 120
     },
-    'Wild Charge':{
+    '와일드볼트':{
         zp: 175
     },
-    'Drill Run':{
+    '드릴라이너':{
         zp: 160
     },
-    'Dual Chop':{
+    '더블촙':{
         zp: 100
     },
-    'Horn Leech':{
+    '우드호른':{
         zp: 140
     },
-    'Sacred Sword':{
+    '성스러운칼':{
         zp: 175
     },
-    'Razor Shell':{
+    '셸블레이드':{
         zp: 140
     },
-    'Night Daze':{
+    '나이트버스트':{
         zp: 160
     },
-    'Psystrike':{
+    '사이코브레이크':{
         zp: 180
     },
-    'Tail Slap':{
+    '스위프뺨치기':{
         zp: 140
     },
-    'Hurricane':{
+    '폭풍':{
         zp: 185
     },
-    'Head Charge':{
+    '아프로브레이크':{
         zp: 190
     },
-    'Gear Grind':{
+    '기어소서':{
         zp: 180
     },
-    'Searing Shot':{
+    '화염탄':{
         zp: 180
     },
-    'Relic Song':{
+    '옛노래':{
         zp: 140
     },
-    'Secret Sword':{
+    '신비의칼':{
         zp: 160
     },
-    'Glaciate':{
+    '얼다세계':{
         zp: 120
     },
-    'Fiery Dance':{
+    '불꽃춤':{
         zp: 160
     },
-    'Blue Flare':{
+    '푸른불꽃':{
         zp: 195
     },
-    'Fiery Dance':{
+    '불꽃춤':{
         zp: 160
     },
-    'Freeze Shock':{
+    '프리즈볼트':{
         zp: 200
     },
-    'Snarl':{
+    '바크아웃':{
         zp: 100
     },
-    'Icicle Crash':{
+    '고드름떨구기':{
         zp: 160
     },
-    'V-create':{
+    'V제너레이트':{
         zp: 220
     },
-    'Fusion Flare':{
+    '크로스플레임':{
         zp: 180
     },
-    'Fusion Bolt':{
+    '크로스썬더':{
         zp: 180
     },
-    'Flying Press':{
+    '플라잉프레스':{
         zp: 170
     },
-    'Phantom Force':{
+    '고스트다이브':{
         zp: 175
     },
-    'Freeze-Dry':{
+    '프리즈드라이':{
         zp: 140
     },
-    'Draining Kiss':{
+    '드레인키스':{
         zp: 100
     },
-    'Play Rough':{
+    '치근거리기':{
         zp: 175
     },
-    'Moonblast':{
+    '문포스':{
         zp: 175
     },
-    'Boomburst':{
+    '폭음파':{
         zp: 200
     },
-    'Diamond Storm':{
+    '다이아스톰':{
         zp: 180
     },
-    'Dazzling Gleam':{
+    '매지컬샤인':{
         zp: 160
     },
-    'Nuzzle':{
-        category: 'Physical',
-        type: 'Electric',
+    '볼부비부비':{
+        category: '물리',
+        type: '전기',
         bp: 20,
         zp: 100
     },
-    'Power-Up Punch':{
+    '그로우펀치':{
         zp: 100
     },
-    'Oblivion Wing':{
+    '데스윙':{
         zp: 160
     },
-    'Land\'s Wrath':{
+    '그라운드포스':{
         zp: 185
     },
-    'Light Of Ruin':{
+    '파멸의빛':{
         zp: 200
     },
-    'Origin Pulse':{
+    '근원의파동':{
         zp: 185
     },
-    'Precipice Blades':{
+    '단애의칼':{
         zp: 190
     },
-    'Dragon Ascent':{
+    '화룡점정':{
         zp: 190
     }
 });

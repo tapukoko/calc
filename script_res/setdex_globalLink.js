@@ -1,204 +1,204 @@
-var SETDEX_GLOBALLINK={
-  "Electrode": {
-    "Common Battle Spot": {
+﻿var SETDEX_GLOBALLINK={
+  "붐볼": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Timid",
-      "ability": "Soundproof",
+      "nature": "겁쟁이",
+      "ability": "방음",
       "item": "",
       "moves": [
-        "Discharge",
+        "방전",
         "",
         "",
-        "Thunderbolt"
+        "10만볼트"
       ]
     }
   },
-  "Exeggutor": {
-    "Common Battle Spot": {
+  "나시": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Calm",
+      "nature": "차분",
       "ability": "",
-      "item": "Sitrus Berry",
+      "item": "자뭉열매",
       "moves": [
-        "Psychic",
+        "사이코키네시스",
         "",
         "",
-        "Giga Drain"
+        "기가드레인"
       ]
     }
   },
-  "Cubone": {
-    "Common Battle Spot": {
+  "탕구리": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Relaxed",
-      "ability": "Battle Armor",
-      "item": "Eviolite",
+      "nature": "무사태평",
+      "ability": "전투무장",
+      "item": "진화의휘석",
       "moves": [
         "",
         "",
         "",
-        "Rock Slide"
+        "스톤샤워"
       ]
     }
   },
-  "Marowak": {
-    "Common Battle Spot": {
+  "텅구리": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Brave",
-      "ability": "Lightning Rod",
-      "item": "Thick Club",
+      "nature": "용감",
+      "ability": "피뢰침",
+      "item": "굵은뼈",
       "moves": [
-        "Bonemerang",
-        "Rock Slide",
+        "뻐다귀부메랑",
+        "스톤샤워",
         "",
-        "Earthquake"
+        "지진"
       ]
     }
   },
-  "Hitmonlee": {
-    "Common Battle Spot": {
+  "시라소몬": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
+      "nature": "고집",
       "ability": "",
-      "item": "Normal Gem",
+      "item": "노말젬",
       "moves": [
-        "Fake Out",
-        "Close Combat",
+        "속이다",
+        "인파이트",
         "",
-        "Rock Slide"
+        "스톤샤워"
       ]
     }
   },
-  "Hitmonchan": {
-    "Common Battle Spot": {
+  "홍수몬": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
-      "ability": "Iron Fist",
-      "item": "Assault Vest",
+      "nature": "고집",
+      "ability": "철주먹",
+      "item": "돌격조끼",
       "moves": [
-        "Fake Out",
-        "Mach Punch",
-        "Ice Punch",
-        "Drain Punch"
+        "속이다",
+        "마하펀치",
+        "냉동펀치",
+        "드레인펀치"
       ]
     }
   },
-  "Weezing": {
-    "Common Battle Spot": {
+  "또도가스": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Bold",
-      "ability": "Levitate",
-      "item": "Sitrus Berry",
+      "nature": "대담",
+      "ability": "부유",
+      "item": "자뭉열매",
       "moves": [
-        "Sludge Bomb",
+        "오물폭탄",
         "",
         "",
         ""
       ]
     }
   },
-  "Rhydon": {
-    "Common Battle Spot": {
+  "코뿌리": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
-      "ability": "Lightning Rod",
-      "item": "Eviolite",
+      "nature": "고집",
+      "ability": "피뢰침",
+      "item": "진화의휘석",
       "moves": [
         "",
-        "Earthquake",
-        "Rock Slide",
-        "Ice Punch"
+        "지진",
+        "스톤샤워",
+        "냉동펀치"
       ]
     }
   },
-  "Chansey": {
-    "Common Battle Spot": {
+  "럭키": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Bold",
+      "nature": "대담",
       "ability": "",
-      "item": "Eviolite",
+      "item": "진화의휘석",
       "moves": [
-        "Seismic Toss",
+        "지구던지기",
         "",
         "",
         ""
       ]
     }
   },
-  "Tangela": {
-    "Common Battle Spot": {
+  "덩쿠리": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Bold",
+      "nature": "대담",
       "ability": "",
-      "item": "Eviolite",
+      "item": "진화의휘석",
       "moves": [
         "",
         "",
         "",
-        "Giga Drain"
+        "기가드레인"
       ]
     }
   },
-  "Kangaskhan": {
-    "Common Battle Spot": {
+  "캥카": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Jolly",
-      "ability": "Scrappy",
-      "item": "Kangaskhanite",
+      "nature": "명랑",
+      "ability": "배짱",
+      "item": "캥카나이트",
       "moves": [
-        "Fake Out",
-        "Sucker Punch",
-        "Double-Edge",
-        "Low Kick"
+        "속이다",
+        "기습",
+        "이판사판태클",
+        "안다리걸기"
       ]
     }
   },
-  "Goldeen": {
-    "Common Battle Spot": {
+  "콘치": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Impish",
-      "ability": "Lightning Rod",
-      "item": "Air Balloon",
+      "nature": "장난꾸러기",
+      "ability": "피뢰침",
+      "item": "풍선",
       "moves": [
-        "Icy Wind",
+        "얼다바람",
         "",
-        "Waterfall",
+        "폭포오르기",
         ""
       ]
     }
   },
-  "Seaking": {
-    "Common Battle Spot": {
+  "왕콘치": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Bold",
-      "ability": "Lightning Rod",
-      "item": "Choice Scarf",
+      "nature": "대담",
+      "ability": "피뢰침",
+      "item": "구애스카프",
       "moves": [
-        "Ice Beam",
+        "냉동빔",
         "",
-        "Scald",
-        "Icy Wind"
+        "열탕",
+        "얼다바람"
       ]
     }
   },
-  "Butterfree": {
-    "Common Battle Spot": {
+  "버터플": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Jolly",
+      "nature": "명랑",
       "ability": "",
       "item": "",
       "moves": [
@@ -209,175 +209,175 @@ var SETDEX_GLOBALLINK={
       ]
     }
   },
-  "Starmie": {
-    "Common Battle Spot": {
+  "아쿠스타": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Timid",
+      "nature": "겁쟁이",
       "ability": "",
-      "item": "Choice Scarf",
+      "item": "구애스카프",
       "moves": [
-        "Ice Beam",
-        "Hydro Pump",
+        "냉동빔",
+        "하이드로펌프",
         "",
         ""
       ]
     }
   },
-  "Mr. Mime": {
-    "Common Battle Spot": {
+  "마임맨": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Bold",
-      "ability": "Filter",
-      "item": "Sitrus Berry",
+      "nature": "대담",
+      "ability": "필터",
+      "item": "자뭉열매",
       "moves": [
-        "Fake Out",
+        "속이다",
         "",
-        "Icy Wind",
-        "Dazzling Gleam"
+        "얼다바람",
+        "매지컬샤인"
       ]
     }
   },
-  "Scyther": {
-    "Common Battle Spot": {
+  "스라크": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Jolly",
-      "ability": "Technician",
-      "item": "Eviolite",
+      "nature": "명랑",
+      "ability": "테크니션",
+      "item": "진화의휘석",
       "moves": [
-        "Aerial Ace",
+        "제비반환",
         "",
         "",
-        "Feint"
+        "페인트"
       ]
     }
   },
-  "Jynx": {
-    "Common Battle Spot": {
+  "루주라": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Timid",
-      "ability": "Dry Skin",
+      "nature": "겁쟁이",
+      "ability": "건조피부",
       "item": "",
       "moves": [
         "",
-        "Fake Out",
-        "Psyshock",
-        "Blizzard"
+        "속이다",
+        "사이코쇼크",
+        "눈보라"
       ]
     }
   },
-  "Electabuzz": {
-    "Common Battle Spot": {
+  "에레브": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Modest",
+      "nature": "조심",
       "ability": "",
-      "item": "Eviolite",
+      "item": "진화의휘석",
       "moves": [
         "",
         "",
-        "Thunderbolt",
-        "Discharge"
+        "10만볼트",
+        "방전"
       ]
     }
   },
-  "Magmar": {
-    "Common Battle Spot": {
+  "마그마": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Calm",
+      "nature": "차분",
       "ability": "",
-      "item": "Eviolite",
+      "item": "진화의휘석",
       "moves": [
         "",
-        "Overheat",
+        "오버히트",
         "",
         ""
       ]
     }
   },
-  "Pinsir": {
-    "Common Battle Spot": {
+  "쁘사이저": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Jolly",
-      "ability": "Hyper Cutter",
-      "item": "Pinsirite",
+      "nature": "명랑",
+      "ability": "괴력집게",
+      "item": "쁘사이저나이트",
       "moves": [
         "",
-        "Feint",
-        "Return",
-        "Close Combat"
+        "페인트",
+        "은혜갚기",
+        "인파이트"
       ]
     }
   },
-  "Tauros": {
-    "Common Battle Spot": {
+  "켄타로스": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Jolly",
+      "nature": "명랑",
       "ability": "",
-      "item": "Lum Berry",
+      "item": "리샘열매",
       "moves": [
-        "Rock Slide",
-        "Earthquake",
+        "스톤샤워",
+        "지진",
         "",
-        "Return"
+        "은혜갚기"
       ]
     }
   },
-  "Gyarados": {
-    "Common Battle Spot": {
+  "갸라도스": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
-      "ability": "Intimidate",
-      "item": "Gyaradosite",
+      "nature": "고집",
+      "ability": "괴력집게",
+      "item": "갸라도스나이트",
       "moves": [
-        "Waterfall",
+        "폭포오르기",
         "",
         "",
-        "Earthquake"
+        "지진"
       ]
     }
   },
-  "Lapras": {
-    "Common Battle Spot": {
+  "라프라스": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Modest",
-      "ability": "Water Absorb",
-      "item": "Assault Vest",
+      "nature": "조심",
+      "ability": "축전",
+      "item": "돌격조끼",
       "moves": [
-        "Freeze-Dry",
-        "Hydro Pump",
-        "Ice Shard",
+        "프리즈드라이",
+        "하이드로펌프",
+        "얼음뭉치",
         ""
       ]
     }
   },
-  "Ditto": {
-    "Common Battle Spot": {
+  "메타몽": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Timid",
+      "nature": "겁쟁이",
       "ability": "",
-      "item": "Sitrus Berry",
+      "item": "자뭉열매",
       "moves": [
         ""
       ]
     }
   },
-  "Eevee": {
-    "Common Battle Spot": {
+  "이브이": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Bold",
+      "nature": "대담",
       "ability": "",
-      "item": "Eviolite",
+      "item": "진화의휘석",
       "moves": [
         "",
         "",
@@ -386,208 +386,208 @@ var SETDEX_GLOBALLINK={
       ]
     }
   },
-  "Vaporeon": {
-    "Common Battle Spot": {
+  "샤미드": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Modest",
-      "ability": "Water Absorb",
-      "item": "Leftovers",
+      "nature": "조심",
+      "ability": "축전",
+      "item": "먹다남은음식",
       "moves": [
-        "Scald",
+        "열탕",
         "",
-        "Ice Beam",
+        "냉동빔",
         ""
       ]
     }
   },
-  "Jolteon": {
-    "Common Battle Spot": {
+  "쥬피썬더": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Timid",
-      "ability": "Volt Absorb",
-      "item": "Life Orb",
+      "nature": "겁쟁이",
+      "ability": "축전",
+      "item": "생명의구슬",
       "moves": [
-        "Thunderbolt",
+        "10만볼트",
         "",
         "",
         ""
       ]
     }
   },
-  "Flareon": {
-    "Common Battle Spot": {
+  "부스터": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
-      "ability": "Flash Fire",
-      "item": "Sitrus Berry",
+      "nature": "고집",
+      "ability": "타오르는불꽃",
+      "item": "자뭉열매",
       "moves": [
-        "Flare Blitz",
-        "Quick Attack",
-        "Superpower",
+        "플레어드라이브",
+        "전광석화",
+        "엄청난힘",
         ""
       ]
     }
   },
-  "Porygon": {
-    "Common Battle Spot": {
+  "폴리곤": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Modest",
-      "ability": "Download",
-      "item": "Eviolite",
+      "nature": "조심",
+      "ability": "다운로드",
+      "item": "진화의휘석",
       "moves": [
         "",
         "",
-        "Thunderbolt",
-        "Ice Beam"
+        "10만볼트",
+        "냉동빔"
       ]
     }
   },
-  "Omastar": {
-    "Common Battle Spot": {
+  "암스타": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Modest",
-      "ability": "Swift Swim",
+      "nature": "조심",
+      "ability": "쓱쓱",
       "item": "",
       "moves": [
-        "Ice Beam",
+        "냉동빔",
         "",
         "",
-        "Surf"
+        "파도타기"
       ]
     }
   },
-  "Kabutops": {
-    "Common Battle Spot": {
+  "투구푸스": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
-      "ability": "Swift Swim",
-      "item": "Life Orb",
+      "nature": "고집",
+      "ability": "쓱쓱",
+      "item": "생명의구슬",
       "moves": [
-        "Rock Slide",
-        "Aqua Jet",
-        "Waterfall",
+        "스톤샤워",
+        "아쿠아제트",
+        "폭포오르기",
         ""
       ]
     }
   },
-  "Aerodactyl": {
-    "Common Battle Spot": {
+  "프테라": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Jolly",
-      "ability": "Unnerve",
+      "nature": "명랑",
+      "ability": "긴장감",
       "item": "",
       "moves": [
-        "Rock Slide",
+        "스톤샤워",
         "",
         "",
         ""
       ]
     }
   },
-  "Snorlax": {
-    "Common Battle Spot": {
+  "잠만보": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
-      "ability": "Thick Fat",
-      "item": "Choice Band",
+      "nature": "고집",
+      "ability": "두꺼운지방",
+      "item": "구애머리띠",
       "moves": [
-        "Return",
-        "Self-Destruct",
-        "Earthquake",
-        "Crunch"
+        "은혜갚기",
+        "자폭",
+        "지진",
+        "깨물어부수기"
       ]
     }
   },
-  "Articuno": {
-    "Common Battle Spot": {
+  "프리져": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Bold",
+      "nature": "대담",
       "ability": "",
-      "item": "Assault Vest",
+      "item": "돌격조끼",
       "moves": [
-        "Freeze-Dry",
-        "Hurricane",
+        "프리즈드라이",
+        "폭풍",
         "",
-        "Icy Wind"
+        "얼다바람"
       ]
     }
   },
-  "Zapdos": {
-    "Common Battle Spot": {
+  "썬더": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Modest",
+      "nature": "조심",
       "ability": "",
-      "item": "Sitrus Berry",
+      "item": "자뭉열매",
       "moves": [
-        "Thunderbolt",
+        "10만볼트",
         "",
         "",
         ""
       ]
     }
   },
-  "Moltres": {
-    "Common Battle Spot": {
+  "파이어": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Modest",
+      "nature": "조심",
       "ability": "",
-      "item": "Charti Berry",
+      "item": "루미열매",
       "moves": [
-        "Heat Wave",
-        "Air Slash",
+        "열풍",
+        "에어슬래시",
         "",
-        "Hurricane"
+        "폭풍"
       ]
     }
   },
-  "Dragonite": {
-    "Common Battle Spot": {
+  "망나뇽": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
-      "ability": "Multiscale",
+      "nature": "고집",
+      "ability": "멀티스케일",
       "item": "",
       "moves": [
-        "Extreme Speed",
-        "Dragon Claw",
-        "Earthquake",
+        "신속",
+        "드래곤크루",
+        "지진",
         ""
       ]
     }
   },
-  "Beedrill": {
-    "Common Battle Spot": {
+  "독침붕": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Jolly",
-      "ability": "Swarm",
-      "item": "Beedrillite",
+      "nature": "명랑",
+      "ability": "벌레의알림",
+      "item": "독침붕나이트",
       "moves": [
-        "Poison Jab",
+        "독찌르기",
         "",
-        "U-turn",
-        "Drill Run"
+        "유턴",
+        "드릴라이너"
       ]
     }
   },
-  "Meganium": {
-    "Common Battle Spot": {
+  "메가니움": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Calm",
-      "ability": "Overgrow",
-      "item": "Sitrus Berry",
+      "nature": "차분",
+      "ability": "심록",
+      "item": "자뭉열매",
       "moves": [
         "",
         "",
@@ -596,73 +596,73 @@ var SETDEX_GLOBALLINK={
       ]
     }
   },
-  "Typhlosion": {
-    "Common Battle Spot": {
+  "블레이범": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Modest",
-      "ability": "Blaze",
-      "item": "Choice Scarf",
+      "nature": "조심",
+      "ability": "맹화",
+      "item": "구애스카프",
       "moves": [
-        "Eruption",
-        "Focus Blast",
-        "Flamethrower",
+        "분화",
+        "기합구슬",
+        "화염방사",
         ""
       ]
     }
   },
-  "Feraligatr": {
-    "Common Battle Spot": {
+  "장크로다일": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
-      "ability": "Torrent",
-      "item": "Leftovers",
+      "nature": "고집",
+      "ability": "급류",
+      "item": "먹다남은음식",
       "moves": [
         "",
-        "Ice Punch",
-        "Aqua Jet",
-        "Waterfall"
+        "냉동펀치",
+        "아쿠아제트",
+        "폭포오르기"
       ]
     }
   },
-  "Furret": {
-    "Common Battle Spot": {
+  "다꼬리": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Impish",
+      "nature": "장난꾸러기",
       "ability": "",
       "item": "",
       "moves": [
         "",
-        "Knock Off",
+        "탁쳐서떨구기",
         "",
         ""
       ]
     }
   },
-  "Noctowl": {
-    "Common Battle Spot": {
+  "야부엉": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Calm",
+      "nature": "차분",
       "ability": "",
-      "item": "Leftovers",
+      "item": "먹다남은음식",
       "moves": [
         "",
         "",
-        "Night Shade",
+        "나이트헤드",
         ""
       ]
     }
   },
-  "Ariados": {
-    "Common Battle Spot": {
+  "아리아도스": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Impish",
+      "nature": "장난꾸러기",
       "ability": "",
-      "item": "Sitrus Berry",
+      "item": "자뭉열매",
       "moves": [
         "",
         "",
@@ -671,13 +671,13 @@ var SETDEX_GLOBALLINK={
       ]
     }
   },
-  "Crobat": {
-    "Common Battle Spot": {
+  "크로뱃": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Jolly",
+      "nature": "명랑",
       "ability": "",
-      "item": "Lum Berry",
+      "item": "리샘열매",
       "moves": [
         "",
         "",
@@ -686,28 +686,28 @@ var SETDEX_GLOBALLINK={
       ]
     }
   },
-  "Lanturn": {
-    "Common Battle Spot": {
+  "랜턴": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Modest",
-      "ability": "Volt Absorb",
-      "item": "Sitrus Berry",
+      "nature": "조심",
+      "ability": "축전",
+      "item": "자뭉열매",
       "moves": [
-        "Thunderbolt",
-        "Ice Beam",
-        "Scald",
-        "Discharge"
+        "10만볼트",
+        "냉동빔",
+        "열탕",
+        "방전"
       ]
     }
   },
-  "Igglybuff": {
-    "Common Battle Spot": {
+  "푸푸린": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Impish",
+      "nature": "장난꾸러기",
       "ability": "",
-      "item": "Eviolite",
+      "item": "진화의휘석",
       "moves": [
         "",
         "",
@@ -716,13 +716,13 @@ var SETDEX_GLOBALLINK={
       ]
     }
   },
-  "Togetic": {
-    "Common Battle Spot": {
+  "토게틱": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Calm",
+      "nature": "차분",
       "ability": "",
-      "item": "Eviolite",
+      "item": "진화의휘석",
       "moves": [
         "",
         "",
@@ -731,117 +731,117 @@ var SETDEX_GLOBALLINK={
       ]
     }
   },
-  "Xatu": {
-    "Common Battle Spot": {
+  "네이티오": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Modest",
+      "nature": "조심",
       "ability": "",
       "item": "",
       "moves": [
-        "Air Slash",
-        "Heat Wave",
+        "에어슬래시",
+        "열풍",
         "",
         ""
       ]
     }
   },
-  "Pidgeot": {
-    "Common Battle Spot": {
+  "피죤투": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Timid",
+      "nature": "겁쟁이",
       "ability": "",
-      "item": "Pidgeotite",
+      "item": "피죤투나이트",
       "moves": [
-        "Heat Wave",
-        "Hurricane",
+        "열풍",
+        "폭풍",
         "",
-        "Hyper Beam"
+        "파괴광선"
       ]
     }
   },
-  "Ampharos": {
-    "Common Battle Spot": {
+  "전룡": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Quiet",
+      "nature": "냉정",
       "ability": "",
-      "item": "Ampharosite",
+      "item": "전룡나이트",
       "moves": [
-        "Dragon Pulse",
-        "Thunderbolt",
+        "용의파동",
+        "10만볼트",
         "",
-        "Focus Blast"
+        "기합구슬"
       ]
     }
   },
-  "Bellossom": {
-    "Common Battle Spot": {
+  "아르코": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
-      "ability": "Chlorophyll",
-      "item": "Ganlon Berry",
+      "nature": "고집",
+      "ability": "엽록소",
+      "item": "용아열매",
       "moves": [
-        "Leaf Blade",
-        "Natural Gift",
+        "리프블레이드",
+        "자연의은혜",
         "",
         ""
       ]
     }
   },
-  "Azumarill": {
-    "Common Battle Spot": {
+  "마릴리": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
-      "ability": "Huge Power",
-      "item": "Sitrus Berry",
+      "nature": "고집",
+      "ability": "천하장사",
+      "item": "자뭉열매",
       "moves": [
-        "Aqua Jet",
-        "Play Rough",
+        "아쿠아제트",
+        "치근거리기",
         "",
         ""
       ]
     }
   },
-  "Sudowoodo": {
-    "Common Battle Spot": {
+  "꼬지모": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
+      "nature": "고집",
       "ability": "",
       "item": "",
       "moves": [
-        "Sucker Punch",
-        "Rock Slide",
-        "Low Kick",
-        "Ice Punch"
+        "기습",
+        "스톤샤워",
+        "안다리걸기",
+        "냉동펀치"
       ]
     }
   },
-  "Politoed": {
-    "Common Battle Spot": {
+  "왕구리": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Modest",
-      "ability": "Drizzle",
-      "item": "Sitrus Berry",
+      "nature": "조심",
+      "ability": "잔비",
+      "item": "자뭉열매",
       "moves": [
-        "Scald",
-        "Ice Beam",
+        "열탕",
+        "냉동빔",
         "",
         ""
       ]
     }
   },
-  "Jumpluff": {
-    "Common Battle Spot": {
+  "솜솜코": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Timid",
-      "ability": "Infiltrator",
+      "nature": "겁쟁이",
+      "ability": "틈새포착",
       "item": "",
       "moves": [
         "",
@@ -851,118 +851,118 @@ var SETDEX_GLOBALLINK={
       ]
     }
   },
-  "Quagsire": {
-    "Common Battle Spot": {
+  "누오": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Impish",
-      "ability": "Unaware",
+      "nature": "장난꾸러기",
+      "ability": "천진",
       "item": "",
       "moves": [
         "",
-        "Earthquake",
-        "Waterfall",
+        "지진",
+        "폭포오르기",
         ""
       ]
     }
   },
-  "Espeon": {
-    "Common Battle Spot": {
+  "에브이": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Timid",
+      "nature": "겁쟁이",
       "ability": "",
       "item": "",
       "moves": [
-        "Psyshock",
+        "사이코쇼크",
         "",
-        "Psychic",
+        "사이코키네시스",
         ""
       ]
     }
   },
-  "Umbreon": {
-    "Common Battle Spot": {
+  "블래키": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Bold",
+      "nature": "대담",
       "ability": "",
       "item": "",
       "moves": [
-        "Foul Play",
+        "속임수",
         "",
-        "Snarl",
+        "바크아웃",
         ""
       ]
     }
   },
-  "Murkrow": {
-    "Common Battle Spot": {
+  "니로우": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Bold",
+      "nature": "대담",
       "ability": "",
-      "item": "Eviolite",
+      "item": "진화의휘석",
       "moves": [
         "",
         "",
-        "Foul Play",
+        "속임수",
         ""
       ]
     }
   },
-  "Slowking": {
-    "Common Battle Spot": {
+  "야도킹": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Sassy",
+      "nature": "건방",
       "ability": "",
-      "item": "Sitrus Berry",
+      "item": "자뭉열매",
       "moves": [
         "",
-        "Scald",
-        "Psyshock",
-        "Ice Beam"
+        "열탕",
+        "사이코쇼크",
+        "냉동빔"
       ]
     }
   },
-  "Raticate": {
-    "Common Battle Spot": {
+  "레트라": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
-      "ability": "Guts",
-      "item": "Flame Orb",
+      "nature": "고집",
+      "ability": "근성",
+      "item": "화염구슬",
       "moves": [
-        "Sucker Punch",
+        "기습",
         "",
-        "Facade",
-        "Quick Attack"
+        "객기",
+        "전광석화"
       ]
     }
   },
-  "Misdreavus": {
-    "Common Battle Spot": {
+  "무우마": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Bold",
-      "ability": "Levitate",
-      "item": "Eviolite",
+      "nature": "대담",
+      "ability": "부유",
+      "item": "진화의휘석",
       "moves": [
         "",
-        "Icy Wind",
+        "얼다바람",
         "",
         ""
       ]
     }
   },
-  "Wobbuffet": {
-    "Common Battle Spot": {
+  "마자용": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Bold",
+      "nature": "대담",
       "ability": "",
-      "item": "Lum Berry",
+      "item": "리샘열매",
       "moves": [
         "",
         "",
@@ -971,116 +971,116 @@ var SETDEX_GLOBALLINK={
       ]
     }
   },
-  "Girafarig": {
-    "Common Battle Spot": {
+  "키링키": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Sassy",
+      "nature": "건방",
       "ability": "",
       "item": "",
       "moves": [
         "",
-        "Psychic",
+        "사이코키네시스",
         "",
         ""
       ]
     }
   },
-  "Forretress": {
-    "Common Battle Spot": {
+  "쏘콘": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Sassy",
+      "nature": "건방",
       "ability": "",
-      "item": "Leftovers",
+      "item": "먹다남은음식",
       "moves": [
-        "Gyro Ball",
+        "자이로볼",
         "",
         "",
         ""
       ]
     }
   },
-  "Dunsparce": {
-    "Common Battle Spot": {
+  "노고치": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Impish",
+      "nature": "장난꾸러기",
       "ability": "",
-      "item": "Leftovers",
+      "item": "먹다남은음식",
       "moves": [
         "",
-        "Rock Slide",
+        "스톤샤워",
         "",
         ""
       ]
     }
   },
-  "Steelix": {
-    "Common Battle Spot": {
+  "강철톤": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Brave",
+      "nature": "용감",
       "ability": "",
-      "item": "Steelixite",
+      "item": "강철톤나이트",
       "moves": [
-        "Earthquake",
+        "지진",
         "",
-        "Heavy Slam",
-        "Rock Slide"
+        "헤비봄버",
+        "스톤샤워"
       ]
     }
   },
-  "Granbull": {
-    "Common Battle Spot": {
+  "그랑블루": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Brave",
-      "ability": "Intimidate",
-      "item": "Assault Vest",
+      "nature": "용감",
+      "ability": "괴력집게",
+      "item": "돌격조끼",
       "moves": [
-        "Play Rough",
-        "Close Combat",
+        "치근거리기",
+        "인파이트",
         "",
-        "Thunder Punch"
+        "번개펀치"
       ]
     }
   },
-  "Qwilfish": {
-    "Common Battle Spot": {
+  "침바루": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
-      "ability": "Swift Swim",
-      "item": "Black Sludge",
+      "nature": "고집",
+      "ability": "쓱쓱",
+      "item": "검은진흙",
       "moves": [
-        "Poison Jab",
+        "독찌르기",
         "",
-        "Waterfall",
+        "폭포오르기",
         ""
       ]
     }
   },
-  "Scizor": {
-    "Common Battle Spot": {
+  "핫삼": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
-      "ability": "Technician",
-      "item": "Life Orb",
+      "nature": "고집",
+      "ability": "테크니션",
+      "item": "생명의구슬",
       "moves": [
-        "Bullet Punch",
-        "Bug Bite",
+        "불릿펀치",
+        "벌레먹음",
         "",
-        "Knock Off"
+        "탁쳐서떨구기"
       ]
     }
   },
-  "Shuckle": {
-    "Common Battle Spot": {
+  "단단지": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Bold",
+      "nature": "대담",
       "ability": "",
       "item": "",
       "moves": [
@@ -1091,192 +1091,192 @@ var SETDEX_GLOBALLINK={
       ]
     }
   },
-  "Heracross": {
-    "Common Battle Spot": {
+  "헤라크로스": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
-      "ability": "Guts",
-      "item": "Heracronite",
+      "nature": "고집",
+      "ability": "근성",
+      "item": "헤라크로스나이트",
       "moves": [
-        "Close Combat",
-        "Pin Missile",
-        "Rock Blast",
-        "Bullet Seed"
+        "인파이트",
+        "바늘미사일",
+        "락블레스트",
+        "기관총"
       ]
     }
   },
-  "Sneasel": {
-    "Common Battle Spot": {
+  "포푸니": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Hasty",
+      "nature": "성급",
       "ability": "",
       "item": "",
       "moves": [
         "",
-        "Ice Punch",
-        "Icy Wind",
+        "냉동펀치",
+        "얼다바람",
         ""
       ]
     }
   },
-  "Ursaring": {
-    "Common Battle Spot": {
+  "링곰": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Brave",
-      "ability": "Guts",
-      "item": "Toxic Orb",
+      "nature": "용감",
+      "ability": "근성",
+      "item": "맹독구슬",
       "moves": [
-        "Facade",
+        "객기",
         "",
-        "Hammer Arm",
-        "Crunch"
+        "암해머",
+        "깨물어부수기"
       ]
     }
   },
-  "Slugma": {
-    "Common Battle Spot": {
+  "마그마그": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Hardy",
+      "nature": "노력",
       "ability": "",
       "item": "",
       "moves": [
-        "Incinerate",
+        "불태우기",
         "",
         "",
         ""
       ]
     }
   },
-  "Octillery": {
-    "Common Battle Spot": {
+  "대포무노": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Quiet",
+      "nature": "냉정",
       "ability": "",
-      "item": "Leftovers",
+      "item": "먹다남은음식",
       "moves": [
         "",
-        "Water Spout",
+        "해수스파우팅",
         "",
-        "Blizzard"
+        "눈보라"
       ]
     }
   },
-  "Delibird": {
-    "Common Battle Spot": {
+  "딜리버드": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Timid",
+      "nature": "겁쟁이",
       "ability": "",
-      "item": "Choice Scarf",
+      "item": "구애스카프",
       "moves": [
         "",
-        "Freeze-Dry",
-        "Fake Out",
+        "프리즈드라이",
+        "속이다",
         ""
       ]
     }
   },
-  "Mantine": {
-    "Common Battle Spot": {
+  "만타인": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Bold",
-      "ability": "Water Absorb",
-      "item": "Leftovers",
+      "nature": "대담",
+      "ability": "축전",
+      "item": "먹다남은음식",
       "moves": [
         "",
-        "Scald",
-        "Air Slash",
+        "열탕",
+        "에어슬래시",
         ""
       ]
     }
   },
-  "Skarmory": {
-    "Common Battle Spot": {
+  "무장조": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Impish",
+      "nature": "장난꾸러기",
       "ability": "",
       "item": "",
       "moves": [
         "",
         "",
         "",
-        "Rock Slide"
+        "스톤샤워"
       ]
     }
   },
-  "Houndoom": {
-    "Common Battle Spot": {
+  "헬가": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Timid",
-      "ability": "Flash Fire",
-      "item": "Houndoominite",
+      "nature": "겁쟁이",
+      "ability": "타오르는불꽃",
+      "item": "헬가나이트",
       "moves": [
         "",
-        "Dark Pulse",
-        "Heat Wave",
-        "Solar Beam"
+        "악의파동",
+        "열풍",
+        "솔라빔"
       ]
     }
   },
-  "Kingdra": {
-    "Common Battle Spot": {
+  "킹드라": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Modest",
-      "ability": "Swift Swim",
-      "item": "Life Orb",
+      "nature": "조심",
+      "ability": "쓱쓱",
+      "item": "생명의구슬",
       "moves": [
         "",
-        "Muddy Water",
-        "Draco Meteor",
-        "Dragon Pulse"
+        "탁류",
+        "용성군",
+        "용의파동"
       ]
     }
   },
-  "Donphan": {
-    "Common Battle Spot": {
+  "코리갑": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
+      "nature": "고집",
       "ability": "",
-      "item": "Lum Berry",
+      "item": "리샘열매",
       "moves": [
-        "Ice Shard",
-        "Earthquake",
-        "Knock Off",
-        "Play Rough"
+        "얼음뭉치",
+        "지진",
+        "탁쳐서떨구기",
+        "치근거리기"
       ]
     }
   },
-  "Porygon2": {
-    "Common Battle Spot": {
+  "폴리곤2": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Bold",
-      "ability": "Download",
-      "item": "Eviolite",
+      "nature": "대담",
+      "ability": "다운로드",
+      "item": "진화의휘석",
       "moves": [
-        "Ice Beam",
+        "냉동빔",
         "",
         "",
-        "Tri Attack"
+        "트라이어택"
       ]
     }
   },
-  "Stantler": {
-    "Common Battle Spot": {
+  "노라키": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Sassy",
-      "ability": "Intimidate",
+      "nature": "건방",
+      "ability": "괴력집게",
       "item": "",
       "moves": [
         "",
@@ -1286,11 +1286,11 @@ var SETDEX_GLOBALLINK={
       ]
     }
   },
-  "Smeargle": {
-    "Common Battle Spot": {
+  "루브도": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Jolly",
+      "nature": "명랑",
       "ability": "",
       "item": "",
       "moves": [
@@ -1301,371 +1301,371 @@ var SETDEX_GLOBALLINK={
       ]
     }
   },
-  "Hitmontop": {
-    "Common Battle Spot": {
+  "카포에라": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
-      "ability": "Intimidate",
+      "nature": "고집",
+      "ability": "괴력집게",
       "item": "",
       "moves": [
-        "Fake Out",
-        "Close Combat",
+        "속이다",
+        "인파이트",
         "",
         ""
       ]
     }
   },
-  "Arbok": {
-    "Common Battle Spot": {
+  "아보크": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
-      "ability": "Intimidate",
-      "item": "Life Orb",
+      "nature": "고집",
+      "ability": "괴력집게",
+      "item": "생명의구슬",
       "moves": [
-        "Gunk Shot",
-        "Sucker Punch",
+        "더스트슈트",
+        "기습",
         "",
-        "Earthquake"
+        "지진"
       ]
     }
   },
-  "Miltank": {
-    "Common Battle Spot": {
+  "밀탱크": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Careful",
-      "ability": "Thick Fat",
-      "item": "Leftovers",
+      "nature": "신중",
+      "ability": "두꺼운지방",
+      "item": "먹다남은음식",
       "moves": [
         "",
         "",
         "",
-        "Rock Slide"
+        "스톤샤워"
       ]
     }
   },
-  "Blissey": {
-    "Common Battle Spot": {
+  "해피너스": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Bold",
+      "nature": "대담",
       "ability": "",
-      "item": "Kee Berry",
+      "item": "악키열매",
       "moves": [
         "",
         "",
-        "Flamethrower",
+        "화염방사",
         ""
       ]
     }
   },
-  "Raikou": {
-    "Common Battle Spot": {
+  "라이코": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Timid",
+      "nature": "겁쟁이",
       "ability": "",
-      "item": "Life Orb",
+      "item": "생명의구슬",
       "moves": [
-        "Thunderbolt",
+        "10만볼트",
         "",
         "",
         ""
       ]
     }
   },
-  "Entei": {
-    "Common Battle Spot": {
+  "앤테이": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
+      "nature": "고집",
       "ability": "",
-      "item": "Leftovers",
+      "item": "먹다남은음식",
       "moves": [
-        "Sacred Fire",
-        "Stone Edge",
+        "성스러운불꽃",
+        "스톤에지",
         "",
-        "Bulldoze"
+        "땅고르기"
       ]
     }
   },
-  "Suicune": {
-    "Common Battle Spot": {
+  "스이쿤": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Bold",
+      "nature": "대담",
       "ability": "",
-      "item": "Sitrus Berry",
+      "item": "자뭉열매",
       "moves": [
-        "Scald",
+        "열탕",
         "",
-        "Ice Beam",
-        "Snarl"
+        "냉동빔",
+        "바크아웃"
       ]
     }
   },
-  "Larvitar": {
-    "Common Battle Spot": {
+  "애버라스": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Jolly",
-      "ability": "Guts",
-      "item": "Flame Orb",
+      "nature": "명랑",
+      "ability": "근성",
+      "item": "화염구슬",
       "moves": [
         "",
-        "Crunch",
+        "깨물어부수기",
         "",
-        "Rock Slide"
+        "스톤샤워"
       ]
     }
   },
-  "Tyranitar": {
-    "Common Battle Spot": {
+  "마기라스": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Jolly",
-      "ability": "Sand Stream",
-      "item": "Choice Scarf",
+      "nature": "명랑",
+      "ability": "모래날림",
+      "item": "구애스카프",
       "moves": [
-        "Rock Slide",
-        "Crunch",
+        "스톤샤워",
+        "깨물어부수기",
         "",
-        "Low Kick"
+        "안다리걸기"
       ]
     }
   },
-  "Pikachu": {
-    "Common Battle Spot": {
+  "피카츄": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Quiet",
-      "ability": "Lightning Rod",
-      "item": "Light Ball",
+      "nature": "냉정",
+      "ability": "피뢰침",
+      "item": "전기구슬",
       "moves": [
-        "Flying Press",
-        "Feint",
-        "Iron Tail",
-        "Thunderbolt"
+        "플라잉프레스",
+        "페인트",
+        "아이언테일",
+        "10만볼트"
       ]
     }
   },
-  "Treecko": {
-    "Common Battle Spot": {
+  "나무지기": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Naive",
+      "nature": "천진난만",
       "ability": "",
       "item": "",
       "moves": [
         "",
         "",
         "",
-        "Quick Attack"
+        "전광석화"
       ]
     }
   },
-  "Sceptile": {
-    "Common Battle Spot": {
+  "나무킹": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Timid",
-      "ability": "Overgrow",
-      "item": "Sceptilite",
+      "nature": "겁쟁이",
+      "ability": "심록",
+      "item": "나무킹나이트",
       "moves": [
-        "Dragon Pulse",
-        "Leaf Storm",
+        "용의파동",
+        "리프스톰",
         "",
         ""
       ]
     }
   },
-  "Blaziken": {
-    "Common Battle Spot": {
+  "번치코": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
+      "nature": "고집",
       "ability": "",
-      "item": "Blazikenite",
+      "item": "번치코나이트",
       "moves": [
         "",
-        "Flare Blitz",
-        "Rock Slide",
-        "Superpower"
+        "플레어드라이브",
+        "스톤샤워",
+        "엄청난힘"
       ]
     }
   },
-  "Marshtomp": {
-    "Common Battle Spot": {
+  "늪짱이": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Impish",
-      "ability": "Torrent",
-      "item": "Eviolite",
+      "nature": "장난꾸러기",
+      "ability": "급류",
+      "item": "진화의휘석",
       "moves": [
         "",
-        "Brick Break",
+        "깨뜨리다",
         "",
         ""
       ]
     }
   },
-  "Raichu": {
-    "Common Battle Spot": {
+  "라이츄": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Timid",
-      "ability": "Lightning Rod",
+      "nature": "겁쟁이",
+      "ability": "피뢰침",
       "item": "",
       "moves": [
-        "Fake Out",
+        "속이다",
         "",
-        "Thunderbolt",
+        "10만볼트",
         ""
       ]
     }
   },
-  "Swampert": {
-    "Common Battle Spot": {
+  "대짱이": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
-      "ability": "Torrent",
-      "item": "Swampertite",
+      "nature": "고집",
+      "ability": "급류",
+      "item": "대짱이나이트",
       "moves": [
-        "Waterfall",
+        "폭포오르기",
         "",
-        "Earthquake",
-        "Ice Punch"
+        "지진",
+        "냉동펀치"
       ]
     }
   },
-  "Mightyena": {
-    "Common Battle Spot": {
+  "그라에나": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Timid",
-      "ability": "Intimidate",
-      "item": "Choice Scarf",
+      "nature": "겁쟁이",
+      "ability": "괴력집게",
+      "item": "구애스카프",
       "moves": [
-        "Snarl",
-        "Foul Play",
+        "바크아웃",
+        "속임수",
         "",
         ""
       ]
     }
   },
-  "Linoone": {
-    "Common Battle Spot": {
+  "직구리": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
+      "nature": "고집",
       "ability": "",
-      "item": "Sitrus Berry",
+      "item": "자뭉열매",
       "moves": [
-        "Extreme Speed",
+        "신속",
         "",
-        "Shadow Claw",
+        "섀도크루",
         ""
       ]
     }
   },
-  "Ludicolo": {
-    "Common Battle Spot": {
+  "로파파": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Modest",
-      "ability": "Swift Swim",
-      "item": "Assault Vest",
+      "nature": "조심",
+      "ability": "쓱쓱",
+      "item": "돌격조끼",
       "moves": [
-        "Fake Out",
-        "Ice Beam",
-        "Giga Drain",
-        "Scald"
+        "속이다",
+        "냉동빔",
+        "기가드레인",
+        "열탕"
       ]
     }
   },
-  "Shiftry": {
-    "Common Battle Spot": {
+  "다탱구": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Hasty",
-      "ability": "Chlorophyll",
+      "nature": "성급",
+      "ability": "엽록소",
       "item": "",
       "moves": [
-        "Fake Out",
-        "Leaf Storm",
+        "속이다",
+        "리프스톰",
         "",
-        "Icy Wind"
+        "얼다바람"
       ]
     }
   },
-  "Taillow": {
-    "Common Battle Spot": {
+  "테일로": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Jolly",
-      "ability": "Scrappy",
+      "nature": "명랑",
+      "ability": "배짱",
       "item": "",
       "moves": [
         "",
         "",
         "",
-        "Quick Attack"
+        "전광석화"
       ]
     }
   },
-  "Swellow": {
-    "Common Battle Spot": {
+  "스왈로": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Jolly",
-      "ability": "Guts",
-      "item": "Flame Orb",
+      "nature": "명랑",
+      "ability": "근성",
+      "item": "화염구슬",
       "moves": [
         "",
         "",
-        "Brave Bird",
-        "Facade"
+        "브레이브버드",
+        "객기"
       ]
     }
   },
-  "Pelipper": {
-    "Common Battle Spot": {
+  "패리퍼": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Bold",
-      "ability": "Rain Dish",
-      "item": "Sitrus Berry",
+      "nature": "대담",
+      "ability": "젖은접시",
+      "item": "자뭉열매",
       "moves": [
-        "Scald",
+        "열탕",
         "",
         "",
         ""
       ]
     }
   },
-  "Sandslash": {
-    "Common Battle Spot": {
+  "고지": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Jolly",
-      "ability": "Sand Rush",
+      "nature": "명랑",
+      "ability": "모래헤치기",
       "item": "",
       "moves": [
-        "Rock Slide",
-        "Knock Off",
+        "스톤샤워",
+        "탁쳐서떨구기",
         "",
         ""
       ]
     }
   },
-  "Ralts": {
-    "Common Battle Spot": {
+  "랄토스": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Modest",
+      "nature": "조심",
       "ability": "",
       "item": "",
       "moves": [
@@ -1673,146 +1673,146 @@ var SETDEX_GLOBALLINK={
       ]
     }
   },
-  "Gardevoir": {
-    "Common Battle Spot": {
+  "가디안": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Modest",
+      "nature": "조심",
       "ability": "",
-      "item": "Gardevoirite",
+      "item": "가디안나이트",
       "moves": [
         "",
-        "Hyper Voice",
-        "Psychic",
-        "Psyshock"
+        "하이퍼보이스",
+        "사이코키네시스",
+        "사이코쇼크"
       ]
     }
   },
-  "Surskit": {
-    "Common Battle Spot": {
+  "비구술": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Modest",
-      "ability": "Swift Swim",
+      "nature": "조심",
+      "ability": "쓱쓱",
       "item": "",
       "moves": [
-        "Scald",
-        "Aqua Jet",
+        "열탕",
+        "아쿠아제트",
         "",
-        "Blizzard"
+        "눈보라"
       ]
     }
   },
-  "Masquerain": {
-    "Common Battle Spot": {
+  "비나방": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Timid",
-      "ability": "Intimidate",
+      "nature": "겁쟁이",
+      "ability": "괴력집게",
       "item": "",
       "moves": [
         "",
         "",
-        "Air Slash",
+        "에어슬래시",
         ""
       ]
     }
   },
-  "Breloom": {
-    "Common Battle Spot": {
+  "버섯모": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Jolly",
-      "ability": "Technician",
+      "nature": "명랑",
+      "ability": "테크니션",
       "item": "",
       "moves": [
         "",
-        "Bullet Seed",
-        "Mach Punch",
+        "기관총",
+        "마하펀치",
         ""
       ]
     }
   },
-  "Slaking": {
-    "Common Battle Spot": {
+  "게을킹": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Jolly",
+      "nature": "명랑",
       "ability": "",
-      "item": "Choice Scarf",
+      "item": "구애스카프",
       "moves": [
-        "Earthquake",
-        "Giga Impact",
-        "Low Kick",
-        "Ice Punch"
+        "지진",
+        "기가임팩트",
+        "안다리걸기",
+        "냉동펀치"
       ]
     }
   },
-  "Ninjask": {
-    "Common Battle Spot": {
+  "아이스크": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
+      "nature": "고집",
       "ability": "",
       "item": "",
       "moves": [
         "",
         "",
         "",
-        "X-Scissor"
+        "시저크로스"
       ]
     }
   },
-  "Shedinja": {
-    "Common Battle Spot": {
+  "껍질몬": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Lonely",
-      "ability": "Wonder Guard",
+      "nature": "외로움",
+      "ability": "불가사의부적",
       "item": "",
       "moves": [
-        "Shadow Sneak",
+        "야습",
         "",
-        "Bug Bite",
+        "벌레먹음",
         ""
       ]
     }
   },
-  "Exploud": {
-    "Common Battle Spot": {
+  "폭음룡": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Quiet",
-      "ability": "Soundproof",
-      "item": "Choice Specs",
+      "nature": "냉정",
+      "ability": "방음",
+      "item": "구애안경",
       "moves": [
-        "Boomburst",
-        "Ice Beam",
-        "Flamethrower",
-        "Surf"
+        "폭음파",
+        "냉동빔",
+        "화염방사",
+        "파도타기"
       ]
     }
   },
-  "Hariyama": {
-    "Common Battle Spot": {
+  "하리뭉": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Brave",
-      "ability": "Guts",
-      "item": "Assault Vest",
+      "nature": "용감",
+      "ability": "근성",
+      "item": "돌격조끼",
       "moves": [
-        "Fake Out",
-        "Close Combat",
-        "Knock Off",
-        "Rock Slide"
+        "속이다",
+        "인파이트",
+        "탁쳐서떨구기",
+        "스톤샤워"
       ]
     }
   },
-  "Nosepass": {
-    "Common Battle Spot": {
+  "코코파스": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Hasty",
+      "nature": "성급",
       "ability": "",
       "item": "",
       "moves": [
@@ -1823,71 +1823,71 @@ var SETDEX_GLOBALLINK={
       ]
     }
   },
-  "Venusaur": {
-    "Common Battle Spot": {
+  "이상해꽃": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Modest",
-      "ability": "Chlorophyll",
-      "item": "Venusaurite",
+      "nature": "조심",
+      "ability": "엽록소",
+      "item": "이상해꽃나이트",
       "moves": [
-        "Sludge Bomb",
+        "오물폭탄",
         "",
-        "Giga Drain",
+        "기가드레인",
         ""
       ]
     }
   },
-  "Delcatty": {
-    "Common Battle Spot": {
+  "델케티": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Jolly",
-      "ability": "Normalize",
-      "item": "Chople Berry",
+      "nature": "명랑",
+      "ability": "노말스킨",
+      "item": "로플열매",
       "moves": [
-        "Fake Out",
-        "Return",
+        "속이다",
+        "은혜갚기",
         "",
         ""
       ]
     }
   },
-  "Sableye": {
-    "Common Battle Spot": {
+  "깜까미": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Bold",
+      "nature": "대담",
       "ability": "",
       "item": "",
       "moves": [
         "",
         "",
         "",
-        "Fake Out"
+        "속이다"
       ]
     }
   },
-  "Mawile": {
-    "Common Battle Spot": {
+  "입치트": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
-      "ability": "Intimidate",
-      "item": "Mawilite",
+      "nature": "고집",
+      "ability": "괴력집게",
+      "item": "입치트나이트",
       "moves": [
-        "Sucker Punch",
-        "Play Rough",
-        "Iron Head",
+        "기습",
+        "치근거리기",
+        "아이언헤드",
         ""
       ]
     }
   },
-  "Aron": {
-    "Common Battle Spot": {
+  "가보리": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Careful",
+      "nature": "신중",
       "ability": "",
       "item": "",
       "moves": [
@@ -1898,101 +1898,101 @@ var SETDEX_GLOBALLINK={
       ]
     }
   },
-  "Aggron": {
-    "Common Battle Spot": {
+  "보스로라": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Careful",
+      "nature": "신중",
       "ability": "",
-      "item": "Aggronite",
+      "item": "보스로라나이트",
       "moves": [
-        "Heavy Slam",
-        "Rock Slide",
-        "Iron Head",
+        "헤비봄버",
+        "스톤샤워",
+        "아이언헤드",
         ""
       ]
     }
   },
-  "Medicham": {
-    "Common Battle Spot": {
+  "요가램": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
-      "ability": "Pure Power",
-      "item": "Medichamite",
+      "nature": "고집",
+      "ability": "순수한힘",
+      "item": "요가램나이트",
       "moves": [
-        "Drain Punch",
+        "드레인펀치",
         "",
-        "Psycho Cut",
-        "Fake Out"
+        "사이코커터",
+        "속이다"
       ]
     }
   },
-  "Nidoqueen": {
-    "Common Battle Spot": {
+  "니드퀸": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Modest",
-      "ability": "Sheer Force",
-      "item": "Life Orb",
+      "nature": "조심",
+      "ability": "우격다짐",
+      "item": "생명의구슬",
       "moves": [
-        "Earth Power",
-        "Sludge Bomb",
-        "Ice Beam",
+        "대지의힘",
+        "오물폭탄",
+        "냉동빔",
         ""
       ]
     }
   },
-  "Manectric": {
-    "Common Battle Spot": {
+  "썬더볼트": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Timid",
-      "ability": "Lightning Rod",
-      "item": "Manectite",
+      "nature": "겁쟁이",
+      "ability": "피뢰침",
+      "item": "썬더볼트나이트",
       "moves": [
         "",
         "",
-        "Volt Switch",
-        "Thunderbolt"
+        "볼트체인지",
+        "10만볼트"
       ]
     }
   },
-  "Plusle": {
-    "Common Battle Spot": {
+  "플러시": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Modest",
+      "nature": "조심",
       "ability": "",
-      "item": "Sitrus Berry",
+      "item": "자뭉열매",
       "moves": [
         "",
         "",
         "",
-        "Thunderbolt"
+        "10만볼트"
       ]
     }
   },
-  "Minun": {
-    "Common Battle Spot": {
+  "마이농": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Modest",
+      "nature": "조심",
       "ability": "",
-      "item": "Choice Scarf",
+      "item": "구애스카프",
       "moves": [
-        "Grass Knot",
-        "Electro Ball",
+        "풀묶기",
+        "일렉트릭볼",
         "",
         ""
       ]
     }
   },
-  "Volbeat": {
-    "Common Battle Spot": {
+  "볼비트": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Bold",
+      "nature": "대담",
       "ability": "",
       "item": "",
       "moves": [
@@ -2003,13 +2003,13 @@ var SETDEX_GLOBALLINK={
       ]
     }
   },
-  "Illumise": {
-    "Common Battle Spot": {
+  "네오비트": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Bold",
+      "nature": "대담",
       "ability": "",
-      "item": "Eviolite",
+      "item": "진화의휘석",
       "moves": [
         "",
         "",
@@ -2018,268 +2018,268 @@ var SETDEX_GLOBALLINK={
       ]
     }
   },
-  "Sharpedo": {
-    "Common Battle Spot": {
+  "샤크니아": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
+      "nature": "고집",
       "ability": "",
-      "item": "Sharpedonite",
+      "item": "샤크니아나이트",
       "moves": [
         "",
-        "Crunch",
-        "Waterfall",
-        "Ice Fang"
+        "깨물어부수기",
+        "폭포오르기",
+        "얼음엄니"
       ]
     }
   },
-  "Wailord": {
-    "Common Battle Spot": {
+  "고래왕": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Modest",
+      "nature": "조심",
       "ability": "",
-      "item": "Choice Scarf",
+      "item": "구애스카프",
       "moves": [
-        "Water Spout",
-        "Ice Beam",
+        "해수스파우팅",
+        "냉동빔",
         "",
-        "Scald"
+        "열탕"
       ]
     }
   },
-  "Numel": {
-    "Common Battle Spot": {
+  "둔타": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Bold",
-      "ability": "Simple",
-      "item": "Eviolite",
+      "nature": "대담",
+      "ability": "단순",
+      "item": "진화의휘석",
       "moves": [
         "",
-        "Ancient Power",
+        "원시의힘",
         "",
         ""
       ]
     }
   },
-  "Camerupt": {
-    "Common Battle Spot": {
+  "폭타": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Quiet",
-      "ability": "Solid Rock",
-      "item": "Cameruptite",
+      "nature": "냉정",
+      "ability": "하드록",
+      "item": "폭타나이트",
       "moves": [
-        "Earth Power",
+        "대지의힘",
         "",
-        "Heat Wave",
-        "Ancient Power"
+        "열풍",
+        "원시의힘"
       ]
     }
   },
-  "Torkoal": {
-    "Common Battle Spot": {
+  "코터스": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Quiet",
-      "ability": "White Smoke",
-      "item": "Flame Plate",
+      "nature": "냉정",
+      "ability": "하얀연기",
+      "item": "불구슬플레이트",
       "moves": [
-        "Eruption",
+        "분화",
         "",
-        "Earth Power",
-        "Sludge Bomb"
+        "대지의힘",
+        "오물폭탄"
       ]
     }
   },
-  "Grumpig": {
-    "Common Battle Spot": {
+  "피그킹": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Bold",
-      "ability": "Thick Fat",
+      "nature": "대담",
+      "ability": "두꺼운지방",
       "item": "",
       "moves": [
-        "Power Gem",
-        "Psychic",
+        "파워젬",
+        "사이코키네시스",
         "",
         ""
       ]
     }
   },
-  "Spinda": {
-    "Common Battle Spot": {
+  "얼루기": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Jolly",
-      "ability": "Contrary",
-      "item": "Choice Scarf",
+      "nature": "명랑",
+      "ability": "심술꾸러기",
+      "item": "구애스카프",
       "moves": [
         "",
-        "Icy Wind",
-        "Fake Out",
+        "얼다바람",
+        "속이다",
         ""
       ]
     }
   },
-  "Flygon": {
-    "Common Battle Spot": {
+  "플라이곤": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Timid",
-      "ability": "Levitate",
+      "nature": "겁쟁이",
+      "ability": "부유",
       "item": "",
       "moves": [
         "",
-        "Feint",
-        "Earthquake",
-        "Earth Power"
+        "페인트",
+        "지진",
+        "대지의힘"
       ]
     }
   },
-  "Cacturne": {
-    "Common Battle Spot": {
+  "밤선인": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
-      "ability": "Sand Veil",
-      "item": "Expert Belt",
+      "nature": "고집",
+      "ability": "모래숨기",
+      "item": "달인의띠",
       "moves": [
         "",
-        "Seed Bomb",
-        "Sucker Punch",
-        "Low Kick"
+        "씨폭탄",
+        "기습",
+        "안다리걸기"
       ]
     }
   },
-  "Altaria": {
-    "Common Battle Spot": {
+  "파비코리": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Modest",
-      "ability": "Cloud Nine",
-      "item": "Altarianite",
+      "nature": "조심",
+      "ability": "날씨부정",
+      "item": "파비코리나이트",
       "moves": [
-        "Hyper Voice",
+        "하이퍼보이스",
         "",
-        "Fire Blast",
+        "불대문자",
         ""
       ]
     }
   },
-  "Zangoose": {
-    "Common Battle Spot": {
+  "쟝고": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Jolly",
-      "ability": "Toxic Boost",
-      "item": "Toxic Orb",
+      "nature": "명랑",
+      "ability": "독폭주",
+      "item": "맹독구슬",
       "moves": [
         "",
-        "Close Combat",
-        "Facade",
-        "Fire Punch"
+        "인파이트",
+        "객기",
+        "불꽃펀치"
       ]
     }
   },
-  "Seviper": {
-    "Common Battle Spot": {
+  "세비퍼": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Quiet",
-      "ability": "Infiltrator",
-      "item": "Expert Belt",
+      "nature": "냉정",
+      "ability": "틈새포착",
+      "item": "달인의띠",
       "moves": [
-        "Flamethrower",
+        "화염방사",
         "",
-        "Poison Jab",
+        "독찌르기",
         ""
       ]
     }
   },
-  "Lunatone": {
-    "Common Battle Spot": {
+  "루나톤": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Modest",
-      "ability": "Levitate",
-      "item": "Assault Vest",
+      "nature": "조심",
+      "ability": "부유",
+      "item": "돌격조끼",
       "moves": [
-        "Moonblast",
-        "Earth Power",
-        "Psychic",
-        "Ice Beam"
+        "문포스",
+        "대지의힘",
+        "사이코키네시스",
+        "냉동빔"
       ]
     }
   },
-  "Solrock": {
-    "Common Battle Spot": {
+  "솔록": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Impish",
-      "ability": "Levitate",
+      "nature": "장난꾸러기",
+      "ability": "부유",
       "item": "",
       "moves": [
         "",
-        "Rock Tomb",
+        "암석봉인",
         "",
         ""
       ]
     }
   },
-  "Nidoking": {
-    "Common Battle Spot": {
+  "니드킹": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Modest",
-      "ability": "Sheer Force",
-      "item": "Life Orb",
+      "nature": "조심",
+      "ability": "우격다짐",
+      "item": "생명의구슬",
       "moves": [
-        "Earth Power",
-        "Ice Beam",
-        "Sludge Bomb",
+        "대지의힘",
+        "냉동빔",
+        "오물폭탄",
         ""
       ]
     }
   },
-  "Crawdaunt": {
-    "Common Battle Spot": {
+  "가재장군": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
-      "ability": "Adaptability",
-      "item": "Life Orb",
+      "nature": "고집",
+      "ability": "적응력",
+      "item": "생명의구슬",
       "moves": [
-        "Knock Off",
-        "Aqua Jet",
-        "Crabhammer",
+        "탁쳐서떨구기",
+        "아쿠아제트",
+        "찝게햄머",
         ""
       ]
     }
   },
-  "Claydol": {
-    "Common Battle Spot": {
+  "점토도리": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Timid",
-      "ability": "Levitate",
+      "nature": "겁쟁이",
+      "ability": "부유",
       "item": "",
       "moves": [
-        "Earth Power",
-        "Ice Beam",
-        "Psyshock",
+        "대지의힘",
+        "냉동빔",
+        "사이코쇼크",
         ""
       ]
     }
   },
-  "Lileep": {
-    "Common Battle Spot": {
+  "릴링": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Relaxed",
-      "ability": "Storm Drain",
-      "item": "Eviolite",
+      "nature": "무사태평",
+      "ability": "마중물",
+      "item": "진화의휘석",
       "moves": [
         "",
         "",
@@ -2288,178 +2288,178 @@ var SETDEX_GLOBALLINK={
       ]
     }
   },
-  "Cradily": {
-    "Common Battle Spot": {
+  "릴리요": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Quiet",
-      "ability": "Storm Drain",
-      "item": "Leftovers",
+      "nature": "냉정",
+      "ability": "마중물",
+      "item": "먹다남은음식",
       "moves": [
-        "Ancient Power",
-        "Giga Drain",
+        "원시의힘",
+        "기가드레인",
         "",
-        "Energy Ball"
+        "에너지볼"
       ]
     }
   },
-  "Armaldo": {
-    "Common Battle Spot": {
+  "아말도": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Brave",
-      "ability": "Battle Armor",
+      "nature": "용감",
+      "ability": "전투무장",
       "item": "",
       "moves": [
-        "X-Scissor",
-        "Rock Slide",
-        "Aqua Jet",
-        "Knock Off"
+        "시저크로스",
+        "스톤샤워",
+        "아쿠아제트",
+        "탁쳐서떨구기"
       ]
     }
   },
-  "Clefairy": {
-    "Common Battle Spot": {
+  "삐삐": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Bold",
+      "nature": "대담",
       "ability": "",
-      "item": "Eviolite",
+      "item": "진화의휘석",
       "moves": [
         "",
         "",
         "",
-        "Icy Wind"
+        "얼다바람"
       ]
     }
   },
-  "Milotic": {
-    "Common Battle Spot": {
+  "밀로틱": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Modest",
+      "nature": "조심",
       "ability": "",
-      "item": "Sitrus Berry",
+      "item": "자뭉열매",
       "moves": [
-        "Scald",
-        "Ice Beam",
-        "Icy Wind",
+        "열탕",
+        "냉동빔",
+        "얼다바람",
         ""
       ]
     }
   },
-  "Castform": {
-    "Common Battle Spot": {
+  "캐스퐁": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Timid",
-      "ability": "Forecast",
-      "item": "Life Orb",
+      "nature": "겁쟁이",
+      "ability": "기분파",
+      "item": "생명의구슬",
       "moves": [
-        "Weather Ball",
-        "Thunder",
+        "웨더볼",
+        "번개",
         "",
         ""
       ]
     }
   },
-  "Kecleon": {
-    "Common Battle Spot": {
+  "켈리몬": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
-      "ability": "Protean",
-      "item": "Sitrus Berry",
+      "nature": "고집",
+      "ability": "변환자재",
+      "item": "자뭉열매",
       "moves": [
-        "Fake Out",
-        "Shadow Sneak",
-        "Sucker Punch",
+        "속이다",
+        "야습",
+        "기습",
         ""
       ]
     }
   },
-  "Banette": {
-    "Common Battle Spot": {
+  "다크펫": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Careful",
+      "nature": "신중",
       "ability": "",
-      "item": "Banettite",
+      "item": "다크펫나이트",
       "moves": [
         "",
         "",
         "",
-        "Shadow Sneak"
+        "야습"
       ]
     }
   },
-  "Dusclops": {
-    "Common Battle Spot": {
+  "미라몽": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Sassy",
+      "nature": "건방",
       "ability": "",
-      "item": "Eviolite",
+      "item": "진화의휘석",
       "moves": [
         "",
         "",
         "",
-        "Night Shade"
+        "나이트헤드"
       ]
     }
   },
-  "Chimecho": {
-    "Common Battle Spot": {
+  "치렁": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Modest",
-      "ability": "Levitate",
+      "nature": "조심",
+      "ability": "부유",
       "item": "",
       "moves": [
-        "Icy Wind",
+        "얼다바람",
         "",
         "",
-        "Psychic"
+        "사이코키네시스"
       ]
     }
   },
-  "Absol": {
-    "Common Battle Spot": {
+  "앱솔": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Jolly",
+      "nature": "명랑",
       "ability": "",
-      "item": "Absolite",
+      "item": "앱솔나이트",
       "moves": [
-        "Sucker Punch",
-        "Play Rough",
-        "Knock Off",
+        "기습",
+        "치근거리기",
+        "탁쳐서떨구기",
         ""
       ]
     }
   },
-  "Clefable": {
-    "Common Battle Spot": {
+  "픽시": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Bold",
-      "ability": "Magic Guard",
-      "item": "Sitrus Berry",
+      "nature": "대담",
+      "ability": "매직가드",
+      "item": "자뭉열매",
       "moves": [
         "",
         "",
-        "Moonblast",
+        "문포스",
         ""
       ]
     }
   },
-  "Wynaut": {
-    "Common Battle Spot": {
+  "마자": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Impish",
+      "nature": "장난꾸러기",
       "ability": "",
-      "item": "Eviolite",
+      "item": "진화의휘석",
       "moves": [
         "",
         "",
@@ -2468,253 +2468,253 @@ var SETDEX_GLOBALLINK={
       ]
     }
   },
-  "Glalie": {
-    "Common Battle Spot": {
+  "얼음귀신": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
+      "nature": "고집",
       "ability": "",
-      "item": "Glalitite",
+      "item": "얼음귀신나이트",
       "moves": [
         "",
-        "Explosion",
-        "Ice Shard",
-        "Return"
+        "대폭발",
+        "얼음뭉치",
+        "은혜갚기"
       ]
     }
   },
-  "Walrein": {
-    "Common Battle Spot": {
+  "씨카이저": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Bold",
-      "ability": "Ice Body",
-      "item": "Chesto Berry",
+      "nature": "대담",
+      "ability": "아이스바디",
+      "item": "유루열매",
       "moves": [
-        "Icy Wind",
+        "얼다바람",
         "",
         "",
         ""
       ]
     }
   },
-  "Clamperl": {
-    "Common Battle Spot": {
+  "진주몽": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Timid",
-      "ability": "Shell Armor",
-      "item": "Deep Sea Tooth",
+      "nature": "겁쟁이",
+      "ability": "조가비갑옷",
+      "item": "심해의이빨",
       "moves": [
         "",
-        "Ice Beam",
+        "냉동빔",
         "",
-        "Surf"
+        "파도타기"
       ]
     }
   },
-  "Huntail": {
-    "Common Battle Spot": {
+  "헌테일": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
+      "nature": "고집",
       "ability": "",
       "item": "",
       "moves": [
         "",
-        "Sucker Punch",
+        "기습",
         "",
-        "Waterfall"
+        "폭포오르기"
       ]
     }
   },
-  "Gorebyss": {
-    "Common Battle Spot": {
+  "분홍장이": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Calm",
-      "ability": "Swift Swim",
+      "nature": "차분",
+      "ability": "쓱쓱",
       "item": "",
       "moves": [
         "",
         "",
-        "Surf",
-        "Muddy Water"
+        "파도타기",
+        "탁류"
       ]
     }
   },
-  "Relicanth": {
-    "Common Battle Spot": {
+  "시라칸": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
+      "nature": "고집",
       "ability": "",
-      "item": "Choice Band",
+      "item": "구애머리띠",
       "moves": [
-        "Head Smash",
-        "Waterfall",
-        "Earthquake",
+        "양날박치기",
+        "폭포오르기",
+        "지진",
         ""
       ]
     }
   },
-  "Vulpix": {
-    "Common Battle Spot": {
+  "식스테일": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Brave",
-      "ability": "Drought",
-      "item": "Eviolite",
+      "nature": "용감",
+      "ability": "가뭄",
+      "item": "진화의휘석",
       "moves": [
-        "Foul Play",
+        "속임수",
         "",
         "",
         ""
       ]
     }
   },
-  "Salamence": {
-    "Common Battle Spot": {
+  "보만다": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
-      "ability": "Intimidate",
-      "item": "Salamencite",
+      "nature": "고집",
+      "ability": "괴력집게",
+      "item": "보만다나이트",
       "moves": [
         "",
-        "Double-Edge",
-        "Earthquake",
+        "이판사판태클",
+        "지진",
         ""
       ]
     }
   },
-  "Metagross": {
-    "Common Battle Spot": {
+  "메타그로스": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
-      "ability": "Clear Body",
-      "item": "Metagrossite",
+      "nature": "고집",
+      "ability": "클리어바디",
+      "item": "메타그로스나이트",
       "moves": [
-        "Zen Headbutt",
+        "사념의박치기",
         "",
-        "Ice Punch",
-        "Meteor Mash"
+        "냉동펀치",
+        "코멧펀치"
       ]
     }
   },
-  "Regirock": {
-    "Common Battle Spot": {
+  "레지락": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
-      "ability": "Clear Body",
-      "item": "Assault Vest",
+      "nature": "고집",
+      "ability": "클리어바디",
+      "item": "돌격조끼",
       "moves": [
-        "Rock Slide",
-        "Ice Punch",
-        "Drain Punch",
-        "Earthquake"
+        "스톤샤워",
+        "냉동펀치",
+        "드레인펀치",
+        "지진"
       ]
     }
   },
-  "Regice": {
-    "Common Battle Spot": {
+  "레지아이스": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Bold",
-      "ability": "Clear Body",
-      "item": "Lum Berry",
+      "nature": "대담",
+      "ability": "클리어바디",
+      "item": "리샘열매",
       "moves": [
-        "Ice Beam",
-        "Thunderbolt",
-        "Focus Blast",
+        "냉동빔",
+        "10만볼트",
+        "기합구슬",
         ""
       ]
     }
   },
-  "Registeel": {
-    "Common Battle Spot": {
+  "레지스틸": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Careful",
-      "ability": "Clear Body",
-      "item": "Leftovers",
+      "nature": "신중",
+      "ability": "클리어바디",
+      "item": "먹다남은음식",
       "moves": [
-        "Iron Head",
+        "아이언헤드",
         "",
         "",
-        "Earthquake"
+        "지진"
       ]
     }
   },
-  "Ninetales": {
-    "Common Battle Spot": {
+  "나인테일": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Timid",
-      "ability": "Drought",
+      "nature": "겁쟁이",
+      "ability": "가뭄",
       "item": "",
       "moves": [
         "",
-        "Solar Beam",
-        "Heat Wave",
+        "솔라빔",
+        "열풍",
         ""
       ]
     }
   },
-  "Latias": {
-    "Common Battle Spot": {
+  "라티아스": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Timid",
-      "ability": "Levitate",
-      "item": "Latiasite",
+      "nature": "겁쟁이",
+      "ability": "부유",
+      "item": "라티아스나이트",
       "moves": [
-        "Psychic",
+        "사이코키네시스",
         "",
-        "Ice Beam",
-        "Draco Meteor"
+        "냉동빔",
+        "용성군"
       ]
     }
   },
-  "Latios": {
-    "Common Battle Spot": {
+  "라티오스": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Timid",
-      "ability": "Levitate",
-      "item": "Choice Scarf",
+      "nature": "겁쟁이",
+      "ability": "부유",
+      "item": "구애스카프",
       "moves": [
-        "Draco Meteor",
-        "Ice Beam",
-        "Psychic",
-        "Psyshock"
+        "용성군",
+        "냉동빔",
+        "사이코키네시스",
+        "사이코쇼크"
       ]
     }
   },
-  "Torterra": {
-    "Common Battle Spot": {
+  "토대부기": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Brave",
-      "ability": "Overgrow",
-      "item": "Assault Vest",
+      "nature": "용감",
+      "ability": "심록",
+      "item": "돌격조끼",
       "moves": [
-        "Earthquake",
-        "Wood Hammer",
-        "Stone Edge",
-        "Rock Slide"
+        "지진",
+        "우드해머",
+        "스톤에지",
+        "스톤샤워"
       ]
     }
   },
-  "Jigglypuff": {
-    "Common Battle Spot": {
+  "푸린": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Relaxed",
+      "nature": "무사태평",
       "ability": "",
-      "item": "Eviolite",
+      "item": "진화의휘석",
       "moves": [
         "",
         "",
@@ -2723,163 +2723,163 @@ var SETDEX_GLOBALLINK={
       ]
     }
   },
-  "Infernape": {
-    "Common Battle Spot": {
+  "초염몽": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Naive",
-      "ability": "Blaze",
+      "nature": "천진난만",
+      "ability": "맹화",
       "item": "",
       "moves": [
-        "Close Combat",
-        "Fake Out",
-        "Overheat",
+        "인파이트",
+        "속이다",
+        "오버히트",
         ""
       ]
     }
   },
-  "Piplup": {
-    "Common Battle Spot": {
+  "팽도리": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Bold",
-      "ability": "Torrent",
-      "item": "Eviolite",
+      "nature": "대담",
+      "ability": "급류",
+      "item": "진화의휘석",
       "moves": [
         "",
-        "Icy Wind",
+        "얼다바람",
         "",
-        "Hydro Pump"
+        "하이드로펌프"
       ]
     }
   },
-  "Empoleon": {
-    "Common Battle Spot": {
+  "엠페르트": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Modest",
-      "ability": "Torrent",
-      "item": "Assault Vest",
+      "nature": "조심",
+      "ability": "급류",
+      "item": "돌격조끼",
       "moves": [
-        "Flash Cannon",
-        "Ice Beam",
+        "러스터캐논",
+        "냉동빔",
         "",
-        "Aqua Jet"
+        "아쿠아제트"
       ]
     }
   },
-  "Staraptor": {
-    "Common Battle Spot": {
+  "찌르호크": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Jolly",
-      "ability": "Intimidate",
-      "item": "Choice Scarf",
+      "nature": "명랑",
+      "ability": "괴력집게",
+      "item": "구애스카프",
       "moves": [
-        "Brave Bird",
-        "Close Combat",
-        "U-turn",
+        "브레이브버드",
+        "인파이트",
+        "유턴",
         ""
       ]
     }
   },
-  "Wigglytuff": {
-    "Common Battle Spot": {
+  "푸크린": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Modest",
+      "nature": "조심",
       "ability": "",
-      "item": "Assault Vest",
+      "item": "돌격조끼",
       "moves": [
-        "Dazzling Gleam",
-        "Fire Blast",
-        "Thunderbolt",
-        "Hyper Voice"
+        "매지컬샤인",
+        "불대문자",
+        "10만볼트",
+        "하이퍼보이스"
       ]
     }
   },
-  "Bibarel": {
-    "Common Battle Spot": {
+  "비버통": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Careful",
-      "ability": "Simple",
+      "nature": "신중",
+      "ability": "단순",
       "item": "",
       "moves": [
-        "Waterfall",
+        "폭포오르기",
         "",
         "",
         ""
       ]
     }
   },
-  "Luxray": {
-    "Common Battle Spot": {
+  "렌트라": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Calm",
-      "ability": "Intimidate",
-      "item": "Sitrus Berry",
+      "nature": "차분",
+      "ability": "괴력집게",
+      "item": "자뭉열매",
       "moves": [
-        "Volt Switch",
-        "Snarl",
+        "볼트체인지",
+        "바크아웃",
         "",
         ""
       ]
     }
   },
-  "Roserade": {
-    "Common Battle Spot": {
+  "로즈레이드": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Timid",
-      "ability": "Technician",
-      "item": "Choice Scarf",
+      "nature": "겁쟁이",
+      "ability": "테크니션",
+      "item": "구애스카프",
       "moves": [
-        "Sludge Bomb",
+        "오물폭탄",
         "",
-        "Leaf Storm",
+        "리프스톰",
         ""
       ]
     }
   },
-  "Rampardos": {
-    "Common Battle Spot": {
+  "램펄드": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
-      "ability": "Sheer Force",
-      "item": "Choice Band",
+      "nature": "고집",
+      "ability": "우격다짐",
+      "item": "구애머리띠",
       "moves": [
-        "Rock Slide",
-        "Head Smash",
-        "Iron Head",
-        "Fire Punch"
+        "스톤샤워",
+        "양날박치기",
+        "아이언헤드",
+        "불꽃펀치"
       ]
     }
   },
-  "Bastiodon": {
-    "Common Battle Spot": {
+  "바리톱스": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Careful",
-      "ability": "Soundproof",
-      "item": "Leftovers",
+      "nature": "신중",
+      "ability": "방음",
+      "item": "먹다남은음식",
       "moves": [
         "",
         "",
-        "Iron Head",
+        "아이언헤드",
         ""
       ]
     }
   },
-  "Pachirisu": {
-    "Common Battle Spot": {
+  "파치리스": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Impish",
-      "ability": "Volt Absorb",
-      "item": "Sitrus Berry",
+      "nature": "장난꾸러기",
+      "ability": "축전",
+      "item": "자뭉열매",
       "moves": [
         "",
         "",
@@ -2888,28 +2888,28 @@ var SETDEX_GLOBALLINK={
       ]
     }
   },
-  "Floatzel": {
-    "Common Battle Spot": {
+  "플로젤": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Timid",
-      "ability": "Swift Swim",
+      "nature": "겁쟁이",
+      "ability": "쓱쓱",
       "item": "",
       "moves": [
         "",
         "",
-        "Ice Beam",
-        "Hydro Pump"
+        "냉동빔",
+        "하이드로펌프"
       ]
     }
   },
-  "Golbat": {
-    "Common Battle Spot": {
+  "골뱃": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Careful",
+      "nature": "신중",
       "ability": "",
-      "item": "Eviolite",
+      "item": "진화의휘석",
       "moves": [
         "",
         "",
@@ -2918,13 +2918,13 @@ var SETDEX_GLOBALLINK={
       ]
     }
   },
-  "Cherrim": {
-    "Common Battle Spot": {
+  "체리꼬": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Bold",
-      "ability": "Flower Gift",
-      "item": "Leftovers",
+      "nature": "대담",
+      "ability": "플라워기프트",
+      "item": "먹다남은음식",
       "moves": [
         "",
         "",
@@ -2933,148 +2933,148 @@ var SETDEX_GLOBALLINK={
       ]
     }
   },
-  "Gastrodon": {
-    "Common Battle Spot": {
+  "트리토돈": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Bold",
-      "ability": "Storm Drain",
-      "item": "Leftovers",
+      "nature": "대담",
+      "ability": "마중물",
+      "item": "먹다남은음식",
       "moves": [
-        "Earth Power",
+        "대지의힘",
         "",
-        "Ice Beam",
-        "Scald"
+        "냉동빔",
+        "열탕"
       ]
     }
   },
-  "Ambipom": {
-    "Common Battle Spot": {
+  "겟핸보숭": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Jolly",
-      "ability": "Technician",
-      "item": "Life Orb",
+      "nature": "명랑",
+      "ability": "테크니션",
+      "item": "생명의구슬",
       "moves": [
-        "Fake Out",
-        "Double Hit",
+        "속이다",
+        "더블어택",
         "",
-        "Knock Off"
+        "탁쳐서떨구기"
       ]
     }
   },
-  "Drifblim": {
-    "Common Battle Spot": {
+  "둥실라이드": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Modest",
+      "nature": "조심",
       "ability": "",
-      "item": "Lum Berry",
+      "item": "리샘열매",
       "moves": [
         "",
         "",
-        "Shadow Ball",
-        "Weather Ball"
+        "섀도볼",
+        "웨더볼"
       ]
     }
   },
-  "Buneary": {
-    "Common Battle Spot": {
+  "이어롤": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Jolly",
+      "nature": "명랑",
       "ability": "",
-      "item": "Choice Scarf",
+      "item": "구애스카프",
       "moves": [
         "",
         "",
         "",
-        "Jump Kick"
+        "점프킥"
       ]
     }
   },
-  "Lopunny": {
-    "Common Battle Spot": {
+  "이어롭": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Jolly",
+      "nature": "명랑",
       "ability": "",
-      "item": "Lopunnite",
+      "item": "이어롭나이트",
       "moves": [
-        "Fake Out",
-        "Return",
-        "Ice Punch",
-        "Low Kick"
+        "속이다",
+        "은혜갚기",
+        "냉동펀치",
+        "안다리걸기"
       ]
     }
   },
-  "Mismagius": {
-    "Common Battle Spot": {
+  "무우마직": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Modest",
-      "ability": "Levitate",
+      "nature": "조심",
+      "ability": "부유",
       "item": "",
       "moves": [
         "",
         "",
-        "Shadow Ball",
-        "Icy Wind"
+        "섀도볼",
+        "얼다바람"
       ]
     }
   },
-  "Honchkrow": {
-    "Common Battle Spot": {
+  "돈크로우": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
+      "nature": "고집",
       "ability": "",
       "item": "",
       "moves": [
-        "Sucker Punch",
-        "Brave Bird",
-        "Night Slash",
-        "Superpower"
+        "기습",
+        "브레이브버드",
+        "깜짝베기",
+        "엄청난힘"
       ]
     }
   },
-  "Purugly": {
-    "Common Battle Spot": {
+  "몬냥이": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Jolly",
-      "ability": "Defiant",
-      "item": "Life Orb",
+      "nature": "명랑",
+      "ability": "오기",
+      "item": "생명의구슬",
       "moves": [
-        "Fake Out",
+        "속이다",
         "",
-        "Play Rough",
-        "Sucker Punch"
+        "치근거리기",
+        "기습"
       ]
     }
   },
-  "Skuntank": {
-    "Common Battle Spot": {
+  "스컹탱크": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Timid",
+      "nature": "겁쟁이",
       "ability": "",
-      "item": "Black Sludge",
+      "item": "검은진흙",
       "moves": [
-        "Foul Play",
-        "Snarl",
+        "속임수",
+        "바크아웃",
         "",
         ""
       ]
     }
   },
-  "Bronzor": {
-    "Common Battle Spot": {
+  "동미러": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Sassy",
-      "ability": "Heatproof",
-      "item": "Eviolite",
+      "nature": "건방",
+      "ability": "내열",
+      "item": "진화의휘석",
       "moves": [
         "",
         "",
@@ -3083,28 +3083,28 @@ var SETDEX_GLOBALLINK={
       ]
     }
   },
-  "Bronzong": {
-    "Common Battle Spot": {
+  "동탁군": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Sassy",
-      "ability": "Levitate",
-      "item": "Lum Berry",
+      "nature": "건방",
+      "ability": "부유",
+      "item": "리샘열매",
       "moves": [
         "",
         "",
-        "Iron Head",
+        "아이언헤드",
         ""
       ]
     }
   },
-  "Mime Jr.": {
-    "Common Battle Spot": {
+  "흉내내": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Relaxed",
-      "ability": "Filter",
-      "item": "Eviolite",
+      "nature": "무사태평",
+      "ability": "필터",
+      "item": "진화의휘석",
       "moves": [
         "",
         "",
@@ -3113,357 +3113,357 @@ var SETDEX_GLOBALLINK={
       ]
     }
   },
-  "Chatot": {
-    "Common Battle Spot": {
+  "페라페": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Timid",
+      "nature": "겁쟁이",
       "ability": "",
-      "item": "Choice Scarf",
+      "item": "구애스카프",
       "moves": [
-        "Chatter",
+        "수다",
         "",
         "",
-        "Boomburst"
+        "폭음파"
       ]
     }
   },
-  "Spiritomb": {
-    "Common Battle Spot": {
+  "화강돌": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Sassy",
-      "ability": "Infiltrator",
-      "item": "Leftovers",
+      "nature": "건방",
+      "ability": "틈새포착",
+      "item": "먹다남은음식",
       "moves": [
         "",
         "",
-        "Snarl",
+        "바크아웃",
         ""
       ]
     }
   },
-  "Garchomp": {
-    "Common Battle Spot": {
+  "한카리아스": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Jolly",
+      "nature": "명랑",
       "ability": "",
-      "item": "Lum Berry",
+      "item": "리샘열매",
       "moves": [
-        "Earthquake",
-        "Rock Slide",
-        "Dragon Claw",
+        "지진",
+        "스톤샤워",
+        "드래곤크루",
         ""
       ]
     }
   },
-  "Riolu": {
-    "Common Battle Spot": {
+  "리오르": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Naive",
+      "nature": "천진난만",
       "ability": "",
-      "item": "Eviolite",
+      "item": "진화의휘석",
       "moves": [
         "",
         "",
         "",
-        "Feint"
+        "페인트"
       ]
     }
   },
-  "Lucario": {
-    "Common Battle Spot": {
+  "루카리오": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Jolly",
+      "nature": "명랑",
       "ability": "",
-      "item": "Lucarionite",
+      "item": "루카리오나이트",
       "moves": [
         "",
-        "Close Combat",
-        "Bullet Punch",
-        "Flash Cannon"
+        "인파이트",
+        "불릿펀치",
+        "러스터캐논"
       ]
     }
   },
-  "Vileplume": {
-    "Common Battle Spot": {
+  "라플레시아": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Quiet",
+      "nature": "냉정",
       "ability": "",
-      "item": "Assault Vest",
+      "item": "돌격조끼",
       "moves": [
-        "Sludge Bomb",
-        "Moonblast",
-        "Giga Drain",
+        "오물폭탄",
+        "문포스",
+        "기가드레인",
         ""
       ]
     }
   },
-  "Hippowdon": {
-    "Common Battle Spot": {
+  "하마돈": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Impish",
-      "ability": "Sand Stream",
+      "nature": "장난꾸러기",
+      "ability": "모래날림",
       "item": "",
       "moves": [
-        "Earthquake",
+        "지진",
         "",
-        "Ice Fang",
+        "얼음엄니",
         ""
       ]
     }
   },
-  "Drapion": {
-    "Common Battle Spot": {
+  "드래피온": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
-      "ability": "Sniper",
+      "nature": "고집",
+      "ability": "스나이퍼",
       "item": "",
       "moves": [
-        "Knock Off",
-        "Cross Poison",
+        "탁쳐서떨구기",
+        "크로스포이즌",
         "",
         ""
       ]
     }
   },
-  "Toxicroak": {
-    "Common Battle Spot": {
+  "독개굴": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
-      "ability": "Dry Skin",
+      "nature": "고집",
+      "ability": "건조피부",
       "item": "",
       "moves": [
-        "Drain Punch",
-        "Fake Out",
-        "Poison Jab",
+        "드레인펀치",
+        "속이다",
+        "독찌르기",
         ""
       ]
     }
   },
-  "Carnivine": {
-    "Common Battle Spot": {
+  "무스틈니": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Lax",
-      "ability": "Levitate",
+      "nature": "촐랑",
+      "ability": "부유",
       "item": "",
       "moves": [
         "",
-        "Crunch",
+        "깨물어부수기",
         "",
         ""
       ]
     }
   },
-  "Lumineon": {
-    "Common Battle Spot": {
+  "네오라이트": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Timid",
-      "ability": "Storm Drain",
-      "item": "Sitrus Berry",
+      "nature": "겁쟁이",
+      "ability": "마중물",
+      "item": "자뭉열매",
       "moves": [
         "",
-        "Scald",
+        "열탕",
         "",
         ""
       ]
     }
   },
-  "Mantyke": {
-    "Common Battle Spot": {
+  "타만타": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Calm",
-      "ability": "Water Absorb",
-      "item": "Eviolite",
+      "nature": "차분",
+      "ability": "축전",
+      "item": "진화의휘석",
       "moves": [
         "",
-        "Scald",
+        "열탕",
         "",
         ""
       ]
     }
   },
-  "Paras": {
-    "Common Battle Spot": {
+  "파라스": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Impish",
-      "ability": "Dry Skin",
-      "item": "Eviolite",
+      "nature": "장난꾸러기",
+      "ability": "건조피부",
+      "item": "진화의휘석",
       "moves": [
         "",
         "",
-        "X-Scissor",
+        "시저크로스",
         ""
       ]
     }
   },
-  "Abomasnow": {
-    "Common Battle Spot": {
+  "눈설왕": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Quiet",
-      "ability": "Snow Warning",
-      "item": "Abomasite",
+      "nature": "냉정",
+      "ability": "눈퍼뜨리기",
+      "item": "눈설왕나이트",
       "moves": [
-        "Blizzard",
+        "눈보라",
         "",
-        "Ice Shard",
-        "Energy Ball"
+        "얼음뭉치",
+        "에너지볼"
       ]
     }
   },
-  "Weavile": {
-    "Common Battle Spot": {
+  "포푸니라": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Jolly",
+      "nature": "명랑",
       "ability": "",
       "item": "",
       "moves": [
-        "Fake Out",
-        "Knock Off",
-        "Low Kick",
-        "Icicle Crash"
+        "속이다",
+        "탁쳐서떨구기",
+        "안다리걸기",
+        "고드름떨구기"
       ]
     }
   },
-  "Magnezone": {
-    "Common Battle Spot": {
+  "자포코일": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Modest",
+      "nature": "조심",
       "ability": "",
-      "item": "Choice Specs",
+      "item": "구애안경",
       "moves": [
-        "Flash Cannon",
-        "Thunderbolt",
+        "러스터캐논",
+        "10만볼트",
         "",
         ""
       ]
     }
   },
-  "Lickilicky": {
-    "Common Battle Spot": {
+  "내룸벨트": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
-      "ability": "Cloud Nine",
-      "item": "Life Orb",
+      "nature": "고집",
+      "ability": "날씨부정",
+      "item": "생명의구슬",
       "moves": [
         "",
-        "Explosion",
-        "Knock Off",
-        "Thunderbolt"
+        "대폭발",
+        "탁쳐서떨구기",
+        "10만볼트"
       ]
     }
   },
-  "Rhyperior": {
-    "Common Battle Spot": {
+  "거대코뿌리": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Brave",
-      "ability": "Solid Rock",
+      "nature": "용감",
+      "ability": "하드록",
       "item": "",
       "moves": [
-        "Rock Slide",
-        "Earthquake",
+        "스톤샤워",
+        "지진",
         "",
-        "Ice Punch"
+        "냉동펀치"
       ]
     }
   },
-  "Tangrowth": {
-    "Common Battle Spot": {
+  "덩쿠림보": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Bold",
+      "nature": "대담",
       "ability": "",
       "item": "",
       "moves": [
-        "Giga Drain",
+        "기가드레인",
         "",
         "",
         ""
       ]
     }
   },
-  "Electivire": {
-    "Common Battle Spot": {
+  "에레키블": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
-      "ability": "Motor Drive",
-      "item": "Expert Belt",
+      "nature": "고집",
+      "ability": "전기엔진",
+      "item": "달인의띠",
       "moves": [
-        "Ice Punch",
-        "Earthquake",
+        "냉동펀치",
+        "지진",
         "",
-        "Wild Charge"
+        "와일드볼트"
       ]
     }
   },
-  "Magmortar": {
-    "Common Battle Spot": {
+  "마그마번": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Modest",
+      "nature": "조심",
       "ability": "",
-      "item": "Expert Belt",
+      "item": "달인의띠",
       "moves": [
         "",
-        "Thunderbolt",
+        "10만볼트",
         "",
-        "Flamethrower"
+        "화염방사"
       ]
     }
   },
-  "Togekiss": {
-    "Common Battle Spot": {
+  "토게키스": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Bold",
+      "nature": "대담",
       "ability": "",
-      "item": "Sitrus Berry",
+      "item": "자뭉열매",
       "moves": [
-        "Air Slash",
+        "에어슬래시",
         "",
-        "Dazzling Gleam",
+        "매지컬샤인",
         ""
       ]
     }
   },
-  "Yanmega": {
-    "Common Battle Spot": {
+  "메가자리": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Modest",
+      "nature": "조심",
       "ability": "",
       "item": "",
       "moves": [
-        "Air Slash",
+        "에어슬래시",
         "",
-        "Bug Buzz",
-        "Giga Drain"
+        "벌레의야단법석",
+        "기가드레인"
       ]
     }
   },
-  "Parasect": {
-    "Common Battle Spot": {
+  "파라섹트": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Sassy",
-      "ability": "Dry Skin",
+      "nature": "건방",
+      "ability": "건조피부",
       "item": "",
       "moves": [
         "",
@@ -3473,328 +3473,328 @@ var SETDEX_GLOBALLINK={
       ]
     }
   },
-  "Leafeon": {
-    "Common Battle Spot": {
+  "리피아": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
-      "ability": "Chlorophyll",
+      "nature": "고집",
+      "ability": "엽록소",
       "item": "",
       "moves": [
-        "Leaf Blade",
-        "Knock Off",
-        "Natural Gift",
+        "리프블레이드",
+        "탁쳐서떨구기",
+        "자연의은혜",
         ""
       ]
     }
   },
-  "Glaceon": {
-    "Common Battle Spot": {
+  "글레이시아": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Modest",
-      "ability": "Snow Cloak",
-      "item": "Choice Specs",
+      "nature": "조심",
+      "ability": "눈숨기",
+      "item": "구애안경",
       "moves": [
-        "Blizzard",
-        "Shadow Ball",
+        "눈보라",
+        "섀도볼",
         "",
-        "Ice Beam"
+        "냉동빔"
       ]
     }
   },
-  "Gliscor": {
-    "Common Battle Spot": {
+  "글라이온": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Impish",
-      "ability": "Poison Heal",
-      "item": "Toxic Orb",
+      "nature": "장난꾸러기",
+      "ability": "포이즌힐",
+      "item": "맹독구슬",
       "moves": [
-        "Earthquake",
+        "지진",
         "",
-        "Knock Off",
+        "탁쳐서떨구기",
         ""
       ]
     }
   },
-  "Mamoswine": {
-    "Common Battle Spot": {
+  "맘모꾸리": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
-      "ability": "Thick Fat",
-      "item": "Choice Scarf",
+      "nature": "고집",
+      "ability": "두꺼운지방",
+      "item": "구애스카프",
       "moves": [
-        "Earthquake",
-        "Icicle Crash",
-        "Rock Slide",
-        "Ice Shard"
+        "지진",
+        "고드름떨구기",
+        "스톤샤워",
+        "얼음뭉치"
       ]
     }
   },
-  "Porygon-Z": {
-    "Common Battle Spot": {
+  "폴리곤Z": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Modest",
-      "ability": "Adaptability",
-      "item": "Choice Scarf",
+      "nature": "조심",
+      "ability": "적응력",
+      "item": "구애스카프",
       "moves": [
-        "Tri Attack",
-        "Ice Beam",
-        "Dark Pulse",
-        "Thunderbolt"
+        "트라이어택",
+        "냉동빔",
+        "악의파동",
+        "10만볼트"
       ]
     }
   },
-  "Gallade": {
-    "Common Battle Spot": {
+  "엘레이드": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Jolly",
+      "nature": "명랑",
       "ability": "",
-      "item": "Galladite",
+      "item": "엘레이드나이트",
       "moves": [
-        "Close Combat",
+        "인파이트",
         "",
-        "Ice Punch",
-        "Zen Headbutt"
+        "냉동펀치",
+        "사념의박치기"
       ]
     }
   },
-  "Probopass": {
-    "Common Battle Spot": {
+  "대코파스": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Quiet",
+      "nature": "냉정",
       "ability": "",
-      "item": "Leftovers",
+      "item": "먹다남은음식",
       "moves": [
         "",
-        "Power Gem",
-        "Earth Power",
-        "Discharge"
+        "파워젬",
+        "대지의힘",
+        "방전"
       ]
     }
   },
-  "Dusknoir": {
-    "Common Battle Spot": {
+  "야느와르몽": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Sassy",
+      "nature": "건방",
       "ability": "",
       "item": "",
       "moves": [
         "",
         "",
         "",
-        "Night Shade"
+        "나이트헤드"
       ]
     }
   },
-  "Froslass": {
-    "Common Battle Spot": {
+  "눈여아": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Timid",
+      "nature": "겁쟁이",
       "ability": "",
       "item": "",
       "moves": [
         "",
-        "Shadow Ball",
+        "섀도볼",
         "",
-        "Icy Wind"
+        "얼다바람"
       ]
     }
   },
-  "Rotom": {
-    "Common Battle Spot": {
+  "로토무": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Timid",
-      "ability": "Levitate",
-      "item": "Sitrus Berry",
+      "nature": "겁쟁이",
+      "ability": "부유",
+      "item": "자뭉열매",
       "moves": [
         "",
-        "Thunderbolt",
+        "10만볼트",
         "",
-        "Shadow Ball"
+        "섀도볼"
       ]
     }
   },
-  "Rotom-H": {
-    "Common Battle Spot": {
+  "히트로토무": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Modest",
-      "ability": "Levitate",
-      "item": "Sitrus Berry",
+      "nature": "조심",
+      "ability": "부유",
+      "item": "자뭉열매",
       "moves": [
-        "Overheat",
-        "Thunderbolt",
+        "오버히트",
+        "10만볼트",
         "",
         ""
       ]
     }
   },
-  "Rotom-W": {
-    "Common Battle Spot": {
+  "워시로토무": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Modest",
-      "ability": "Levitate",
-      "item": "Sitrus Berry",
+      "nature": "조심",
+      "ability": "부유",
+      "item": "자뭉열매",
       "moves": [
-        "Hydro Pump",
-        "Thunderbolt",
+        "하이드로펌프",
+        "10만볼트",
         "",
         ""
       ]
     }
   },
-  "Rotom-F": {
-    "Common Battle Spot": {
+  "프로스트로토무": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Modest",
-      "ability": "Levitate",
-      "item": "Choice Scarf",
+      "nature": "조심",
+      "ability": "부유",
+      "item": "구애스카프",
       "moves": [
-        "Blizzard",
-        "Thunderbolt",
-        "Volt Switch",
+        "눈보라",
+        "10만볼트",
+        "볼트체인지",
         ""
       ]
     }
   },
-  "Rotom-S": {
-    "Common Battle Spot": {
+  "스핀로토무": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Modest",
-      "ability": "Levitate",
-      "item": "Sitrus Berry",
+      "nature": "조심",
+      "ability": "부유",
+      "item": "자뭉열매",
       "moves": [
-        "Air Slash",
+        "에어슬래시",
         "",
         "",
-        "Thunderbolt"
+        "10만볼트"
       ]
     }
   },
-  "Rotom-C": {
-    "Common Battle Spot": {
+  "커트로토무": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Modest",
-      "ability": "Levitate",
-      "item": "Sitrus Berry",
+      "nature": "조심",
+      "ability": "부유",
+      "item": "자뭉열매",
       "moves": [
-        "Leaf Storm",
-        "Thunderbolt",
+        "리프스톰",
+        "10만볼트",
         "",
         ""
       ]
     }
   },
-  "Uxie": {
-    "Common Battle Spot": {
+  "유크시": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Bold",
-      "ability": "Levitate",
+      "nature": "대담",
+      "ability": "부유",
       "item": "",
       "moves": [
         "",
         "",
         "",
-        "Psyshock"
+        "사이코쇼크"
       ]
     }
   },
-  "Mesprit": {
-    "Common Battle Spot": {
+  "엠라이트": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Modest",
-      "ability": "Levitate",
-      "item": "Colbur Berry",
+      "nature": "조심",
+      "ability": "부유",
+      "item": "마코열매",
       "moves": [
-        "Ice Beam",
+        "냉동빔",
         "",
-        "Psychic",
-        "Thunderbolt"
+        "사이코키네시스",
+        "10만볼트"
       ]
     }
   },
-  "Azelf": {
-    "Common Battle Spot": {
+  "아그놈": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Timid",
-      "ability": "Levitate",
+      "nature": "겁쟁이",
+      "ability": "부유",
       "item": "",
       "moves": [
-        "Psychic",
-        "Flamethrower",
-        "Dazzling Gleam",
-        "Fire Blast"
+        "사이코키네시스",
+        "화염방사",
+        "매지컬샤인",
+        "불대문자"
       ]
     }
   },
-  "Heatran": {
-    "Common Battle Spot": {
+  "히드런": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Modest",
-      "ability": "Flash Fire",
-      "item": "Leftovers",
+      "nature": "조심",
+      "ability": "타오르는불꽃",
+      "item": "먹다남은음식",
       "moves": [
         "",
-        "Heat Wave",
-        "Earth Power",
-        "Flash Cannon"
+        "열풍",
+        "대지의힘",
+        "러스터캐논"
       ]
     }
   },
-  "Regigigas": {
-    "Common Battle Spot": {
+  "레지기가스": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
-      "ability": "Slow Start",
-      "item": "Leftovers",
+      "nature": "고집",
+      "ability": "슬로스타트",
+      "item": "먹다남은음식",
       "moves": [
         "",
-        "Rock Slide",
-        "Drain Punch",
-        "Return"
+        "스톤샤워",
+        "드레인펀치",
+        "은혜갚기"
       ]
     }
   },
-  "Cresselia": {
-    "Common Battle Spot": {
+  "크레세리아": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Bold",
-      "ability": "Levitate",
+      "nature": "대담",
+      "ability": "부유",
       "item": "",
       "moves": [
-        "Psychic",
-        "Ice Beam",
+        "사이코키네시스",
+        "냉동빔",
         "",
         ""
       ]
     }
   },
-  "Venomoth": {
-    "Common Battle Spot": {
+  "도나리": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Timid",
+      "nature": "겁쟁이",
       "ability": "",
-      "item": "Black Sludge",
+      "item": "검은진흙",
       "moves": [
         "",
         "",
@@ -3803,253 +3803,253 @@ var SETDEX_GLOBALLINK={
       ]
     }
   },
-  "Servine": {
-    "Common Battle Spot": {
+  "샤비": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Bold",
-      "ability": "Contrary",
-      "item": "Eviolite",
+      "nature": "대담",
+      "ability": "심술꾸러기",
+      "item": "진화의휘석",
       "moves": [
-        "Leaf Storm",
+        "리프스톰",
         "",
         "",
         ""
       ]
     }
   },
-  "Serperior": {
-    "Common Battle Spot": {
+  "샤로다": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Timid",
-      "ability": "Contrary",
+      "nature": "겁쟁이",
+      "ability": "심술꾸러기",
       "item": "",
       "moves": [
-        "Leaf Storm",
+        "리프스톰",
         "",
         "",
-        "Dragon Pulse"
+        "용의파동"
       ]
     }
   },
-  "Pignite": {
-    "Common Battle Spot": {
+  "차오꿀": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Careful",
-      "ability": "Thick Fat",
-      "item": "Eviolite",
+      "nature": "신중",
+      "ability": "두꺼운지방",
+      "item": "진화의휘석",
       "moves": [
-        "Flare Blitz",
-        "Superpower",
+        "플레어드라이브",
+        "엄청난힘",
         "",
         ""
       ]
     }
   },
-  "Emboar": {
-    "Common Battle Spot": {
+  "염무왕": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Brave",
-      "ability": "Reckless",
-      "item": "Life Orb",
+      "nature": "용감",
+      "ability": "이판사판",
+      "item": "생명의구슬",
       "moves": [
-        "Flare Blitz",
-        "Head Smash",
-        "Wild Charge",
-        "Sucker Punch"
+        "플레어드라이브",
+        "양날박치기",
+        "와일드볼트",
+        "기습"
       ]
     }
   },
-  "Samurott": {
-    "Common Battle Spot": {
+  "대검귀": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Modest",
-      "ability": "Torrent",
-      "item": "Wacan Berry",
+      "nature": "조심",
+      "ability": "급류",
+      "item": "초나열매",
       "moves": [
-        "Ice Beam",
-        "Grass Knot",
-        "Scald",
+        "냉동빔",
+        "풀묶기",
+        "열탕",
         ""
       ]
     }
   },
-  "Stoutland": {
-    "Common Battle Spot": {
+  "바랜드": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
-      "ability": "Sand Rush",
-      "item": "Life Orb",
+      "nature": "고집",
+      "ability": "모래헤치기",
+      "item": "생명의구슬",
       "moves": [
-        "Crunch",
-        "Retaliate",
-        "Return",
-        "Play Rough"
+        "깨물어부수기",
+        "원수갚기",
+        "은혜갚기",
+        "치근거리기"
       ]
     }
   },
-  "Purrloin": {
-    "Common Battle Spot": {
+  "쌔비냥": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Jolly",
+      "nature": "명랑",
       "ability": "",
       "item": "",
       "moves": [
         "",
         "",
         "",
-        "Fake Out"
+        "속이다"
       ]
     }
   },
-  "Dugtrio": {
-    "Common Battle Spot": {
+  "닥트리오": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Jolly",
+      "nature": "명랑",
       "ability": "",
       "item": "",
       "moves": [
-        "Sucker Punch",
-        "Rock Slide",
+        "기습",
+        "스톤샤워",
         "",
         ""
       ]
     }
   },
-  "Liepard": {
-    "Common Battle Spot": {
+  "레파르다스": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Jolly",
+      "nature": "명랑",
       "ability": "",
       "item": "",
       "moves": [
         "",
-        "Fake Out",
-        "Foul Play",
+        "속이다",
+        "속임수",
         ""
       ]
     }
   },
-  "Musharna": {
-    "Common Battle Spot": {
+  "몽얌나": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Relaxed",
+      "nature": "무사태평",
       "ability": "",
-      "item": "Sitrus Berry",
+      "item": "자뭉열매",
       "moves": [
         "",
         "",
-        "Psychic",
+        "사이코키네시스",
         ""
       ]
     }
   },
-  "Unfezant": {
-    "Common Battle Spot": {
+  "켄호로우": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Timid",
+      "nature": "겁쟁이",
       "ability": "",
       "item": "",
       "moves": [
-        "Night Slash",
+        "깜짝베기",
         "",
         "",
         ""
       ]
     }
   },
-  "Zebstrika": {
-    "Common Battle Spot": {
+  "제브라이카": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Timid",
-      "ability": "Lightning Rod",
-      "item": "Life Orb",
+      "nature": "겁쟁이",
+      "ability": "피뢰침",
+      "item": "생명의구슬",
       "moves": [
         "",
-        "Thunderbolt",
-        "Overheat",
+        "10만볼트",
+        "오버히트",
         ""
       ]
     }
   },
-  "Gigalith": {
-    "Common Battle Spot": {
+  "기가이어스": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Brave",
+      "nature": "용감",
       "ability": "",
       "item": "",
       "moves": [
-        "Rock Slide",
-        "Earthquake",
-        "Heavy Slam",
-        "Explosion"
+        "스톤샤워",
+        "지진",
+        "헤비봄버",
+        "대폭발"
       ]
     }
   },
-  "Swoobat": {
-    "Common Battle Spot": {
+  "맘박쥐": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Timid",
-      "ability": "Simple",
+      "nature": "겁쟁이",
+      "ability": "단순",
       "item": "",
       "moves": [
-        "Stored Power",
+        "어시스트파워",
         "",
         "",
         ""
       ]
     }
   },
-  "Persian": {
-    "Common Battle Spot": {
+  "페르시온": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Jolly",
+      "nature": "명랑",
       "ability": "",
       "item": "",
       "moves": [
-        "Fake Out",
+        "속이다",
         "",
         "",
         ""
       ]
     }
   },
-  "Excadrill": {
-    "Common Battle Spot": {
+  "몰드류": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
-      "ability": "Mold Breaker",
-      "item": "Life Orb",
+      "nature": "고집",
+      "ability": "틀깨기",
+      "item": "생명의구슬",
       "moves": [
-        "Iron Head",
-        "Rock Slide",
-        "Earthquake",
+        "아이언헤드",
+        "스톤샤워",
+        "지진",
         ""
       ]
     }
   },
-  "Audino": {
-    "Common Battle Spot": {
+  "다부니": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Relaxed",
+      "nature": "무사태평",
       "ability": "",
-      "item": "Audinite",
+      "item": "다부니나이트",
       "moves": [
         "",
         "",
@@ -4058,131 +4058,131 @@ var SETDEX_GLOBALLINK={
       ]
     }
   },
-  "Gurdurr": {
-    "Common Battle Spot": {
+  "토쇠골": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
-      "ability": "Guts",
-      "item": "Eviolite",
+      "nature": "고집",
+      "ability": "근성",
+      "item": "진화의휘석",
       "moves": [
-        "Drain Punch",
-        "Knock Off",
+        "드레인펀치",
+        "탁쳐서떨구기",
         "",
-        "Mach Punch"
+        "마하펀치"
       ]
     }
   },
-  "Conkeldurr": {
-    "Common Battle Spot": {
+  "노보청": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
-      "ability": "Guts",
-      "item": "Assault Vest",
+      "nature": "고집",
+      "ability": "근성",
+      "item": "돌격조끼",
       "moves": [
-        "Mach Punch",
-        "Drain Punch",
-        "Ice Punch",
-        "Knock Off"
+        "마하펀치",
+        "드레인펀치",
+        "냉동펀치",
+        "탁쳐서떨구기"
       ]
     }
   },
-  "Tympole": {
-    "Common Battle Spot": {
+  "동챙이": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Modest",
-      "ability": "Swift Swim",
-      "item": "Choice Specs",
+      "nature": "조심",
+      "ability": "쓱쓱",
+      "item": "구애안경",
       "moves": [
-        "Earth Power",
+        "대지의힘",
         "",
-        "Sludge Bomb",
-        "Hydro Pump"
+        "오물폭탄",
+        "하이드로펌프"
       ]
     }
   },
-  "Seismitoad": {
-    "Common Battle Spot": {
+  "두빅굴": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Modest",
-      "ability": "Swift Swim",
-      "item": "Life Orb",
+      "nature": "조심",
+      "ability": "쓱쓱",
+      "item": "생명의구슬",
       "moves": [
-        "Earth Power",
+        "대지의힘",
         "",
-        "Muddy Water",
+        "탁류",
         ""
       ]
     }
   },
-  "Throh": {
-    "Common Battle Spot": {
+  "던지미": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Impish",
+      "nature": "장난꾸러기",
       "ability": "",
-      "item": "Leftovers",
+      "item": "먹다남은음식",
       "moves": [
-        "Storm Throw",
+        "업어후리기",
         "",
-        "Knock Off",
-        "Ice Punch"
+        "탁쳐서떨구기",
+        "냉동펀치"
       ]
     }
   },
-  "Sawk": {
-    "Common Battle Spot": {
+  "타격귀": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
+      "nature": "고집",
       "ability": "",
-      "item": "Choice Scarf",
+      "item": "구애스카프",
       "moves": [
-        "Close Combat",
-        "Ice Punch",
-        "Rock Slide",
-        "Poison Jab"
+        "인파이트",
+        "냉동펀치",
+        "스톤샤워",
+        "독찌르기"
       ]
     }
   },
-  "Leavanny": {
-    "Common Battle Spot": {
+  "모아머": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
-      "ability": "Chlorophyll",
+      "nature": "고집",
+      "ability": "엽록소",
       "item": "",
       "moves": [
-        "X-Scissor",
-        "Leaf Blade",
+        "시저크로스",
+        "리프블레이드",
         "",
-        "Knock Off"
+        "탁쳐서떨구기"
       ]
     }
   },
-  "Scolipede": {
-    "Common Battle Spot": {
+  "펜드라": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
+      "nature": "고집",
       "ability": "",
-      "item": "Life Orb",
+      "item": "생명의구슬",
       "moves": [
-        "Poison Jab",
+        "독찌르기",
         "",
-        "Rock Slide",
-        "Earthquake"
+        "스톤샤워",
+        "지진"
       ]
     }
   },
-  "Whimsicott": {
-    "Common Battle Spot": {
+  "엘풍": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Timid",
+      "nature": "겁쟁이",
       "ability": "",
       "item": "",
       "moves": [
@@ -4193,297 +4193,297 @@ var SETDEX_GLOBALLINK={
       ]
     }
   },
-  "Lilligant": {
-    "Common Battle Spot": {
+  "드레디어": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Modest",
-      "ability": "Chlorophyll",
+      "nature": "조심",
+      "ability": "엽록소",
       "item": "",
       "moves": [
         "",
         "",
-        "Solar Beam",
+        "솔라빔",
         ""
       ]
     }
   },
-  "Golduck": {
-    "Common Battle Spot": {
+  "골덕": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Timid",
-      "ability": "Cloud Nine",
-      "item": "Leftovers",
+      "nature": "겁쟁이",
+      "ability": "날씨부정",
+      "item": "먹다남은음식",
       "moves": [
         "",
-        "Scald",
-        "Icy Wind",
-        "Ice Beam"
+        "열탕",
+        "얼다바람",
+        "냉동빔"
       ]
     }
   },
-  "Basculin": {
-    "Common Battle Spot": {
+  "배쓰나이": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
-      "ability": "Adaptability",
-      "item": "Choice Band",
+      "nature": "고집",
+      "ability": "적응력",
+      "item": "구애머리띠",
       "moves": [
-        "Aqua Jet",
-        "Superpower",
-        "Crunch",
-        "Waterfall"
+        "아쿠아제트",
+        "엄청난힘",
+        "깨물어부수기",
+        "폭포오르기"
       ]
     }
   },
-  "Krookodile": {
-    "Common Battle Spot": {
+  "악비아르": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
-      "ability": "Intimidate",
-      "item": "Choice Scarf",
+      "nature": "고집",
+      "ability": "괴력집게",
+      "item": "구애스카프",
       "moves": [
-        "Earthquake",
-        "Rock Slide",
-        "Knock Off",
+        "지진",
+        "스톤샤워",
+        "탁쳐서떨구기",
         ""
       ]
     }
   },
-  "Darmanitan": {
-    "Common Battle Spot": {
+  "불비달마": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
-      "ability": "Sheer Force",
-      "item": "Choice Scarf",
+      "nature": "고집",
+      "ability": "우격다짐",
+      "item": "구애스카프",
       "moves": [
-        "Flare Blitz",
-        "Superpower",
-        "Rock Slide",
-        "U-turn"
+        "플레어드라이브",
+        "엄청난힘",
+        "스톤샤워",
+        "유턴"
       ]
     }
   },
-  "Maractus": {
-    "Common Battle Spot": {
+  "마라카치": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Modest",
-      "ability": "Storm Drain",
+      "nature": "조심",
+      "ability": "마중물",
       "item": "",
       "moves": [
         "",
-        "Solar Beam",
-        "Energy Ball",
-        "Giga Drain"
+        "솔라빔",
+        "에너지볼",
+        "기가드레인"
       ]
     }
   },
-  "Crustle": {
-    "Common Battle Spot": {
+  "암팰리스": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
+      "nature": "고집",
       "ability": "",
-      "item": "Lum Berry",
+      "item": "리샘열매",
       "moves": [
         "",
         "",
-        "Rock Slide",
-        "Earthquake"
+        "스톤샤워",
+        "지진"
       ]
     }
   },
-  "Scraggy": {
-    "Common Battle Spot": {
+  "곤율랭": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Brave",
-      "ability": "Intimidate",
-      "item": "Eviolite",
+      "nature": "용감",
+      "ability": "괴력집게",
+      "item": "진화의휘석",
       "moves": [
-        "Drain Punch",
+        "드레인펀치",
         "",
-        "Knock Off",
-        "Ice Punch"
+        "탁쳐서떨구기",
+        "냉동펀치"
       ]
     }
   },
-  "Scrafty": {
-    "Common Battle Spot": {
+  "곤율거니": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
-      "ability": "Intimidate",
-      "item": "Lum Berry",
+      "nature": "고집",
+      "ability": "괴력집게",
+      "item": "리샘열매",
       "moves": [
-        "Fake Out",
-        "Drain Punch",
-        "Knock Off",
-        "Crunch"
+        "속이다",
+        "드레인펀치",
+        "탁쳐서떨구기",
+        "깨물어부수기"
       ]
     }
   },
-  "Sigilyph": {
-    "Common Battle Spot": {
+  "심보러": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Modest",
-      "ability": "Tinted Lens",
-      "item": "Choice Scarf",
+      "nature": "조심",
+      "ability": "색안경",
+      "item": "구애스카프",
       "moves": [
-        "Psychic",
-        "Ice Beam",
-        "Dazzling Gleam",
-        "Air Slash"
+        "사이코키네시스",
+        "냉동빔",
+        "매지컬샤인",
+        "에어슬래시"
       ]
     }
   },
-  "Cofagrigus": {
-    "Common Battle Spot": {
+  "데스니칸": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Relaxed",
+      "nature": "무사태평",
       "ability": "",
       "item": "",
       "moves": [
         "",
         "",
-        "Shadow Ball",
+        "섀도볼",
         ""
       ]
     }
   },
-  "Carracosta": {
-    "Common Battle Spot": {
+  "늑골라": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Brave",
-      "ability": "Solid Rock",
+      "nature": "용감",
+      "ability": "하드록",
       "item": "",
       "moves": [
         "",
-        "Aqua Jet",
-        "Rock Slide",
-        "Ice Beam"
+        "아쿠아제트",
+        "스톤샤워",
+        "냉동빔"
       ]
     }
   },
-  "Archeops": {
-    "Common Battle Spot": {
+  "아케오스": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Jolly",
-      "ability": "Defeatist",
+      "nature": "명랑",
+      "ability": "무기력",
       "item": "",
       "moves": [
-        "Rock Slide",
+        "스톤샤워",
         "",
         "",
         ""
       ]
     }
   },
-  "Primeape": {
-    "Common Battle Spot": {
+  "성원숭": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
-      "ability": "Defiant",
-      "item": "Choice Scarf",
+      "nature": "고집",
+      "ability": "오기",
+      "item": "구애스카프",
       "moves": [
-        "Close Combat",
-        "Ice Punch",
-        "Rock Slide",
-        "Gunk Shot"
+        "인파이트",
+        "냉동펀치",
+        "스톤샤워",
+        "더스트슈트"
       ]
     }
   },
-  "Zorua": {
-    "Common Battle Spot": {
+  "조로아": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Rash",
+      "nature": "덜렁",
       "ability": "",
-      "item": "Life Orb",
+      "item": "생명의구슬",
       "moves": [
-        "Snarl",
-        "Night Daze",
+        "바크아웃",
+        "나이트버스트",
         "",
         ""
       ]
     }
   },
-  "Zoroark": {
-    "Common Battle Spot": {
+  "조로아크": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Timid",
+      "nature": "겁쟁이",
       "ability": "",
       "item": "",
       "moves": [
-        "Flamethrower",
+        "화염방사",
         "",
-        "Night Daze",
-        "Dark Pulse"
+        "나이트버스트",
+        "악의파동"
       ]
     }
   },
-  "Cinccino": {
-    "Common Battle Spot": {
+  "치라치노": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Jolly",
-      "ability": "Skill Link",
-      "item": "King's Rock",
+      "nature": "명랑",
+      "ability": "스킬링크",
+      "item": "왕의징표석",
       "moves": [
-        "Rock Blast",
-        "Bullet Seed",
-        "Tail Slap",
+        "락블레스트",
+        "기관총",
+        "스위프뺨치기",
         ""
       ]
     }
   },
-  "Gothorita": {
-    "Common Battle Spot": {
+  "고디보미": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Calm",
+      "nature": "차분",
       "ability": "",
-      "item": "Eviolite",
+      "item": "진화의휘석",
       "moves": [
         "",
         "",
-        "Psychic",
+        "사이코키네시스",
         ""
       ]
     }
   },
-  "Gothitelle": {
-    "Common Battle Spot": {
+  "고디모아젤": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Sassy",
+      "nature": "건방",
       "ability": "",
-      "item": "Sitrus Berry",
+      "item": "자뭉열매",
       "moves": [
         "",
         "",
-        "Psychic",
+        "사이코키네시스",
         ""
       ]
     }
   },
-  "Solosis": {
-    "Common Battle Spot": {
+  "유니란": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Quiet",
-      "ability": "Magic Guard",
+      "nature": "냉정",
+      "ability": "매직가드",
       "item": "",
       "moves": [
         "",
@@ -4493,853 +4493,853 @@ var SETDEX_GLOBALLINK={
       ]
     }
   },
-  "Duosion": {
-    "Common Battle Spot": {
+  "듀란": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Bold",
+      "nature": "대담",
       "ability": "",
-      "item": "Eviolite",
+      "item": "진화의휘석",
       "moves": [
-        "Psyshock",
+        "사이코쇼크",
         "",
         "",
         ""
       ]
     }
   },
-  "Reuniclus": {
-    "Common Battle Spot": {
+  "란쿨루스": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Quiet",
-      "ability": "Magic Guard",
-      "item": "Life Orb",
+      "nature": "냉정",
+      "ability": "매직가드",
+      "item": "생명의구슬",
       "moves": [
         "",
-        "Psychic",
-        "Shadow Ball",
-        "Psyshock"
+        "사이코키네시스",
+        "섀도볼",
+        "사이코쇼크"
       ]
     }
   },
-  "Vanilluxe": {
-    "Common Battle Spot": {
+  "배바닐라": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Timid",
-      "ability": "Ice Body",
-      "item": "Choice Scarf",
+      "nature": "겁쟁이",
+      "ability": "아이스바디",
+      "item": "구애스카프",
       "moves": [
-        "Freeze-Dry",
-        "Weather Ball",
+        "프리즈드라이",
+        "웨더볼",
         "",
-        "Ice Beam"
+        "냉동빔"
       ]
     }
   },
-  "Sawsbuck": {
-    "Common Battle Spot": {
+  "바라철록": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
-      "ability": "Chlorophyll",
-      "item": "Life Orb",
+      "nature": "고집",
+      "ability": "엽록소",
+      "item": "생명의구슬",
       "moves": [
-        "Horn Leech",
+        "우드호른",
         "",
-        "Double-Edge",
-        "Jump Kick"
+        "이판사판태클",
+        "점프킥"
       ]
     }
   },
-  "Emolga": {
-    "Common Battle Spot": {
+  "에몽가": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Timid",
-      "ability": "Motor Drive",
+      "nature": "겁쟁이",
+      "ability": "전기엔진",
       "item": "",
       "moves": [
         "",
         "",
         "",
-        "Thunderbolt"
+        "10만볼트"
       ]
     }
   },
-  "Escavalier": {
-    "Common Battle Spot": {
+  "슈바르고": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Brave",
-      "ability": "Overcoat",
-      "item": "Assault Vest",
+      "nature": "용감",
+      "ability": "방진",
+      "item": "돌격조끼",
       "moves": [
-        "Iron Head",
-        "Drill Run",
-        "Megahorn",
-        "Knock Off"
+        "아이언헤드",
+        "드릴라이너",
+        "메가폰",
+        "탁쳐서떨구기"
       ]
     }
   },
-  "Arcanine": {
-    "Common Battle Spot": {
+  "윈디": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
-      "ability": "Intimidate",
-      "item": "Life Orb",
+      "nature": "고집",
+      "ability": "괴력집게",
+      "item": "생명의구슬",
       "moves": [
-        "Extreme Speed",
-        "Flare Blitz",
+        "신속",
+        "플레어드라이브",
         "",
-        "Close Combat"
+        "인파이트"
       ]
     }
   },
-  "Foongus": {
-    "Common Battle Spot": {
+  "깜놀버슬": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Jolly",
+      "nature": "명랑",
       "ability": "",
       "item": "",
       "moves": [
         "",
         "",
-        "Feint Attack",
+        "속여때리기",
         ""
       ]
     }
   },
-  "Amoonguss": {
-    "Common Battle Spot": {
+  "뽀록나": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Relaxed",
+      "nature": "무사태평",
       "ability": "",
       "item": "",
       "moves": [
         "",
         "",
-        "Giga Drain",
+        "기가드레인",
         ""
       ]
     }
   },
-  "Jellicent": {
-    "Common Battle Spot": {
+  "탱탱겔": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Quiet",
-      "ability": "Water Absorb",
-      "item": "Sitrus Berry",
+      "nature": "냉정",
+      "ability": "축전",
+      "item": "자뭉열매",
       "moves": [
         "",
-        "Water Spout",
-        "Shadow Ball",
+        "해수스파우팅",
+        "섀도볼",
         ""
       ]
     }
   },
-  "Alomomola": {
-    "Common Battle Spot": {
+  "맘복치": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Careful",
+      "nature": "신중",
       "ability": "",
       "item": "",
       "moves": [
         "",
         "",
         "",
-        "Aqua Jet"
+        "아쿠아제트"
       ]
     }
   },
-  "Galvantula": {
-    "Common Battle Spot": {
+  "전툴라": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Timid",
+      "nature": "겁쟁이",
       "ability": "",
       "item": "",
       "moves": [
-        "Thunder",
-        "Bug Buzz",
-        "Volt Switch",
+        "번개",
+        "벌레의야단법석",
+        "볼트체인지",
         ""
       ]
     }
   },
-  "Ferrothorn": {
-    "Common Battle Spot": {
+  "너트령": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Brave",
+      "nature": "용감",
       "ability": "",
       "item": "",
       "moves": [
         "",
-        "Power Whip",
-        "Gyro Ball",
+        "파워휩",
+        "자이로볼",
         ""
       ]
     }
   },
-  "Charizard": {
-    "Common Battle Spot": {
+  "리자몽": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Modest",
-      "ability": "Blaze",
-      "item": "Charizardite Y",
+      "nature": "조심",
+      "ability": "맹화",
+      "item": "리자몽나이트Y",
       "moves": [
         "",
-        "Heat Wave",
-        "Solar Beam",
-        "Overheat"
+        "열풍",
+        "솔라빔",
+        "오버히트"
       ]
     }
   },
-  "Poliwag": {
-    "Common Battle Spot": {
+  "발챙이": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Timid",
-      "ability": "Swift Swim",
+      "nature": "겁쟁이",
+      "ability": "쓱쓱",
       "item": "",
       "moves": [
         "",
         "",
         "",
-        "Surf"
+        "파도타기"
       ]
     }
   },
-  "Klang": {
-    "Common Battle Spot": {
+  "기기어르": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Calm",
-      "ability": "Clear Body",
-      "item": "Eviolite",
+      "nature": "차분",
+      "ability": "클리어바디",
+      "item": "진화의휘석",
       "moves": [
-        "Gear Grind",
+        "기어소서",
         "",
         "",
         ""
       ]
     }
   },
-  "Klinklang": {
-    "Common Battle Spot": {
+  "기기기어르": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
-      "ability": "Clear Body",
-      "item": "Life Orb",
+      "nature": "고집",
+      "ability": "클리어바디",
+      "item": "생명의구슬",
       "moves": [
-        "Gear Grind",
-        "Wild Charge",
+        "기어소서",
+        "와일드볼트",
         "",
         ""
       ]
     }
   },
-  "Eelektrik": {
-    "Common Battle Spot": {
+  "저리릴": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Bold",
-      "ability": "Levitate",
-      "item": "Eviolite",
+      "nature": "대담",
+      "ability": "부유",
+      "item": "진화의휘석",
       "moves": [
-        "Acid Spray",
+        "애시드봄",
         "",
         "",
-        "Thunderbolt"
+        "10만볼트"
       ]
     }
   },
-  "Eelektross": {
-    "Common Battle Spot": {
+  "저리더프": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Quiet",
-      "ability": "Levitate",
-      "item": "Assault Vest",
+      "nature": "냉정",
+      "ability": "부유",
+      "item": "돌격조끼",
       "moves": [
-        "Flamethrower",
-        "Giga Drain",
-        "Thunderbolt",
-        "Volt Switch"
+        "화염방사",
+        "기가드레인",
+        "10만볼트",
+        "볼트체인지"
       ]
     }
   },
-  "Beheeyem": {
-    "Common Battle Spot": {
+  "벰크": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Bold",
+      "nature": "대담",
       "ability": "",
-      "item": "Sitrus Berry",
+      "item": "자뭉열매",
       "moves": [
-        "Psychic",
+        "사이코키네시스",
         "",
         "",
         ""
       ]
     }
   },
-  "Lampent": {
-    "Common Battle Spot": {
+  "램프라": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Relaxed",
-      "ability": "Flash Fire",
-      "item": "Eviolite",
+      "nature": "무사태평",
+      "ability": "타오르는불꽃",
+      "item": "진화의휘석",
       "moves": [
         "",
         "",
-        "Heat Wave",
-        "Shadow Ball"
+        "열풍",
+        "섀도볼"
       ]
     }
   },
-  "Chandelure": {
-    "Common Battle Spot": {
+  "샹델라": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Modest",
-      "ability": "Flash Fire",
+      "nature": "조심",
+      "ability": "타오르는불꽃",
       "item": "",
       "moves": [
-        "Shadow Ball",
-        "Heat Wave",
+        "섀도볼",
+        "열풍",
         "",
         ""
       ]
     }
   },
-  "Poliwhirl": {
-    "Common Battle Spot": {
+  "슈륙챙이": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Sassy",
-      "ability": "Swift Swim",
+      "nature": "건방",
+      "ability": "쓱쓱",
       "item": "",
       "moves": [
         "",
-        "Icy Wind",
+        "얼다바람",
         "",
-        "Surf"
+        "파도타기"
       ]
     }
   },
-  "Haxorus": {
-    "Common Battle Spot": {
+  "액스라이즈": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
-      "ability": "Mold Breaker",
-      "item": "Choice Scarf",
+      "nature": "고집",
+      "ability": "틀깨기",
+      "item": "구애스카프",
       "moves": [
-        "Earthquake",
-        "Poison Jab",
-        "Dragon Claw",
+        "지진",
+        "독찌르기",
+        "드래곤크루",
         ""
       ]
     }
   },
-  "Beartic": {
-    "Common Battle Spot": {
+  "툰베어": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
-      "ability": "Swift Swim",
-      "item": "Life Orb",
+      "nature": "고집",
+      "ability": "쓱쓱",
+      "item": "생명의구슬",
       "moves": [
-        "Icicle Crash",
+        "고드름떨구기",
         "",
-        "Rock Slide",
-        "Low Kick"
+        "스톤샤워",
+        "안다리걸기"
       ]
     }
   },
-  "Cryogonal": {
-    "Common Battle Spot": {
+  "프리지오": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Timid",
-      "ability": "Levitate",
-      "item": "Choice Scarf",
+      "nature": "겁쟁이",
+      "ability": "부유",
+      "item": "구애스카프",
       "moves": [
-        "Freeze-Dry",
-        "Flash Cannon",
-        "Water Pulse",
-        "Icy Wind"
+        "프리즈드라이",
+        "러스터캐논",
+        "물의파동",
+        "얼다바람"
       ]
     }
   },
-  "Accelgor": {
-    "Common Battle Spot": {
+  "어지리더": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Hasty",
+      "nature": "성급",
       "ability": "",
-      "item": "Lum Berry",
+      "item": "리샘열매",
       "moves": [
         "",
         "",
         "",
-        "Bug Buzz"
+        "벌레의야단법석"
       ]
     }
   },
-  "Stunfisk": {
-    "Common Battle Spot": {
+  "메더": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Calm",
+      "nature": "차분",
       "ability": "",
       "item": "",
       "moves": [
-        "Earth Power",
-        "Thunderbolt",
+        "대지의힘",
+        "10만볼트",
         "",
-        "Scald"
+        "열탕"
       ]
     }
   },
-  "Mienfoo": {
-    "Common Battle Spot": {
+  "비조푸": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Jolly",
+      "nature": "명랑",
       "ability": "",
-      "item": "Eviolite",
+      "item": "진화의휘석",
       "moves": [
         "",
-        "Drain Punch",
+        "드레인펀치",
         "",
-        "Fake Out"
+        "속이다"
       ]
     }
   },
-  "Poliwrath": {
-    "Common Battle Spot": {
+  "강챙이": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
-      "ability": "Swift Swim",
-      "item": "Expert Belt",
+      "nature": "고집",
+      "ability": "쓱쓱",
+      "item": "달인의띠",
       "moves": [
-        "Waterfall",
-        "Brick Break",
-        "Poison Jab",
-        "Earthquake"
+        "폭포오르기",
+        "깨뜨리다",
+        "독찌르기",
+        "지진"
       ]
     }
   },
-  "Mienshao": {
-    "Common Battle Spot": {
+  "비조도": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Jolly",
+      "nature": "명랑",
       "ability": "",
       "item": "",
       "moves": [
-        "Fake Out",
+        "속이다",
         "",
-        "Rock Slide",
-        "Low Kick"
+        "스톤샤워",
+        "안다리걸기"
       ]
     }
   },
-  "Druddigon": {
-    "Common Battle Spot": {
+  "크리만": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Brave",
-      "ability": "Sheer Force",
-      "item": "Life Orb",
+      "nature": "용감",
+      "ability": "우격다짐",
+      "item": "생명의구슬",
       "moves": [
-        "Dragon Claw",
-        "Crunch",
+        "드래곤크루",
+        "깨물어부수기",
         "",
-        "Rock Slide"
+        "스톤샤워"
       ]
     }
   },
-  "Golurk": {
-    "Common Battle Spot": {
+  "골루그": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
+      "nature": "고집",
       "ability": "",
-      "item": "Life Orb",
+      "item": "생명의구슬",
       "moves": [
-        "Dynamic Punch",
+        "폭발펀치",
         "",
-        "Earthquake",
-        "Phantom Force"
+        "지진",
+        "고스트다이브"
       ]
     }
   },
-  "Bisharp": {
-    "Common Battle Spot": {
+  "절각참": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
-      "ability": "Defiant",
-      "item": "Life Orb",
+      "nature": "고집",
+      "ability": "오기",
+      "item": "생명의구슬",
       "moves": [
-        "Sucker Punch",
-        "Iron Head",
-        "Knock Off",
+        "기습",
+        "아이언헤드",
+        "탁쳐서떨구기",
         ""
       ]
     }
   },
-  "Bouffalant": {
-    "Common Battle Spot": {
+  "버프론": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Brave",
-      "ability": "Reckless",
-      "item": "Choice Band",
+      "nature": "용감",
+      "ability": "이판사판",
+      "item": "구애머리띠",
       "moves": [
-        "Head Charge",
-        "Earthquake",
+        "아프로브레이크",
+        "지진",
         "",
-        "Rock Slide"
+        "스톤샤워"
       ]
     }
   },
-  "Braviary": {
-    "Common Battle Spot": {
+  "워글": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
-      "ability": "Defiant",
-      "item": "Choice Scarf",
+      "nature": "고집",
+      "ability": "오기",
+      "item": "구애스카프",
       "moves": [
-        "Brave Bird",
-        "Superpower",
-        "Rock Slide",
-        "U-turn"
+        "브레이브버드",
+        "엄청난힘",
+        "스톤샤워",
+        "유턴"
       ]
     }
   },
-  "Mandibuzz": {
-    "Common Battle Spot": {
+  "버랜지나": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Impish",
-      "ability": "Overcoat",
+      "nature": "장난꾸러기",
+      "ability": "방진",
       "item": "",
       "moves": [
-        "Foul Play",
+        "속임수",
         "",
         "",
         ""
       ]
     }
   },
-  "Durant": {
-    "Common Battle Spot": {
+  "아이앤트": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Jolly",
-      "ability": "Hustle",
-      "item": "Life Orb",
+      "nature": "명랑",
+      "ability": "의욕",
+      "item": "생명의구슬",
       "moves": [
-        "Iron Head",
-        "X-Scissor",
-        "Rock Slide",
+        "아이언헤드",
+        "시저크로스",
+        "스톤샤워",
         ""
       ]
     }
   },
-  "Hydreigon": {
-    "Common Battle Spot": {
+  "삼삼드래": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Modest",
-      "ability": "Levitate",
-      "item": "Choice Specs",
+      "nature": "조심",
+      "ability": "부유",
+      "item": "구애안경",
       "moves": [
-        "Dark Pulse",
-        "Draco Meteor",
-        "Earth Power",
-        "Flamethrower"
+        "악의파동",
+        "용성군",
+        "대지의힘",
+        "화염방사"
       ]
     }
   },
-  "Volcarona": {
-    "Common Battle Spot": {
+  "불카모스": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Bold",
+      "nature": "대담",
       "ability": "",
       "item": "",
       "moves": [
         "",
-        "Heat Wave",
-        "Bug Buzz",
+        "열풍",
+        "벌레의야단법석",
         ""
       ]
     }
   },
-  "Cobalion": {
-    "Common Battle Spot": {
+  "코바르온": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Jolly",
+      "nature": "명랑",
       "ability": "",
-      "item": "Life Orb",
+      "item": "생명의구슬",
       "moves": [
-        "Iron Head",
-        "Close Combat",
+        "아이언헤드",
+        "인파이트",
         "",
-        "Stone Edge"
+        "스톤에지"
       ]
     }
   },
-  "Terrakion": {
-    "Common Battle Spot": {
+  "테라키온": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Jolly",
+      "nature": "명랑",
       "ability": "",
-      "item": "Lum Berry",
+      "item": "리샘열매",
       "moves": [
-        "Rock Slide",
-        "Close Combat",
+        "스톤샤워",
+        "인파이트",
         "",
         ""
       ]
     }
   },
-  "Virizion": {
-    "Common Battle Spot": {
+  "비리디온": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Jolly",
+      "nature": "명랑",
       "ability": "",
-      "item": "Life Orb",
+      "item": "생명의구슬",
       "moves": [
-        "Close Combat",
-        "Leaf Blade",
+        "인파이트",
+        "리프블레이드",
         "",
-        "Stone Edge"
+        "스톤에지"
       ]
     }
   },
-  "Tornadus": {
-    "Common Battle Spot": {
+  "토네로스": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Timid",
+      "nature": "겁쟁이",
       "ability": "",
       "item": "",
       "moves": [
         "",
         "",
-        "Hurricane",
-        "Heat Wave"
+        "폭풍",
+        "열풍"
       ]
     }
   },
-  "Tornadus-T": {
-    "Common Battle Spot": {
+  "토네로스-영물": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Timid",
+      "nature": "겁쟁이",
       "ability": "",
-      "item": "Life Orb",
+      "item": "생명의구슬",
       "moves": [
-        "Hurricane",
+        "폭풍",
         "",
         "",
-        "Focus Blast"
+        "기합구슬"
       ]
     }
   },
-  "Thundurus": {
-    "Common Battle Spot": {
+  "볼트로스": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Timid",
+      "nature": "겁쟁이",
       "ability": "",
-      "item": "Sitrus Berry",
+      "item": "자뭉열매",
       "moves": [
-        "Thunderbolt",
+        "10만볼트",
         "",
         "",
         ""
       ]
     }
   },
-  "Thundurus-T": {
-    "Common Battle Spot": {
+  "볼트로스-영물": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Timid",
-      "ability": "Volt Absorb",
-      "item": "Choice Scarf",
+      "nature": "겁쟁이",
+      "ability": "축전",
+      "item": "구애스카프",
       "moves": [
         "",
-        "Thunderbolt",
-        "Volt Switch",
-        "Grass Knot"
+        "10만볼트",
+        "볼트체인지",
+        "풀묶기"
       ]
     }
   },
-  "Landorus": {
-    "Common Battle Spot": {
+  "랜드로스": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
-      "ability": "Sand Force",
-      "item": "Life Orb",
+      "nature": "고집",
+      "ability": "모래의힘",
+      "item": "생명의구슬",
       "moves": [
         "",
-        "Rock Slide",
-        "Earthquake",
-        "Earth Power"
+        "스톤샤워",
+        "지진",
+        "대지의힘"
       ]
     }
   },
-  "Landorus-T": {
-    "Common Battle Spot": {
+  "랜드로스-영물": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
-      "ability": "Intimidate",
-      "item": "Choice Scarf",
+      "nature": "고집",
+      "ability": "괴력집게",
+      "item": "구애스카프",
       "moves": [
-        "Earthquake",
-        "Rock Slide",
-        "Superpower",
-        "U-turn"
+        "지진",
+        "스톤샤워",
+        "엄청난힘",
+        "유턴"
       ]
     }
   },
-  "Alakazam": {
-    "Common Battle Spot": {
+  "후딘": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Timid",
+      "nature": "겁쟁이",
       "ability": "",
-      "item": "Alakazite",
+      "item": "후디나이트",
       "moves": [
-        "Psychic",
+        "사이코키네시스",
         "",
-        "Dazzling Gleam",
-        "Shadow Ball"
+        "매지컬샤인",
+        "섀도볼"
       ]
     }
   },
-  "Chesnaught": {
-    "Common Battle Spot": {
+  "브리가론": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
-      "ability": "Bulletproof",
-      "item": "Lum Berry",
+      "nature": "고집",
+      "ability": "방탄",
+      "item": "리샘열매",
       "moves": [
         "",
-        "Wood Hammer",
-        "Feint",
+        "우드해머",
+        "페인트",
         ""
       ]
     }
   },
-  "Braixen": {
-    "Common Battle Spot": {
+  "테르나": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Modest",
-      "ability": "Blaze",
-      "item": "Eviolite",
+      "nature": "조심",
+      "ability": "맹화",
+      "item": "진화의휘석",
       "moves": [
-        "Psyshock",
+        "사이코쇼크",
         "",
         "",
-        "Heat Wave"
+        "열풍"
       ]
     }
   },
-  "Delphox": {
-    "Common Battle Spot": {
+  "마폭시": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Timid",
-      "ability": "Blaze",
-      "item": "Expert Belt",
+      "nature": "겁쟁이",
+      "ability": "맹화",
+      "item": "달인의띠",
       "moves": [
         "",
-        "Psychic",
-        "Psyshock",
-        "Heat Wave"
+        "사이코키네시스",
+        "사이코쇼크",
+        "열풍"
       ]
     }
   },
-  "Greninja": {
-    "Common Battle Spot": {
+  "개굴닌자": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Timid",
-      "ability": "Protean",
-      "item": "Life Orb",
+      "nature": "겁쟁이",
+      "ability": "변환자재",
+      "item": "생명의구슬",
       "moves": [
-        "Ice Beam",
-        "Gunk Shot",
-        "Dark Pulse",
+        "냉동빔",
+        "더스트슈트",
+        "악의파동",
         ""
       ]
     }
   },
-  "Diggersby": {
-    "Common Battle Spot": {
+  "파르토": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
-      "ability": "Huge Power",
-      "item": "Choice Scarf",
+      "nature": "고집",
+      "ability": "천하장사",
+      "item": "구애스카프",
       "moves": [
-        "Earthquake",
-        "Rock Slide",
-        "Ice Punch",
-        "Return"
+        "지진",
+        "스톤샤워",
+        "냉동펀치",
+        "은혜갚기"
       ]
     }
   },
-  "Talonflame": {
-    "Common Battle Spot": {
+  "파이어로": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
+      "nature": "고집",
       "ability": "",
-      "item": "Life Orb",
+      "item": "생명의구슬",
       "moves": [
-        "Brave Bird",
-        "Flare Blitz",
+        "브레이브버드",
+        "플레어드라이브",
         "",
         ""
       ]
     }
   },
-  "Spewpa": {
-    "Common Battle Spot": {
+  "분떠도리": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Bold",
+      "nature": "대담",
       "ability": "",
-      "item": "Eviolite",
+      "item": "진화의휘석",
       "moves": [
         "",
         "",
@@ -5348,386 +5348,386 @@ var SETDEX_GLOBALLINK={
       ]
     }
   },
-  "Vivillon": {
-    "Common Battle Spot": {
+  "비비용": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Timid",
+      "nature": "겁쟁이",
       "ability": "",
       "item": "",
       "moves": [
-        "Hurricane",
+        "폭풍",
         "",
         "",
         ""
       ]
     }
   },
-  "Pyroar": {
-    "Common Battle Spot": {
+  "화염레오": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Timid",
-      "ability": "Unnerve",
+      "nature": "겁쟁이",
+      "ability": "긴장감",
       "item": "",
       "moves": [
-        "Hyper Voice",
+        "하이퍼보이스",
         "",
-        "Overheat",
-        "Dark Pulse"
+        "오버히트",
+        "악의파동"
       ]
     }
   },
-  "Floette": {
-    "Common Battle Spot": {
+  "플라엣테": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Calm",
+      "nature": "차분",
       "ability": "",
-      "item": "Eviolite",
+      "item": "진화의휘석",
       "moves": [
-        "Moonblast",
+        "문포스",
         "",
         "",
         ""
       ]
     }
   },
-  "Florges": {
-    "Common Battle Spot": {
+  "플라제스": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Timid",
+      "nature": "겁쟁이",
       "ability": "",
-      "item": "Choice Specs",
+      "item": "구애안경",
       "moves": [
-        "Moonblast",
-        "Psychic",
-        "Dazzling Gleam",
-        "Energy Ball"
+        "문포스",
+        "사이코키네시스",
+        "매지컬샤인",
+        "에너지볼"
       ]
     }
   },
-  "Gogoat": {
-    "Common Battle Spot": {
+  "고고트": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
-      "ability": "Sap Sipper",
+      "nature": "고집",
+      "ability": "초식",
       "item": "",
       "moves": [
-        "Horn Leech",
+        "우드호른",
         "",
         "",
         ""
       ]
     }
   },
-  "Pangoro": {
-    "Common Battle Spot": {
+  "부란다": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Brave",
-      "ability": "Iron Fist",
+      "nature": "용감",
+      "ability": "철주먹",
       "item": "",
       "moves": [
         "",
-        "Knock Off",
-        "Hammer Arm",
-        "Fire Punch"
+        "탁쳐서떨구기",
+        "암해머",
+        "불꽃펀치"
       ]
     }
   },
-  "Furfrou": {
-    "Common Battle Spot": {
+  "트리미앙": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
-      "ability": "Fur Coat",
-      "item": "Sitrus Berry",
+      "nature": "고집",
+      "ability": "퍼코트",
+      "item": "자뭉열매",
       "moves": [
         "",
-        "Return",
+        "은혜갚기",
         "",
-        "Snarl"
+        "바크아웃"
       ]
     }
   },
-  "Meowstic": {
-    "Common Battle Spot": {
+  "냐오닉스": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Timid",
+      "nature": "겁쟁이",
       "ability": "",
-      "item": "Colbur Berry",
+      "item": "마코열매",
       "moves": [
-        "Fake Out",
-        "Psychic",
+        "속이다",
+        "사이코키네시스",
         "",
-        "Thunderbolt"
+        "10만볼트"
       ]
     }
   },
-  "Machamp": {
-    "Common Battle Spot": {
+  "괴력몬": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
+      "nature": "고집",
       "ability": "",
-      "item": "Sitrus Berry",
+      "item": "자뭉열매",
       "moves": [
-        "Dynamic Punch",
-        "Stone Edge",
+        "폭발펀치",
+        "스톤에지",
         "",
         ""
       ]
     }
   },
-  "Doublade": {
-    "Common Battle Spot": {
+  "쌍검킬": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Brave",
+      "nature": "용감",
       "ability": "",
-      "item": "Eviolite",
+      "item": "진화의휘석",
       "moves": [
-        "Iron Head",
-        "Shadow Sneak",
+        "아이언헤드",
+        "야습",
         "",
         ""
       ]
     }
   },
-  "Aegislash": {
-    "Common Battle Spot": {
+  "킬가르도": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Quiet",
+      "nature": "냉정",
       "ability": "",
       "item": "",
       "moves": [
         "",
-        "Shadow Ball",
-        "Flash Cannon",
+        "섀도볼",
+        "러스터캐논",
         ""
       ]
     }
   },
-  "Spritzee": {
-    "Common Battle Spot": {
+  "슈쁘": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Relaxed",
+      "nature": "무사태평",
       "ability": "",
-      "item": "Eviolite",
+      "item": "진화의휘석",
       "moves": [
         "",
         "",
-        "Moonblast",
+        "문포스",
         ""
       ]
     }
   },
-  "Aromatisse": {
-    "Common Battle Spot": {
+  "프레프티르": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Relaxed",
+      "nature": "무사태평",
       "ability": "",
-      "item": "Leftovers",
+      "item": "먹다남은음식",
       "moves": [
         "",
-        "Moonblast",
+        "문포스",
         "",
         ""
       ]
     }
   },
-  "Slurpuff": {
-    "Common Battle Spot": {
+  "나루림": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
+      "nature": "고집",
       "ability": "",
-      "item": "Sitrus Berry",
+      "item": "자뭉열매",
       "moves": [
-        "Play Rough",
+        "치근거리기",
         "",
-        "Drain Punch",
+        "드레인펀치",
         ""
       ]
     }
   },
-  "Malamar": {
-    "Common Battle Spot": {
+  "칼라마네로": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
-      "ability": "Contrary",
-      "item": "Sitrus Berry",
+      "nature": "고집",
+      "ability": "심술꾸러기",
+      "item": "자뭉열매",
       "moves": [
-        "Superpower",
-        "Knock Off",
+        "엄청난힘",
+        "탁쳐서떨구기",
         "",
-        "Psycho Cut"
+        "사이코커터"
       ]
     }
   },
-  "Barbaracle": {
-    "Common Battle Spot": {
+  "거북손데스": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
-      "ability": "Tough Claws",
+      "nature": "고집",
+      "ability": "단단한발톱",
       "item": "",
       "moves": [
-        "Razor Shell",
+        "셸블레이드",
         "",
-        "Rock Slide",
+        "스톤샤워",
         ""
       ]
     }
   },
-  "Dragalge": {
-    "Common Battle Spot": {
+  "드래캄": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Modest",
-      "ability": "Adaptability",
-      "item": "Choice Specs",
+      "nature": "조심",
+      "ability": "적응력",
+      "item": "구애안경",
       "moves": [
-        "Draco Meteor",
-        "Sludge Bomb",
-        "Dragon Pulse",
-        "Hydro Pump"
+        "용성군",
+        "오물폭탄",
+        "용의파동",
+        "하이드로펌프"
       ]
     }
   },
-  "Clawitzer": {
-    "Common Battle Spot": {
+  "블로스터": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Modest",
-      "ability": "Mega Launcher",
-      "item": "Assault Vest",
+      "nature": "조심",
+      "ability": "메가런처",
+      "item": "돌격조끼",
       "moves": [
-        "Aura Sphere",
-        "Water Pulse",
-        "Dark Pulse",
-        "Ice Beam"
+        "파동탄",
+        "물의파동",
+        "악의파동",
+        "냉동빔"
       ]
     }
   },
-  "Heliolisk": {
-    "Common Battle Spot": {
+  "일레도리자드": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Timid",
-      "ability": "Solar Power",
-      "item": "Choice Specs",
+      "nature": "겁쟁이",
+      "ability": "선파워",
+      "item": "구애안경",
       "moves": [
-        "Thunderbolt",
-        "Hyper Voice",
-        "Volt Switch",
+        "10만볼트",
+        "하이퍼보이스",
+        "볼트체인지",
         ""
       ]
     }
   },
-  "Tyrunt": {
-    "Common Battle Spot": {
+  "티고라스": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Docile",
-      "ability": "Strong Jaw",
+      "nature": "온순",
+      "ability": "옹골찬턱",
       "item": "",
       "moves": [
         "",
-        "Dragon Claw",
+        "드래곤크루",
         "",
-        "Earthquake"
+        "지진"
       ]
     }
   },
-  "Tyrantrum": {
-    "Common Battle Spot": {
+  "견고라스": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
-      "ability": "Strong Jaw",
-      "item": "Choice Scarf",
+      "nature": "고집",
+      "ability": "옹골찬턱",
+      "item": "구애스카프",
       "moves": [
-        "Ice Fang",
-        "Rock Slide",
-        "Earthquake",
-        "Crunch"
+        "얼음엄니",
+        "스톤샤워",
+        "지진",
+        "깨물어부수기"
       ]
     }
   },
-  "Aurorus": {
-    "Common Battle Spot": {
+  "아마루르가": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Modest",
-      "ability": "Refrigerate",
-      "item": "Life Orb",
+      "nature": "조심",
+      "ability": "프리즈스킨",
+      "item": "생명의구슬",
       "moves": [
         "",
-        "Hyper Voice",
-        "Ancient Power",
-        "Freeze-Dry"
+        "하이퍼보이스",
+        "원시의힘",
+        "프리즈드라이"
       ]
     }
   },
-  "Sylveon": {
-    "Common Battle Spot": {
+  "님피아": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Modest",
-      "ability": "Pixilate",
-      "item": "Choice Specs",
+      "nature": "조심",
+      "ability": "페어리스킨",
+      "item": "구애안경",
       "moves": [
-        "Hyper Voice",
-        "Shadow Ball",
-        "Psyshock",
+        "하이퍼보이스",
+        "섀도볼",
+        "사이코쇼크",
         ""
       ]
     }
   },
-  "Hawlucha": {
-    "Common Battle Spot": {
+  "루차불": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Jolly",
+      "nature": "명랑",
       "ability": "",
       "item": "",
       "moves": [
         "",
         "",
         "",
-        "Acrobatics"
+        "애크러뱃"
       ]
     }
   },
-  "Dedenne": {
-    "Common Battle Spot": {
+  "데덴네": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Timid",
+      "nature": "겁쟁이",
       "ability": "",
-      "item": "Sitrus Berry",
+      "item": "자뭉열매",
       "moves": [
         "",
         "",
-        "Volt Switch",
+        "볼트체인지",
         ""
       ]
     }
   },
-  "Carbink": {
-    "Common Battle Spot": {
+  "멜리시": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Relaxed",
+      "nature": "무사태평",
       "ability": "",
       "item": "",
       "moves": [
@@ -5738,88 +5738,88 @@ var SETDEX_GLOBALLINK={
       ]
     }
   },
-  "Goomy": {
-    "Common Battle Spot": {
+  "미끄메라": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Modest",
+      "nature": "조심",
       "ability": "",
       "item": "",
       "moves": [
         "",
         "",
-        "Flail",
+        "바둥바둥",
         ""
       ]
     }
   },
-  "Goodra": {
-    "Common Battle Spot": {
+  "미끄래곤": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Modest",
-      "ability": "Sap Sipper",
-      "item": "Assault Vest",
+      "nature": "조심",
+      "ability": "초식",
+      "item": "돌격조끼",
       "moves": [
-        "Dragon Pulse",
-        "Thunderbolt",
-        "Fire Blast",
-        "Sludge Bomb"
+        "용의파동",
+        "10만볼트",
+        "불대문자",
+        "오물폭탄"
       ]
     }
   },
-  "Klefki": {
-    "Common Battle Spot": {
+  "클레피": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Bold",
+      "nature": "대담",
       "ability": "",
       "item": "",
       "moves": [
         "",
-        "Foul Play",
+        "속임수",
         "",
         ""
       ]
     }
   },
-  "Trevenant": {
-    "Common Battle Spot": {
+  "대로트": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Sassy",
+      "nature": "건방",
       "ability": "",
-      "item": "Sitrus Berry",
+      "item": "자뭉열매",
       "moves": [
         "",
         "",
         "",
-        "Horn Leech"
+        "우드호른"
       ]
     }
   },
-  "Victreebel": {
-    "Common Battle Spot": {
+  "우츠보트": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Modest",
-      "ability": "Chlorophyll",
-      "item": "Life Orb",
+      "nature": "조심",
+      "ability": "엽록소",
+      "item": "생명의구슬",
       "moves": [
-        "Sludge Bomb",
-        "Weather Ball",
+        "오물폭탄",
+        "웨더볼",
         "",
-        "Solar Beam"
+        "솔라빔"
       ]
     }
   },
-  "Gourgeist-Average": {
-    "Common Battle Spot": {
+  "펌킨인-중": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Timid",
+      "nature": "겁쟁이",
       "ability": "",
-      "item": "Choice Scarf",
+      "item": "구애스카프",
       "moves": [
         "",
         "",
@@ -5828,13 +5828,13 @@ var SETDEX_GLOBALLINK={
       ]
     }
   },
-  "Gourgeist-Small": {
-    "Common Battle Spot": {
+  "펌킨인-소": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Jolly",
+      "nature": "명랑",
       "ability": "",
-      "item": "Leftovers",
+      "item": "먹다남은음식",
       "moves": [
         "",
         "",
@@ -5843,133 +5843,133 @@ var SETDEX_GLOBALLINK={
       ]
     }
   },
-  "Gourgeist-Large": {
-    "Common Battle Spot": {
+  "펌킨인-대": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Jolly",
+      "nature": "명랑",
       "ability": "",
-      "item": "Choice Scarf",
+      "item": "구애스카프",
       "moves": [
         "",
-        "Phantom Force",
+        "고스트다이브",
         "",
-        "Seed Bomb"
+        "씨폭탄"
       ]
     }
   },
-  "Gourgeist-Super": {
-    "Common Battle Spot": {
+  "펌킨인-특대": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Impish",
+      "nature": "장난꾸러기",
       "ability": "",
       "item": "",
       "moves": [
         "",
-        "Seed Bomb",
+        "씨폭탄",
         "",
         ""
       ]
     }
   },
-  "Avalugg": {
-    "Common Battle Spot": {
+  "크레베이스": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Impish",
+      "nature": "장난꾸러기",
       "ability": "",
       "item": "",
       "moves": [
-        "Avalanche",
+        "눈사태",
         "",
         "",
-        "Earthquake"
+        "지진"
       ]
     }
   },
-  "Noivern": {
-    "Common Battle Spot": {
+  "음번": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Timid",
+      "nature": "겁쟁이",
       "ability": "",
       "item": "",
       "moves": [
-        "Draco Meteor",
+        "용성군",
         "",
-        "Air Slash",
+        "에어슬래시",
         ""
       ]
     }
   },
-  "Tentacruel": {
-    "Common Battle Spot": {
+  "독파리": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Modest",
-      "ability": "Rain Dish",
-      "item": "Black Sludge",
+      "nature": "조심",
+      "ability": "젖은접시",
+      "item": "검은진흙",
       "moves": [
-        "Sludge Bomb",
+        "오물폭탄",
         "",
-        "Scald",
-        "Ice Beam"
+        "열탕",
+        "냉동빔"
       ]
     }
   },
-  "Golem": {
-    "Common Battle Spot": {
+  "딱구리": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Brave",
+      "nature": "용감",
       "ability": "",
-      "item": "Choice Band",
+      "item": "구애머리띠",
       "moves": [
-        "Earthquake",
-        "Rock Slide",
-        "Explosion",
-        "Rock Tomb"
+        "지진",
+        "스톤샤워",
+        "대폭발",
+        "암석봉인"
       ]
     }
   },
-  "Rapidash": {
-    "Common Battle Spot": {
+  "날쌩마": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Jolly",
-      "ability": "Flash Fire",
-      "item": "Choice Band",
+      "nature": "명랑",
+      "ability": "타오르는불꽃",
+      "item": "구애머리띠",
       "moves": [
-        "Flare Blitz",
-        "Drill Run",
-        "Wild Charge",
-        "Megahorn"
+        "플레어드라이브",
+        "드릴라이너",
+        "와일드볼트",
+        "메가폰"
       ]
     }
   },
-  "Slowbro": {
-    "Common Battle Spot": {
+  "야도란": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Bold",
+      "nature": "대담",
       "ability": "",
-      "item": "Slowbronite",
+      "item": "야도란나이트",
       "moves": [
-        "Scald",
+        "열탕",
         "",
         "",
-        "Ice Beam"
+        "냉동빔"
       ]
     }
   },
-  "Magnemite": {
-    "Common Battle Spot": {
+  "코일": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Bold",
+      "nature": "대담",
       "ability": "",
-      "item": "Oran Berry",
+      "item": "오랭열매",
       "moves": [
         "",
         "",
@@ -5978,166 +5978,166 @@ var SETDEX_GLOBALLINK={
       ]
     }
   },
-  "Magneton": {
-    "Common Battle Spot": {
+  "레어코일": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Timid",
+      "nature": "겁쟁이",
       "ability": "",
-      "item": "Choice Scarf",
+      "item": "구애스카프",
       "moves": [
-        "Flash Cannon",
+        "러스터캐논",
         "",
-        "Volt Switch",
-        "Thunderbolt"
+        "볼트체인지",
+        "10만볼트"
       ]
     }
   },
-  "Farfetch'd": {
-    "Common Battle Spot": {
+  "파오리": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Impish",
+      "nature": "장난꾸러기",
       "ability": "",
-      "item": "Stick",
+      "item": "대파",
       "moves": [
         "",
-        "Feint",
+        "페인트",
         "",
         ""
       ]
     }
   },
-  "Seel": {
-    "Common Battle Spot": {
+  "쥬쥬": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Relaxed",
-      "ability": "Ice Body",
-      "item": "Eviolite",
+      "nature": "무사태평",
+      "ability": "아이스바디",
+      "item": "진화의휘석",
       "moves": [
         "",
-        "Fake Out",
+        "속이다",
         "",
         ""
       ]
     }
   },
-  "Dewgong": {
-    "Common Battle Spot": {
+  "쥬레곤": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Calm",
-      "ability": "Thick Fat",
-      "item": "Assault Vest",
+      "nature": "차분",
+      "ability": "두꺼운지방",
+      "item": "돌격조끼",
       "moves": [
-        "Fake Out",
-        "Icy Wind",
+        "속이다",
+        "얼다바람",
         "",
-        "Ice Beam"
+        "냉동빔"
       ]
     }
   },
-  "Muk": {
-    "Common Battle Spot": {
+  "질뻐기": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Adamant",
+      "nature": "고집",
       "ability": "",
-      "item": "Black Sludge",
+      "item": "검은진흙",
       "moves": [
         "",
-        "Shadow Sneak",
-        "Fire Punch",
-        "Gunk Shot"
+        "야습",
+        "불꽃펀치",
+        "더스트슈트"
       ]
     }
   },
-  "Blastoise": {
-    "Common Battle Spot": {
+  "거북왕": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Modest",
-      "ability": "Torrent",
-      "item": "Blastoisinite",
+      "nature": "조심",
+      "ability": "급류",
+      "item": "거북왕나이트",
       "moves": [
-        "Aura Sphere",
-        "Water Spout",
+        "파동탄",
+        "해수스파우팅",
         "",
-        "Dark Pulse"
+        "악의파동"
       ]
     }
   },
-  "Cloyster": {
-    "Common Battle Spot": {
+  "파르셀": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Jolly",
-      "ability": "Skill Link",
+      "nature": "명랑",
+      "ability": "스킬링크",
       "item": "",
       "moves": [
-        "Icicle Spear",
-        "Rock Blast",
-        "Ice Shard",
+        "고드름침",
+        "락블레스트",
+        "얼음뭉치",
         ""
       ]
     }
   },
-  "Haunter": {
-    "Common Battle Spot": {
+  "고우스트": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Calm",
-      "ability": "Levitate",
-      "item": "Eviolite",
+      "nature": "차분",
+      "ability": "부유",
+      "item": "진화의휘석",
       "moves": [
-        "Shadow Ball",
+        "섀도볼",
         "",
         "",
         ""
       ]
     }
   },
-  "Gengar": {
-    "Common Battle Spot": {
+  "팬텀": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Timid",
-      "ability": "Levitate",
+      "nature": "겁쟁이",
+      "ability": "부유",
       "item": "",
       "moves": [
-        "Sludge Bomb",
+        "오물폭탄",
         "",
-        "Shadow Ball",
+        "섀도볼",
         ""
       ]
     }
   },
-  "Hypno": {
-    "Common Battle Spot": {
+  "슬리퍼": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Relaxed",
+      "nature": "무사태평",
       "ability": "",
       "item": "",
       "moves": [
         "",
         "",
-        "Psychic",
+        "사이코키네시스",
         ""
       ]
     }
   },
-  "Kingler": {
-    "Common Battle Spot": {
+  "킹크랩": {
+    "일반 배틀스폿": {
       "level": 50,
       "evs": {},
-      "nature": "Jolly",
-      "ability": "Hyper Cutter",
+      "nature": "명랑",
+      "ability": "괴력집게",
       "item": "",
       "moves": [
         "",
-        "Crabhammer",
+        "찝게햄머",
         "",
         ""
       ]

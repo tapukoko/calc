@@ -1,6 +1,6 @@
-var SETDEX_NUGGETBRIDGE={
-  "Salamence": {
-    "DaWoblefet's Winter 2015 Salamence": {
+﻿var SETDEX_NUGGETBRIDGE={
+  "보만다": {
+    "DaWoblefet의 2015 겨울 보만다": {
       "level": 50,
       "evs": {
         "hp": "52",
@@ -9,70 +9,70 @@ var SETDEX_NUGGETBRIDGE={
         "sd": "84",
         "sp": "196"
       },
-      "nature": "Jolly",
-      "ability": "Intimidate",
-      "item": "Salamencite",
+      "nature": "명랑",
+      "ability": "괴력집게",
+      "item": "보만다나이트",
       "moves": [
-        "Frustration",
+        "화풀이",
         "",
         "",
         ""
       ]
     },
-    "JoeDaPr0's Winter 2015 Salamence": {
+    "JoeDaPr0의 2015 겨울 보만다": {
       "level": 50,
       "evs": {
         "hp": "4",
         "at": "252",
         "sp": "252"
       },
-      "nature": "Adamant",
-      "ability": "Intimidate",
-      "item": "Salamencite",
+      "nature": "고집",
+      "ability": "괴력집게",
+      "item": "보만다나이트",
       "moves": [
         "",
-        "Double-Edge",
+        "이판사판태클",
         "",
-        "Rock Slide"
+        "스톤샤워"
       ]
     },
-    "conan's Winter 2015 Salamence": {
+    "conan의 2015 겨울 보만다": {
       "level": 50,
       "evs": {
         "hp": "76",
         "at": "244",
         "sp": "188"
       },
-      "nature": "Jolly",
-      "ability": "Intimidate",
-      "item": "Salamencite",
+      "nature": "명랑",
+      "ability": "괴력집게",
+      "item": "보만다나이트",
       "moves": [
-        "Double-Edge",
+        "이판사판태클",
         "",
         "",
         ""
       ]
     },
-    "Fatum's Winter 2015 Aschenputtel": {
+    "Fatum의 2015 겨울 Aschenputtel": {
       "level": 50,
       "evs": {
         "hp": "4",
         "at": "252",
         "sp": "252"
       },
-      "nature": "Jolly",
-      "ability": "Intimidate",
-      "item": "Salamencite",
+      "nature": "명랑",
+      "ability": "괴력집게",
+      "item": "보만다나이트",
       "moves": [
-        "Double-Edge",
-        "Earthquake",
+        "이판사판태클",
+        "지진",
         "",
         ""
       ]
     }
   },
-  "Clefable": {
-    "DaWoblefet's Winter 2015 Clefable": {
+  "픽시": {
+    "DaWoblefet의 2015 겨울 삐삐": {
       "level": 50,
       "evs": {
         "hp": "244",
@@ -84,17 +84,17 @@ var SETDEX_NUGGETBRIDGE={
       "ivs": {
         "at": "1"
       },
-      "nature": "Bold",
-      "ability": "Unaware",
-      "item": "Sitrus Berry",
+      "nature": "대담",
+      "ability": "천진",
+      "item": "자뭉열매",
       "moves": [
         "",
-        "Ice Beam",
+        "냉동빔",
         "",
         ""
       ]
     },
-    "pokebeys14's Winter 2015 Clefable": {
+    "pokebeys14의 2015 겨울 삐삐": {
       "level": 50,
       "evs": {
         "hp": "252",
@@ -103,108 +103,108 @@ var SETDEX_NUGGETBRIDGE={
         "sd": "68",
         "sp": "4"
       },
-      "nature": "Bold",
-      "ability": "Unaware",
-      "item": "Sitrus Berry",
+      "nature": "대담",
+      "ability": "천진",
+      "item": "자뭉열매",
       "moves": [
         "",
-        "Ice Beam",
+        "냉동빔",
         "",
         ""
       ]
     }
   },
-  "Bisharp": {
-    "DaWoblefet's Winter 2015 Bisharp": {
+  "절각참": {
+    "DaWoblefet의 2015 겨울 절각참": {
       "level": 50,
       "evs": {
         "hp": "4",
         "at": "252",
         "sp": "252"
       },
-      "nature": "Adamant",
-      "ability": "Defiant",
+      "nature": "고집",
+      "ability": "오기",
       "item": "",
       "moves": [
-        "Sucker Punch",
-        "Knock Off",
-        "Iron Head",
+        "기습",
+        "탁쳐서떨구기",
+        "아이언헤드",
         ""
       ]
     },
-    "DylanxArsenal's Winter 2015 Bisharp": {
+    "DylanxArsenal의 2015 겨울 절각참": {
       "level": 50,
       "evs": {
         "at": "252",
         "sd": "4",
         "sp": "252"
       },
-      "nature": "Adamant",
-      "ability": "Defiant",
-      "item": "Life Orb",
+      "nature": "고집",
+      "ability": "오기",
+      "item": "생명의구슬",
       "moves": [
-        "Sucker Punch",
-        "Iron Head",
-        "Knock Off",
+        "기습",
+        "아이언헤드",
+        "탁쳐서떨구기",
         ""
       ]
     },
-    "amr97's Winter 2015 Smoky Thrill": {
+    "amr97의 2015 겨울 Smoky Thrill": {
       "level": 50,
       "evs": {
         "hp": "4",
         "at": "252",
         "sp": "252"
       },
-      "nature": "Adamant",
-      "ability": "Defiant",
-      "item": "Life Orb",
+      "nature": "고집",
+      "ability": "오기",
+      "item": "생명의구슬",
       "moves": [
-        "Sucker Punch",
-        "Iron Head",
-        "Assurance",
+        "기습",
+        "아이언헤드",
+        "승부굳히기",
         ""
       ]
     }
   },
-  "Virizion": {
-    "DaWoblefet's Winter 2015 Virizion": {
+  "비리디온": {
+    "DaWoblefet의 2015 겨울 비리디온": {
       "level": 50,
       "evs": {
         "at": "252",
         "df": "4",
         "sp": "252"
       },
-      "nature": "Jolly",
+      "nature": "명랑",
       "ability": "",
-      "item": "Expert Belt",
+      "item": "달인의띠",
       "moves": [
-        "Close Combat",
-        "Leaf Blade",
+        "인파이트",
+        "리프블레이드",
         "",
         ""
       ]
     },
-    "IoriYagami's Winter 2015 Midori": {
+    "IoriYagami의 2015 겨울 Midori": {
       "level": 50,
       "evs": {
         "hp": "4",
         "at": "252",
         "sp": "252"
       },
-      "nature": "Jolly",
+      "nature": "명랑",
       "ability": "",
-      "item": "Lum Berry",
+      "item": "리샘열매",
       "moves": [
-        "Close Combat",
-        "Leaf Blade",
+        "인파이트",
+        "리프블레이드",
         "",
         ""
       ]
     }
   },
-  "Heatran": {
-    "DaWoblefet's Winter 2015 Heatran": {
+  "히드런": {
+    "DaWoblefet의 2015 겨울 히드런": {
       "level": 50,
       "evs": {
         "hp": "132",
@@ -213,17 +213,17 @@ var SETDEX_NUGGETBRIDGE={
         "sd": "12",
         "sp": "212"
       },
-      "nature": "Modest",
-      "ability": "Flash Fire",
-      "item": "Chople Berry",
+      "nature": "조심",
+      "ability": "타오르는불꽃",
+      "item": "로플열매",
       "moves": [
-        "Heat Wave",
-        "Earth Power",
+        "열풍",
+        "대지의힘",
         "",
         ""
       ]
     },
-    "IoriYagami's Winter 2015 Heatran": {
+    "IoriYagami의 2015 겨울 히드런": {
       "level": 50,
       "evs": {
         "hp": "244",
@@ -232,17 +232,17 @@ var SETDEX_NUGGETBRIDGE={
         "sd": "4",
         "sp": "68"
       },
-      "nature": "Modest",
-      "ability": "Flash Fire",
-      "item": "Leftovers",
+      "nature": "조심",
+      "ability": "타오르는불꽃",
+      "item": "먹다남은음식",
       "moves": [
         "",
         "",
-        "Heat Wave",
-        "Earth Power"
+        "열풍",
+        "대지의힘"
       ]
     },
-    "Keonspy's Winter 2015 Heatran": {
+    "Keonspy의 2015 겨울 히드런": {
       "level": 50,
       "evs": {
         "hp": "232",
@@ -250,53 +250,53 @@ var SETDEX_NUGGETBRIDGE={
         "sa": "60",
         "sd": "112"
       },
-      "nature": "Modest",
-      "ability": "Flash Fire",
-      "item": "Leftovers",
+      "nature": "조심",
+      "ability": "타오르는불꽃",
+      "item": "먹다남은음식",
       "moves": [
-        "Overheat",
-        "Earth Power",
+        "오버히트",
+        "대지의힘",
         "",
         ""
       ]
     },
-    "JoeDaPr0's Winter 2015 Heatran": {
+    "JoeDaPr0의 2015 겨울 히드런": {
       "level": 50,
       "evs": {
         "hp": "252",
         "df": "4",
         "sa": "252"
       },
-      "nature": "Modest",
-      "ability": "Flash Fire",
-      "item": "Life Orb",
+      "nature": "조심",
+      "ability": "타오르는불꽃",
+      "item": "생명의구슬",
       "moves": [
-        "Flash Cannon",
-        "Heat Wave",
-        "Earth Power",
+        "러스터캐논",
+        "열풍",
+        "대지의힘",
         ""
       ]
     },
-    "Life Orb's Winter 2015 Heatran": {
+    "Life Orb의 2015 겨울 히드런": {
       "level": 50,
       "evs": {
         "hp": "252",
         "df": "168",
         "sa": "68"
       },
-      "nature": "Modest",
-      "ability": "Flash Fire",
-      "item": "Shuca Berry",
+      "nature": "조심",
+      "ability": "타오르는불꽃",
+      "item": "슈캐열매",
       "moves": [
-        "Heat Wave",
-        "Flash Cannon",
-        "Earth Power",
+        "열풍",
+        "러스터캐논",
+        "대지의힘",
         ""
       ]
     }
   },
-  "Suicune": {
-    "DaWoblefet's Winter 2015 Suicune": {
+  "스이쿤": {
+    "DaWoblefet의 2015 겨울 스이쿤": {
       "level": 50,
       "evs": {
         "hp": "252",
@@ -308,17 +308,17 @@ var SETDEX_NUGGETBRIDGE={
       "ivs": {
         "at": "0"
       },
-      "nature": "Bold",
+      "nature": "대담",
       "ability": "",
       "item": "",
       "moves": [
-        "Scald",
-        "Ice Beam",
+        "열탕",
+        "냉동빔",
         "",
         ""
       ]
     },
-    "NinjaSyao's Winter 2015 Teran": {
+    "NinjaSyao의 2015 겨울 Teran": {
       "level": 50,
       "evs": {
         "hp": "252",
@@ -327,36 +327,36 @@ var SETDEX_NUGGETBRIDGE={
         "sd": "4",
         "sp": "140"
       },
-      "nature": "Bold",
+      "nature": "대담",
       "ability": "",
-      "item": "Assault Vest",
+      "item": "돌격조끼",
       "moves": [
-        "Scald",
-        "Ice Beam",
-        "Icy Wind",
-        "Snarl"
+        "열탕",
+        "냉동빔",
+        "얼다바람",
+        "바크아웃"
       ]
     }
   },
-  "Rotom-H": {
-    "pokebeys14's Winter 2015 Rotom-Heat": {
+  "히트로토무": {
+    "pokebeys14의 2015 겨울 히트로토무": {
       "level": 50,
       "evs": {
         "hp": "92",
         "sa": "252",
         "sp": "164"
       },
-      "nature": "Modest",
-      "ability": "Levitate",
-      "item": "Life Orb",
+      "nature": "조심",
+      "ability": "부유",
+      "item": "생명의구슬",
       "moves": [
-        "Thunderbolt",
-        "Overheat",
-        "Hidden Power Ice",
+        "10만볼트",
+        "오버히트",
+        "잠재파워-얼음",
         ""
       ]
     },
-    "NinjaSyao's Winter 2015 Lunar": {
+    "NinjaSyao의 2015 겨울 Lunar": {
       "level": 50,
       "evs": {
         "hp": "236",
@@ -365,17 +365,17 @@ var SETDEX_NUGGETBRIDGE={
         "sd": "4",
         "sp": "164"
       },
-      "nature": "Modest",
-      "ability": "Levitate",
-      "item": "Safety Goggles",
+      "nature": "조심",
+      "ability": "부유",
+      "item": "방진고글",
       "moves": [
-        "Overheat",
-        "Thunderbolt",
+        "오버히트",
+        "10만볼트",
         "",
         ""
       ]
     },
-    "amr97's Winter 2015 Smile Taisou": {
+    "amr97의 2015 겨울 Smile Taisou": {
       "level": 50,
       "evs": {
         "hp": "252",
@@ -384,19 +384,19 @@ var SETDEX_NUGGETBRIDGE={
         "sd": "4",
         "sp": "140"
       },
-      "nature": "Modest",
-      "ability": "Levitate",
-      "item": "Safety Goggles",
+      "nature": "조심",
+      "ability": "부유",
+      "item": "방진고글",
       "moves": [
-        "Thunderbolt",
-        "Overheat",
+        "10만볼트",
+        "오버히트",
         "",
         ""
       ]
     }
   },
-  "Ferrothorn": {
-    "pokebeys14's Winter 2015 Ferrothorn": {
+  "너트령": {
+    "pokebeys14의 2015 겨울 너트령": {
       "level": 50,
       "evs": {
         "hp": "252",
@@ -406,17 +406,17 @@ var SETDEX_NUGGETBRIDGE={
       "ivs": {
         "sp": "0"
       },
-      "nature": "Brave",
+      "nature": "용감",
       "ability": "",
-      "item": "Lum Berry",
+      "item": "리샘열매",
       "moves": [
-        "Power Whip",
+        "파워휩",
         "",
         "",
-        "Gyro Ball"
+        "자이로볼"
       ]
     },
-    "Level 51's Winter 2015 Free Hugs": {
+    "Level 51의 2015 겨울 Free Hugs": {
       "level": 50,
       "evs": {
         "hp": "252",
@@ -426,38 +426,38 @@ var SETDEX_NUGGETBRIDGE={
       "ivs": {
         "sp": "0"
       },
-      "nature": "Relaxed",
+      "nature": "무사태평",
       "ability": "",
-      "item": "Leftovers",
+      "item": "먹다남은음식",
       "moves": [
-        "Gyro Ball",
-        "Power Whip",
+        "자이로볼",
+        "파워휩",
         "",
         ""
       ]
     }
   },
-  "Mawile": {
-    "NinjaSyao's Winter 2015 Marina": {
+  "입치트": {
+    "NinjaSyao의 2015 겨울 Marina": {
       "level": 50,
       "evs": {
         "hp": "252",
         "at": "204",
         "sp": "52"
       },
-      "nature": "Adamant",
-      "ability": "Intimidate",
-      "item": "Mawilite",
+      "nature": "고집",
+      "ability": "괴력집게",
+      "item": "입치트나이트",
       "moves": [
-        "Play Rough",
-        "Iron Head",
-        "Sucker Punch",
+        "치근거리기",
+        "아이언헤드",
+        "기습",
         ""
       ]
     }
   },
-  "Trevenant": {
-    "NinjaSyao's Winter 2015 Calina": {
+  "대로트": {
+    "NinjaSyao의 2015 겨울 Calina": {
       "level": 50,
       "evs": {
         "hp": "252",
@@ -466,19 +466,19 @@ var SETDEX_NUGGETBRIDGE={
         "sd": "76",
         "sp": "4"
       },
-      "nature": "Adamant",
+      "nature": "고집",
       "ability": "",
-      "item": "Sitrus Berry",
+      "item": "자뭉열매",
       "moves": [
-        "Wood Hammer",
+        "우드해머",
         "",
         "",
         ""
       ]
     }
   },
-  "Zapdos": {
-    "NinjaSyao's Winter 2015 Merco": {
+  "썬더": {
+    "NinjaSyao의 2015 겨울 Merco": {
       "level": 50,
       "evs": {
         "hp": "252",
@@ -491,19 +491,19 @@ var SETDEX_NUGGETBRIDGE={
         "at": "4",
         "df": "30"
       },
-      "nature": "Modest",
+      "nature": "조심",
       "ability": "",
-      "item": "Choice Specs",
+      "item": "구애안경",
       "moves": [
-        "Thunderbolt",
-        "Heat Wave",
-        "Hidden Power Ice",
-        "Volt Switch"
+        "10만볼트",
+        "열풍",
+        "잠재파워-얼음",
+        "볼트체인지"
       ]
     }
   },
-  "Terrakion": {
-    "NinjaSyao's Winter 2015 Tarus": {
+  "테라키온": {
+    "NinjaSyao의 2015 겨울 Tarus": {
       "level": 50,
       "evs": {
         "hp": "44",
@@ -512,70 +512,70 @@ var SETDEX_NUGGETBRIDGE={
         "sd": "4",
         "sp": "236"
       },
-      "nature": "Jolly",
+      "nature": "명랑",
       "ability": "",
-      "item": "Lum Berry",
+      "item": "리샘열매",
       "moves": [
-        "Rock Slide",
-        "Close Combat",
-        "Double Kick",
+        "스톤샤워",
+        "인파이트",
+        "두번치기",
         ""
       ]
     },
-    "conan's Winter 2015 Terrakion": {
+    "conan의 2015 겨울 테라키온": {
       "level": 50,
       "evs": {
         "hp": "4",
         "at": "252",
         "sp": "252"
       },
-      "nature": "Jolly",
+      "nature": "명랑",
       "ability": "",
-      "item": "Lum Berry",
+      "item": "리샘열매",
       "moves": [
-        "Close Combat",
-        "Rock Slide",
+        "인파이트",
+        "스톤샤워",
         "",
-        "Earthquake"
+        "지진"
       ]
     },
-    "rapha's Winter 2015 Terrakion": {
+    "rapha의 2015 겨울 테라키온": {
       "level": 50,
       "evs": {
         "hp": "4",
         "at": "252",
         "sp": "252"
       },
-      "nature": "Jolly",
+      "nature": "명랑",
       "ability": "",
-      "item": "Lum Berry",
+      "item": "리샘열매",
       "moves": [
-        "Close Combat",
-        "Rock Slide",
-        "Double Kick",
+        "인파이트",
+        "스톤샤워",
+        "두번치기",
         ""
       ]
     },
-    "KellsterCartier's Winter 2015 Terrakion": {
+    "KellsterCartier의 2015 겨울 테라키온": {
       "level": 50,
       "evs": {
         "hp": "116",
         "at": "140",
         "sp": "252"
       },
-      "nature": "Jolly",
+      "nature": "명랑",
       "ability": "",
-      "item": "Lum Berry",
+      "item": "리샘열매",
       "moves": [
-        "Close Combat",
-        "Rock Slide",
+        "인파이트",
+        "스톤샤워",
         "",
         ""
       ]
     }
   },
-  "Metagross": {
-    "MajorBowman's Winter 2015 Metagross": {
+  "메타그로스": {
+    "MajorBowman의 2015 겨울 메타그로스": {
       "level": 50,
       "evs": {
         "hp": "44",
@@ -584,17 +584,17 @@ var SETDEX_NUGGETBRIDGE={
         "sd": "4",
         "sp": "252"
       },
-      "nature": "Jolly",
-      "ability": "Clear Body",
-      "item": "Metagrossite",
+      "nature": "명랑",
+      "ability": "클리어바디",
+      "item": "메타그로스나이트",
       "moves": [
-        "Iron Head",
-        "Zen Headbutt",
+        "아이언헤드",
+        "사념의박치기",
         "",
         ""
       ]
     },
-    "rapha's Winter 2015 Metagross": {
+    "rapha의 2015 겨울 메타그로스": {
       "level": 50,
       "evs": {
         "hp": "252",
@@ -603,53 +603,53 @@ var SETDEX_NUGGETBRIDGE={
         "sd": "36",
         "sp": "180"
       },
-      "nature": "Adamant",
-      "ability": "Clear Body",
-      "item": "Metagrossite",
+      "nature": "고집",
+      "ability": "클리어바디",
+      "item": "메타그로스나이트",
       "moves": [
-        "Iron Head",
-        "Zen Headbutt",
+        "아이언헤드",
+        "사념의박치기",
         "",
         ""
       ]
     },
-    "KellsterCartier's Winter 2015 Metagross": {
+    "KellsterCartier의 2015 겨울 메타그로스": {
       "level": 50,
       "evs": {
         "hp": "4",
         "at": "252",
         "sp": "252"
       },
-      "nature": "Jolly",
-      "ability": "Clear Body",
-      "item": "Metagrossite",
+      "nature": "명랑",
+      "ability": "클리어바디",
+      "item": "메타그로스나이트",
       "moves": [
-        "Bullet Punch",
-        "Zen Headbutt",
-        "Ice Punch",
+        "불릿펀치",
+        "사념의박치기",
+        "냉동펀치",
         ""
       ]
     },
-    "Guru Fernandez's Winter 2015 REGIS MK-V": {
+    "Guru Fernandez의 2015 겨울 REGIS MK-V": {
       "level": 50,
       "evs": {
         "hp": "156",
         "at": "156",
         "sp": "196"
       },
-      "nature": "Jolly",
-      "ability": "Clear Body",
-      "item": "Metagrossite",
+      "nature": "명랑",
+      "ability": "클리어바디",
+      "item": "메타그로스나이트",
       "moves": [
-        "Iron Head",
-        "Zen Headbutt",
-        "Ice Punch",
+        "아이언헤드",
+        "사념의박치기",
+        "냉동펀치",
         ""
       ]
     }
   },
-  "Hydreigon": {
-    "MajorBowman's Winter 2015 Hydreigon": {
+  "삼삼드래": {
+    "MajorBowman의 2015 겨울 삼삼드래": {
       "level": 50,
       "evs": {
         "hp": "60",
@@ -658,51 +658,51 @@ var SETDEX_NUGGETBRIDGE={
         "sd": "4",
         "sp": "132"
       },
-      "nature": "Modest",
-      "ability": "Levitate",
-      "item": "Choice Specs",
+      "nature": "조심",
+      "ability": "부유",
+      "item": "구애안경",
       "moves": [
-        "Draco Meteor",
-        "Dark Pulse",
-        "Earth Power",
-        "Flamethrower"
+        "용성군",
+        "악의파동",
+        "대지의힘",
+        "화염방사"
       ]
     },
-    "rapha's Winter 2015 Oppenheimer": {
+    "rapha의 2015 겨울 Oppenheimer": {
       "level": 50,
       "evs": {
         "df": "4",
         "sa": "252",
         "sp": "252"
       },
-      "nature": "Modest",
-      "ability": "Levitate",
-      "item": "Choice Specs",
+      "nature": "조심",
+      "ability": "부유",
+      "item": "구애안경",
       "moves": [
-        "Draco Meteor",
-        "Dark Pulse",
-        "Flamethrower",
-        "Earth Power"
+        "용성군",
+        "악의파동",
+        "화염방사",
+        "대지의힘"
       ]
     },
-    "KellsterCartier's Winter 2015 Hydreigon": {
+    "KellsterCartier의 2015 겨울 삼삼드래": {
       "level": 50,
       "evs": {
         "hp": "4",
         "sa": "252",
         "sp": "252"
       },
-      "nature": "Modest",
-      "ability": "Levitate",
-      "item": "Life Orb",
+      "nature": "조심",
+      "ability": "부유",
+      "item": "생명의구슬",
       "moves": [
-        "Dark Pulse",
+        "악의파동",
         "",
-        "Fire Blast",
-        "Draco Meteor"
+        "불대문자",
+        "용성군"
       ]
     },
-    "Guru Fernandez's Winter 2015 Trigun": {
+    "Guru Fernandez의 2015 겨울 Trigun": {
       "level": 50,
       "evs": {
         "hp": "28",
@@ -711,19 +711,19 @@ var SETDEX_NUGGETBRIDGE={
         "sd": "4",
         "sp": "196"
       },
-      "nature": "Modest",
-      "ability": "Levitate",
-      "item": "Choice Specs",
+      "nature": "조심",
+      "ability": "부유",
+      "item": "구애안경",
       "moves": [
-        "Dark Pulse",
-        "Draco Meteor",
-        "Fire Blast",
-        "Earth Power"
+        "악의파동",
+        "용성군",
+        "불대문자",
+        "대지의힘"
       ]
     }
   },
-  "Landorus-T": {
-    "MajorBowman's Winter 2015 Landorus-Therian": {
+  "랜드로스-영물": {
+    "MajorBowman의 2015 겨울 랜드로스-영물": {
       "level": 50,
       "evs": {
         "hp": "164",
@@ -732,34 +732,34 @@ var SETDEX_NUGGETBRIDGE={
         "sd": "28",
         "sp": "252"
       },
-      "nature": "Jolly",
-      "ability": "Intimidate",
-      "item": "Choice Band",
+      "nature": "명랑",
+      "ability": "괴력집게",
+      "item": "구애머리띠",
       "moves": [
-        "Earthquake",
-        "Superpower",
-        "U-turn",
-        "Rock Slide"
+        "지진",
+        "엄청난힘",
+        "유턴",
+        "스톤샤워"
       ]
     },
-    "Life Orb's Winter 2015 Landorus-Therian": {
+    "Life Orb의 2015 겨울 랜드로스-영물": {
       "level": 50,
       "evs": {
         "hp": "4",
         "at": "252",
         "sp": "252"
       },
-      "nature": "Adamant",
-      "ability": "Intimidate",
-      "item": "Choice Scarf",
+      "nature": "고집",
+      "ability": "괴력집게",
+      "item": "구애스카프",
       "moves": [
-        "Earthquake",
-        "U-turn",
-        "Knock Off",
-        "Rock Slide"
+        "지진",
+        "유턴",
+        "탁쳐서떨구기",
+        "스톤샤워"
       ]
     },
-    "amr97's Winter 2015 BANGxBANG": {
+    "amr97의 2015 겨울 BANGxBANG": {
       "level": 50,
       "evs": {
         "hp": "12",
@@ -768,17 +768,17 @@ var SETDEX_NUGGETBRIDGE={
         "sd": "4",
         "sp": "148"
       },
-      "nature": "Adamant",
-      "ability": "Intimidate",
-      "item": "Choice Scarf",
+      "nature": "고집",
+      "ability": "괴력집게",
+      "item": "구애스카프",
       "moves": [
-        "Earthquake",
-        "Rock Slide",
-        "Knock Off",
-        "Superpower"
+        "지진",
+        "스톤샤워",
+        "탁쳐서떨구기",
+        "엄청난힘"
       ]
     },
-    "KellsterCartier's Winter 2015 Landorus": {
+    "KellsterCartier의 2015 겨울 랜드로스": {
       "level": 50,
       "evs": {
         "hp": "116",
@@ -787,19 +787,19 @@ var SETDEX_NUGGETBRIDGE={
         "sd": "4",
         "sp": "132"
       },
-      "nature": "Adamant",
-      "ability": "Intimidate",
-      "item": "Choice Scarf",
+      "nature": "고집",
+      "ability": "괴력집게",
+      "item": "구애스카프",
       "moves": [
-        "Earthquake",
-        "Rock Slide",
-        "Knock Off",
-        "U-turn"
+        "지진",
+        "스톤샤워",
+        "탁쳐서떨구기",
+        "유턴"
       ]
     }
   },
-  "Thundurus": {
-    "MajorBowman's Winter 2015 Thundurus": {
+  "볼트로스": {
+    "MajorBowman의 2015 겨울 볼트로스": {
       "level": 50,
       "evs": {
         "hp": "212",
@@ -812,17 +812,17 @@ var SETDEX_NUGGETBRIDGE={
         "at": "0",
         "df": "30"
       },
-      "nature": "Timid",
+      "nature": "겁쟁이",
       "ability": "",
-      "item": "Sitrus Berry",
+      "item": "자뭉열매",
       "moves": [
         "",
         "",
-        "Hidden Power Ice",
-        "Thunderbolt"
+        "잠재파워-얼음",
+        "10만볼트"
       ]
     },
-    "DylanxArsenal's Winter 2015 DatTail": {
+    "DylanxArsenal의 2015 겨울 DatTail": {
       "level": 50,
       "evs": {
         "hp": "244",
@@ -831,17 +831,17 @@ var SETDEX_NUGGETBRIDGE={
         "sd": "72",
         "sp": "20"
       },
-      "nature": "Calm",
+      "nature": "차분",
       "ability": "",
-      "item": "Sitrus Berry",
+      "item": "자뭉열매",
       "moves": [
-        "Thunderbolt",
+        "10만볼트",
         "",
         "",
         ""
       ]
     },
-    "conan's Winter 2015 Thundurus": {
+    "conan의 2015 겨울 볼트로스": {
       "level": 50,
       "evs": {
         "hp": "252",
@@ -850,17 +850,17 @@ var SETDEX_NUGGETBRIDGE={
         "sd": "132",
         "sp": "44"
       },
-      "nature": "Calm",
+      "nature": "차분",
       "ability": "",
-      "item": "Sitrus Berry",
+      "item": "자뭉열매",
       "moves": [
-        "Thunderbolt",
+        "10만볼트",
         "",
         "",
         ""
       ]
     },
-    "KellsterCartier's Winter 2015 Thundurus": {
+    "KellsterCartier의 2015 겨울 볼트로스": {
       "level": 50,
       "evs": {
         "hp": "236",
@@ -868,17 +868,17 @@ var SETDEX_NUGGETBRIDGE={
         "sd": "128",
         "sp": "28"
       },
-      "nature": "Calm",
+      "nature": "차분",
       "ability": "",
-      "item": "Sitrus Berry",
+      "item": "자뭉열매",
       "moves": [
         "",
-        "Thunderbolt",
+        "10만볼트",
         "",
         ""
       ]
     },
-    "Metatyph6's Winter 2015 Voltergeist": {
+    "Metatyph6의 2015 겨울 Voltergeist": {
       "level": 50,
       "evs": {
         "sa": "252",
@@ -889,17 +889,17 @@ var SETDEX_NUGGETBRIDGE={
         "at": "30",
         "df": "30"
       },
-      "nature": "Timid",
+      "nature": "겁쟁이",
       "ability": "",
-      "item": "Safety Goggles",
+      "item": "방진고글",
       "moves": [
-        "Thunderbolt",
-        "Hidden Power Ice",
+        "10만볼트",
+        "잠재파워-얼음",
         "",
         ""
       ]
     },
-    "Guru Fernandez's Winter 2015 Voltolos": {
+    "Guru Fernandez의 2015 겨울 Voltolos": {
       "level": 50,
       "evs": {
         "hp": "244",
@@ -911,17 +911,17 @@ var SETDEX_NUGGETBRIDGE={
       "ivs": {
         "sp": "30"
       },
-      "nature": "Bold",
+      "nature": "대담",
       "ability": "",
-      "item": "Sitrus Berry",
+      "item": "자뭉열매",
       "moves": [
-        "Thunderbolt",
-        "Hidden Power Ice",
+        "10만볼트",
+        "잠재파워-얼음",
         "",
         ""
       ]
     },
-    "Level 51's Winter 2015 Thundurus": {
+    "Level 51의 2015 겨울 볼트로스": {
       "level": 50,
       "evs": {
         "hp": "236",
@@ -933,19 +933,19 @@ var SETDEX_NUGGETBRIDGE={
         "at": "0",
         "df": "30"
       },
-      "nature": "Modest",
+      "nature": "조심",
       "ability": "",
-      "item": "Sitrus Berry",
+      "item": "자뭉열매",
       "moves": [
-        "Thunderbolt",
+        "10만볼트",
         "",
         "",
-        "Hidden Power Ice"
+        "잠재파워-얼음"
       ]
     }
   },
-  "Ludicolo": {
-    "MajorBowman's Winter 2015 Ludicolo": {
+  "로파파": {
+    "MajorBowman의 2015 겨울 로파파": {
       "level": 50,
       "evs": {
         "hp": "156",
@@ -954,53 +954,53 @@ var SETDEX_NUGGETBRIDGE={
         "sd": "4",
         "sp": "140"
       },
-      "nature": "Modest",
-      "ability": "Swift Swim",
-      "item": "Assault Vest",
+      "nature": "조심",
+      "ability": "쓱쓱",
+      "item": "돌격조끼",
       "moves": [
-        "Scald",
-        "Giga Drain",
-        "Ice Beam",
-        "Fake Out"
+        "열탕",
+        "기가드레인",
+        "냉동빔",
+        "속이다"
       ]
     },
-    "DylanxArsenal's Winter 2015 Icingdeath": {
+    "DylanxArsenal의 2015 겨울 Icingdeath": {
       "level": 50,
       "evs": {
         "hp": "76",
         "sa": "236",
         "sp": "196"
       },
-      "nature": "Modest",
-      "ability": "Swift Swim",
-      "item": "Assault Vest",
+      "nature": "조심",
+      "ability": "쓱쓱",
+      "item": "돌격조끼",
       "moves": [
-        "Fake Out",
-        "Giga Drain",
-        "Scald",
-        "Ice Beam"
+        "속이다",
+        "기가드레인",
+        "열탕",
+        "냉동빔"
       ]
     },
-    "rapha's Winter 2015 Grapes?": {
+    "rapha의 2015 겨울 Grapes?": {
       "level": 50,
       "evs": {
         "hp": "108",
         "sa": "252",
         "sp": "148"
       },
-      "nature": "Modest",
-      "ability": "Swift Swim",
-      "item": "Assault Vest",
+      "nature": "조심",
+      "ability": "쓱쓱",
+      "item": "돌격조끼",
       "moves": [
-        "Fake Out",
-        "Scald",
-        "Giga Drain",
-        "Ice Beam"
+        "속이다",
+        "열탕",
+        "기가드레인",
+        "냉동빔"
       ]
     }
   },
-  "Cresselia": {
-    "IoriYagami's Winter 2015 Luna": {
+  "크레세리아": {
+    "IoriYagami의 2015 겨울 Luna": {
       "level": 50,
       "evs": {
         "hp": "216",
@@ -1009,34 +1009,34 @@ var SETDEX_NUGGETBRIDGE={
         "sd": "184",
         "sp": "12"
       },
-      "nature": "Calm",
-      "ability": "Levitate",
-      "item": "Sitrus Berry",
+      "nature": "차분",
+      "ability": "부유",
+      "item": "자뭉열매",
       "moves": [
-        "Psychic",
-        "Ice Beam",
+        "사이코키네시스",
+        "냉동빔",
         "",
         ""
       ]
     },
-    "DylanxArsenal's Winter 2015 Cresselia": {
+    "DylanxArsenal의 2015 겨울 크레세리아": {
       "level": 50,
       "evs": {
         "hp": "252",
         "sa": "252",
         "sp": "4"
       },
-      "nature": "Modest",
-      "ability": "Levitate",
+      "nature": "조심",
+      "ability": "부유",
       "item": "",
       "moves": [
-        "Icy Wind",
-        "Psychic",
+        "얼다바람",
+        "사이코키네시스",
         "",
         ""
       ]
     },
-    "JoeDaPr0's Winter 2015 Cresselia": {
+    "JoeDaPr0의 2015 겨울 크레세리아": {
       "level": 50,
       "evs": {
         "hp": "236",
@@ -1044,17 +1044,17 @@ var SETDEX_NUGGETBRIDGE={
         "sa": "4",
         "sd": "92"
       },
-      "nature": "Bold",
-      "ability": "Levitate",
+      "nature": "대담",
+      "ability": "부유",
       "item": "",
       "moves": [
-        "Ice Beam",
+        "냉동빔",
         "",
-        "Psychic",
+        "사이코키네시스",
         ""
       ]
     },
-    "conan's Winter 2015 Cresselia": {
+    "conan의 2015 겨울 크레세리아": {
       "level": 50,
       "evs": {
         "hp": "220",
@@ -1063,34 +1063,34 @@ var SETDEX_NUGGETBRIDGE={
         "sd": "92",
         "sp": "20"
       },
-      "nature": "Calm",
-      "ability": "Levitate",
+      "nature": "차분",
+      "ability": "부유",
       "item": "",
       "moves": [
-        "Psychic",
+        "사이코키네시스",
         "",
-        "Icy Wind",
+        "얼다바람",
         ""
       ]
     },
-    "Life Orb's Winter 2015 Cresselia": {
+    "Life Orb의 2015 겨울 크레세리아": {
       "level": 50,
       "evs": {
         "hp": "220",
         "df": "100",
         "sd": "188"
       },
-      "nature": "Bold",
-      "ability": "Levitate",
-      "item": "Sitrus Berry",
+      "nature": "대담",
+      "ability": "부유",
+      "item": "자뭉열매",
       "moves": [
-        "Icy Wind",
+        "얼다바람",
         "",
         "",
-        "Psyshock"
+        "사이코쇼크"
       ]
     },
-    "Level 51's Winter 2015 Crescenda": {
+    "Level 51의 2015 겨울 Crescenda": {
       "level": 50,
       "evs": {
         "hp": "220",
@@ -1099,19 +1099,19 @@ var SETDEX_NUGGETBRIDGE={
         "sd": "92",
         "sp": "20"
       },
-      "nature": "Calm",
-      "ability": "Levitate",
+      "nature": "차분",
+      "ability": "부유",
       "item": "",
       "moves": [
-        "Psyshock",
-        "Ice Beam",
+        "사이코쇼크",
+        "냉동빔",
         "",
         ""
       ]
     }
   },
-  "Gastrodon": {
-    "IoriYagami's Winter 2015 Gastrodon": {
+  "트리토돈": {
+    "IoriYagami의 2015 겨울 트리토돈": {
       "level": 50,
       "evs": {
         "hp": "244",
@@ -1119,149 +1119,149 @@ var SETDEX_NUGGETBRIDGE={
         "sa": "68",
         "sd": "88"
       },
-      "nature": "Bold",
-      "ability": "Storm Drain",
-      "item": "Rindo Berry",
+      "nature": "대담",
+      "ability": "마중물",
+      "item": "린드열매",
       "moves": [
-        "Muddy Water",
-        "Earth Power",
+        "탁류",
+        "대지의힘",
         "",
         ""
       ]
     }
   },
-  "Lopunny": {
-    "IoriYagami's Winter 2015 Praline": {
+  "이어롭": {
+    "IoriYagami의 2015 겨울 Praline": {
       "level": 50,
       "evs": {
         "hp": "4",
         "at": "252",
         "sp": "252"
       },
-      "nature": "Jolly",
+      "nature": "명랑",
       "ability": "",
-      "item": "Lopunnite",
+      "item": "이어롭나이트",
       "moves": [
-        "Fake Out",
-        "Low Kick",
+        "속이다",
+        "안다리걸기",
         "",
-        "Return"
+        "은혜갚기"
       ]
     }
   },
-  "Granbull": {
-    "IoriYagami's Winter 2015 Spike": {
+  "그랑블루": {
+    "IoriYagami의 2015 겨울 Spike": {
       "level": 50,
       "evs": {
         "hp": "252",
         "at": "180",
         "sd": "76"
       },
-      "nature": "Adamant",
-      "ability": "Intimidate",
-      "item": "Assault Vest",
+      "nature": "고집",
+      "ability": "괴력집게",
+      "item": "돌격조끼",
       "moves": [
-        "Play Rough",
+        "치근거리기",
         "",
-        "Rock Slide",
-        "Ice Punch"
+        "스톤샤워",
+        "냉동펀치"
       ]
     }
   },
-  "Heliolisk": {
-    "Keonspy's Winter 2015 Heliolisk": {
+  "일레도리자드": {
+    "Keonspy의 2015 겨울 일레도리자드": {
       "level": 50,
       "evs": {
         "hp": "4",
         "sa": "252",
         "sp": "252"
       },
-      "nature": "Timid",
-      "ability": "Dry Skin",
-      "item": "Choice Scarf",
+      "nature": "겁쟁이",
+      "ability": "건조피부",
+      "item": "구애스카프",
       "moves": [
         "",
-        "Thunderbolt",
+        "10만볼트",
         "",
-        "Hyper Beam"
+        "파괴광선"
       ]
     }
   },
-  "Sceptile": {
-    "Keonspy's Winter 2015 Sceptile": {
+  "나무킹": {
+    "Keonspy의 2015 겨울 나무킹": {
       "level": 50,
       "evs": {
         "hp": "4",
         "sa": "252",
         "sp": "252"
       },
-      "nature": "Timid",
-      "ability": "Overgrow",
-      "item": "Sceptilite",
+      "nature": "겁쟁이",
+      "ability": "심록",
+      "item": "나무킹나이트",
       "moves": [
-        "Energy Ball",
-        "Dragon Pulse",
-        "Hidden Power Ice",
+        "에너지볼",
+        "용의파동",
+        "잠재파워-얼음",
         ""
       ]
     }
   },
-  "Thundurus-T": {
-    "Keonspy's Winter 2015 Thundurus-Therian": {
+  "볼트로스-영물": {
+    "Keonspy의 2015 겨울 볼트로스-영물": {
       "level": 50,
       "evs": {
         "sa": "252",
         "sp": "252"
       },
-      "nature": "Timid",
-      "ability": "Volt Absorb",
-      "item": "Life Orb",
+      "nature": "겁쟁이",
+      "ability": "축전",
+      "item": "생명의구슬",
       "moves": [
-        "Discharge",
-        "Thunderbolt",
-        "Hidden Power Ice",
+        "방전",
+        "10만볼트",
+        "잠재파워-얼음",
         ""
       ]
     }
   },
-  "Gyarados": {
-    "Keonspy's Winter 2015 Gyarados": {
+  "갸라도스": {
+    "Keonspy의 2015 겨울 갸라도스": {
       "level": 50,
       "evs": {
         "hp": "4",
         "at": "252",
         "sp": "252"
       },
-      "nature": "Adamant",
-      "ability": "Intimidate",
-      "item": "Lum Berry",
+      "nature": "고집",
+      "ability": "괴력집게",
+      "item": "리샘열매",
       "moves": [
-        "Waterfall",
-        "Earthquake",
+        "폭포오르기",
+        "지진",
         "",
         ""
       ]
     }
   },
-  "Amoonguss": {
-    "Keonspy's Winter 2015 Amoonguss": {
+  "뽀록나": {
+    "Keonspy의 2015 겨울 뽀록나": {
       "level": 50,
       "evs": {
         "hp": "252",
         "df": "92",
         "sd": "164"
       },
-      "nature": "Bold",
+      "nature": "대담",
       "ability": "",
       "item": "",
       "moves": [
-        "Giga Drain",
+        "기가드레인",
         "",
         "",
         ""
       ]
     },
-    "amr97's Winter 2015 Flower Girl": {
+    "amr97의 2015 겨울 Flower Girl": {
       "level": 50,
       "evs": {
         "hp": "188",
@@ -1271,36 +1271,36 @@ var SETDEX_NUGGETBRIDGE={
       "ivs": {
         "sp": "0"
       },
-      "nature": "Sassy",
+      "nature": "건방",
       "ability": "",
       "item": "",
       "moves": [
         "",
         "",
-        "Giga Drain",
+        "기가드레인",
         ""
       ]
     }
   },
-  "Politoed": {
-    "DylanxArsenal's Winter 2015 Twinkle": {
+  "왕구리": {
+    "DylanxArsenal의 2015 겨울 Twinkle": {
       "level": 50,
       "evs": {
         "sa": "252",
         "sd": "4",
         "sp": "252"
       },
-      "nature": "Modest",
-      "ability": "Drizzle",
-      "item": "Choice Scarf",
+      "nature": "조심",
+      "ability": "잔비",
+      "item": "구애스카프",
       "moves": [
-        "Scald",
-        "Focus Blast",
-        "Ice Beam",
+        "열탕",
+        "기합구슬",
+        "냉동빔",
         ""
       ]
     },
-    "rapha's Winter 2015 Elmo": {
+    "rapha의 2015 겨울 Elmo": {
       "level": 50,
       "evs": {
         "hp": "212",
@@ -1309,70 +1309,70 @@ var SETDEX_NUGGETBRIDGE={
         "sd": "116",
         "sp": "44"
       },
-      "nature": "Calm",
-      "ability": "Drizzle",
-      "item": "Leftovers",
+      "nature": "차분",
+      "ability": "잔비",
+      "item": "먹다남은음식",
       "moves": [
-        "Scald",
-        "Icy Wind",
+        "열탕",
+        "얼다바람",
         "",
         ""
       ]
     }
   },
-  "Kangaskhan": {
-    "DylanxArsenal's Winter 2015 Kangaskhan": {
+  "캥카": {
+    "DylanxArsenal의 2015 겨울 캥카": {
       "level": 50,
       "evs": {
         "hp": "4",
         "at": "252",
         "sp": "252"
       },
-      "nature": "Adamant",
-      "ability": "Scrappy",
-      "item": "Kangaskhanite",
+      "nature": "고집",
+      "ability": "배짱",
+      "item": "캥카나이트",
       "moves": [
-        "Sucker Punch",
-        "Double-Edge",
-        "Low Kick",
-        "Facade"
+        "기습",
+        "이판사판태클",
+        "안다리걸기",
+        "객기"
       ]
     },
-    "Life Orb's Winter 2015 Kangaskhan": {
+    "Life Orb의 2015 겨울 캥카": {
       "level": 50,
       "evs": {
         "hp": "4",
         "at": "252",
         "sp": "252"
       },
-      "nature": "Jolly",
-      "ability": "Scrappy",
-      "item": "Kangaskhanite",
+      "nature": "명랑",
+      "ability": "배짱",
+      "item": "캥카나이트",
       "moves": [
-        "Fake Out",
-        "Double-Edge",
-        "Low Kick",
-        "Sucker Punch"
+        "속이다",
+        "이판사판태클",
+        "안다리걸기",
+        "기습"
       ]
     },
-    "amr97's Winter 2015 My Song": {
+    "amr97의 2015 겨울 My Song": {
       "level": 50,
       "evs": {
         "hp": "4",
         "at": "252",
         "sp": "252"
       },
-      "nature": "Jolly",
-      "ability": "Scrappy",
-      "item": "Kangaskhanite",
+      "nature": "명랑",
+      "ability": "배짱",
+      "item": "캥카나이트",
       "moves": [
-        "Fake Out",
-        "Return",
-        "Power-Up Punch",
-        "Sucker Punch"
+        "속이다",
+        "은혜갚기",
+        "그로우펀치",
+        "기습"
       ]
     },
-    "Level 51's Winter 2015 #BANKANGA’15": {
+    "Level 51의 2015 겨울 #BANKANGA’15": {
       "level": 50,
       "evs": {
         "hp": "212",
@@ -1381,19 +1381,19 @@ var SETDEX_NUGGETBRIDGE={
         "sd": "20",
         "sp": "108"
       },
-      "nature": "Adamant",
-      "ability": "Scrappy",
-      "item": "Kangaskhanite",
+      "nature": "고집",
+      "ability": "배짱",
+      "item": "캥카나이트",
       "moves": [
-        "Fake Out",
-        "Double-Edge",
-        "Sucker Punch",
-        "Low Kick"
+        "속이다",
+        "이판사판태클",
+        "기습",
+        "안다리걸기"
       ]
     }
   },
-  "Chesnaught": {
-    "JoeDaPr0's Winter 2015 Chesnaught": {
+  "브리가론": {
+    "JoeDaPr0의 2015 겨울 브리가론": {
       "level": 50,
       "evs": {
         "hp": "224",
@@ -1401,19 +1401,19 @@ var SETDEX_NUGGETBRIDGE={
         "df": "44",
         "sd": "180"
       },
-      "nature": "Sassy",
-      "ability": "Bulletproof",
-      "item": "Sitrus Berry",
+      "nature": "건방",
+      "ability": "방탄",
+      "item": "자뭉열매",
       "moves": [
         "",
-        "Feint",
+        "페인트",
         "",
-        "Low Kick"
+        "안다리걸기"
       ]
     }
   },
-  "Swampert": {
-    "JoeDaPr0's Winter 2015 Swampert": {
+  "대짱이": {
+    "JoeDaPr0의 2015 겨울 대짱이": {
       "level": 50,
       "evs": {
         "hp": "252",
@@ -1422,74 +1422,74 @@ var SETDEX_NUGGETBRIDGE={
         "sd": "4",
         "sp": "20"
       },
-      "nature": "Modest",
-      "ability": "Torrent",
-      "item": "Expert Belt",
+      "nature": "조심",
+      "ability": "급류",
+      "item": "달인의띠",
       "moves": [
         "",
-        "Scald",
-        "Ice Beam",
-        "Earth Power"
+        "열탕",
+        "냉동빔",
+        "대지의힘"
       ]
     }
   },
-  "Raikou": {
-    "JoeDaPr0's Winter 2015 Raikou": {
+  "라이코": {
+    "JoeDaPr0의 2015 겨울 라이코": {
       "level": 50,
       "evs": {
         "hp": "4",
         "sa": "252",
         "sp": "252"
       },
-      "nature": "Timid",
+      "nature": "겁쟁이",
       "ability": "",
-      "item": "Assault Vest",
+      "item": "돌격조끼",
       "moves": [
-        "Hidden Power Ice",
-        "Snarl",
-        "Thunderbolt",
-        "Extrasensory"
+        "잠재파워-얼음",
+        "바크아웃",
+        "10만볼트",
+        "신통력"
       ]
     }
   },
-  "Weavile": {
-    "conan's Winter 2015 Weavile": {
+  "포푸니라": {
+    "conan의 2015 겨울 포푸니라": {
       "level": 50,
       "evs": {
         "hp": "4",
         "at": "252",
         "sp": "252"
       },
-      "nature": "Jolly",
+      "nature": "명랑",
       "ability": "",
       "item": "",
       "moves": [
-        "Icicle Crash",
+        "고드름떨구기",
         "",
-        "Low Kick",
-        "Fake Out"
+        "안다리걸기",
+        "속이다"
       ]
     }
   },
-  "Aegislash": {
-    "conan's Winter 2015 Aegislash": {
+  "킬가르도": {
+    "conan의 2015 겨울 킬가르도": {
       "level": 50,
       "evs": {
         "hp": "252",
         "sa": "252",
         "sp": "4"
       },
-      "nature": "Modest",
+      "nature": "조심",
       "ability": "",
       "item": "",
       "moves": [
-        "Shadow Ball",
+        "섀도볼",
         "",
-        "Flash Cannon",
+        "러스터캐논",
         ""
       ]
     },
-    "Metatyph6's Winter 2015 Blade Works": {
+    "Metatyph6의 2015 겨울 Blade Works": {
       "level": 50,
       "evs": {
         "hp": "252",
@@ -1499,19 +1499,19 @@ var SETDEX_NUGGETBRIDGE={
       "ivs": {
         "sp": "0"
       },
-      "nature": "Quiet",
+      "nature": "냉정",
       "ability": "",
       "item": "",
       "moves": [
-        "Shadow Ball",
-        "Sacred Sword",
-        "Flash Cannon",
+        "섀도볼",
+        "성스러운칼",
+        "러스터캐논",
         ""
       ]
     }
   },
-  "Sylveon": {
-    "Life Orb's Winter 2015 Sylveon": {
+  "님피아": {
+    "Life Orb의 2015 겨울 님피아": {
       "level": 50,
       "evs": {
         "hp": "92",
@@ -1519,19 +1519,19 @@ var SETDEX_NUGGETBRIDGE={
         "sa": "252",
         "sp": "48"
       },
-      "nature": "Modest",
-      "ability": "Pixilate",
-      "item": "Choice Specs",
+      "nature": "조심",
+      "ability": "페어리스킨",
+      "item": "구애안경",
       "moves": [
-        "Hyper Voice",
-        "Shadow Ball",
-        "Psyshock",
-        "Moonblast"
+        "하이퍼보이스",
+        "섀도볼",
+        "사이코쇼크",
+        "문포스"
       ]
     }
   },
-  "Togekiss": {
-    "rapha's Winter 2015 such toge": {
+  "토게키스": {
+    "rapha의 2015 겨울 such toge": {
       "level": 50,
       "evs": {
         "hp": "252",
@@ -1540,17 +1540,17 @@ var SETDEX_NUGGETBRIDGE={
         "sd": "60",
         "sp": "76"
       },
-      "nature": "Bold",
+      "nature": "대담",
       "ability": "",
-      "item": "Sitrus Berry",
+      "item": "자뭉열매",
       "moves": [
-        "Air Slash",
+        "에어슬래시",
         "",
         "",
         ""
       ]
     },
-    "Fatum's Winter 2015 Schneeweißchen": {
+    "Fatum의 2015 겨울 Schneeweißchen": {
       "level": 50,
       "evs": {
         "hp": "236",
@@ -1559,19 +1559,19 @@ var SETDEX_NUGGETBRIDGE={
         "sd": "12",
         "sp": "60"
       },
-      "nature": "Bold",
+      "nature": "대담",
       "ability": "",
-      "item": "Sitrus Berry",
+      "item": "자뭉열매",
       "moves": [
-        "Air Slash",
+        "에어슬래시",
         "",
         "",
         ""
       ]
     }
   },
-  "Azumarill": {
-    "amr97's Winter 2015 Trial Dance": {
+  "마릴리": {
+    "amr97의 2015 겨울 Trial Dance": {
       "level": 50,
       "evs": {
         "hp": "196",
@@ -1580,131 +1580,131 @@ var SETDEX_NUGGETBRIDGE={
         "sd": "12",
         "sp": "28"
       },
-      "nature": "Adamant",
-      "ability": "Huge Power",
-      "item": "Sitrus Berry",
+      "nature": "고집",
+      "ability": "천하장사",
+      "item": "자뭉열매",
       "moves": [
-        "Aqua Jet",
-        "Play Rough",
+        "아쿠아제트",
+        "치근거리기",
         "",
         ""
       ]
     }
   },
-  "Lapras": {
-    "KellsterCartier's Winter 2015 Lapras": {
+  "라프라스": {
+    "KellsterCartier의 2015 겨울 라프라스": {
       "level": 50,
       "evs": {
         "hp": "228",
         "df": "124",
         "sa": "156"
       },
-      "nature": "Calm",
-      "ability": "Water Absorb",
+      "nature": "차분",
+      "ability": "축전",
       "item": "",
       "moves": [
-        "Ice Shard",
-        "Hydro Pump",
-        "Freeze-Dry",
+        "얼음뭉치",
+        "하이드로펌프",
+        "프리즈드라이",
         ""
       ]
     }
   },
-  "Tyranitar": {
-    "Metatyph6's Winter 2015 Darude": {
+  "마기라스": {
+    "Metatyph6의 2015 겨울 Darude": {
       "level": 50,
       "evs": {
         "hp": "196",
         "sa": "252",
         "sp": "60"
       },
-      "nature": "Modest",
-      "ability": "Sand Stream",
-      "item": "Tyranitarite",
+      "nature": "조심",
+      "ability": "모래날림",
+      "item": "마기라스나이트",
       "moves": [
-        "Ice Beam",
-        "Rock Slide",
-        "Fire Blast",
+        "냉동빔",
+        "스톤샤워",
+        "불대문자",
         ""
       ]
     }
   },
-  "Excadrill": {
-    "Metatyph6's Winter 2015 Guacamole": {
+  "몰드류": {
+    "Metatyph6의 2015 겨울 Guacamole": {
       "level": 50,
       "evs": {
         "at": "252",
         "df": "4",
         "sp": "252"
       },
-      "nature": "Adamant",
-      "ability": "Sand Rush",
+      "nature": "고집",
+      "ability": "모래헤치기",
       "item": "",
       "moves": [
-        "Earthquake",
-        "Iron Head",
-        "Rock Slide",
+        "지진",
+        "아이언헤드",
+        "스톤샤워",
         ""
       ]
     },
-    "Fatum's Winter 2015 Dornröschen": {
+    "Fatum의 2015 겨울 Dornröschen": {
       "level": 50,
       "evs": {
         "hp": "4",
         "at": "252",
         "sp": "252"
       },
-      "nature": "Adamant",
-      "ability": "Mold Breaker",
+      "nature": "고집",
+      "ability": "틀깨기",
       "item": "",
       "moves": [
-        "Earthquake",
-        "Rock Slide",
+        "지진",
+        "스톤샤워",
         "",
         ""
       ]
     }
   },
-  "Cradily": {
-    "Metatyph6's Winter 2015 CrayCrayLovr": {
+  "릴리요": {
+    "Metatyph6의 2015 겨울 CrayCrayLovr": {
       "level": 50,
       "evs": {
         "hp": "252",
         "df": "252",
         "sd": "4"
       },
-      "nature": "Bold",
-      "ability": "Storm Drain",
-      "item": "Sitrus Berry",
+      "nature": "대담",
+      "ability": "마중물",
+      "item": "자뭉열매",
       "moves": [
-        "Giga Drain",
-        "Ancient Power",
+        "기가드레인",
+        "원시의힘",
         "",
         ""
       ]
     }
   },
-  "Talonflame": {
-    "Metatyph6's Winter 2015 Bravest Bird": {
+  "파이어로": {
+    "Metatyph6의 2015 겨울 Bravest Bird": {
       "level": 50,
       "evs": {
         "at": "252",
         "sa": "44",
         "sp": "212"
       },
-      "nature": "Adamant",
+      "nature": "고집",
       "ability": "",
-      "item": "Life Orb",
+      "item": "생명의구슬",
       "moves": [
-        "Brave Bird",
-        "Overheat",
+        "브레이브버드",
+        "오버히트",
         "",
         ""
       ]
     }
   },
-  "Milotic": {
-    "Guru Fernandez's Winter 2015 Murmaider": {
+  "밀로틱": {
+    "Guru Fernandez의 2015 겨울 Murmaider": {
       "level": 50,
       "evs": {
         "hp": "236",
@@ -1713,17 +1713,17 @@ var SETDEX_NUGGETBRIDGE={
         "sd": "12",
         "sp": "4"
       },
-      "nature": "Bold",
+      "nature": "대담",
       "ability": "",
-      "item": "Leftovers",
+      "item": "먹다남은음식",
       "moves": [
-        "Scald",
-        "Icy Wind",
+        "열탕",
+        "얼다바람",
         "",
         ""
       ]
     },
-    "Fatum's Winter 2015 Rapunzel": {
+    "Fatum의 2015 겨울 Rapunzel": {
       "level": 50,
       "evs": {
         "hp": "12",
@@ -1732,19 +1732,19 @@ var SETDEX_NUGGETBRIDGE={
         "sd": "4",
         "sp": "236"
       },
-      "nature": "Timid",
+      "nature": "겁쟁이",
       "ability": "",
-      "item": "Choice Scarf",
+      "item": "구애스카프",
       "moves": [
-        "Scald",
-        "Ice Beam",
-        "Hydro Pump",
+        "열탕",
+        "냉동빔",
+        "하이드로펌프",
         ""
       ]
     }
   },
-  "Venusaur": {
-    "Guru Fernandez's Winter 2015 Bulbasage": {
+  "이상해꽃": {
+    "Guru Fernandez의 2015 겨울 Bulbasage": {
       "level": 50,
       "evs": {
         "hp": "180",
@@ -1753,19 +1753,19 @@ var SETDEX_NUGGETBRIDGE={
         "sd": "132",
         "sp": "60"
       },
-      "nature": "Calm",
-      "ability": "Chlorophyll",
-      "item": "Venusaurite",
+      "nature": "차분",
+      "ability": "엽록소",
+      "item": "이상해꽃나이트",
       "moves": [
-        "Giga Drain",
-        "Sludge Bomb",
+        "기가드레인",
+        "오물폭탄",
         "",
         ""
       ]
     }
   },
-  "Conkeldurr": {
-    "Fatum's Winter 2015 Meistergriff": {
+  "노보청": {
+    "Fatum의 2015 겨울 Meistergriff": {
       "level": 50,
       "evs": {
         "hp": "212",
@@ -1777,38 +1777,38 @@ var SETDEX_NUGGETBRIDGE={
       "ivs": {
         "sp": "13"
       },
-      "nature": "Adamant",
-      "ability": "Guts",
-      "item": "Assault Vest",
+      "nature": "고집",
+      "ability": "근성",
+      "item": "돌격조끼",
       "moves": [
-        "Drain Punch",
-        "Mach Punch",
-        "Stone Edge",
-        "Knock Off"
+        "드레인펀치",
+        "마하펀치",
+        "스톤에지",
+        "탁쳐서떨구기"
       ]
     }
   },
-  "Scizor": {
-    "Fatum's Winter 2015 Rosenrot": {
+  "핫삼": {
+    "Fatum의 2015 겨울 Rosenrot": {
       "level": 50,
       "evs": {
         "hp": "28",
         "at": "252",
         "sp": "228"
       },
-      "nature": "Adamant",
-      "ability": "Technician",
-      "item": "Life Orb",
+      "nature": "고집",
+      "ability": "테크니션",
+      "item": "생명의구슬",
       "moves": [
-        "Bullet Punch",
-        "Bug Bite",
-        "Knock Off",
+        "불릿펀치",
+        "벌레먹음",
+        "탁쳐서떨구기",
         ""
       ]
     }
   },
-  "Charizard": {
-    "Level 51's Winter 2015 Turn↑TheHeat": {
+  "리자몽": {
+    "Level 51의 2015 겨울 Turn↑TheHeat": {
       "level": 50,
       "evs": {
         "hp": "252",
@@ -1817,33 +1817,33 @@ var SETDEX_NUGGETBRIDGE={
         "sd": "20",
         "sp": "188"
       },
-      "nature": "Modest",
-      "ability": "Solar Power",
-      "item": "Charizardite Y",
+      "nature": "조심",
+      "ability": "선파워",
+      "item": "리자몽나이트Y",
       "moves": [
-        "Heat Wave",
-        "Solar Beam",
-        "Overheat",
+        "열풍",
+        "솔라빔",
+        "오버히트",
         ""
       ]
     }
   },
-  "Mamoswine": {
-    "Level 51's Winter 2015 SWINE FLU++": {
+  "맘모꾸리": {
+    "Level 51의 2015 겨울 SWINE FLU++": {
       "level": 50,
       "evs": {
         "at": "252",
         "sd": "4",
         "sp": "252"
       },
-      "nature": "Adamant",
-      "ability": "Thick Fat",
-      "item": "Choice Scarf",
+      "nature": "고집",
+      "ability": "두꺼운지방",
+      "item": "구애스카프",
       "moves": [
-        "Icicle Crash",
-        "Earthquake",
-        "Iron Head",
-        "Rock Slide"
+        "고드름떨구기",
+        "지진",
+        "아이언헤드",
+        "스톤샤워"
       ]
     }
   }

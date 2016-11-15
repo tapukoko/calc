@@ -1,4 +1,4 @@
-// input field validation
+﻿// input field validation
 var bounds = {
     "level":[0,100],
     "base":[1,255],
@@ -133,7 +133,7 @@ $(".percent-hp").keyup(function() {
 
 var lastAura = [false, false, false]
 $(".ability").bind("keyup change", function() {
-    $(this).closest(".poke-info").find(".move-hits").val($(this).val() === 'Skill Link' ? 5 : 3);
+    $(this).closest(".poke-info").find(".move-hits").val($(this).val() === '스킬링크' ? 5 : 3);
     autoSetAura()
     autoSetTerrain()
 });
@@ -152,15 +152,15 @@ function autoSetAura()
 {
     var ability1 = $("#p1 .ability").val()
     var ability2 = $("#p2 .ability").val()
-    if(ability1 == "Fairy Aura" || ability2 == "Fairy Aura" )
+    if(ability1 == "페어리오라" || ability2 == "페어리오라" )
         $("input:checkbox[id='fairy-aura']").prop("checked", true)
     else        
         $("input:checkbox[id='fairy-aura']").prop("checked", lastAura[0])
-    if(ability1 == "Dark Aura" || ability2 == "Dark Aura")
+    if(ability1 == "다크오라" || ability2 == "다크오라")
         $("input:checkbox[id='dark-aura']").prop("checked", true)
     else        
         $("input:checkbox[id='dark-aura']").prop("checked", lastAura[1])
-    if(ability1 == "Aura Break" || ability2 == "Aura Break" )
+    if(ability1 == "오라브레이크" || ability2 == "오라브레이크" )
         $("input:checkbox[id='aura-break']").prop("checked", true)
     else        
         $("input:checkbox[id='aura-break']").prop("checked", lastAura[2])
@@ -169,19 +169,19 @@ function autoSetTerrain()
 {
     var ability1 = $("#p1 .ability").val()
     var ability2 = $("#p2 .ability").val()
-    if((ability1 == "Electric Surge" || ability2 == "Electric Surge")){
+    if((ability1 == "일렉트릭메이커" || ability2 == "일렉트릭메이커")){
         $("input:radio[id='electric']").prop("checked", true)
         lastTerrain = 'electric';
     }
-    else if((ability1 == "Grassy Surge" || ability2 == "Grassy Surge")){
+    else if((ability1 == "그래스메이커" || ability2 == "그래스메이커")){
         $("input:radio[id='grassy']").prop("checked", true)
         lastTerrain = 'grassy';
     }
-    else if((ability1 == "Misty Surge" || ability2 == "Misty Surge")){
+    else if((ability1 == "미스트메이커" || ability2 == "미스트메이커")){
         $("input:radio[id='misty']").prop("checked", true)
         lastTerrain = 'misty';
     }
-    else if((ability1 == "Psychic Surge" || ability2 == "Psychic Surge")){
+    else if((ability1 == "사이코메이커" || ability2 == "사이코메이커")){
         $("input:radio[id='psychic']").prop("checked", true)
         lastTerrain = 'psychic';
     }
@@ -196,26 +196,26 @@ function autosetWeather(ability, i) {
         lastAutoWeather[1-i] = "";
     }
 
-    var primalWeather = ["Harsh Sun", "Heavy Rain"];
+    var primalWeather = ["아주 강한 햇살", "강한 비"];
     var autoWeatherAbilities = {
-            "Drought": "Sun",
-            "Drizzle": "Rain",
-            "Sand Stream": "Sand",
-            "Snow Warning": "Hail",
-            "Desolate Land": "Harsh Sun",
-            "Primordial Sea": "Heavy Rain",
-            "Delta Stream": "Strong Winds"
+            "가뭄": "쾌청",
+            "잔비": "비",
+            "모래날림": "모래바람",
+            "눈퍼뜨리기": "싸라기눈",
+            "끝의대지": "아주 강한 햇살",
+            "시작의바다": "강한 비",
+            "델타스트림": "난기류"
         };
     var newWeather;
 
     if (ability in autoWeatherAbilities) {
         lastAutoWeather[i] = autoWeatherAbilities[ability];
-        if (currentWeather === "Strong Winds") {
-            if (lastAutoWeather.indexOf("Strong Winds") === -1) {
+        if (currentWeather === "난기류") {
+            if (lastAutoWeather.indexOf("난기류") === -1) {
                 newWeather = lastAutoWeather[i];
             }
         } else if (primalWeather.indexOf(currentWeather) > -1) {
-            if (lastAutoWeather[i] === "Strong Winds" || primalWeather.indexOf(lastAutoWeather[i]) > -1) {
+            if (lastAutoWeather[i] === "난기류" || primalWeather.indexOf(lastAutoWeather[i]) > -1) {
                 newWeather = lastAutoWeather[i];
             } else if (primalWeather.indexOf(lastAutoWeather[1-i]) > -1) {
                 newWeather = lastAutoWeather[1-i];
@@ -230,14 +230,14 @@ function autosetWeather(ability, i) {
         newWeather = lastAutoWeather[1-i] !== "" ? lastAutoWeather[1-i] : lastManualWeather;
     }
 
-    if (newWeather === "Strong Winds" || primalWeather.indexOf(newWeather) > -1) {
+    if (newWeather === "난기류" || primalWeather.indexOf(newWeather) > -1) {
         //$("input:radio[name='weather']").prop("disabled", true);
         //edited out by squirrelboy1225 for doubles!
         $("input:radio[name='weather'][value='" + newWeather + "']").prop("disabled", false);
     } else if (typeof newWeather != "undefined") {
         for (var k = 0; k < $("input:radio[name='weather']").length; k++) {
             var val = $("input:radio[name='weather']")[k].value;
-            if (primalWeather.indexOf(val) === -1 && val !== "Strong Winds") {
+            if (primalWeather.indexOf(val) === -1 && val !== "난기류") {
                 $("input:radio[name='weather']")[k].disabled = false;
             } else {
                 //$("input:radio[name='weather']")[k].disabled = true;
@@ -255,23 +255,23 @@ $("#p2 .item").bind("keyup change", function() {
     autosetStatus("#p2", $(this).val());
 });
 
-var lastManualStatus = {"#p1":"Healthy", "#p2":"Healthy"};
-var lastAutoStatus = {"#p1":"Healthy", "#p2":"Healthy"};
+var lastManualStatus = {"#p1":"정상", "#p2":"정상"};
+var lastAutoStatus = {"#p1":"정상", "#p2":"정상"};
 function autosetStatus(p, item) {
     var currentStatus = $(p + " .status").val();
     if (currentStatus !== lastAutoStatus[p]) {
         lastManualStatus[p] = currentStatus;
     }
-    if (item === "Flame Orb") {
-        lastAutoStatus[p] = "Burned";
-        $(p + " .status").val("Burned");
+    if (item === "화염구슬") {
+        lastAutoStatus[p] = "화상";
+        $(p + " .status").val("화상");
         $(p + " .status").change();
-    } else if (item === "Toxic Orb") {
-        lastAutoStatus[p] = "Badly Poisoned";
-        $(p + " .status").val("Badly Poisoned");
+    } else if (item === "맹독구슬") {
+        lastAutoStatus[p] = "맹독";
+        $(p + " .status").val("맹독");
         $(p + " .status").change();
     } else {
-        lastAutoStatus[p] = "Healthy";
+        lastAutoStatus[p] = "정상";
         if (currentStatus !== lastManualStatus[p]) {
             $(p + " .status").val(lastManualStatus[p]);
             $(p + " .status").change();
@@ -280,7 +280,7 @@ function autosetStatus(p, item) {
 }
 
 $(".status").bind("keyup change", function() {
-    if ($(this).val() === 'Badly Poisoned') {
+    if ($(this).val() === '맹독') {
         $(this).parent().children(".toxic-counter").show();
     } else {
         $(this).parent().children(".toxic-counter").hide();
@@ -290,7 +290,7 @@ $(".status").bind("keyup change", function() {
 // auto-update move details on select
 $(".move-selector").change(function() {
     var moveName = $(this).val();
-    var move = moves[moveName] || moves['(No Move)'];
+    var move = moves[moveName] || moves['(기술 없음)'];
     var moveGroupObj = $(this).parent();
     moveGroupObj.children(".move-bp").val(move.bp);
     moveGroupObj.children(".move-type").val(move.type);
@@ -298,7 +298,7 @@ $(".move-selector").change(function() {
     moveGroupObj.children(".move-crit").prop("checked", move.alwaysCrit === true);
     if (move.isMultiHit) {
         moveGroupObj.children(".move-hits").show();
-        moveGroupObj.children(".move-hits").val($(this).closest(".poke-info").find(".ability").val() === 'Skill Link' ? 5 : 3);
+        moveGroupObj.children(".move-hits").val($(this).closest(".poke-info").find(".ability").val() === '스킬링크' ? 5 : 3);
     } else {
         moveGroupObj.children(".move-hits").hide();
     }
@@ -329,7 +329,7 @@ $(".set-selector").change(function() {
         pokeObj.find(".weight").val(pokemon.w);
         pokeObj.find(".boost").val(0);
         pokeObj.find(".percent-hp").val(100);
-        pokeObj.find(".status").val("Healthy");
+        pokeObj.find(".status").val("정상");
         $(".status").change();
         var moveObj;
         var abilityObj = pokeObj.find(".ability");
@@ -345,12 +345,12 @@ $(".set-selector").change(function() {
                 pokeObj.find("." + STATS[i] + " .ivs").val((set.ivs && typeof set.ivs[STATS[i]] !== "undefined") ? set.ivs[STATS[i]] : 31);
                 pokeObj.find("." + STATS[i] + " .dvs").val((set.dvs && typeof set.dvs[STATS[i]] !== "undefined") ? set.dvs[STATS[i]] : 15);
             }
-            setSelectValueIfValid(pokeObj.find(".nature"), set.nature, "Hardy");
+            setSelectValueIfValid(pokeObj.find(".nature"), set.nature, "노력");
             setSelectValueIfValid(abilityObj, pokemon.ab ? pokemon.ab : set.ability, "");
             setSelectValueIfValid(itemObj, set.item, "");
             for (i = 0; i < 4; i++) {
                 moveObj = pokeObj.find(".move" + (i+1) + " select.move-selector");
-                setSelectValueIfValid(moveObj, set.moves[i], "(No Move)");
+                setSelectValueIfValid(moveObj, set.moves[i], "(기술 없음)");
                 moveObj.change();
             }
         } else {
@@ -363,12 +363,12 @@ $(".set-selector").change(function() {
                 pokeObj.find("." + STATS[i] + " .ivs").val(31);
                 pokeObj.find("." + STATS[i] + " .dvs").val(15);
             }
-            pokeObj.find(".nature").val("Hardy");
+            pokeObj.find(".nature").val("노력");
             setSelectValueIfValid(abilityObj, pokemon.ab, "");
             itemObj.val("");
             for (i = 0; i < 4; i++) {
                 moveObj = pokeObj.find(".move" + (i+1) + " select.move-selector");
-                moveObj.val("(No Move)");
+                moveObj.val("(기술 없음)");
                 moveObj.change();
             }
         }
@@ -390,17 +390,17 @@ $(".set-selector").change(function() {
 function showFormes(formeObj, setName, pokemonName, pokemon) {
     var defaultForme = 0;
 
-    if (setName !== 'Blank Set') {
+    if (setName !== '빈 세트') {
         var set = setdex[pokemonName][setName];
 
         // Repurpose the previous filtering code to provide the "different default" logic
-        if ((set.item.indexOf('ite') !== -1 && set.item.indexOf('ite Y') === -1) ||
-            (pokemonName === "Groudon" && set.item.indexOf("Red Orb") !== -1) ||
-            (pokemonName === "Kyogre" && set.item.indexOf("Blue Orb") !== -1) ||
-            (pokemonName === "Meloetta" && set.moves.indexOf("Relic Song") !== -1) ||
-            (pokemonName === "Rayquaza" && set.moves.indexOf("Dragon Ascent") !== -1)) {
+        if ((set.item.indexOf('나이트') !== -1 && set.item.indexOf('나이트Y') === -1) ||
+            (pokemonName === "그란돈" && set.item.indexOf("주홍구슬") !== -1) ||
+            (pokemonName === "가이오가" && set.item.indexOf("쪽빛구슬") !== -1) ||
+            (pokemonName === "메로엣타" && set.moves.indexOf("옛노래") !== -1) ||
+            (pokemonName === "레쿠쟈" && set.moves.indexOf("화룡점정") !== -1)) {
             defaultForme = 1;
-        } else if (set.item.indexOf('ite Y') !== -1) {
+        } else if (set.item.indexOf('나이트Y') !== -1) {
             defaultForme = 2;
         }
     }
@@ -433,14 +433,14 @@ $(".forme").change(function() {
 
     if (abilities.indexOf(altForme.ab) > -1) {
         container.find(".ability").val(altForme.ab);
-    } else if (setName !== "Blank Set" && abilities.indexOf(setdex[pokemonName][setName].ability) > -1) {
+    } else if (setName !== "빈 세트" && abilities.indexOf(setdex[pokemonName][setName].ability) > -1) {
         container.find(".ability").val(setdex[pokemonName][setName].ability);
     } else {
         container.find(".ability").val("");
     }
     container.find(".ability").keyup();
 
-    if ($(this).val().indexOf("Mega") === 0 && $(this).val() !== "Mega Rayquaza") {
+    if ($(this).val().indexOf("메가") === 0 && $(this).val() !== "메가레쿠쟈") {
         container.find(".item").val("").keyup();
         //container.find(".item").prop("disabled", true);
         //edited out by squirrelboy1225 for doubles!
@@ -448,8 +448,8 @@ $(".forme").change(function() {
         container.find(".item").prop("disabled", false);
     }
 
-    if (pokemonName === "Darmanitan") {
-        container.find(".percent-hp").val($(this).val() === "Darmanitan-Z" ? "50" : "100").keyup();
+    if (pokemonName === "불비달마") {
+        container.find(".percent-hp").val($(this).val() === "불비달마-달마" ? "50" : "100").keyup();
     }
 });
 
@@ -463,24 +463,24 @@ function getTerrainEffects() {
         case "item":
             var id = $(this).closest(".poke-info").prop("id");
             var terrainValue = $("input:checkbox[name='terrain']:checked").val();
-            if (terrainValue === "Electric") {
-                $("#" + id).find("[value='Asleep']").prop("disabled", isGrounded($("#" + id)));
-            } else if (terrainValue === "Misty") {
+            if (terrainValue === "일렉트릭") {
+                $("#" + id).find("[value='잠듦']").prop("disabled", isGrounded($("#" + id)));
+            } else if (terrainValue === "미스트") {
                 $("#" + id).find(".status").prop("disabled", isGrounded($("#" + id)));
             }
             break;
         default:
             $("input:checkbox[name='terrain']").not(this).prop("checked", false);
-            if ($(this).prop("checked") && $(this).val() === "Electric") {
-                $("#p1").find("[value='Asleep']").prop("disabled", isGrounded($("#p1")));
-                $("#p2").find("[value='Asleep']").prop("disabled", isGrounded($("#p2")));
+            if ($(this).prop("checked") && $(this).val() === "일렉트릭") {
+                $("#p1").find("[value='잠듦']").prop("disabled", isGrounded($("#p1")));
+                $("#p2").find("[value='잠듦']").prop("disabled", isGrounded($("#p2")));
             } else if ($(this).prop("checked") && $(this).val() === "Misty") {
                 $("#p1").find(".status").prop("disabled", isGrounded($("#p1")));
                 $("#p2").find(".status").prop("disabled", isGrounded($("#p2")));
             } else {
-                $("#p1").find("[value='Asleep']").prop("disabled", false);
+                $("#p1").find("[value='잠듦']").prop("disabled", false);
                 $("#p1").find(".status").prop("disabled", false);
-                $("#p2").find("[value='Asleep']").prop("disabled", false);
+                $("#p2").find("[value='잠듦']").prop("disabled", false);
                 $("#p2").find(".status").prop("disabled", false);
             }
             break;
@@ -488,8 +488,8 @@ function getTerrainEffects() {
 }
 
 function isGrounded(pokeInfo) {
-    return $("#gravity").prop("checked") || (pokeInfo.find(".type1").val() !== "Flying" && pokeInfo.find(".type2").val() !== "Flying" &&
-            pokeInfo.find(".ability").val() !== "Levitate" && pokeInfo.find(".item").val() !== "Air Balloon");
+    return $("#gravity").prop("checked") || (pokeInfo.find(".type1").val() !== "비행" && pokeInfo.find(".type2").val() !== "비행" &&
+            pokeInfo.find(".ability").val() !== "부유" && pokeInfo.find(".item").val() !== "풍선");
 }
 
 var resultLocations = [[],[]];
@@ -520,12 +520,12 @@ function calculate() {
         minPercent = Math.floor(minDamage * 1000 / p2.maxHP) / 10;
         maxPercent = Math.floor(maxDamage * 1000 / p2.maxHP) / 10;
         result.damageText = minDamage + "-" + maxDamage + " (" + minPercent + " - " + maxPercent + "%)";
-        result.koChanceText = p1.moves[i].bp === 0 ? 'nice move'
-                : getKOChanceText(result.damage, p1.moves[i], p2, field.getSide(1), p1.ability === 'Bad Dreams');
+        result.koChanceText = p1.moves[i].bp === 0 ? '좋은 기술'
+                : getKOChanceText(result.damage, p1.moves[i], p2, field.getSide(1), p1.ability === '나이트메어');
         if(p1.moves[i].isMLG){
             result.koChanceText = "<a href = 'https://www.youtube.com/watch?v=iD92h-M474g'>it's a one-hit KO!</a>"; //dank memes
         }
-        $(resultLocations[0][i].move + " + label").text(p1.moves[i].name.replace("Hidden Power", "HP"));
+        $(resultLocations[0][i].move + " + label").text(p1.moves[i].name.replace("잠재파워", "잠재"));
         $(resultLocations[0][i].damage).text(minPercent + " - " + maxPercent + "%");
         if (maxPercent > highestMaxPercent) {
             highestMaxPercent = maxPercent;
@@ -538,12 +538,12 @@ function calculate() {
         minPercent = Math.floor(minDamage * 1000 / p1.maxHP) / 10;
         maxPercent = Math.floor(maxDamage * 1000 / p1.maxHP) / 10;
         result.damageText = minDamage + "-" + maxDamage + " (" + minPercent + " - " + maxPercent + "%)";
-        result.koChanceText = p2.moves[i].bp === 0 ? 'nice move'
-                : getKOChanceText(result.damage, p2.moves[i], p1, field.getSide(0), p2.ability === 'Bad Dreams');
+        result.koChanceText = p2.moves[i].bp === 0 ? '좋은 기술'
+                : getKOChanceText(result.damage, p2.moves[i], p1, field.getSide(0), p2.ability === '나이트메어');
         if(p2.moves[i].isMLG){
             result.koChanceText = "<a href = 'https://www.youtube.com/watch?v=iD92h-M474g'>it's a one-hit KO!</a>";
         }
-        $(resultLocations[1][i].move + " + label").text(p2.moves[i].name.replace("Hidden Power", "HP"));
+        $(resultLocations[1][i].move + " + label").text(p2.moves[i].name.replace("잠재파워", "잠재"));
         $(resultLocations[1][i].damage).text(minPercent + " - " + maxPercent + "%");
         if (maxPercent > highestMaxPercent) {
             highestMaxPercent = maxPercent;
@@ -557,8 +557,8 @@ function calculate() {
     }
     bestResult.prop("checked", true);
     bestResult.change();
-    $("#resultHeaderL").text(p1.name + "'s Moves (select one to show detailed results)");
-    $("#resultHeaderR").text(p2.name + "'s Moves (select one to show detailed results)");
+    $("#resultHeaderL").text(p1.name + "의 기술 (자세한 결과를 보려면 기술을 선택하세요)");
+    $("#resultHeaderR").text(p2.name + "의 기술 (자세한 결과를 보려면 기술을 선택하세요)");
 }
 
 $(".result-move").change(function() {
@@ -567,8 +567,8 @@ $(".result-move").change(function() {
         if (result) {
             $("#mainResult").html(result.description + ": " + result.damageText + " -- " + result.koChanceText);
             if (result.parentDamage) {
-                $("#damageValues").text("(First hit: " + result.parentDamage.join(", ") + 
-                    "; Second hit: " + result.childDamage.join(", ") + ")");
+                $("#damageValues").text("(첫번째 공격: " + result.parentDamage.join(", ") + 
+                    "; 두번째 공격: " + result.childDamage.join(", ") + ")");
             } else {
                 $("#damageValues").text("(" + result.damage.join(", ") + ")");
             }
@@ -648,7 +648,7 @@ function Pokemon(pokeInfo) {
     this.ability = pokeInfo.find(".ability").val();
     this.item = pokeInfo.find(".item").val();
     this.status = pokeInfo.find(".status").val();
-    this.toxicCounter = this.status === 'Badly Poisoned' ? ~~pokeInfo.find(".toxic-counter").val() : 0;
+    this.toxicCounter = this.status === '맹독' ? ~~pokeInfo.find(".toxic-counter").val() : 0;
     this.moves = [
         getMoveDetails(pokeInfo.find(".move1")),
         getMoveDetails(pokeInfo.find(".move2")),
@@ -811,13 +811,13 @@ $(".gen").change(function () {
     $(".gen-specific").not(".g" + gen).hide();
     var typeOptions = getSelectOptions(Object.keys(typeChart));
     $("select.type1, select.move-type").find("option").remove().end().append(typeOptions);
-    $("select.type2").find("option").remove().end().append("<option value=\"\">(none)</option>" + typeOptions);
+    $("select.type2").find("option").remove().end().append("<option value=\"\">(없음)</option>" + typeOptions);
     var moveOptions = getSelectOptions(Object.keys(moves), true);
     $("select.move-selector").find("option").remove().end().append(moveOptions);
     var abilityOptions = getSelectOptions(abilities, true);
-    $("select.ability").find("option").remove().end().append("<option value=\"\">(other)</option>" + abilityOptions);
+    $("select.ability").find("option").remove().end().append("<option value=\"\">(기타)</option>" + abilityOptions);
     var itemOptions = getSelectOptions(items, true);
-    $("select.item").find("option").remove().end().append("<option value=\"\">(none)</option>" + itemOptions);
+    $("select.item").find("option").remove().end().append("<option value=\"\">(없음)</option>" + itemOptions);
     
     $(".set-selector").val(getSetOptions()[gen > 3 ? 1 : gen === 1 ? 5 : 3].id);
     $(".set-selector").change();
@@ -878,9 +878,9 @@ function getSetOptions() {
         }
         setOptions.push({
             pokemon: pokeName,
-            set: "Blank Set",
-            text: pokeName + " (Blank Set)",
-            id: pokeName + " (Blank Set)"
+            set: "빈 세트",
+            text: pokeName + " (빈 세트)",
+            id: pokeName + " (빈 세트)"
         });
     }
     return setOptions;
@@ -937,7 +937,7 @@ $(document).ready(function() {
     $(".move-selector").select2({
         dropdownAutoWidth:true,
         matcher: function(term, text) {
-            // 2nd condition is for Hidden Power
+            // 2nd condition is for 잠재파워
             return text.toUpperCase().indexOf(term.toUpperCase()) === 0 || text.toUpperCase().indexOf(" " + term.toUpperCase()) >= 0;
         }
     });
