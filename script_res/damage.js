@@ -327,10 +327,10 @@ function getDamageResult(attacker, defender, move, field) {
     }
     
 
-    var isAttackerAura = (attacker.ability === (move.type + "오라")) //TODO: This makes "다크오라" into "악오라"
-    var isDefenderAura = defAbility === (move.type + "오라"); //TODO: This makes "다크오라" into "악오라"
-    var auraActive = ($("input:checkbox[id='" + move.type.toLowerCase() + "-aura']:checked").val() != undefined) //TODO: It has broken hence move.type was localized into Korean
-    var auraBreak = ($("input:checkbox[id='aura-break']:checked").val() != undefined)
+    var isAttackerAura = (attacker.ability === (move.type + "오라")) || (attacker.ability == "다크오라" && move.type == "악"); //Special handling of 다크오라
+    var isDefenderAura = (defAbility === (move.type + "오라")) || (attacker.ability == "다크오라" && move.type == "악"); //Special handling of 다크오라
+    var auraActive = ($("input:checkbox[value='" + move.type + "오라']:checked").val() != undefined) || (($("input:checkbox[value='다크오라']:checked").val() != undefined) && (move.type == "악")); //Special handling of 다크오라
+    var auraBreak = ($("input:checkbox[value='오라브레이크']:checked").val() != undefined);
     if (auraActive) {
         if (auraBreak) {
             bpMods.push(0x0C00);
