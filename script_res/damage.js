@@ -319,8 +319,8 @@ function getDamageResult(attacker, defender, move, field) {
             (attacker.ability === "옹골찬턱" && move.isBite)) {
         bpMods.push(0x1800);
         description.attackerAbility = attacker.ability;
-    } else if (attacker.ability === "단단한발톱" && move.makesContact) {
-        bpMods.push(0x1547);
+    } else if (attacker.ability === "단단한발톱" && move.makesContact) { //boosts by 1.3x for contact moves, apparently
+        bpMods.push(0x14CD);
         description.attackerAbility = attacker.ability;
     } else if(defender.ability === "복슬복슬" && move.makesContact){
         bpMods.push(0x800);
@@ -333,11 +333,11 @@ function getDamageResult(attacker, defender, move, field) {
     var auraBreak = ($("input:checkbox[id='aura-break']:checked").val() != undefined)
     if (auraActive) {
         if (auraBreak) {
-            bpMods.push(0xAAA);
+            bpMods.push(0x0C00);
             description.attackerAbility = attacker.ability;
             description.defenderAbility = defAbility;
         } else {
-            bpMods.push(0x1555);
+            bpMods.push(0x1547);
             if (isAttackerAura) {
                 description.attackerAbility = attacker.ability;
             }
@@ -348,7 +348,7 @@ function getDamageResult(attacker, defender, move, field) {
     }
     
     if(move.type === "강철" && attacker.ability === "강철술사"){
-        bpMods.push(0x1555);
+        bpMods.push(0x1547);
     }
     
     basePower = Math.max(1, pokeRound(basePower * chainMods(bpMods) / 0x1000));
