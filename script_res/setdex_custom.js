@@ -173,7 +173,7 @@ var savecustom = function()
 	//now, to save it
 	/* Sample Calculator Format:
   "메가자리": {
-    "Common Showdown": {
+    "일반 쇼다운": {
       "level": 50,
       "evs": {
         "hp": 0,
