@@ -1888,8 +1888,10 @@ var MOVES_SM = $.extend(true, {}, MOVES_XY, {
     '사이코팽': {
         category: '물리',
         type: '에스퍼',
-        bp: 95,
-        zp: 160
+        makesContact: true,
+        bp: 85,
+        zp: 160,
+        isBite: true
     },
     '플뢰르캐논': {
         category: '특수',
