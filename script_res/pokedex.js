@@ -647,7 +647,7 @@
     },
     "w": 300.0
   },
-  "딱구리": {
+  "데구리": {
     "t1": "바위",
     "t2": "땅",
     "bs": {
@@ -700,7 +700,7 @@
       "sl": 100
     },
     "w": 235.0,
-    "ab": "괴력집게"
+    "ab": "위협"
   },
   "고우스트": {
     "t1": "고스트",
@@ -1830,7 +1830,7 @@
       "sl": 70
     },
     "w": 88.4,
-    "ab": "괴력집게"
+    "ab": "위협"
   },
   "왕눈해": {
     "t1": "물",
@@ -2428,7 +2428,7 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
       "sp": 45
     },
     "w": 48.7,
-    "ab": "괴력집게"
+    "ab": "위협"
   },
   "헤라크로스": {
     "t1": "벌레",
@@ -2454,7 +2454,7 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
       "sp": 70
     },
     "w": 48.0,
-    "ab": "괴력집게"
+    "ab": "위협"
   },
   "칠색조": {
     "t1": "불꽃",
@@ -3095,7 +3095,7 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
       "sp": 85
     },
     "w": 71.2,
-    "ab": "괴력집게"
+    "ab": "위협"
   },
   "강철톤": {
     "t1": "강철",
@@ -4247,7 +4247,7 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 60
     },
     "w": 3.6,
-    "ab": "괴력집게"
+    "ab": "위협"
   },
   "입치트": {
     "t1": "강철",
@@ -4328,7 +4328,7 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 70
     },
     "w": 37.0,
-    "ab": "괴력집게"
+    "ab": "위협"
   },
   "밀로틱": {
     "t1": "물",
@@ -4585,7 +4585,7 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sp": 100
     },
     "w": 102.6,
-    "ab": "괴력집게"
+    "ab": "위협"
   },
   "나무킹": {
     "t1": "풀",
@@ -6654,7 +6654,7 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
       "sp": 100
     },
     "w": 24.9,
-    "ab": "괴력집게"
+    "ab": "위협"
   },
   "찌르버드": {
     "t1": "노말",
@@ -6668,7 +6668,7 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
       "sp": 80
     },
     "w": 15.5,
-    "ab": "괴력집게"
+    "ab": "위협"
   },
   "찌르꼬": {
     "t1": "노말",
@@ -7888,7 +7888,7 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
       "sp": 91
     },
     "w": 68.0,
-    "ab": "괴력집게"
+    "ab": "위협"
   },
   "활화르바": {
     "t1": "벌레",
@@ -10197,7 +10197,7 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 135
     },
     "w": 44.0,
-    "ab": "괴력집게",
+    "ab": "위협",
     "isAlternateForme": true
   },
   "메가입치트": {
@@ -11048,7 +11048,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 20.3,
   },
-  "딱구리-알로라": {
+  "데구리-알로라": {
     "t1": "바위",
     "t2": "전기",
     "bs": {
